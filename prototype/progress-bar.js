@@ -2,6 +2,8 @@
  * Standard Progress Bar
  * A thin progress bar driven by weighted events.
  */
+const FIXED_PROGRESS = 50;
+
 class ProgressBar {
   constructor(element) {
     this.element = element;
@@ -21,7 +23,7 @@ class ProgressBar {
   }
 
   /**
-   * Start the progress bar (navigation began)
+   * Start the progress bar (first onProgressChanged where progress > 0)
    */
   start() {
     this.reset();
@@ -29,8 +31,7 @@ class ProgressBar {
     this.element.classList.add('loading');
     this.element.classList.remove('complete', 'error');
     
-    // Initial progress to show activity
-    this.targetProgress = 5;
+    this.targetProgress = FIXED_PROGRESS;
     this.startAnimation();
   }
 
@@ -49,6 +50,9 @@ class ProgressBar {
     
     // Cap at 95% until complete - never reach 100% from events alone
     newProgress = Math.min(newProgress, 95);
+    
+    // Clamp to FIXED_PROGRESS minimum
+    newProgress = Math.max(newProgress, FIXED_PROGRESS);
     
     // Only move forward
     if (newProgress > this.targetProgress) {

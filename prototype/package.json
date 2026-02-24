@@ -1,0 +1,22 @@
+{
+  "name": "progress-bar-prototype",
+  "version": "1.0.0",
+  "description": "A split-panel browser mockup for testing experimental loading progress bar concepts",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "progress-bar",
+    "prototype",
+    "browser",
+    "testing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "express": "^4.21.0"
+  }
+}

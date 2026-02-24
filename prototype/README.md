@@ -2,6 +2,8 @@
 
 A split-panel browser mockup for testing experimental loading progress bar concepts against real page loads.
 
+**Live demo:** [GitHub Pages](https://smithinator100.github.io/progress-bar-prototype/) — use the **Demo** button (proxy not available on static hosting).
+
 ## Quick Start
 
 ```bash
@@ -10,7 +12,7 @@ npm install
 npm start
 ```
 
-Then open http://localhost:3000 in your browser.
+Then open http://localhost:3001 in your browser.
 
 ## Features
 

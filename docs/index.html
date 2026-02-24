@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Progress Bar Prototype</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Condensed:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app">
+    <!-- Control Bar -->
+    <header class="control-bar">
+      <div class="url-input-group">
+        <div class="url-combobox" id="url-combobox">
+          <input
+            type="url"
+            id="url-input"
+            class="url-input"
+            placeholder="Type or Select a URL"
+            autocomplete="off"
+          >
+          <div class="url-dropdown" id="url-dropdown" role="listbox" hidden>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">News</div>
+              <button class="url-dropdown-option" data-url="https://apnews.com" role="option">apnews.com</button>
+              <button class="url-dropdown-option" data-url="https://theguardian.com" role="option">theguardian.com</button>
+              <button class="url-dropdown-option" data-url="https://bbc.com" role="option">bbc.com</button>
+              <button class="url-dropdown-option" data-url="https://foxnews.com" role="option">foxnews.com</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">E-commerce &amp; Shopping</div>
+              <button class="url-dropdown-option" data-url="https://ikea.com" role="option">ikea.com</button>
+              <button class="url-dropdown-option" data-url="https://ebay.com" role="option">ebay.com</button>
+              <button class="url-dropdown-option" data-url="https://target.com" role="option">target.com</button>
+              <button class="url-dropdown-option" data-url="https://costco.com" role="option">costco.com</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Social Media &amp; Communication</div>
+              <button class="url-dropdown-option" data-url="https://reddit.com" role="option">reddit.com</button>
+              <button class="url-dropdown-option" data-url="https://github.com" role="option">github.com</button>
+              <button class="url-dropdown-option" data-url="https://bsky.app" role="option">bsky.app</button>
+              <button class="url-dropdown-option" data-url="https://linktr.ee" role="option">linktr.ee</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Media &amp; Entertainment</div>
+              <button class="url-dropdown-option" data-url="https://imdb.com" role="option">imdb.com</button>
+              <button class="url-dropdown-option" data-url="https://rottentomatoes.com" role="option">rottentomatoes.com</button>
+              <button class="url-dropdown-option" data-url="https://justwatch.com" role="option">justwatch.com</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Reference &amp; Education</div>
+              <button class="url-dropdown-option" data-url="https://wikipedia.org" role="option">wikipedia.org</button>
+              <button class="url-dropdown-option" data-url="https://stackoverflow.com" role="option">stackoverflow.com</button>
+              <button class="url-dropdown-option" data-url="https://wikihow.com" role="option">wikihow.com</button>
+              <button class="url-dropdown-option" data-url="https://es.wikipedia.org" role="option">es.wikipedia.org</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Search Engines &amp; AI</div>
+              <button class="url-dropdown-option" data-url="https://google.com" role="option">google.com</button>
+              <button class="url-dropdown-option" data-url="https://duckduckgo.com" role="option">duckduckgo.com</button>
+              <button class="url-dropdown-option" data-url="https://bing.com" role="option">bing.com</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Health &amp; Medical</div>
+              <button class="url-dropdown-option" data-url="https://healthline.com" role="option">healthline.com</button>
+              <button class="url-dropdown-option" data-url="https://mayoclinic.org" role="option">mayoclinic.org</button>
+              <button class="url-dropdown-option" data-url="https://webmd.com" role="option">webmd.com</button>
+              <button class="url-dropdown-option" data-url="https://medicalnewstoday.com" role="option">medicalnewstoday.com</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Lifestyle</div>
+              <button class="url-dropdown-option" data-url="https://allrecipes.com" role="option">allrecipes.com</button>
+              <button class="url-dropdown-option" data-url="https://tripadvisor.com" role="option">tripadvisor.com</button>
+              <button class="url-dropdown-option" data-url="https://pexels.com" role="option">pexels.com</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Information &amp; Services</div>
+              <button class="url-dropdown-option" data-url="https://weather.com" role="option">weather.com</button>
+              <button class="url-dropdown-option" data-url="https://archive.org" role="option">archive.org</button>
+              <button class="url-dropdown-option" data-url="https://timeanddate.com" role="option">timeanddate.com</button>
+              <button class="url-dropdown-option" data-url="https://speedtest.net" role="option">speedtest.net</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Technology &amp; Developer Tools</div>
+              <button class="url-dropdown-option" data-url="https://apple.com" role="option">apple.com</button>
+              <button class="url-dropdown-option" data-url="https://tomsguide.com" role="option">tomsguide.com</button>
+              <button class="url-dropdown-option" data-url="https://geeksforgeeks.org" role="option">geeksforgeeks.org</button>
+            </div>
+            <div class="url-dropdown-category">
+              <div class="url-dropdown-category-label">Finance &amp; Business</div>
+              <button class="url-dropdown-option" data-url="https://finance.yahoo.com" role="option">finance.yahoo.com</button>
+              <button class="url-dropdown-option" data-url="https://goodrx.com" role="option">goodrx.com</button>
+              <button class="url-dropdown-option" data-url="https://kitco.com" role="option">kitco.com</button>
+              <button class="url-dropdown-option" data-url="https://apmex.com" role="option">apmex.com</button>
+            </div>
+          </div>
+        </div>
+        <button id="go-btn" class="btn btn-primary">Go</button>
+        <button id="demo-btn" class="btn btn-secondary">Demo</button>
+      </div>
+      <div class="control-group">
+        <label for="speed-select">Speed:</label>
+        <select id="speed-select" class="speed-select">
+          <option value="none">No throttle</option>
+          <option value="fast-wifi">Fast WiFi (10ms / 40Mbps)</option>
+          <option value="4g">Average 4G (50ms / 10Mbps)</option>
+          <option value="slow-4g">Slow 4G (100ms / 4Mbps)</option>
+          <option value="3g" selected>3G (200ms / 1.5Mbps)</option>
+          <option value="slow-3g">Slow 3G (400ms / 400Kbps)</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="bar-select">Progress Bar:</label>
+        <select id="bar-select" class="bar-select">
+          <option value="standard">Standard</option>
+          <option value="experimental">Experimental</option>
+          <option value="ddg">Details</option>
+        </select>
+      </div>
+      <button id="clear-btn" class="btn btn-secondary">Clear</button>
+    </header>
+
+    <!-- Main Split Panel -->
+    <main class="split-panel">
+      <!-- Left Panel: Browser Container -->
+      <section class="browser-panel">
+        <div class="browser-viewport" id="browser-viewport">
+          <div class="browser-container" id="browser-container">
+            <!-- Android Status Bar -->
+            <div class="android-status-bar">
+              <div class="status-camera">
+                <div class="camera-dot"></div>
+              </div>
+              <span class="status-time">12:30</span>
+              <div class="status-icons">
+                <!-- WiFi -->
+                <svg class="status-icon" width="16" height="12" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="WiFi">
+                  <path d="M1 7.13L3.07 9.2C5.6 6.67 9.11 5.1 13 5.1C16.89 5.1 20.4 6.67 22.93 9.2L25 7.13C21.91 4.05 17.67 2.1 13 2.1C8.33 2.1 4.09 4.05 1 7.13ZM9.07 13.06L13 17L16.93 13.06C15.88 12 14.52 11.36 13 11.36C11.48 11.36 10.12 12 9.07 13.06ZM5.04 9.03L7.11 11.1C8.71 9.49 10.74 8.5 13 8.5C15.26 8.5 17.29 9.49 18.89 11.1L20.96 9.03C18.8 6.85 15.56 5.5 13 5.5C10.44 5.5 7.2 6.85 5.04 9.03Z" fill="rgba(0,0,0,0.84)"/>
+                </svg>
+                <!-- Cellular -->
+                <svg class="status-icon" width="13" height="13" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Cellular signal">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12H12V0L0 12Z" fill="rgba(0,0,0,0.84)"/>
+                </svg>
+                <span class="status-battery-pct">99%</span>
+                <!-- Battery -->
+                <svg class="status-icon" width="9" height="13" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Battery">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.14286 0.75V0H2.57143V0.75H1.05494C0.472315 0.75 0 1.22232 0 1.80495V10.9451C0 11.5277 0.472315 12 1.05495 12H6.65934C7.24197 12 7.71429 11.5277 7.71429 10.9451V1.80495C7.71429 1.22231 7.24197 0.75 6.65934 0.75H5.14286Z" fill="rgba(0,0,0,0.84)"/>
+                </svg>
+              </div>
+            </div>
+            <!-- Android URL Bar -->
+            <div class="android-url-bar">
+              <div class="url-bar-input">
+                <div class="url-bar-site-status">
+                  <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                </div>
+                <span class="url-bar-text" id="android-url-text">bbc.co.uk</span>
+                <div class="url-bar-icon-btn" aria-label="AI Chat">
+                  <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                </div>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar"></div>
+                </div>
+              </div>
+              <div class="url-bar-toolbar">
+                <button class="url-bar-icon-btn" aria-label="Fireproof">
+                  <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
+                </button>
+                <button class="url-bar-icon-btn" aria-label="Tabs">
+                  <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
+                </button>
+                <button class="url-bar-icon-btn" aria-label="More options">
+                  <img src="img/more-menu.svg" width="40" height="40" alt="More options">
+                </button>
+              </div>
+            </div>
+            <!-- Viewport -->
+            <iframe
+              id="page-iframe"
+              class="page-iframe"
+              sandbox="allow-scripts allow-same-origin allow-forms"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <!-- Drag Handle -->
+      <div class="split-handle" id="split-handle">
+        <div class="split-handle-grip"></div>
+      </div>
+
+      <!-- Right Panel: Event Stream -->
+      <section class="event-panel">
+        <div class="event-panel-header">
+          <h2>Event Stream</h2>
+          <div class="event-density" id="event-density"></div>
+        </div>
+        <div class="event-timeline" id="event-timeline"></div>
+        <div class="event-filters">
+          <button class="filter-btn active" data-category="all">All</button>
+          <button class="filter-btn" data-category="navigation">Navigation</button>
+          <button class="filter-btn" data-category="dom">DOM</button>
+          <button class="filter-btn" data-category="paint">Paint</button>
+          <button class="filter-btn" data-category="resource">Resources</button>
+          <button class="filter-btn" data-category="load">Load</button>
+          <button class="filter-btn" data-category="progress">Progress</button>
+          <button class="filter-btn" data-category="error">Errors</button>
+        </div>
+        <div class="event-list" id="event-list">
+          <div class="event-placeholder">
+            Enter a URL and click Go to start capturing events
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="event-bus.js"></script>
+  <script src="event-panel.js"></script>
+  <script src="event-timeline.js"></script>
+  <script src="progress-bar.js"></script>
+  <script src="progress-bar-experimental.js"></script>
+  <script src="progress-bar-raw.js"></script>
+  <script>
+    // Main application initialization
+    (function() {
+      const urlInput = document.getElementById('url-input');
+      const goBtn = document.getElementById('go-btn');
+      const clearBtn = document.getElementById('clear-btn');
+      const speedSelect = document.getElementById('speed-select');
+      const barSelect = document.getElementById('bar-select');
+      const pageIframe = document.getElementById('page-iframe');
+      const progressBarEl = document.getElementById('progress-bar');
+      const androidUrlText = document.getElementById('android-url-text');
+
+      // Initialize components
+      const eventBus = new EventBus();
+      const eventPanel = new EventPanel('event-list', 'event-density');
+      const eventTimeline = new EventTimeline('event-timeline');
+      let progressBar = new ProgressBar(progressBarEl);
+
+      // Callback wired into RawModeProgressBar so DDG lifecycle events flow
+      // through the EventBus to the event panel and timeline
+      function ddgLifecycleCallback(type, data) {
+        eventBus.emit({ type, time: performance.now(), data: data || {} });
+      }
+
+      function createProgressBar(value) {
+        progressBarEl.innerHTML = '';
+        progressBarEl.classList.remove('experimental');
+        if (value === 'experimental') {
+          return new ExperimentalProgressBar(progressBarEl);
+        } else if (value === 'ddg') {
+          return new RawModeProgressBar(progressBarEl, ddgLifecycleCallback);
+        } else {
+          return new ProgressBar(progressBarEl);
+        }
+      }
+
+      // Bar selection
+      barSelect.addEventListener('change', () => {
+        progressBar.reset();
+        progressBar = createProgressBar(barSelect.value);
+        progressBar.reset();
+      });
+
+      // Stall timer: auto-complete if no events arrive for a sustained period
+      let stallTimer = null;
+      const STALL_TIMEOUT = 8000;
+
+      function resetStallTimer() {
+        if (stallTimer) clearTimeout(stallTimer);
+        stallTimer = setTimeout(() => {
+          if (progressBar.isLoading && !progressBar.isComplete) {
+            progressBar.complete();
+          }
+        }, STALL_TIMEOUT);
+      }
+
+      function clearStallTimer() {
+        if (stallTimer) {
+          clearTimeout(stallTimer);
+          stallTimer = null;
+        }
+      }
+
+      // Subscribe event panel, timeline, and progress bar to event bus
+      eventBus.subscribe(event => {
+        eventPanel.addEvent(event);
+        eventTimeline.addEvent(event);
+        progressBar.update(event);
+        if (progressBar.isLoading) resetStallTimer();
+      });
+      
+      // Filter buttons
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          eventPanel.filterByCategory(btn.dataset.category);
+        });
+      });
+      
+      // Load URL
+      function loadUrl() {
+        let url = urlInput.value.trim();
+        if (!url) return;
+        
+        // Add protocol if missing
+        if (!url.startsWith('http://') && !url.startsWith('https://')) {
+          url = 'https://' + url;
+          urlInput.value = url;
+        }
+        
+        // Update the Android URL bar text
+        try {
+          const parsed = new URL(url);
+          androidUrlText.textContent = parsed.hostname + (parsed.pathname !== '/' ? parsed.pathname : '');
+        } catch {
+          androidUrlText.textContent = url;
+        }
+
+        // Get throttle setting
+        const throttle = speedSelect.value;
+        
+        // Reset state
+        eventPanel.clear();
+        eventTimeline.clear();
+        progressBar.reset();
+        progressBar.start();
+        
+        // Emit navigation start
+        eventBus.emit({
+          type: 'iframe-load-start',
+          time: 0,
+          data: { url }
+        });
+        
+        // Start stall timer
+        resetStallTimer();
+
+        // Load through proxy
+        const proxyUrl = `/proxy?url=${encodeURIComponent(url)}&throttle=${throttle}`;
+        pageIframe.src = proxyUrl;
+      }
+      
+      // URL combobox dropdown
+      const urlDropdown = document.getElementById('url-dropdown');
+      const urlCombobox = document.getElementById('url-combobox');
+
+      function openDropdown() {
+        urlDropdown.hidden = false;
+        urlCombobox.classList.add('open');
+      }
+
+      function closeDropdown() {
+        urlDropdown.hidden = true;
+        urlCombobox.classList.remove('open');
+      }
+
+      function filterDropdown(query) {
+        const q = query.trim().toLowerCase();
+        const categories = urlDropdown.querySelectorAll('.url-dropdown-category');
+        let anyVisible = false;
+
+        categories.forEach(cat => {
+          const options = cat.querySelectorAll('.url-dropdown-option');
+          let catVisible = false;
+          options.forEach(opt => {
+            const matches = !q || opt.dataset.url.toLowerCase().includes(q) || opt.textContent.toLowerCase().includes(q);
+            opt.hidden = !matches;
+            if (matches) catVisible = true;
+          });
+          cat.hidden = !catVisible;
+          if (catVisible) anyVisible = true;
+        });
+
+        let noResults = urlDropdown.querySelector('.url-dropdown-empty');
+        if (!anyVisible) {
+          if (!noResults) {
+            noResults = document.createElement('div');
+            noResults.className = 'url-dropdown-empty';
+            noResults.textContent = 'No matches';
+            urlDropdown.appendChild(noResults);
+          }
+          noResults.hidden = false;
+        } else if (noResults) {
+          noResults.hidden = true;
+        }
+      }
+
+      urlInput.addEventListener('click', (e) => {
+        e.stopPropagation();
+        openDropdown();
+      });
+
+      urlInput.addEventListener('focus', () => {
+        openDropdown();
+      });
+
+      urlInput.addEventListener('input', () => {
+        openDropdown();
+        filterDropdown(urlInput.value);
+      });
+
+      urlDropdown.addEventListener('click', (e) => {
+        const option = e.target.closest('.url-dropdown-option');
+        if (!option) return;
+        urlInput.value = option.dataset.url;
+        filterDropdown('');
+        closeDropdown();
+        loadUrl();
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!urlCombobox.contains(e.target)) closeDropdown();
+      });
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeDropdown();
+      });
+
+      // Demo mode (works without proxy - for GitHub Pages)
+      function loadDemo() {
+        androidUrlText.textContent = 'demo';
+        eventPanel.clear();
+        eventTimeline.clear();
+        progressBar.reset();
+        progressBar.start();
+        eventBus.emit({ type: 'iframe-load-start', time: 0, data: { url: 'demo.html' } });
+        resetStallTimer();
+        pageIframe.src = 'demo.html';
+      }
+      document.getElementById('demo-btn').addEventListener('click', loadDemo);
+
+      // Event listeners
+      goBtn.addEventListener('click', loadUrl);
+      urlInput.addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') loadUrl();
+      });
+      
+      clearBtn.addEventListener('click', () => {
+        clearStallTimer();
+        eventPanel.clear();
+        eventTimeline.clear();
+        progressBar.reset();
+        pageIframe.src = 'about:blank';
+        urlInput.value = '';
+        filterDropdown('');
+        androidUrlText.textContent = 'bbc.co.uk';
+      });
+      
+      // Listen for messages from iframe
+      window.addEventListener('message', (e) => {
+        if (e.data && e.data.source === 'progress-bar-observer') {
+          eventBus.emit(e.data.event);
+          
+          if (e.data.event.type === 'window-load') {
+            clearStallTimer();
+            progressBar.complete();
+          }
+          
+          if (e.data.event.type === 'navigation-error') {
+            clearStallTimer();
+            progressBar.error();
+          }
+        }
+      });
+      
+      // Iframe load event (fallback completion trigger)
+      pageIframe.addEventListener('load', () => {
+        eventBus.emit({
+          type: 'iframe-load-end',
+          time: performance.now(),
+          data: {}
+        });
+        clearStallTimer();
+        if (!progressBar.isComplete) {
+          progressBar.complete();
+        }
+      });
+
+      // Scale browser-container to fit viewport while preserving 412x917
+      const viewport = document.getElementById('browser-viewport');
+      const browserContainer = document.getElementById('browser-container');
+      const CONTAINER_W = 412;
+      const CONTAINER_H = 917;
+
+      function scaleIframe() {
+        const scale = Math.min(viewport.clientWidth / CONTAINER_W, viewport.clientHeight / CONTAINER_H) * 0.8;
+        const offsetX = (viewport.clientWidth - CONTAINER_W * scale) / 2;
+        const offsetY = (viewport.clientHeight - CONTAINER_H * scale) / 2;
+        browserContainer.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+      }
+
+      new ResizeObserver(scaleIframe).observe(viewport);
+      scaleIframe();
+
+      // Split panel drag handle
+      const splitHandle = document.getElementById('split-handle');
+      const splitPanel = document.querySelector('.split-panel');
+      let isDragging = false;
+
+      splitHandle.addEventListener('mousedown', (e) => {
+        isDragging = true;
+        splitHandle.classList.add('dragging');
+        document.body.style.cursor = 'col-resize';
+        document.body.style.userSelect = 'none';
+        // Prevent the iframe from swallowing mousemove/mouseup events during drag
+        pageIframe.style.pointerEvents = 'none';
+        e.preventDefault();
+      });
+
+      document.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        const panelRect = splitPanel.getBoundingClientRect();
+        const newLeftWidth = e.clientX - panelRect.left;
+        const minWidth = 200;
+        const maxWidth = panelRect.width - 200 - 6;
+        const clamped = Math.max(minWidth, Math.min(maxWidth, newLeftWidth));
+        splitPanel.style.setProperty('--split-left', clamped + 'px');
+      });
+
+      document.addEventListener('mouseup', () => {
+        if (!isDragging) return;
+        isDragging = false;
+        splitHandle.classList.remove('dragging');
+        document.body.style.cursor = '';
+        document.body.style.userSelect = '';
+        pageIframe.style.pointerEvents = '';
+      });
+    })();
+  </script>
+</body>
+</html>

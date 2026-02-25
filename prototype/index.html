@@ -110,78 +110,137 @@
           <option value="slow-3g">Slow 3G (400ms / 400Kbps)</option>
         </select>
       </div>
-      <div class="control-group">
-        <label for="bar-select">Progress Bar:</label>
-        <select id="bar-select" class="bar-select">
-          <option value="standard">Standard</option>
-          <option value="experimental">Experimental</option>
-          <option value="ddg">Details</option>
-        </select>
-      </div>
       <button id="clear-btn" class="btn btn-secondary">Clear</button>
     </header>
 
     <!-- Main Split Panel -->
     <main class="split-panel">
-      <!-- Left Panel: Browser Container -->
+
+      <!-- Top row: browser panel + sidebar -->
+      <div class="split-main">
+
+      <!-- Left Panel: Browser Comparison -->
       <section class="browser-panel">
-        <div class="browser-viewport" id="browser-viewport">
-          <div class="browser-container" id="browser-container">
-            <!-- Android Status Bar -->
-            <div class="android-status-bar">
-              <div class="status-camera">
-                <div class="camera-dot"></div>
-              </div>
-              <span class="status-time">12:30</span>
-              <div class="status-icons">
-                <!-- WiFi -->
-                <svg class="status-icon" width="16" height="12" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="WiFi">
-                  <path d="M1 7.13L3.07 9.2C5.6 6.67 9.11 5.1 13 5.1C16.89 5.1 20.4 6.67 22.93 9.2L25 7.13C21.91 4.05 17.67 2.1 13 2.1C8.33 2.1 4.09 4.05 1 7.13ZM9.07 13.06L13 17L16.93 13.06C15.88 12 14.52 11.36 13 11.36C11.48 11.36 10.12 12 9.07 13.06ZM5.04 9.03L7.11 11.1C8.71 9.49 10.74 8.5 13 8.5C15.26 8.5 17.29 9.49 18.89 11.1L20.96 9.03C18.8 6.85 15.56 5.5 13 5.5C10.44 5.5 7.2 6.85 5.04 9.03Z" fill="rgba(0,0,0,0.84)"/>
-                </svg>
-                <!-- Cellular -->
-                <svg class="status-icon" width="13" height="13" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Cellular signal">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12H12V0L0 12Z" fill="rgba(0,0,0,0.84)"/>
-                </svg>
-                <span class="status-battery-pct">99%</span>
-                <!-- Battery -->
-                <svg class="status-icon" width="9" height="13" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Battery">
-                  <path fill-rule="evenodd" clip-rule="evenodd" d="M5.14286 0.75V0H2.57143V0.75H1.05494C0.472315 0.75 0 1.22232 0 1.80495V10.9451C0 11.5277 0.472315 12 1.05495 12H6.65934C7.24197 12 7.71429 11.5277 7.71429 10.9451V1.80495C7.71429 1.22231 7.24197 0.75 6.65934 0.75H5.14286Z" fill="rgba(0,0,0,0.84)"/>
-                </svg>
+        <div class="browser-comparison">
+
+          <!-- DDG v1 Browser -->
+          <div class="browser-slot">
+            <div class="browser-slot-label">DDG v1</div>
+            <div class="browser-viewport" id="browser-viewport-ddg">
+              <div class="browser-container" id="browser-container-ddg">
+                <!-- Android Status Bar -->
+                <div class="android-status-bar">
+                  <div class="status-camera">
+                    <div class="camera-dot"></div>
+                  </div>
+                  <span class="status-time">12:30</span>
+                  <div class="status-icons">
+                    <svg class="status-icon" width="16" height="12" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="WiFi">
+                      <path d="M1 7.13L3.07 9.2C5.6 6.67 9.11 5.1 13 5.1C16.89 5.1 20.4 6.67 22.93 9.2L25 7.13C21.91 4.05 17.67 2.1 13 2.1C8.33 2.1 4.09 4.05 1 7.13ZM9.07 13.06L13 17L16.93 13.06C15.88 12 14.52 11.36 13 11.36C11.48 11.36 10.12 12 9.07 13.06ZM5.04 9.03L7.11 11.1C8.71 9.49 10.74 8.5 13 8.5C15.26 8.5 17.29 9.49 18.89 11.1L20.96 9.03C18.8 6.85 15.56 5.5 13 5.5C10.44 5.5 7.2 6.85 5.04 9.03Z" fill="rgba(0,0,0,0.84)"/>
+                    </svg>
+                    <svg class="status-icon" width="13" height="13" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Cellular signal">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12H12V0L0 12Z" fill="rgba(0,0,0,0.84)"/>
+                    </svg>
+                    <span class="status-battery-pct">99%</span>
+                    <svg class="status-icon" width="9" height="13" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Battery">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.14286 0.75V0H2.57143V0.75H1.05494C0.472315 0.75 0 1.22232 0 1.80495V10.9451C0 11.5277 0.472315 12 1.05495 12H6.65934C7.24197 12 7.71429 11.5277 7.71429 10.9451V1.80495C7.71429 1.22231 7.24197 0.75 6.65934 0.75H5.14286Z" fill="rgba(0,0,0,0.84)"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Android URL Bar -->
+                <div class="android-url-bar">
+                  <div class="url-bar-input">
+                    <div class="url-bar-site-status">
+                      <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                    </div>
+                    <span class="url-bar-text" id="android-url-text-ddg">Search</span>
+                    <div class="url-bar-icon-btn" aria-label="AI Chat">
+                      <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                    </div>
+                    <div class="progress-bar-container">
+                      <div class="progress-bar" id="progress-bar-ddg"></div>
+                    </div>
+                  </div>
+                  <div class="url-bar-toolbar">
+                    <button class="url-bar-icon-btn" aria-label="Fireproof">
+                      <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
+                    </button>
+                    <button class="url-bar-icon-btn" aria-label="Tabs">
+                      <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
+                    </button>
+                    <button class="url-bar-icon-btn" aria-label="More options">
+                      <img src="img/more-menu.svg" width="40" height="40" alt="More options">
+                    </button>
+                  </div>
+                </div>
+                <iframe
+                  id="page-iframe-ddg"
+                  class="page-iframe"
+                  sandbox="allow-scripts allow-same-origin allow-forms"
+                ></iframe>
               </div>
             </div>
-            <!-- Android URL Bar -->
-            <div class="android-url-bar">
-              <div class="url-bar-input">
-                <div class="url-bar-site-status">
-                  <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
-                </div>
-                <span class="url-bar-text" id="android-url-text">bbc.co.uk</span>
-                <div class="url-bar-icon-btn" aria-label="AI Chat">
-                  <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
-                </div>
-                <div class="progress-bar-container">
-                  <div class="progress-bar" id="progress-bar"></div>
-                </div>
-              </div>
-              <div class="url-bar-toolbar">
-                <button class="url-bar-icon-btn" aria-label="Fireproof">
-                  <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
-                </button>
-                <button class="url-bar-icon-btn" aria-label="Tabs">
-                  <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
-                </button>
-                <button class="url-bar-icon-btn" aria-label="More options">
-                  <img src="img/more-menu.svg" width="40" height="40" alt="More options">
-                </button>
-              </div>
-            </div>
-            <!-- Viewport -->
-            <iframe
-              id="page-iframe"
-              class="page-iframe"
-              sandbox="allow-scripts allow-same-origin allow-forms"
-            ></iframe>
           </div>
+
+          <!-- DDG v2 Browser -->
+          <div class="browser-slot">
+            <div class="browser-slot-label">DDG v2</div>
+            <div class="browser-viewport" id="browser-viewport-improved">
+              <div class="browser-container" id="browser-container-improved">
+                <!-- Android Status Bar -->
+                <div class="android-status-bar">
+                  <div class="status-camera">
+                    <div class="camera-dot"></div>
+                  </div>
+                  <span class="status-time">12:30</span>
+                  <div class="status-icons">
+                    <svg class="status-icon" width="16" height="12" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="WiFi">
+                      <path d="M1 7.13L3.07 9.2C5.6 6.67 9.11 5.1 13 5.1C16.89 5.1 20.4 6.67 22.93 9.2L25 7.13C21.91 4.05 17.67 2.1 13 2.1C8.33 2.1 4.09 4.05 1 7.13ZM9.07 13.06L13 17L16.93 13.06C15.88 12 14.52 11.36 13 11.36C11.48 11.36 10.12 12 9.07 13.06ZM5.04 9.03L7.11 11.1C8.71 9.49 10.74 8.5 13 8.5C15.26 8.5 17.29 9.49 18.89 11.1L20.96 9.03C18.8 6.85 15.56 5.5 13 5.5C10.44 5.5 7.2 6.85 5.04 9.03Z" fill="rgba(0,0,0,0.84)"/>
+                    </svg>
+                    <svg class="status-icon" width="13" height="13" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Cellular signal">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 12H12V0L0 12Z" fill="rgba(0,0,0,0.84)"/>
+                    </svg>
+                    <span class="status-battery-pct">99%</span>
+                    <svg class="status-icon" width="9" height="13" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Battery">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.14286 0.75V0H2.57143V0.75H1.05494C0.472315 0.75 0 1.22232 0 1.80495V10.9451C0 11.5277 0.472315 12 1.05495 12H6.65934C7.24197 12 7.71429 11.5277 7.71429 10.9451V1.80495C7.71429 1.22231 7.24197 0.75 6.65934 0.75H5.14286Z" fill="rgba(0,0,0,0.84)"/>
+                    </svg>
+                  </div>
+                </div>
+                <!-- Android URL Bar -->
+                <div class="android-url-bar">
+                  <div class="url-bar-input">
+                    <div class="url-bar-site-status">
+                      <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                    </div>
+                    <span class="url-bar-text" id="android-url-text-improved">Search</span>
+                    <div class="url-bar-icon-btn" aria-label="AI Chat">
+                      <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                    </div>
+                    <div class="progress-bar-container">
+                      <div class="progress-bar" id="progress-bar-improved"></div>
+                    </div>
+                  </div>
+                  <div class="url-bar-toolbar">
+                    <button class="url-bar-icon-btn" aria-label="Fireproof">
+                      <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
+                    </button>
+                    <button class="url-bar-icon-btn" aria-label="Tabs">
+                      <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
+                    </button>
+                    <button class="url-bar-icon-btn" aria-label="More options">
+                      <img src="img/more-menu.svg" width="40" height="40" alt="More options">
+                    </button>
+                  </div>
+                </div>
+                <iframe
+                  id="page-iframe-improved"
+                  class="page-iframe"
+                  sandbox="allow-scripts allow-same-origin allow-forms"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
 
@@ -190,29 +249,150 @@
         <div class="split-handle-grip"></div>
       </div>
 
-      <!-- Right Panel: Event Stream -->
+      <!-- Right Panel: Tabbed Event Sidebar -->
       <section class="event-panel">
-        <div class="event-panel-header">
-          <h2>Event Stream</h2>
-          <div class="event-density" id="event-density"></div>
+        <div class="event-panel-tabs">
+          <button class="tab-btn" data-tab="parameters">Parameters</button>
+          <button class="tab-btn active" data-tab="event-stream">Event Stream</button>
         </div>
-        <div class="event-timeline" id="event-timeline"></div>
-        <div class="event-filters">
-          <button class="filter-btn active" data-category="all">All</button>
-          <button class="filter-btn" data-category="navigation">Navigation</button>
-          <button class="filter-btn" data-category="dom">DOM</button>
-          <button class="filter-btn" data-category="paint">Paint</button>
-          <button class="filter-btn" data-category="resource">Resources</button>
-          <button class="filter-btn" data-category="load">Load</button>
-          <button class="filter-btn" data-category="progress">Progress</button>
-          <button class="filter-btn" data-category="error">Errors</button>
+
+        <div class="tab-content" id="tab-parameters">
+          <div class="params-form">
+
+            <!-- Bar color -->
+            <div class="param-row">
+              <label class="param-label" for="param-bar-color">Bar color</label>
+              <input type="color" id="param-bar-color" class="param-color" value="#4a9eff">
+            </div>
+
+            <!-- Percentage at Webview Load -->
+            <div class="param-row">
+              <label class="param-label" for="param-webview-pct">Percentage at Webview Load</label>
+              <select id="param-webview-pct" class="param-select">
+                <option value="0">0%</option>
+                <option value="25">25%</option>
+                <option value="50" selected>50%</option>
+                <option value="75">75%</option>
+                <option value="100">100%</option>
+              </select>
+            </div>
+
+            <!-- Animation Curve -->
+            <div class="param-row">
+              <label class="param-label" for="param-anim-curve">Animation Curve</label>
+              <select id="param-anim-curve" class="param-select">
+                <option value="linear">Linear</option>
+                <option value="ease-in">Ease in</option>
+                <option value="ease-out">Ease out</option>
+                <option value="ease-in-out" selected>Ease in-out</option>
+              </select>
+            </div>
+
+            <!-- Physics based easing -->
+            <div class="param-row">
+              <label class="param-label" for="param-physics-easing">Physics based easing</label>
+              <label class="param-toggle">
+                <input type="checkbox" id="param-physics-easing">
+                <span class="param-toggle-track"></span>
+              </label>
+            </div>
+
+            <!-- Dampening Ratio -->
+            <div class="param-row">
+              <label class="param-label" for="param-dampen">Dampening Ratio</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-dampen" class="param-slider" min="0.1" max="1" step="0.05" value="0.5">
+                <span class="param-slider-value" id="param-dampen-val">0.5</span>
+              </div>
+            </div>
+
+            <!-- Stiffness -->
+            <div class="param-row">
+              <label class="param-label" for="param-stiffness">Stiffness</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-stiffness" class="param-slider" min="50" max="500" step="10" value="200">
+                <span class="param-slider-value" id="param-stiffness-val">200</span>
+              </div>
+            </div>
+
+            <!-- Deliberate creep -->
+            <div class="param-row">
+              <label class="param-label" for="param-creep">Deliberate creep</label>
+              <label class="param-toggle">
+                <input type="checkbox" id="param-creep">
+                <span class="param-toggle-track"></span>
+              </label>
+            </div>
+
+            <!-- Animated bar transitions -->
+            <div class="param-row">
+              <label class="param-label" for="param-anim-transitions">Animated bar transitions</label>
+              <label class="param-toggle">
+                <input type="checkbox" id="param-anim-transitions" checked>
+                <span class="param-toggle-track"></span>
+              </label>
+            </div>
+
+            <!-- Fav icon spinner -->
+            <div class="param-row">
+              <label class="param-label" for="param-favicon-spinner">Fav icon spinner</label>
+              <label class="param-toggle">
+                <input type="checkbox" id="param-favicon-spinner">
+                <span class="param-toggle-track"></span>
+              </label>
+            </div>
+
+            <!-- Bar completion event -->
+            <div class="param-row">
+              <label class="param-label" for="param-completion-event">Bar completion event</label>
+              <select id="param-completion-event" class="param-select">
+                <option value="window.load" selected>window.load</option>
+                <option value="DOMContentLoaded">DOMContentLoaded</option>
+                <option value="first-paint">First paint</option>
+              </select>
+            </div>
+
+            <!-- Pipeline visualisation -->
+            <div class="param-row">
+              <label class="param-label" for="param-pipeline">Pipeline visualisation</label>
+              <label class="param-toggle">
+                <input type="checkbox" id="param-pipeline">
+                <span class="param-toggle-track"></span>
+              </label>
+            </div>
+
+          </div>
         </div>
-        <div class="event-list" id="event-list">
-          <div class="event-placeholder">
-            Enter a URL and click Go to start capturing events
+
+        <div class="tab-content active" id="tab-event-stream">
+          <div class="event-panel-header">
+            <div class="event-density" id="event-density"></div>
+          </div>
+          <div class="event-filters">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="navigation">Navigation</button>
+            <button class="filter-btn" data-category="dom">DOM</button>
+            <button class="filter-btn" data-category="paint">Paint</button>
+            <button class="filter-btn" data-category="resource">Resources</button>
+            <button class="filter-btn" data-category="load">Load</button>
+            <button class="filter-btn" data-category="progress">Progress</button>
+            <button class="filter-btn" data-category="error">Errors</button>
+          </div>
+          <div class="event-list" id="event-list">
+            <div class="event-placeholder">
+              Enter a URL and click Go to start capturing events
+            </div>
           </div>
         </div>
       </section>
+
+      </div><!-- /.split-main -->
+
+      <!-- Event Timeline Strip: full width below browser + sidebar -->
+      <div class="event-timeline-strip">
+        <div class="event-timeline" id="event-timeline"></div>
+      </div>
+
     </main>
   </div>
 
@@ -221,79 +401,65 @@
   <script src="event-panel.js"></script>
   <script src="event-timeline.js"></script>
   <script src="progress-bar.js"></script>
-  <script src="progress-bar-experimental.js"></script>
   <script src="progress-bar-raw.js"></script>
   <script>
-    // Main application initialization
     (function() {
       const urlInput = document.getElementById('url-input');
       const goBtn = document.getElementById('go-btn');
       const clearBtn = document.getElementById('clear-btn');
       const speedSelect = document.getElementById('speed-select');
-      const barSelect = document.getElementById('bar-select');
-      const pageIframe = document.getElementById('page-iframe');
-      const progressBarEl = document.getElementById('progress-bar');
-      const androidUrlText = document.getElementById('android-url-text');
+
+      const pageIframeDDG = document.getElementById('page-iframe-ddg');
+      const pageIframeImproved = document.getElementById('page-iframe-improved');
+
+      const progressBarElDDG = document.getElementById('progress-bar-ddg');
+      const progressBarElImproved = document.getElementById('progress-bar-improved');
+
+      const androidUrlTextDDG = document.getElementById('android-url-text-ddg');
+      const androidUrlTextImproved = document.getElementById('android-url-text-improved');
 
       // Initialize components
       const eventBus = new EventBus();
       const eventPanel = new EventPanel('event-list', 'event-density');
       const eventTimeline = new EventTimeline('event-timeline');
-      let progressBar = new ProgressBar(progressBarEl);
 
-      // Callback wired into RawModeProgressBar so DDG lifecycle events flow
-      // through the EventBus to the event panel and timeline
       function ddgLifecycleCallback(type, data) {
         eventBus.emit({ type, time: performance.now(), data: data || {} });
       }
 
-      function createProgressBar(value) {
-        progressBarEl.innerHTML = '';
-        progressBarEl.classList.remove('experimental');
-        if (value === 'experimental') {
-          return new ExperimentalProgressBar(progressBarEl);
-        } else if (value === 'ddg') {
-          return new RawModeProgressBar(progressBarEl, ddgLifecycleCallback);
-        } else {
-          return new ProgressBar(progressBarEl);
-        }
-      }
+      const progressBarDDG = new RawModeProgressBar(progressBarElDDG, ddgLifecycleCallback);
+      const progressBarImproved = new ProgressBar(progressBarElImproved);
 
-      // Bar selection
-      barSelect.addEventListener('change', () => {
-        progressBar.reset();
-        progressBar = createProgressBar(barSelect.value);
-        progressBar.reset();
-      });
-
-      // Stall timer: auto-complete if no events arrive for a sustained period
-      let stallTimer = null;
+      // Stall timers
+      let stallTimerDDG = null;
+      let stallTimerImproved = null;
       const STALL_TIMEOUT = 8000;
 
-      function resetStallTimer() {
-        if (stallTimer) clearTimeout(stallTimer);
-        stallTimer = setTimeout(() => {
-          if (progressBar.isLoading && !progressBar.isComplete) {
-            progressBar.complete();
-          }
+      function resetStallTimers() {
+        if (stallTimerDDG) clearTimeout(stallTimerDDG);
+        if (stallTimerImproved) clearTimeout(stallTimerImproved);
+        stallTimerDDG = setTimeout(() => {
+          if (progressBarDDG.isLoading && !progressBarDDG.isComplete) progressBarDDG.complete();
+        }, STALL_TIMEOUT);
+        stallTimerImproved = setTimeout(() => {
+          if (progressBarImproved.isLoading && !progressBarImproved.isComplete) progressBarImproved.complete();
         }, STALL_TIMEOUT);
       }
 
-      function clearStallTimer() {
-        if (stallTimer) {
-          clearTimeout(stallTimer);
-          stallTimer = null;
-        }
+      function clearStallTimers() {
+        if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
+        if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
       }
 
-      // Subscribe event panel, timeline, and progress bar to event bus
+      // Subscribe event panel and timeline to event bus (driven by Improved iframe)
       eventBus.subscribe(event => {
         eventPanel.addEvent(event);
         eventTimeline.addEvent(event);
-        progressBar.update(event);
-        if (progressBar.isLoading) resetStallTimer();
+        progressBarDDG.update(event);
+        progressBarImproved.update(event);
+        if (progressBarImproved.isLoading) resetStallTimers();
       });
-      
+
       // Filter buttons
       document.querySelectorAll('.filter-btn').forEach(btn => {
         btn.addEventListener('click', () => {
@@ -302,50 +468,46 @@
           eventPanel.filterByCategory(btn.dataset.category);
         });
       });
-      
-      // Load URL
+
+      function setUrlBarText(text) {
+        androidUrlTextDDG.textContent = text;
+        androidUrlTextImproved.textContent = text;
+      }
+
       function loadUrl() {
         let url = urlInput.value.trim();
         if (!url) return;
-        
-        // Add protocol if missing
+
         if (!url.startsWith('http://') && !url.startsWith('https://')) {
           url = 'https://' + url;
           urlInput.value = url;
         }
-        
-        // Update the Android URL bar text
+
         try {
           const parsed = new URL(url);
-          androidUrlText.textContent = parsed.hostname + (parsed.pathname !== '/' ? parsed.pathname : '');
+          setUrlBarText(parsed.hostname + (parsed.pathname !== '/' ? parsed.pathname : ''));
         } catch {
-          androidUrlText.textContent = url;
+          setUrlBarText(url);
         }
 
-        // Get throttle setting
         const throttle = speedSelect.value;
-        
-        // Reset state
+
         eventPanel.clear();
         eventTimeline.clear();
-        progressBar.reset();
-        progressBar.start();
-        
-        // Emit navigation start
-        eventBus.emit({
-          type: 'iframe-load-start',
-          time: 0,
-          data: { url }
-        });
-        
-        // Start stall timer
-        resetStallTimer();
+        progressBarDDG.reset();
+        progressBarImproved.reset();
+        progressBarDDG.start();
+        progressBarImproved.start();
 
-        // Load through proxy
+        eventBus.emit({ type: 'iframe-load-start', time: 0, data: { url } });
+
+        resetStallTimers();
+
         const proxyUrl = `/proxy?url=${encodeURIComponent(url)}&throttle=${throttle}`;
-        pageIframe.src = proxyUrl;
+        pageIframeDDG.src = proxyUrl;
+        pageIframeImproved.src = proxyUrl;
       }
-      
+
       // URL combobox dropdown
       const urlDropdown = document.getElementById('url-dropdown');
       const urlCombobox = document.getElementById('url-combobox');
@@ -391,19 +553,9 @@
         }
       }
 
-      urlInput.addEventListener('click', (e) => {
-        e.stopPropagation();
-        openDropdown();
-      });
-
-      urlInput.addEventListener('focus', () => {
-        openDropdown();
-      });
-
-      urlInput.addEventListener('input', () => {
-        openDropdown();
-        filterDropdown(urlInput.value);
-      });
+      urlInput.addEventListener('click', (e) => { e.stopPropagation(); openDropdown(); });
+      urlInput.addEventListener('focus', () => { openDropdown(); });
+      urlInput.addEventListener('input', () => { openDropdown(); filterDropdown(urlInput.value); });
 
       urlDropdown.addEventListener('click', (e) => {
         const option = e.target.closest('.url-dropdown-option');
@@ -414,80 +566,110 @@
         loadUrl();
       });
 
-      document.addEventListener('click', (e) => {
-        if (!urlCombobox.contains(e.target)) closeDropdown();
-      });
+      document.addEventListener('click', (e) => { if (!urlCombobox.contains(e.target)) closeDropdown(); });
+      document.addEventListener('keydown', (e) => { if (e.key === 'Escape') closeDropdown(); });
 
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') closeDropdown();
-      });
-
-      // Event listeners
       goBtn.addEventListener('click', loadUrl);
-      urlInput.addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') loadUrl();
-      });
-      
+      urlInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') loadUrl(); });
+
       clearBtn.addEventListener('click', () => {
-        clearStallTimer();
+        clearStallTimers();
         eventPanel.clear();
         eventTimeline.clear();
-        progressBar.reset();
-        pageIframe.src = 'about:blank';
+        progressBarDDG.reset();
+        progressBarImproved.reset();
+        pageIframeDDG.src = 'about:blank';
+        pageIframeImproved.src = 'about:blank';
         urlInput.value = '';
         filterDropdown('');
-        androidUrlText.textContent = 'bbc.co.uk';
+        setUrlBarText('Search');
       });
-      
-      // Listen for messages from iframe
+
+      // Route messages from iframes to the correct progress bar.
+      // Both bars complete from the Improved iframe's window-load so they
+      // always finish at the same moment — the DDG iframe's window-load only
+      // drives its error handling (not completion).
       window.addEventListener('message', (e) => {
-        if (e.data && e.data.source === 'progress-bar-observer') {
-          eventBus.emit(e.data.event);
-          
-          if (e.data.event.type === 'window-load') {
-            clearStallTimer();
-            progressBar.complete();
-          }
-          
+        if (!e.data || e.data.source !== 'progress-bar-observer') return;
+
+        const fromDDG = e.source === pageIframeDDG.contentWindow;
+        const fromImproved = e.source === pageIframeImproved.contentWindow;
+
+        if (fromDDG) {
           if (e.data.event.type === 'navigation-error') {
-            clearStallTimer();
-            progressBar.error();
+            if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
+            progressBarDDG.error();
           }
         }
-      });
-      
-      // Iframe load event (fallback completion trigger)
-      pageIframe.addEventListener('load', () => {
-        eventBus.emit({
-          type: 'iframe-load-end',
-          time: performance.now(),
-          data: {}
-        });
-        clearStallTimer();
-        if (!progressBar.isComplete) {
-          progressBar.complete();
+
+        if (fromImproved) {
+          // Improved iframe drives the event panel, timeline, and both completions
+          eventBus.emit(e.data.event);
+          if (e.data.event.type === 'window-load') {
+            if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
+            if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
+            if (!progressBarDDG.isComplete) progressBarDDG.complete();
+            if (!progressBarImproved.isComplete) progressBarImproved.complete();
+          } else if (e.data.event.type === 'navigation-error') {
+            if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
+            progressBarImproved.error();
+          }
         }
       });
 
-      // Scale browser-container to fit viewport while preserving 412x917
-      const viewport = document.getElementById('browser-viewport');
-      const browserContainer = document.getElementById('browser-container');
+      // Iframe load fallback — only the Improved iframe's load event completes
+      // both bars, keeping them in lockstep even when postMessage events don't fire.
+      pageIframeDDG.addEventListener('load', () => {
+        if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
+        // Completion is driven by the Improved iframe; don't call complete() here.
+      });
+
+      pageIframeImproved.addEventListener('load', () => {
+        eventBus.emit({ type: 'iframe-load-end', time: performance.now(), data: {} });
+        if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
+        if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
+        if (!progressBarDDG.isComplete) progressBarDDG.complete();
+        if (!progressBarImproved.isComplete) progressBarImproved.complete();
+      });
+
+      // Scale each browser-container to fit its viewport
       const CONTAINER_W = 412;
       const CONTAINER_H = 917;
 
-      function scaleIframe() {
+      function scaleContainer(viewport, container) {
         const scale = Math.min(viewport.clientWidth / CONTAINER_W, viewport.clientHeight / CONTAINER_H) * 0.8;
         const offsetX = (viewport.clientWidth - CONTAINER_W * scale) / 2;
         const offsetY = (viewport.clientHeight - CONTAINER_H * scale) / 2;
-        browserContainer.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
+        container.style.transform = `translate(${offsetX}px, ${offsetY}px) scale(${scale})`;
       }
 
-      new ResizeObserver(scaleIframe).observe(viewport);
-      scaleIframe();
+      const viewportDDG = document.getElementById('browser-viewport-ddg');
+      const containerDDG = document.getElementById('browser-container-ddg');
+      const viewportImproved = document.getElementById('browser-viewport-improved');
+      const containerImproved = document.getElementById('browser-container-improved');
+
+      function scaleAll() {
+        scaleContainer(viewportDDG, containerDDG);
+        scaleContainer(viewportImproved, containerImproved);
+      }
+
+      new ResizeObserver(scaleAll).observe(viewportDDG);
+      new ResizeObserver(scaleAll).observe(viewportImproved);
+      scaleAll();
+
+      // Tab switching
+      document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+          document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+          btn.classList.add('active');
+          document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+        });
+      });
 
       // Split panel drag handle
       const splitHandle = document.getElementById('split-handle');
-      const splitPanel = document.querySelector('.split-panel');
+      const splitMain = document.querySelector('.split-main');
       let isDragging = false;
 
       splitHandle.addEventListener('mousedown', (e) => {
@@ -495,19 +677,19 @@
         splitHandle.classList.add('dragging');
         document.body.style.cursor = 'col-resize';
         document.body.style.userSelect = 'none';
-        // Prevent the iframe from swallowing mousemove/mouseup events during drag
-        pageIframe.style.pointerEvents = 'none';
+        pageIframeDDG.style.pointerEvents = 'none';
+        pageIframeImproved.style.pointerEvents = 'none';
         e.preventDefault();
       });
 
       document.addEventListener('mousemove', (e) => {
         if (!isDragging) return;
-        const panelRect = splitPanel.getBoundingClientRect();
+        const panelRect = splitMain.getBoundingClientRect();
         const newLeftWidth = e.clientX - panelRect.left;
         const minWidth = 200;
         const maxWidth = panelRect.width - 200 - 6;
         const clamped = Math.max(minWidth, Math.min(maxWidth, newLeftWidth));
-        splitPanel.style.setProperty('--split-left', clamped + 'px');
+        splitMain.style.setProperty('--split-left', clamped + 'px');
       });
 
       document.addEventListener('mouseup', () => {
@@ -516,7 +698,24 @@
         splitHandle.classList.remove('dragging');
         document.body.style.cursor = '';
         document.body.style.userSelect = '';
-        pageIframe.style.pointerEvents = '';
+        pageIframeDDG.style.pointerEvents = '';
+        pageIframeImproved.style.pointerEvents = '';
+      });
+    })();
+  </script>
+  <script>
+    (function() {
+      const dampenSlider = document.getElementById('param-dampen');
+      const dampenVal = document.getElementById('param-dampen-val');
+      const stiffnessSlider = document.getElementById('param-stiffness');
+      const stiffnessVal = document.getElementById('param-stiffness-val');
+
+      dampenSlider.addEventListener('input', () => {
+        dampenVal.textContent = parseFloat(dampenSlider.value).toFixed(2);
+      });
+
+      stiffnessSlider.addEventListener('input', () => {
+        stiffnessVal.textContent = stiffnessSlider.value;
       });
     })();
   </script>

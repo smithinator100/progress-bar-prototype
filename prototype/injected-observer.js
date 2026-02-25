@@ -18,9 +18,36 @@
     (document.head || document.documentElement).appendChild(style);
   } catch (e) {}
 
+  // Preserve SSR content for Next.js / React sites. When hydration fails
+  // (e.g. because window.location differs from the SSR origin), React tears
+  // down all server-rendered DOM. We snapshot the SSR HTML at DOMContentLoaded
+  // (which fires BEFORE the teardown) and restore it when we detect the
+  // innerHTML has shrunk dramatically.
+  try {
+    document.addEventListener('DOMContentLoaded', () => {
+      const nextRoot = document.getElementById('__next');
+      if (!nextRoot) return;
+      const ssrSnapshot = nextRoot.innerHTML;
+      if (ssrSnapshot.length < 500) return;
+      let restored = false;
+      const watcher = new MutationObserver(() => {
+        if (restored) return;
+        const currentLen = nextRoot.innerHTML.length;
+        if (currentLen < ssrSnapshot.length * 0.3) {
+          restored = true;
+          watcher.disconnect();
+          nextRoot.innerHTML = ssrSnapshot;
+        }
+      });
+      watcher.observe(nextRoot, { childList: true, subtree: true });
+    });
+  } catch (e) {}
+
   // Fix: Override IntersectionObserver so lazy-loaded images fire immediately on observe().
   // BBC uses IntersectionObserver with a custom root div that doesn't correctly intersect
   // inside a scaled iframe, so images never auto-load without this override.
+  // Note: callback is deferred via setTimeout to avoid firing synchronously during a
+  // React/Next.js render cycle, which would cause "client-side exception" errors.
   try {
     const _NativeIO = window.IntersectionObserver;
     window.IntersectionObserver = function(cb, opts) {
@@ -28,19 +55,25 @@
       const _origObserve = io.observe.bind(io);
       io.observe = function(target) {
         _origObserve(target);
-        // Immediately fire the callback as if this element is intersecting
-        try {
-          const rect = target.getBoundingClientRect();
-          cb([{
-            target,
-            isIntersecting: true,
-            intersectionRatio: 1,
-            boundingClientRect: rect,
-            intersectionRect: rect,
-            rootBounds: null,
-            time: performance.now()
-          }], io);
-        } catch(e) {}
+        // Only fire synthetic intersection for image elements — prevents
+        // interference with React/framework IntersectionObserver usage
+        // (Suspense, lazy components) which would cause hydration errors.
+        if (target.tagName === 'IMG' || (target.querySelector && target.querySelector('img'))) {
+          setTimeout(() => {
+            try {
+              const rect = target.getBoundingClientRect();
+              cb([{
+                target,
+                isIntersecting: true,
+                intersectionRatio: 1,
+                boundingClientRect: rect,
+                intersectionRect: rect,
+                rootBounds: null,
+                time: performance.now()
+              }], io);
+            } catch(e) {}
+          }, 0);
+        }
       };
       return io;
     };
@@ -106,7 +139,12 @@
         event
       }, '*');
     } catch (e) {
-      console.warn('[ProgressBar Observer] Failed to post event:', e);
+      try {
+        window.parent.postMessage({
+          source: 'progress-bar-observer',
+          event: JSON.parse(JSON.stringify(event))
+        }, '*');
+      } catch (e2) {}
     }
   }
 
@@ -520,7 +558,12 @@
   const originalReplaceState = history.replaceState;
 
   history.pushState = function(...args) {
-    const result = originalPushState.apply(this, args);
+    let result;
+    try {
+      result = originalPushState.apply(this, args);
+    } catch(e) {
+      // SecurityError: site passed a cross-origin absolute URL (e.g. while proxied) — ignore
+    }
     postEvent('spa-navigate', {
       type: 'pushState',
       url: window.location.href
@@ -529,7 +572,12 @@
   };
 
   history.replaceState = function(...args) {
-    const result = originalReplaceState.apply(this, args);
+    let result;
+    try {
+      result = originalReplaceState.apply(this, args);
+    } catch(e) {
+      // SecurityError: site passed a cross-origin absolute URL (e.g. while proxied) — ignore
+    }
     postEvent('spa-navigate', {
       type: 'replaceState',
       url: window.location.href
@@ -544,17 +592,97 @@
     });
   });
 
+  // Rewrite all external resource URLs to go through the proxy.
+  // Uses prototype-level overrides so every script/link element is covered
+  // regardless of how it was created (createElement, innerHTML, etc.).
+  try {
+    const _proxyOrigin = window.location.origin;
+    const _proxyThrottle = new URLSearchParams(window.location.search).get('throttle') || 'none';
+
+    function _rewriteToProxy(url) {
+      try {
+        const abs = new URL(url, document.baseURI).href;
+        if (abs.startsWith('data:') || abs.startsWith('blob:') || abs.startsWith('javascript:')) return url;
+        if (abs.startsWith(_proxyOrigin)) return url;
+        return _proxyOrigin + '/proxy-resource?url=' + encodeURIComponent(abs) + '&throttle=' + encodeURIComponent(_proxyThrottle);
+      } catch(e) { return url; }
+    }
+
+    function _needsRewrite(url) {
+      if (!url || typeof url !== 'string') return false;
+      return !url.startsWith(_proxyOrigin) && !url.includes('/proxy-resource') && !url.includes('localhost') && !url.includes('127.0.0.1') && !url.startsWith('data:') && !url.startsWith('blob:') && !url.startsWith('javascript:');
+    }
+
+    // Override HTMLScriptElement.prototype.src at the prototype level
+    const _scriptSrcDesc = Object.getOwnPropertyDescriptor(HTMLScriptElement.prototype, 'src');
+    if (_scriptSrcDesc && _scriptSrcDesc.set) {
+      Object.defineProperty(HTMLScriptElement.prototype, 'src', {
+        set(v) {
+          if (_needsRewrite(v)) {
+            v = _rewriteToProxy(v);
+          }
+          _scriptSrcDesc.set.call(this, v);
+        },
+        get() { return _scriptSrcDesc.get.call(this); },
+        configurable: true, enumerable: true
+      });
+    }
+
+    // Override HTMLLinkElement.prototype.href at the prototype level
+    const _linkHrefDesc = Object.getOwnPropertyDescriptor(HTMLLinkElement.prototype, 'href');
+    if (_linkHrefDesc && _linkHrefDesc.set) {
+      Object.defineProperty(HTMLLinkElement.prototype, 'href', {
+        set(v) {
+          if (_needsRewrite(v)) {
+            v = _rewriteToProxy(v);
+          }
+          _linkHrefDesc.set.call(this, v);
+        },
+        get() { return _linkHrefDesc.get.call(this); },
+        configurable: true, enumerable: true
+      });
+    }
+
+    // Override setAttribute for script src and link href
+    const _origSetAttribute = Element.prototype.setAttribute;
+    Element.prototype.setAttribute = function(name, value) {
+      if ((this instanceof HTMLScriptElement && name === 'src' && _needsRewrite(value)) ||
+          (this instanceof HTMLLinkElement && name === 'href' && _needsRewrite(value))) {
+        value = _rewriteToProxy(value);
+      }
+      return _origSetAttribute.call(this, name, value);
+    };
+
+    // Intercept fetch() to rewrite external URLs through the proxy
+    const _origFetch = window.fetch;
+    window.fetch = function(input, init) {
+      try {
+        let url = typeof input === 'string' ? input : (input instanceof Request ? input.url : '');
+        if (_needsRewrite(url)) {
+          const rewritten = _rewriteToProxy(url);
+          if (typeof input === 'string') {
+            input = rewritten;
+          } else if (input instanceof Request) {
+            input = new Request(rewritten, input);
+          }
+        }
+      } catch(e) {}
+      return _origFetch.call(this, input, init);
+    };
+  } catch(e) {}
+
   // Error handling
   window.addEventListener('error', (e) => {
     if (e.target !== window) {
-      // Resource error
       const target = e.target;
+      const src = target.src || target.href || 'unknown';
       postEvent('resource-error', {
         element: target.tagName?.toLowerCase() || 'unknown',
-        src: target.src || target.href || 'unknown'
+        src
       });
     }
   }, true);
+
 
   // Unhandled rejection (for fetch errors etc.)
   window.addEventListener('unhandledrejection', (e) => {

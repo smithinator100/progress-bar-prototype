@@ -1,0 +1,855 @@
+[
+  {
+    "type": "navigation-start",
+    "time": 732,
+    "delta": 732,
+    "data": {
+      "url": "http://localhost:3001/proxy?url=https%3A%2F%2Fwikipedia.org&throttle=3g"
+    },
+    "videoTimeMs": 756
+  },
+  {
+    "type": "nav-response-start",
+    "time": 724,
+    "delta": -8,
+    "data": {},
+    "videoTimeMs": 756
+  },
+  {
+    "type": "resource-start",
+    "time": 734,
+    "delta": 10,
+    "data": {
+      "resourceType": "script",
+      "name": "/injected-observer.js"
+    },
+    "videoTimeMs": 756
+  },
+  {
+    "type": "resource-script",
+    "time": 734,
+    "delta": 0,
+    "data": {
+      "name": "/injected-observer.js",
+      "duration": 2,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 757
+  },
+  {
+    "type": "resource-complete",
+    "time": 734,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2
+    },
+    "videoTimeMs": 757
+  },
+  {
+    "type": "progress-update",
+    "time": 749,
+    "delta": 15,
+    "data": {
+      "value": 17,
+      "delta": 17
+    },
+    "videoTimeMs": 771
+  },
+  {
+    "type": "progress-update",
+    "time": 764,
+    "delta": 15,
+    "data": {
+      "value": 18,
+      "delta": 1
+    },
+    "videoTimeMs": 787
+  },
+  {
+    "type": "progress-update",
+    "time": 781,
+    "delta": 17,
+    "data": {
+      "value": 20,
+      "delta": 2
+    },
+    "videoTimeMs": 804
+  },
+  {
+    "type": "progress-update",
+    "time": 797,
+    "delta": 16,
+    "data": {
+      "value": 21,
+      "delta": 1
+    },
+    "videoTimeMs": 819
+  },
+  {
+    "type": "progress-update",
+    "time": 814,
+    "delta": 17,
+    "data": {
+      "value": 23,
+      "delta": 2
+    },
+    "videoTimeMs": 836
+  },
+  {
+    "type": "progress-update",
+    "time": 828,
+    "delta": 14,
+    "data": {
+      "value": 24,
+      "delta": 1
+    },
+    "videoTimeMs": 851
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 834,
+    "delta": 6,
+    "data": {
+      "nodesAdded": 25,
+      "textNodes": 7,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 856
+  },
+  {
+    "type": "progress-update",
+    "time": 845,
+    "delta": 11,
+    "data": {
+      "value": 25,
+      "delta": 1
+    },
+    "videoTimeMs": 868
+  },
+  {
+    "type": "progress-update",
+    "time": 861,
+    "delta": 16,
+    "data": {
+      "value": 26,
+      "delta": 1
+    },
+    "videoTimeMs": 884
+  },
+  {
+    "type": "progress-update",
+    "time": 877,
+    "delta": 16,
+    "data": {
+      "value": 28,
+      "delta": 2
+    },
+    "videoTimeMs": 900
+  },
+  {
+    "type": "progress-update",
+    "time": 893,
+    "delta": 16,
+    "data": {
+      "value": 29,
+      "delta": 1
+    },
+    "videoTimeMs": 916
+  },
+  {
+    "type": "progress-update",
+    "time": 910,
+    "delta": 17,
+    "data": {
+      "value": 30,
+      "delta": 1
+    },
+    "videoTimeMs": 932
+  },
+  {
+    "type": "progress-update",
+    "time": 926,
+    "delta": 16,
+    "data": {
+      "value": 31,
+      "delta": 1
+    },
+    "videoTimeMs": 948
+  },
+  {
+    "type": "progress-update",
+    "time": 941,
+    "delta": 15,
+    "data": {
+      "value": 32,
+      "delta": 1
+    },
+    "videoTimeMs": 964
+  },
+  {
+    "type": "progress-update",
+    "time": 957,
+    "delta": 16,
+    "data": {
+      "value": 33,
+      "delta": 1
+    },
+    "videoTimeMs": 979
+  },
+  {
+    "type": "progress-update",
+    "time": 974,
+    "delta": 17,
+    "data": {
+      "value": 34,
+      "delta": 1
+    },
+    "videoTimeMs": 996
+  },
+  {
+    "type": "progress-update",
+    "time": 989,
+    "delta": 15,
+    "data": {
+      "value": 35,
+      "delta": 1
+    },
+    "videoTimeMs": 1011
+  },
+  {
+    "type": "progress-update",
+    "time": 1006,
+    "delta": 17,
+    "data": {
+      "value": 36,
+      "delta": 1
+    },
+    "videoTimeMs": 1028
+  },
+  {
+    "type": "progress-update",
+    "time": 1021,
+    "delta": 15,
+    "data": {
+      "value": 37,
+      "delta": 1
+    },
+    "videoTimeMs": 1044
+  },
+  {
+    "type": "progress-update",
+    "time": 1037,
+    "delta": 16,
+    "data": {
+      "value": 38,
+      "delta": 1
+    },
+    "videoTimeMs": 1059
+  },
+  {
+    "type": "first-paint",
+    "time": 1042,
+    "delta": 5,
+    "data": {
+      "startTime": 1042,
+      "synthetic": true
+    },
+    "videoTimeMs": 1064
+  },
+  {
+    "type": "first-contentful-paint",
+    "time": 1042,
+    "delta": 0,
+    "data": {
+      "startTime": 1042,
+      "synthetic": true
+    },
+    "videoTimeMs": 1065
+  },
+  {
+    "type": "progress-update",
+    "time": 1053,
+    "delta": 11,
+    "data": {
+      "value": 39,
+      "delta": 1
+    },
+    "videoTimeMs": 1075
+  },
+  {
+    "type": "progress-update",
+    "time": 1069,
+    "delta": 16,
+    "data": {
+      "value": 40,
+      "delta": 1
+    },
+    "videoTimeMs": 1091
+  },
+  {
+    "type": "progress-update",
+    "time": 1101,
+    "delta": 32,
+    "data": {
+      "value": 41,
+      "delta": 1
+    },
+    "videoTimeMs": 1124
+  },
+  {
+    "type": "progress-update",
+    "time": 1117,
+    "delta": 16,
+    "data": {
+      "value": 42,
+      "delta": 1
+    },
+    "videoTimeMs": 1139
+  },
+  {
+    "type": "progress-update",
+    "time": 1170,
+    "delta": 53,
+    "data": {
+      "value": 44,
+      "delta": 2
+    },
+    "videoTimeMs": 1192
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1170,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 954,
+      "textNodes": 266,
+      "headingNodes": 6
+    },
+    "videoTimeMs": 1192
+  },
+  {
+    "type": "progress-update",
+    "time": 1181,
+    "delta": 11,
+    "data": {
+      "value": 45,
+      "delta": 1
+    },
+    "videoTimeMs": 1203
+  },
+  {
+    "type": "lcp",
+    "time": 1185,
+    "delta": 4,
+    "data": {
+      "startTime": 1184,
+      "size": 72,
+      "element": "BUTTON"
+    },
+    "videoTimeMs": 1208
+  },
+  {
+    "type": "progress-update",
+    "time": 1213,
+    "delta": 28,
+    "data": {
+      "value": 46,
+      "delta": 1
+    },
+    "videoTimeMs": 1235
+  },
+  {
+    "type": "progress-update",
+    "time": 1262,
+    "delta": 49,
+    "data": {
+      "value": 48,
+      "delta": 2
+    },
+    "videoTimeMs": 1285
+  },
+  {
+    "type": "resource-start",
+    "time": 1289,
+    "delta": 27,
+    "data": {
+      "resourceType": "css",
+      "name": "...ia.org/assets/img/sprite-e49fbf32.svg"
+    },
+    "videoTimeMs": 1312
+  },
+  {
+    "type": "resource-css",
+    "time": 1289,
+    "delta": 0,
+    "data": {
+      "name": "...ia.org/assets/img/sprite-e49fbf32.svg",
+      "duration": 157,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 1312
+  },
+  {
+    "type": "resource-complete",
+    "time": 1289,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 157
+    },
+    "videoTimeMs": 1312
+  },
+  {
+    "type": "progress-update",
+    "time": 1292,
+    "delta": 3,
+    "data": {
+      "value": 57,
+      "delta": 9
+    },
+    "videoTimeMs": 1314
+  },
+  {
+    "type": "progress-update",
+    "time": 1309,
+    "delta": 17,
+    "data": {
+      "value": 58,
+      "delta": 1
+    },
+    "videoTimeMs": 1331
+  },
+  {
+    "type": "lcp",
+    "time": 1313,
+    "delta": 4,
+    "data": {
+      "startTime": 1312,
+      "size": 3750,
+      "element": "SPAN"
+    },
+    "videoTimeMs": 1335
+  },
+  {
+    "type": "resource-start",
+    "time": 1324,
+    "delta": 11,
+    "data": {
+      "resourceType": "img",
+      "name": "...g/assets/img/Wikipedia-logo-v2@2x.png"
+    },
+    "videoTimeMs": 1347
+  },
+  {
+    "type": "resource-img",
+    "time": 1324,
+    "delta": 0,
+    "data": {
+      "name": "...g/assets/img/Wikipedia-logo-v2@2x.png",
+      "duration": 292,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1347
+  },
+  {
+    "type": "resource-complete",
+    "time": 1324,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 292
+    },
+    "videoTimeMs": 1347
+  },
+  {
+    "type": "progress-update",
+    "time": 1341,
+    "delta": 17,
+    "data": {
+      "value": 65,
+      "delta": 7
+    },
+    "videoTimeMs": 1363
+  },
+  {
+    "type": "progress-update",
+    "time": 1357,
+    "delta": 16,
+    "data": {
+      "value": 66,
+      "delta": 1
+    },
+    "videoTimeMs": 1379
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1361,
+    "delta": 4,
+    "data": {
+      "nodesAdded": 1549,
+      "textNodes": 399,
+      "headingNodes": 5
+    },
+    "videoTimeMs": 1383
+  },
+  {
+    "type": "resource-start",
+    "time": 1369,
+    "delta": 8,
+    "data": {
+      "resourceType": "css",
+      "name": "...ssets/img/Wikinews-logo_sister@2x.png"
+    },
+    "videoTimeMs": 1391
+  },
+  {
+    "type": "resource-css",
+    "time": 1369,
+    "delta": 0,
+    "data": {
+      "name": "...ssets/img/Wikinews-logo_sister@2x.png",
+      "duration": 39,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 1391
+  },
+  {
+    "type": "resource-complete",
+    "time": 1369,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 39
+    },
+    "videoTimeMs": 1391
+  },
+  {
+    "type": "progress-update",
+    "time": 1373,
+    "delta": 4,
+    "data": {
+      "value": 71,
+      "delta": 5
+    },
+    "videoTimeMs": 1395
+  },
+  {
+    "type": "resource-start",
+    "time": 1380,
+    "delta": 7,
+    "data": {
+      "resourceType": "script",
+      "name": "...ia.org/assets/js/gt-ie9-507b16b6be.js"
+    },
+    "videoTimeMs": 1402
+  },
+  {
+    "type": "resource-script",
+    "time": 1380,
+    "delta": 0,
+    "data": {
+      "name": "...ia.org/assets/js/gt-ie9-507b16b6be.js",
+      "duration": 44,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1402
+  },
+  {
+    "type": "resource-complete",
+    "time": 1380,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 44
+    },
+    "videoTimeMs": 1402
+  },
+  {
+    "type": "resource-start",
+    "time": 1382,
+    "delta": 2,
+    "data": {
+      "resourceType": "script",
+      "name": "...dia.org/assets/js/index-90de98612a.js"
+    },
+    "videoTimeMs": 1405
+  },
+  {
+    "type": "resource-script",
+    "time": 1382,
+    "delta": 0,
+    "data": {
+      "name": "...dia.org/assets/js/index-90de98612a.js",
+      "duration": 44,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1406
+  },
+  {
+    "type": "resource-complete",
+    "time": 1382,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 44
+    },
+    "videoTimeMs": 1406
+  },
+  {
+    "type": "dom-ready",
+    "time": 1383,
+    "delta": 1,
+    "data": {},
+    "videoTimeMs": 1409
+  },
+  {
+    "type": "above-fold-images-loaded",
+    "time": 1385,
+    "delta": 2,
+    "data": {
+      "count": 1
+    },
+    "videoTimeMs": 1409
+  },
+  {
+    "type": "progress-update",
+    "time": 1388,
+    "delta": 3,
+    "data": {
+      "value": 77,
+      "delta": 6
+    },
+    "videoTimeMs": 1410
+  },
+  {
+    "type": "lcp",
+    "time": 1421,
+    "delta": 33,
+    "data": {
+      "startTime": 1420,
+      "size": 13160,
+      "element": "DIV"
+    },
+    "videoTimeMs": 1444
+  },
+  {
+    "type": "resource-start",
+    "time": 1423,
+    "delta": 2,
+    "data": {
+      "resourceType": "video",
+      "name": "...pedia25-synthesizer-poster-light.webp"
+    },
+    "videoTimeMs": 1446
+  },
+  {
+    "type": "resource-media",
+    "time": 1423,
+    "delta": 0,
+    "data": {
+      "name": "...pedia25-synthesizer-poster-light.webp",
+      "duration": 41,
+      "transferSize": 0,
+      "initiatorType": "video"
+    },
+    "videoTimeMs": 1446
+  },
+  {
+    "type": "resource-complete",
+    "time": 1423,
+    "delta": 0,
+    "data": {
+      "resourceType": "video",
+      "transferSize": 0,
+      "duration": 41
+    },
+    "videoTimeMs": 1446
+  },
+  {
+    "type": "progress-update",
+    "time": 1437,
+    "delta": 14,
+    "data": {
+      "value": 78,
+      "delta": 1
+    },
+    "videoTimeMs": 1459
+  },
+  {
+    "type": "nav-fetch-start",
+    "time": 0.2999999523162842,
+    "delta": -1436.7000000476837,
+    "data": {
+      "value": 0
+    },
+    "videoTimeMs": 1477
+  },
+  {
+    "type": "nav-response-start",
+    "time": 724,
+    "delta": 723.7000000476837,
+    "data": {},
+    "videoTimeMs": 1477
+  },
+  {
+    "type": "nav-response-end",
+    "time": 1328.2000000476837,
+    "delta": 604.2000000476837,
+    "data": {},
+    "videoTimeMs": 1477
+  },
+  {
+    "type": "progress-update",
+    "time": 1453,
+    "delta": 124.79999995231628,
+    "data": {
+      "value": 100,
+      "delta": 22
+    },
+    "videoTimeMs": 1477
+  },
+  {
+    "type": "progress-complete",
+    "time": 1453,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 1477
+  },
+  {
+    "type": "window-load",
+    "time": 1453,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 1477
+  },
+  {
+    "type": "resource-start",
+    "time": 1481,
+    "delta": 28,
+    "data": {
+      "resourceType": "video",
+      "name": "...kipedia25-synthesizer-idle-light.webm"
+    },
+    "videoTimeMs": 1504
+  },
+  {
+    "type": "resource-media",
+    "time": 1481,
+    "delta": 0,
+    "data": {
+      "name": "...kipedia25-synthesizer-idle-light.webm",
+      "duration": 98,
+      "transferSize": 0,
+      "initiatorType": "video"
+    },
+    "videoTimeMs": 1504
+  },
+  {
+    "type": "resource-complete",
+    "time": 1481,
+    "delta": 0,
+    "data": {
+      "resourceType": "video",
+      "transferSize": 0,
+      "duration": 98
+    },
+    "videoTimeMs": 1504
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1482,
+    "delta": 1,
+    "data": {
+      "nodesAdded": 9,
+      "textNodes": 2,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1505
+  },
+  {
+    "type": "resource-start",
+    "time": 1662,
+    "delta": 180,
+    "data": {
+      "resourceType": "beacon",
+      "name": "/v1/events"
+    },
+    "videoTimeMs": 1684
+  },
+  {
+    "type": "resource-other",
+    "time": 1662,
+    "delta": 0,
+    "data": {
+      "name": "/v1/events",
+      "duration": 208,
+      "transferSize": 0,
+      "initiatorType": "beacon"
+    },
+    "videoTimeMs": 1684
+  },
+  {
+    "type": "resource-complete",
+    "time": 1662,
+    "delta": 0,
+    "data": {
+      "resourceType": "beacon",
+      "transferSize": 0,
+      "duration": 208
+    },
+    "videoTimeMs": 1684
+  },
+  {
+    "type": "resource-start",
+    "time": 1706,
+    "delta": 44,
+    "data": {
+      "resourceType": "other",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1728
+  },
+  {
+    "type": "resource-other",
+    "time": 1706,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 251,
+      "transferSize": 3034,
+      "initiatorType": "other"
+    },
+    "videoTimeMs": 1728
+  },
+  {
+    "type": "resource-complete",
+    "time": 1706,
+    "delta": 0,
+    "data": {
+      "resourceType": "other",
+      "transferSize": 3034,
+      "duration": 251
+    },
+    "videoTimeMs": 1728
+  },
+  {
+    "type": "text-settled",
+    "time": 1984,
+    "delta": 278,
+    "data": {},
+    "videoTimeMs": 2006
+  }
+]

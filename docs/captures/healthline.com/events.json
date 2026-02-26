@@ -1,0 +1,2584 @@
+[
+  {
+    "type": "navigation-start",
+    "time": 1441,
+    "delta": 1441,
+    "data": {
+      "url": "http://localhost:3001/proxy?url=https%3A%2F%2Fhealthline.com&throttle=3g"
+    },
+    "videoTimeMs": 1467
+  },
+  {
+    "type": "nav-response-start",
+    "time": 1433,
+    "delta": -8,
+    "data": {},
+    "videoTimeMs": 1467
+  },
+  {
+    "type": "resource-start",
+    "time": 1443,
+    "delta": 10,
+    "data": {
+      "resourceType": "script",
+      "name": "/injected-observer.js"
+    },
+    "videoTimeMs": 1467
+  },
+  {
+    "type": "resource-script",
+    "time": 1443,
+    "delta": 0,
+    "data": {
+      "name": "/injected-observer.js",
+      "duration": 3,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1467
+  },
+  {
+    "type": "resource-complete",
+    "time": 1443,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 3
+    },
+    "videoTimeMs": 1467
+  },
+  {
+    "type": "progress-update",
+    "time": 1459,
+    "delta": 16,
+    "data": {
+      "value": 17,
+      "delta": 17
+    },
+    "videoTimeMs": 1481
+  },
+  {
+    "type": "progress-update",
+    "time": 1475,
+    "delta": 16,
+    "data": {
+      "value": 18,
+      "delta": 1
+    },
+    "videoTimeMs": 1497
+  },
+  {
+    "type": "progress-update",
+    "time": 1491,
+    "delta": 16,
+    "data": {
+      "value": 20,
+      "delta": 2
+    },
+    "videoTimeMs": 1513
+  },
+  {
+    "type": "progress-update",
+    "time": 1506,
+    "delta": 15,
+    "data": {
+      "value": 21,
+      "delta": 1
+    },
+    "videoTimeMs": 1529
+  },
+  {
+    "type": "progress-update",
+    "time": 1523,
+    "delta": 17,
+    "data": {
+      "value": 23,
+      "delta": 2
+    },
+    "videoTimeMs": 1545
+  },
+  {
+    "type": "progress-update",
+    "time": 1538,
+    "delta": 15,
+    "data": {
+      "value": 24,
+      "delta": 1
+    },
+    "videoTimeMs": 1560
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1543,
+    "delta": 5,
+    "data": {
+      "nodesAdded": 30,
+      "textNodes": 4,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1565
+  },
+  {
+    "type": "progress-update",
+    "time": 1555,
+    "delta": 12,
+    "data": {
+      "value": 25,
+      "delta": 1
+    },
+    "videoTimeMs": 1577
+  },
+  {
+    "type": "progress-update",
+    "time": 1571,
+    "delta": 16,
+    "data": {
+      "value": 26,
+      "delta": 1
+    },
+    "videoTimeMs": 1593
+  },
+  {
+    "type": "progress-update",
+    "time": 1587,
+    "delta": 16,
+    "data": {
+      "value": 28,
+      "delta": 2
+    },
+    "videoTimeMs": 1609
+  },
+  {
+    "type": "progress-update",
+    "time": 1603,
+    "delta": 16,
+    "data": {
+      "value": 29,
+      "delta": 1
+    },
+    "videoTimeMs": 1625
+  },
+  {
+    "type": "progress-update",
+    "time": 1619,
+    "delta": 16,
+    "data": {
+      "value": 30,
+      "delta": 1
+    },
+    "videoTimeMs": 1642
+  },
+  {
+    "type": "progress-update",
+    "time": 1635,
+    "delta": 16,
+    "data": {
+      "value": 31,
+      "delta": 1
+    },
+    "videoTimeMs": 1657
+  },
+  {
+    "type": "progress-update",
+    "time": 1651,
+    "delta": 16,
+    "data": {
+      "value": 32,
+      "delta": 1
+    },
+    "videoTimeMs": 1673
+  },
+  {
+    "type": "progress-update",
+    "time": 1666,
+    "delta": 15,
+    "data": {
+      "value": 33,
+      "delta": 1
+    },
+    "videoTimeMs": 1689
+  },
+  {
+    "type": "progress-update",
+    "time": 1683,
+    "delta": 17,
+    "data": {
+      "value": 34,
+      "delta": 1
+    },
+    "videoTimeMs": 1706
+  },
+  {
+    "type": "progress-update",
+    "time": 1699,
+    "delta": 16,
+    "data": {
+      "value": 35,
+      "delta": 1
+    },
+    "videoTimeMs": 1722
+  },
+  {
+    "type": "progress-update",
+    "time": 1715,
+    "delta": 16,
+    "data": {
+      "value": 36,
+      "delta": 1
+    },
+    "videoTimeMs": 1739
+  },
+  {
+    "type": "progress-update",
+    "time": 1731,
+    "delta": 16,
+    "data": {
+      "value": 37,
+      "delta": 1
+    },
+    "videoTimeMs": 1755
+  },
+  {
+    "type": "resource-start",
+    "time": 1737,
+    "delta": 6,
+    "data": {
+      "resourceType": "link",
+      "name": "...a8-ea1d9596fa69/hl/pages/home-page.js"
+    },
+    "videoTimeMs": 1760
+  },
+  {
+    "type": "resource-css",
+    "time": 1737,
+    "delta": 0,
+    "data": {
+      "name": "...a8-ea1d9596fa69/hl/pages/home-page.js",
+      "duration": 299,
+      "transferSize": 0,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1760
+  },
+  {
+    "type": "resource-complete",
+    "time": 1737,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 0,
+      "duration": 299
+    },
+    "videoTimeMs": 1760
+  },
+  {
+    "type": "resource-error",
+    "time": 1737,
+    "delta": 0,
+    "data": {
+      "element": "link",
+      "src": "https://assets.healthline.com/_next/9a4932bc-1081-430b-82a8-ea1d9596fa69/hl/pages/home-page.js"
+    },
+    "videoTimeMs": 1760
+  },
+  {
+    "type": "progress-update",
+    "time": 1746,
+    "delta": 9,
+    "data": {
+      "value": 47,
+      "delta": 10
+    },
+    "videoTimeMs": 1769
+  },
+  {
+    "type": "progress-update",
+    "time": 1779,
+    "delta": 33,
+    "data": {
+      "value": 48,
+      "delta": 1
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "progress-update",
+    "time": 1794,
+    "delta": 15,
+    "data": {
+      "value": 49,
+      "delta": 1
+    },
+    "videoTimeMs": 1817
+  },
+  {
+    "type": "progress-update",
+    "time": 1811,
+    "delta": 17,
+    "data": {
+      "value": 50,
+      "delta": 1
+    },
+    "videoTimeMs": 1833
+  },
+  {
+    "type": "progress-update",
+    "time": 1827,
+    "delta": 16,
+    "data": {
+      "value": 51,
+      "delta": 1
+    },
+    "videoTimeMs": 1849
+  },
+  {
+    "type": "progress-update",
+    "time": 1858,
+    "delta": 31,
+    "data": {
+      "value": 52,
+      "delta": 1
+    },
+    "videoTimeMs": 1881
+  },
+  {
+    "type": "progress-update",
+    "time": 1875,
+    "delta": 17,
+    "data": {
+      "value": 53,
+      "delta": 1
+    },
+    "videoTimeMs": 1898
+  },
+  {
+    "type": "progress-update",
+    "time": 1907,
+    "delta": 32,
+    "data": {
+      "value": 54,
+      "delta": 1
+    },
+    "videoTimeMs": 1930
+  },
+  {
+    "type": "resource-start",
+    "time": 1920,
+    "delta": 13,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fc"
+    },
+    "videoTimeMs": 1948
+  },
+  {
+    "type": "resource-script",
+    "time": 1920,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fc",
+      "duration": 378,
+      "transferSize": 26846,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1948
+  },
+  {
+    "type": "resource-complete",
+    "time": 1920,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 26846,
+      "duration": 378
+    },
+    "videoTimeMs": 1948
+  },
+  {
+    "type": "progress-update",
+    "time": 1926,
+    "delta": 6,
+    "data": {
+      "value": 61,
+      "delta": 7
+    },
+    "videoTimeMs": 1948
+  },
+  {
+    "type": "first-paint",
+    "time": 1938,
+    "delta": 12,
+    "data": {
+      "startTime": 1938,
+      "synthetic": true
+    },
+    "videoTimeMs": 1960
+  },
+  {
+    "type": "first-contentful-paint",
+    "time": 1938,
+    "delta": 0,
+    "data": {
+      "startTime": 1938,
+      "synthetic": true
+    },
+    "videoTimeMs": 1961
+  },
+  {
+    "type": "resource-start",
+    "time": 1949,
+    "delta": 11,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/proxy-resource?url=https%3A%2F%2Fc"
+    },
+    "videoTimeMs": 1971
+  },
+  {
+    "type": "resource-fetch",
+    "time": 1949,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fc",
+      "duration": 29,
+      "transferSize": 26846,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 1971
+  },
+  {
+    "type": "resource-complete",
+    "time": 1949,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 26846,
+      "duration": 29
+    },
+    "videoTimeMs": 1971
+  },
+  {
+    "type": "resource-start",
+    "time": 1952,
+    "delta": 3,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 1974
+  },
+  {
+    "type": "resource-css",
+    "time": 1952,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 414,
+      "transferSize": 35375,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1974
+  },
+  {
+    "type": "resource-complete",
+    "time": 1952,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 35375,
+      "duration": 414
+    },
+    "videoTimeMs": 1974
+  },
+  {
+    "type": "resource-start",
+    "time": 1952,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 1974
+  },
+  {
+    "type": "resource-css",
+    "time": 1952,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 414,
+      "transferSize": 34883,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1974
+  },
+  {
+    "type": "resource-complete",
+    "time": 1952,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 34883,
+      "duration": 414
+    },
+    "videoTimeMs": 1974
+  },
+  {
+    "type": "progress-update",
+    "time": 1954,
+    "delta": 2,
+    "data": {
+      "value": 72,
+      "delta": 11
+    },
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "progress-update",
+    "time": 1971,
+    "delta": 17,
+    "data": {
+      "value": 73,
+      "delta": 1
+    },
+    "videoTimeMs": 1993
+  },
+  {
+    "type": "progress-update",
+    "time": 2003,
+    "delta": 32,
+    "data": {
+      "value": 74,
+      "delta": 1
+    },
+    "videoTimeMs": 2026
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2020,
+    "delta": 17,
+    "data": {
+      "nodesAdded": 546,
+      "textNodes": 292,
+      "headingNodes": 2
+    },
+    "videoTimeMs": 2042
+  },
+  {
+    "type": "progress-update",
+    "time": 2035,
+    "delta": 15,
+    "data": {
+      "value": 75,
+      "delta": 1
+    },
+    "videoTimeMs": 2057
+  },
+  {
+    "type": "resource-start",
+    "time": 2061,
+    "delta": 26,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 2083
+  },
+  {
+    "type": "resource-css",
+    "time": 2061,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 524,
+      "transferSize": 41711,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 2084
+  },
+  {
+    "type": "resource-complete",
+    "time": 2061,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 41711,
+      "duration": 524
+    },
+    "videoTimeMs": 2084
+  },
+  {
+    "type": "progress-update",
+    "time": 2067,
+    "delta": 6,
+    "data": {
+      "value": 76,
+      "delta": 1
+    },
+    "videoTimeMs": 2089
+  },
+  {
+    "type": "lcp",
+    "time": 2067,
+    "delta": 0,
+    "data": {
+      "startTime": 2064,
+      "size": 1834,
+      "element": "SPAN"
+    },
+    "videoTimeMs": 2089
+  },
+  {
+    "type": "resource-start",
+    "time": 2079,
+    "delta": 12,
+    "data": {
+      "resourceType": "link",
+      "name": "/_next/lib-433b8.js"
+    },
+    "videoTimeMs": 2101
+  },
+  {
+    "type": "resource-css",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "name": "/_next/lib-433b8.js",
+      "duration": 641,
+      "transferSize": 0,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 2101
+  },
+  {
+    "type": "resource-complete",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 0,
+      "duration": 641
+    },
+    "videoTimeMs": 2101
+  },
+  {
+    "type": "resource-error",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "element": "link",
+      "src": "https://assets.healthline.com/_next/lib-433b8.js"
+    },
+    "videoTimeMs": 2101
+  },
+  {
+    "type": "resource-start",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "name": "/_next/vendor-fd470.js"
+    },
+    "videoTimeMs": 2101
+  },
+  {
+    "type": "resource-css",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "name": "/_next/vendor-fd470.js",
+      "duration": 641,
+      "transferSize": 0,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 2101
+  },
+  {
+    "type": "resource-complete",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 0,
+      "duration": 641
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-error",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "element": "link",
+      "src": "https://assets.healthline.com/_next/vendor-fd470.js"
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-start",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "name": "/_next/felib-bd7e3.js"
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-css",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "name": "/_next/felib-bd7e3.js",
+      "duration": 641,
+      "transferSize": 0,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-complete",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 0,
+      "duration": 641
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-start",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "name": "/_next/felib-core-e48ca.js"
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-css",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "name": "/_next/felib-core-e48ca.js",
+      "duration": 641,
+      "transferSize": 0,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-complete",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 0,
+      "duration": 641
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-error",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "element": "link",
+      "src": "https://assets.healthline.com/_next/felib-bd7e3.js"
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-error",
+    "time": 2079,
+    "delta": 0,
+    "data": {
+      "element": "link",
+      "src": "https://assets.healthline.com/_next/felib-core-e48ca.js"
+    },
+    "videoTimeMs": 2102
+  },
+  {
+    "type": "resource-start",
+    "time": 2088,
+    "delta": 9,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/32A982_7_0.woff2"
+    },
+    "videoTimeMs": 2111
+  },
+  {
+    "type": "resource-css",
+    "time": 2088,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/32A982_7_0.woff2",
+      "duration": 46,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 2111
+  },
+  {
+    "type": "resource-complete",
+    "time": 2088,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 46
+    },
+    "videoTimeMs": 2111
+  },
+  {
+    "type": "progress-update",
+    "time": 2098,
+    "delta": 10,
+    "data": {
+      "value": 77,
+      "delta": 1
+    },
+    "videoTimeMs": 2120
+  },
+  {
+    "type": "progress-update",
+    "time": 2146,
+    "delta": 48,
+    "data": {
+      "value": 78,
+      "delta": 1
+    },
+    "videoTimeMs": 2168
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2149,
+    "delta": 3,
+    "data": {
+      "nodesAdded": 439,
+      "textNodes": 135,
+      "headingNodes": 1
+    },
+    "videoTimeMs": 2171
+  },
+  {
+    "type": "progress-update",
+    "time": 2178,
+    "delta": 29,
+    "data": {
+      "value": 79,
+      "delta": 1
+    },
+    "videoTimeMs": 2200
+  },
+  {
+    "type": "progress-update",
+    "time": 2226,
+    "delta": 48,
+    "data": {
+      "value": 80,
+      "delta": 1
+    },
+    "videoTimeMs": 2248
+  },
+  {
+    "type": "progress-update",
+    "time": 2275,
+    "delta": 49,
+    "data": {
+      "value": 81,
+      "delta": 1
+    },
+    "videoTimeMs": 2297
+  },
+  {
+    "type": "lcp",
+    "time": 2275,
+    "delta": 0,
+    "data": {
+      "startTime": 2272,
+      "size": 36259,
+      "element": "A"
+    },
+    "videoTimeMs": 2297
+  },
+  {
+    "type": "progress-update",
+    "time": 2338,
+    "delta": 63,
+    "data": {
+      "value": 82,
+      "delta": 1
+    },
+    "videoTimeMs": 2360
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2354,
+    "delta": 16,
+    "data": {
+      "nodesAdded": 475,
+      "textNodes": 260,
+      "headingNodes": 10
+    },
+    "videoTimeMs": 2376
+  },
+  {
+    "type": "progress-update",
+    "time": 2402,
+    "delta": 48,
+    "data": {
+      "value": 83,
+      "delta": 1
+    },
+    "videoTimeMs": 2425
+  },
+  {
+    "type": "progress-update",
+    "time": 2465,
+    "delta": 63,
+    "data": {
+      "value": 84,
+      "delta": 1
+    },
+    "videoTimeMs": 2488
+  },
+  {
+    "type": "resource-start",
+    "time": 2468,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "...leep-GettyImages-1350229949-Thumb.jpg"
+    },
+    "videoTimeMs": 2490
+  },
+  {
+    "type": "resource-img",
+    "time": 2468,
+    "delta": 0,
+    "data": {
+      "name": "...leep-GettyImages-1350229949-Thumb.jpg",
+      "duration": 222,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2490
+  },
+  {
+    "type": "resource-complete",
+    "time": 2468,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 222
+    },
+    "videoTimeMs": 2490
+  },
+  {
+    "type": "resource-start",
+    "time": 2475,
+    "delta": 7,
+    "data": {
+      "resourceType": "img",
+      "name": "...inin-GettyImages-2261521508-Thumb.jpg"
+    },
+    "videoTimeMs": 2498
+  },
+  {
+    "type": "resource-img",
+    "time": 2475,
+    "delta": 0,
+    "data": {
+      "name": "...inin-GettyImages-2261521508-Thumb.jpg",
+      "duration": 230,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2498
+  },
+  {
+    "type": "resource-complete",
+    "time": 2475,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 230
+    },
+    "videoTimeMs": 2498
+  },
+  {
+    "type": "resource-start",
+    "time": 2476,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...in-brands-UGC-thumbnail-732x549-1.jpg"
+    },
+    "videoTimeMs": 2498
+  },
+  {
+    "type": "resource-img",
+    "time": 2476,
+    "delta": 0,
+    "data": {
+      "name": "...in-brands-UGC-thumbnail-732x549-1.jpg",
+      "duration": 230,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2498
+  },
+  {
+    "type": "resource-complete",
+    "time": 2476,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 230
+    },
+    "videoTimeMs": 2498
+  },
+  {
+    "type": "resource-start",
+    "time": 2483,
+    "delta": 7,
+    "data": {
+      "resourceType": "img",
+      "name": "...-want-you-to-know-1296x728-header.png"
+    },
+    "videoTimeMs": 2505
+  },
+  {
+    "type": "resource-img",
+    "time": 2483,
+    "delta": 0,
+    "data": {
+      "name": "...-want-you-to-know-1296x728-header.png",
+      "duration": 238,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2505
+  },
+  {
+    "type": "resource-complete",
+    "time": 2483,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 238
+    },
+    "videoTimeMs": 2505
+  },
+  {
+    "type": "resource-start",
+    "time": 2489,
+    "delta": 6,
+    "data": {
+      "resourceType": "img",
+      "name": "...s/2026/01/anxietydepression-final.jpg"
+    },
+    "videoTimeMs": 2511
+  },
+  {
+    "type": "resource-img",
+    "time": 2489,
+    "delta": 0,
+    "data": {
+      "name": "...s/2026/01/anxietydepression-final.jpg",
+      "duration": 243,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2511
+  },
+  {
+    "type": "resource-complete",
+    "time": 2489,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 243
+    },
+    "videoTimeMs": 2511
+  },
+  {
+    "type": "resource-start",
+    "time": 2493,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": ".../uploads/2026/01/digestive-health.jpg"
+    },
+    "videoTimeMs": 2515
+  },
+  {
+    "type": "resource-img",
+    "time": 2493,
+    "delta": 0,
+    "data": {
+      "name": ".../uploads/2026/01/digestive-health.jpg",
+      "duration": 247,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2515
+  },
+  {
+    "type": "resource-complete",
+    "time": 2493,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 247
+    },
+    "videoTimeMs": 2515
+  },
+  {
+    "type": "resource-start",
+    "time": 2497,
+    "delta": 4,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/38C507_0_0.woff2"
+    },
+    "videoTimeMs": 2519
+  },
+  {
+    "type": "resource-css",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/38C507_0_0.woff2",
+      "duration": 455,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-complete",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 455
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-start",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...tent/uploads/2026/01/heart-health.jpg"
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-img",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "name": "...tent/uploads/2026/01/heart-health.jpg",
+      "duration": 251,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-complete",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 251
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-start",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ntent/uploads/2026/01/menopause-1.jpg"
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-img",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "name": "...ntent/uploads/2026/01/menopause-1.jpg",
+      "duration": 251,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-complete",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 251
+    },
+    "videoTimeMs": 2520
+  },
+  {
+    "type": "resource-start",
+    "time": 2498,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/wp-content/uploads/2026/01/diabetes.jpg"
+    },
+    "videoTimeMs": 2521
+  },
+  {
+    "type": "resource-img",
+    "time": 2498,
+    "delta": 0,
+    "data": {
+      "name": "/wp-content/uploads/2026/01/diabetes.jpg",
+      "duration": 252,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2521
+  },
+  {
+    "type": "resource-complete",
+    "time": 2498,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 252
+    },
+    "videoTimeMs": 2521
+  },
+  {
+    "type": "resource-start",
+    "time": 2504,
+    "delta": 6,
+    "data": {
+      "resourceType": "img",
+      "name": "...loads/2026/01/weight-managementds.jpg"
+    },
+    "videoTimeMs": 2526
+  },
+  {
+    "type": "resource-img",
+    "time": 2504,
+    "delta": 0,
+    "data": {
+      "name": "...loads/2026/01/weight-managementds.jpg",
+      "duration": 257,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2526
+  },
+  {
+    "type": "resource-complete",
+    "time": 2504,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 257
+    },
+    "videoTimeMs": 2526
+  },
+  {
+    "type": "resource-start",
+    "time": 2504,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ek-GettyImages-2215165720-Thumb-1.jpg"
+    },
+    "videoTimeMs": 2526
+  },
+  {
+    "type": "resource-img",
+    "time": 2504,
+    "delta": 0,
+    "data": {
+      "name": "...ek-GettyImages-2215165720-Thumb-1.jpg",
+      "duration": 158,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2526
+  },
+  {
+    "type": "resource-complete",
+    "time": 2504,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 158
+    },
+    "videoTimeMs": 2526
+  },
+  {
+    "type": "resource-start",
+    "time": 2507,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "...void-GettyImages-1481158695-Thumb.jpg"
+    },
+    "videoTimeMs": 2530
+  },
+  {
+    "type": "resource-img",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "name": "...void-GettyImages-1481158695-Thumb.jpg",
+      "duration": 161,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2530
+  },
+  {
+    "type": "resource-complete",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 161
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-start",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...lack-GettyImages-1799556125-Thumb.jpg"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-img",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "name": "...lack-GettyImages-1799556125-Thumb.jpg",
+      "duration": 162,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-complete",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 162
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-start",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ing-smart-watch-732x549-thumbnail.jpg"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-img",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "name": "...ing-smart-watch-732x549-thumbnail.jpg",
+      "duration": 162,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-complete",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 162
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-start",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../2026/02/couple-732x549-thumbnail.jpg"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-img",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "name": ".../2026/02/couple-732x549-thumbnail.jpg",
+      "duration": 162,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-complete",
+    "time": 2507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 162
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-start",
+    "time": 2508,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...ktop-Treatment-photo-tighter-crop.png"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-img",
+    "time": 2508,
+    "delta": 0,
+    "data": {
+      "name": "...ktop-Treatment-photo-tighter-crop.png",
+      "duration": 262,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-complete",
+    "time": 2508,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 262
+    },
+    "videoTimeMs": 2531
+  },
+  {
+    "type": "resource-start",
+    "time": 2508,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...tes-Skin-Care_Spotlight-600x900-1.png"
+    },
+    "videoTimeMs": 2532
+  },
+  {
+    "type": "resource-img",
+    "time": 2508,
+    "delta": 0,
+    "data": {
+      "name": "...tes-Skin-Care_Spotlight-600x900-1.png",
+      "duration": 163,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2532
+  },
+  {
+    "type": "resource-complete",
+    "time": 2508,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 163
+    },
+    "videoTimeMs": 2532
+  },
+  {
+    "type": "resource-start",
+    "time": 2509,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...ontent/uploads/2026/01/integrity3.jpg"
+    },
+    "videoTimeMs": 2532
+  },
+  {
+    "type": "resource-img",
+    "time": 2509,
+    "delta": 0,
+    "data": {
+      "name": "...ontent/uploads/2026/01/integrity3.jpg",
+      "duration": 163,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2532
+  },
+  {
+    "type": "resource-complete",
+    "time": 2509,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 163
+    },
+    "videoTimeMs": 2532
+  },
+  {
+    "type": "resource-start",
+    "time": 2510,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...-Program_COPD_Spotlight-600x900-1.png"
+    },
+    "videoTimeMs": 2534
+  },
+  {
+    "type": "resource-img",
+    "time": 2510,
+    "delta": 0,
+    "data": {
+      "name": "...-Program_COPD_Spotlight-600x900-1.png",
+      "duration": 164,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2534
+  },
+  {
+    "type": "resource-complete",
+    "time": 2510,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 164
+    },
+    "videoTimeMs": 2534
+  },
+  {
+    "type": "resource-start",
+    "time": 2510,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ontent/uploads/2026/01/integrity2.jpg"
+    },
+    "videoTimeMs": 2534
+  },
+  {
+    "type": "resource-img",
+    "time": 2510,
+    "delta": 0,
+    "data": {
+      "name": "...ontent/uploads/2026/01/integrity2.jpg",
+      "duration": 164,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2534
+  },
+  {
+    "type": "resource-complete",
+    "time": 2510,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 164
+    },
+    "videoTimeMs": 2534
+  },
+  {
+    "type": "resource-start",
+    "time": 2512,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...rohns-Disease_Spotlight-600x900-1.png"
+    },
+    "videoTimeMs": 2535
+  },
+  {
+    "type": "resource-img",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "name": "...rohns-Disease_Spotlight-600x900-1.png",
+      "duration": 166,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2535
+  },
+  {
+    "type": "resource-complete",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 166
+    },
+    "videoTimeMs": 2535
+  },
+  {
+    "type": "resource-start",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...emenopause-core-workout-514x370-1.png"
+    },
+    "videoTimeMs": 2535
+  },
+  {
+    "type": "resource-img",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "name": "...emenopause-core-workout-514x370-1.png",
+      "duration": 166,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2535
+  },
+  {
+    "type": "resource-complete",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 166
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-start",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/32A982_1_0.woff2"
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-css",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/32A982_1_0.woff2",
+      "duration": 470,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-complete",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 470
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-start",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ads/2026/01/Tools_Photo-desktop-b.png"
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-img",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "name": "...ads/2026/01/Tools_Photo-desktop-b.png",
+      "duration": 266,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-complete",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 266
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-start",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...deo-series-hypertension-514x370-1.png"
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-img",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "name": "...deo-series-hypertension-514x370-1.png",
+      "duration": 166,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-complete",
+    "time": 2512,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 166
+    },
+    "videoTimeMs": 2536
+  },
+  {
+    "type": "resource-start",
+    "time": 2516,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "...ontent/uploads/2026/01/integrity4.jpg"
+    },
+    "videoTimeMs": 2538
+  },
+  {
+    "type": "resource-img",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "name": "...ontent/uploads/2026/01/integrity4.jpg",
+      "duration": 167,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-complete",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 167
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-start",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...s/2026/01/What-Sets-HL-Apart-Crop.jpg"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-img",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "name": "...s/2026/01/What-Sets-HL-Apart-Crop.jpg",
+      "duration": 170,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-complete",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 170
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "lcp",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "startTime": 2516,
+      "size": 77748,
+      "element": "IMG"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-start",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...-with-yoga-mats-732x549-thumbnail.jpg"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-img",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "name": "...-with-yoga-mats-732x549-thumbnail.jpg",
+      "duration": 171,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-complete",
+    "time": 2516,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 171
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-start",
+    "time": 2517,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...01/Tools_mobile-Treatment-photo-1.png"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-img",
+    "time": 2517,
+    "delta": 0,
+    "data": {
+      "name": "...01/Tools_mobile-Treatment-photo-1.png",
+      "duration": 270,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-complete",
+    "time": 2517,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 270
+    },
+    "videoTimeMs": 2539
+  },
+  {
+    "type": "resource-start",
+    "time": 2518,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...series-intuitive-eating-514x370-1.png"
+    },
+    "videoTimeMs": 2540
+  },
+  {
+    "type": "resource-img",
+    "time": 2518,
+    "delta": 0,
+    "data": {
+      "name": "...series-intuitive-eating-514x370-1.png",
+      "duration": 172,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2540
+  },
+  {
+    "type": "resource-complete",
+    "time": 2518,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 172
+    },
+    "videoTimeMs": 2540
+  },
+  {
+    "type": "resource-start",
+    "time": 2520,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...26/02/nutrition-732x549-thumbnail.jpg"
+    },
+    "videoTimeMs": 2542
+  },
+  {
+    "type": "resource-img",
+    "time": 2520,
+    "delta": 0,
+    "data": {
+      "name": "...26/02/nutrition-732x549-thumbnail.jpg",
+      "duration": 274,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2542
+  },
+  {
+    "type": "resource-complete",
+    "time": 2520,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 274
+    },
+    "videoTimeMs": 2542
+  },
+  {
+    "type": "resource-start",
+    "time": 2520,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...oads/2026/01/Tools-photo-mobile-b.png"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-img",
+    "time": 2520,
+    "delta": 0,
+    "data": {
+      "name": "...oads/2026/01/Tools-photo-mobile-b.png",
+      "duration": 274,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-complete",
+    "time": 2520,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 274
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-start",
+    "time": 2521,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...ght_black_health_update_600x900-1.jpg"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-img",
+    "time": 2521,
+    "delta": 0,
+    "data": {
+      "name": "...ght_black_health_update_600x900-1.jpg",
+      "duration": 175,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-complete",
+    "time": 2521,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 175
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-start",
+    "time": 2521,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...o-series-tamara-marbury-514x370-1.png"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-img",
+    "time": 2521,
+    "delta": 0,
+    "data": {
+      "name": "...o-series-tamara-marbury-514x370-1.png",
+      "duration": 76,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-complete",
+    "time": 2521,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 76
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-start",
+    "time": 2531,
+    "delta": 10,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/32A982_7_0.woff"
+    },
+    "videoTimeMs": 2553
+  },
+  {
+    "type": "resource-css",
+    "time": 2531,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/32A982_7_0.woff",
+      "duration": 443,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 2553
+  },
+  {
+    "type": "resource-complete",
+    "time": 2531,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 443
+    },
+    "videoTimeMs": 2553
+  },
+  {
+    "type": "progress-update",
+    "time": 2549,
+    "delta": 18,
+    "data": {
+      "value": 85,
+      "delta": 1
+    },
+    "videoTimeMs": 2571
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2549,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 135,
+      "textNodes": 78,
+      "headingNodes": 6
+    },
+    "videoTimeMs": 2572
+  },
+  {
+    "type": "progress-update",
+    "time": 2658,
+    "delta": 109,
+    "data": {
+      "value": 86,
+      "delta": 1
+    },
+    "videoTimeMs": 2680
+  },
+  {
+    "type": "dom-ready",
+    "time": 2748,
+    "delta": 90,
+    "data": {},
+    "videoTimeMs": 2771
+  },
+  {
+    "type": "resource-error",
+    "time": 2749,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "https://assets.healthline.com/_next/vendor-fd470.js"
+    },
+    "videoTimeMs": 2771
+  },
+  {
+    "type": "resource-error",
+    "time": 2749,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "https://assets.healthline.com/_next/lib-433b8.js"
+    },
+    "videoTimeMs": 2771
+  },
+  {
+    "type": "resource-error",
+    "time": 2749,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "https://assets.healthline.com/_next/felib-bd7e3.js"
+    },
+    "videoTimeMs": 2771
+  },
+  {
+    "type": "resource-error",
+    "time": 2749,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "https://assets.healthline.com/_next/felib-core-e48ca.js"
+    },
+    "videoTimeMs": 2771
+  },
+  {
+    "type": "resource-error",
+    "time": 2749,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "https://assets.healthline.com/_next/9a4932bc-1081-430b-82a8-ea1d9596fa69/hl/pages/home-page.js"
+    },
+    "videoTimeMs": 2771
+  },
+  {
+    "type": "resource-start",
+    "time": 2783,
+    "delta": 34,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/32A982_9_0.woff2"
+    },
+    "videoTimeMs": 2805
+  },
+  {
+    "type": "resource-css",
+    "time": 2783,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/32A982_9_0.woff2",
+      "duration": 539,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 2805
+  },
+  {
+    "type": "resource-complete",
+    "time": 2783,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 539
+    },
+    "videoTimeMs": 2805
+  },
+  {
+    "type": "progress-update",
+    "time": 2787,
+    "delta": 4,
+    "data": {
+      "value": 87,
+      "delta": 1
+    },
+    "videoTimeMs": 2809
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2850,
+    "delta": 63,
+    "data": {
+      "nodesAdded": 17,
+      "textNodes": 5,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 2872
+  },
+  {
+    "type": "progress-update",
+    "time": 2947,
+    "delta": 97,
+    "data": {
+      "value": 88,
+      "delta": 1
+    },
+    "videoTimeMs": 2969
+  },
+  {
+    "type": "resource-start",
+    "time": 2948,
+    "delta": 1,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/38C507_0_0.woff"
+    },
+    "videoTimeMs": 2970
+  },
+  {
+    "type": "resource-css",
+    "time": 2948,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/38C507_0_0.woff",
+      "duration": 451,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 2970
+  },
+  {
+    "type": "resource-complete",
+    "time": 2948,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 451
+    },
+    "videoTimeMs": 2970
+  },
+  {
+    "type": "resource-start",
+    "time": 2966,
+    "delta": 18,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/32A982_1_0.woff"
+    },
+    "videoTimeMs": 2988
+  },
+  {
+    "type": "resource-css",
+    "time": 2966,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/32A982_1_0.woff",
+      "duration": 453,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 2988
+  },
+  {
+    "type": "resource-complete",
+    "time": 2966,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 453
+    },
+    "videoTimeMs": 2988
+  },
+  {
+    "type": "progress-update",
+    "time": 3202,
+    "delta": 236,
+    "data": {
+      "value": 89,
+      "delta": 1
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-start",
+    "time": 3308,
+    "delta": 106,
+    "data": {
+      "resourceType": "css",
+      "name": "/fonts/proxima/v1/32A982_9_0.woff"
+    },
+    "videoTimeMs": 3330
+  },
+  {
+    "type": "resource-css",
+    "time": 3308,
+    "delta": 0,
+    "data": {
+      "name": "/fonts/proxima/v1/32A982_9_0.woff",
+      "duration": 525,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 3330
+  },
+  {
+    "type": "resource-complete",
+    "time": 3308,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 525
+    },
+    "videoTimeMs": 3330
+  },
+  {
+    "type": "text-settled",
+    "time": 3351,
+    "delta": 43,
+    "data": {},
+    "videoTimeMs": 3373
+  },
+  {
+    "type": "progress-update",
+    "time": 3747,
+    "delta": 396,
+    "data": {
+      "value": 90,
+      "delta": 1
+    },
+    "videoTimeMs": 3769
+  },
+  {
+    "type": "resource-start",
+    "time": 5331,
+    "delta": 1584,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fg"
+    },
+    "videoTimeMs": 5358
+  },
+  {
+    "type": "resource-script",
+    "time": 5331,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fg",
+      "duration": 3409,
+      "transferSize": 375707,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 5358
+  },
+  {
+    "type": "resource-complete",
+    "time": 5331,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 375707,
+      "duration": 3409
+    },
+    "videoTimeMs": 5358
+  },
+  {
+    "type": "resource-start",
+    "time": 5435,
+    "delta": 104,
+    "data": {
+      "resourceType": "script",
+      "name": "/gtm.js?id=GTM-MB6365D&gtg_"
+    },
+    "videoTimeMs": 5457
+  },
+  {
+    "type": "resource-script",
+    "time": 5435,
+    "delta": 0,
+    "data": {
+      "name": "/gtm.js?id=GTM-MB6365D&gtg_",
+      "duration": 95,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "resource-complete",
+    "time": 5435,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 95
+    },
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "nav-fetch-start",
+    "time": 0.2999999523162842,
+    "delta": -5434.700000047684,
+    "data": {
+      "value": 0
+    },
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "nav-response-start",
+    "time": 1433,
+    "delta": 1432.7000000476837,
+    "data": {},
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "nav-response-end",
+    "time": 2746.7999999523163,
+    "delta": 1313.7999999523163,
+    "data": {},
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "progress-update",
+    "time": 5436,
+    "delta": 2689.2000000476837,
+    "data": {
+      "value": 100,
+      "delta": 10
+    },
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "progress-complete",
+    "time": 5436,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "window-load",
+    "time": 5436,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 5458
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5443,
+    "delta": 7,
+    "data": {
+      "nodesAdded": 3,
+      "textNodes": 2,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 5465
+  },
+  {
+    "type": "resource-start",
+    "time": 5773,
+    "delta": 330,
+    "data": {
+      "resourceType": "other",
+      "name": "/proxy-resource?url=https%3A%2F%2Fi"
+    },
+    "videoTimeMs": 5795
+  },
+  {
+    "type": "resource-other",
+    "time": 5773,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fi",
+      "duration": 336,
+      "transferSize": 6265,
+      "initiatorType": "other"
+    },
+    "videoTimeMs": 5795
+  },
+  {
+    "type": "resource-complete",
+    "time": 5773,
+    "delta": 0,
+    "data": {
+      "resourceType": "other",
+      "transferSize": 6265,
+      "duration": 336
+    },
+    "videoTimeMs": 5795
+  }
+]

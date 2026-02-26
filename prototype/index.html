@@ -629,14 +629,8 @@
       }
 
       // URL combobox dropdown
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:631',message:'Before URL dropdown setup',data:{},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
       const urlDropdown = document.getElementById('url-dropdown');
       const urlCombobox = document.getElementById('url-combobox');
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:637',message:'URL dropdown elements',data:{urlDropdown:!!urlDropdown,urlCombobox:!!urlCombobox},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
 
       function openDropdown() {
         urlDropdown.hidden = false;
@@ -779,20 +773,11 @@
         scaleContainer(viewportImproved, containerImproved);
       }
 
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:789',message:'Before ResizeObserver setup',data:{viewportDDG:!!viewportDDG,containerDDG:!!containerDDG,viewportImproved:!!viewportImproved,containerImproved:!!containerImproved},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
       new ResizeObserver(scaleAll).observe(viewportDDG);
       new ResizeObserver(scaleAll).observe(viewportImproved);
       scaleAll();
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:796',message:'After scaleAll called',data:{},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
 
       // Tab switching
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:781',message:'Before tab switching setup',data:{tabBtnsCount:document.querySelectorAll('.tab-btn').length},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
       document.querySelectorAll('.tab-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -801,19 +786,10 @@
           document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
         });
       });
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:793',message:'After tab switching setup',data:{},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
 
       // Split panel drag handle
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:797',message:'Before drag handle setup',data:{},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
       const splitHandle = document.getElementById('split-handle');
       const splitMain = document.querySelector('.split-main');
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:803',message:'Drag handle elements',data:{splitHandle:!!splitHandle,splitMain:!!splitMain},timestamp:Date.now(),hypothesisId:'C'})}).catch(()=>{});
-      // #endregion
       let isDragging = false;
 
       splitHandle.addEventListener('mousedown', (e) => {
@@ -845,9 +821,6 @@
         pageIframeDDG.style.pointerEvents = '';
         pageIframeImproved.style.pointerEvents = '';
       });
-      // #region agent log
-      fetch('http://127.0.0.1:7386/ingest/2893908c-bec6-4b61-ab13-1f8010937e33',{method:'POST',headers:{'Content-Type':'application/json','X-Debug-Session-Id':'7fb85a'},body:JSON.stringify({sessionId:'7fb85a',location:'index.html:840',message:'IIFE complete',data:{},timestamp:Date.now(),hypothesisId:'B'})}).catch(()=>{});
-      // #endregion
     })();
   </script>
   <script>

@@ -25,6 +25,7 @@
     .browser-preview-page .params-sidebar {
       display: flex;
       flex-direction: column;
+      min-height: 0;
       background: var(--bg-secondary);
       overflow: hidden;
       border-left: 1px solid var(--border-color);
@@ -36,6 +37,423 @@
       font-weight: 600;
       color: var(--text-primary);
       border-bottom: 1px solid var(--border-color);
+    }
+    .browser-preview-page .preset-controls {
+      display: flex;
+      gap: 8px;
+      padding: 12px 16px;
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+    .preset-modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .preset-modal-backdrop.open {
+      display: flex;
+    }
+    .preset-modal {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      min-width: 320px;
+      max-width: 90%;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    }
+    .preset-modal-title {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+    }
+    .preset-modal-input {
+      width: 100%;
+      padding: 10px 12px;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 14px;
+      outline: none;
+      margin-bottom: 16px;
+    }
+    .preset-modal-input:focus {
+      border-color: var(--accent-blue);
+    }
+    .preset-modal-select {
+      width: 100%;
+      padding: 10px 12px;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      color: var(--text-primary);
+      font-size: 14px;
+      margin-bottom: 8px;
+    }
+    .preset-modal-select:focus {
+      border-color: var(--accent-blue);
+      outline: none;
+    }
+    .preset-modal-actions {
+      display: flex;
+      gap: 8px;
+      justify-content: flex-end;
+    }
+    .browser-preview-page .params-form {
+      flex: 1;
+      overflow-y: auto;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .browser-preview-page .params-section-title {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      padding: 16px 16px 8px;
+      margin-top: 4px;
+    }
+    .browser-preview-page .params-section-title:first-of-type {
+      margin-top: 0;
+      padding-top: 12px;
+    }
+    .browser-preview-page .param-hex-field {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex-shrink: 0;
+    }
+    .browser-preview-page .param-hex-swatch {
+      width: 24px;
+      height: 20px;
+      border-radius: 4px;
+      border: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+    .browser-preview-page .param-hex-input {
+      width: 88px;
+      padding: 6px 10px;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 12px;
+      font-family: ui-monospace, monospace;
+      outline: none;
+    }
+    .browser-preview-page .param-hex-input:focus {
+      border-color: var(--accent-blue);
+    }
+    .browser-preview-page .param-pct-input {
+      width: 52px;
+      padding: 6px 8px;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 12px;
+      font-family: ui-monospace, monospace;
+      text-align: right;
+      outline: none;
+    }
+    .browser-preview-page .param-pct-input:focus {
+      border-color: var(--accent-blue);
+    }
+    .browser-preview-page .color-stop-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .browser-preview-page .color-stop-row:last-of-type {
+      border-bottom: none;
+    }
+    .browser-preview-page .color-stop-row .param-hex-field {
+      flex: 1;
+      min-width: 0;
+    }
+    .browser-preview-page .color-stop-row .param-hex-input {
+      flex: 1;
+      min-width: 60px;
+    }
+    .browser-preview-page .color-stop-remove {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      padding: 0;
+      background: transparent;
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-secondary);
+      cursor: pointer;
+      flex-shrink: 0;
+      font-size: 16px;
+      line-height: 1;
+    }
+    .browser-preview-page .color-stop-add {
+      margin-top: 8px;
+      padding: 6px 12px;
+      font-size: 12px;
+    }
+    /* Color dropdown */
+    .browser-preview-page .color-dropdown {
+      position: relative;
+      flex-shrink: 0;
+    }
+    .browser-preview-page .color-dropdown-trigger {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      min-width: 140px;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-secondary);
+      font-size: 12px;
+      cursor: pointer;
+      text-align: left;
+    }
+    .browser-preview-page .color-dropdown-trigger:hover {
+      border-color: var(--text-muted);
+    }
+    .browser-preview-page .color-dropdown.open .color-dropdown-trigger {
+      border-color: var(--accent-blue);
+    }
+    .browser-preview-page .color-dropdown-swatch {
+      width: 20px;
+      height: 16px;
+      border-radius: 3px;
+      border: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+    .browser-preview-page .color-dropdown-label {
+      flex: 1;
+      min-width: 0;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .browser-preview-page .color-dropdown-arrow {
+      font-size: 10px;
+      color: var(--text-muted);
+    }
+    /* Color picker modal - positioned over trigger, no overlay */
+    .color-picker-modal-backdrop {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: transparent;
+      z-index: 10000;
+      display: none;
+      pointer-events: none;
+    }
+    .color-picker-modal-backdrop.open {
+      display: block;
+    }
+    .color-picker-modal-backdrop.open .color-picker-modal {
+      pointer-events: auto;
+    }
+    .browser-preview-page .color-fields-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
+      border: none;
+      min-height: 0;
+    }
+    .browser-preview-page .color-fields-row[hidden],
+    .browser-preview-page .param-row[hidden] {
+      display: none !important;
+    }
+    .browser-preview-page .split-handle {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--border-color);
+      cursor: col-resize;
+      user-select: none;
+      z-index: 10;
+    }
+    .browser-preview-page .split-handle-grip {
+      width: 2px;
+      height: 24px;
+      background: repeating-linear-gradient(
+        to bottom,
+        var(--text-muted) 0px,
+        var(--text-muted) 2px,
+        transparent 2px,
+        transparent 5px
+      );
+    }
+    .color-picker-modal {
+      position: fixed;
+      background: var(--bg-tertiary);
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      box-shadow: 0 16px 48px rgba(0, 0, 0, 0.5);
+      min-width: 280px;
+      max-width: 360px;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .color-picker-modal .color-dropdown-search {
+      padding: 12px;
+      border-bottom: 1px solid var(--border-color);
+      flex-shrink: 0;
+    }
+    .color-picker-modal .color-dropdown-search input {
+      width: 100%;
+      padding: 8px 12px;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 12px;
+      outline: none;
+    }
+    .color-picker-modal .color-dropdown-search input:focus {
+      border-color: var(--accent-blue);
+    }
+    .color-picker-modal .color-dropdown-list {
+      max-height: 400px;
+      overflow-y: auto;
+      padding: 8px 0;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+    .color-picker-modal .color-dropdown-list::-webkit-scrollbar {
+      display: none;
+    }
+    .color-picker-modal .color-dropdown-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      background: transparent;
+      border: none;
+      width: 100%;
+      color: var(--text-secondary);
+      font-size: 12px;
+      text-align: left;
+      cursor: pointer;
+      transition: background 0.1s, color 0.1s;
+    }
+    .color-picker-modal .color-dropdown-option:hover {
+      background: rgba(74, 158, 255, 0.12);
+      color: var(--text-primary);
+    }
+    .color-picker-modal .color-dropdown-option .color-dropdown-swatch {
+      width: 18px;
+      height: 14px;
+      border-radius: 3px;
+      border: 1px solid var(--border-color);
+    }
+    .browser-preview-page .color-dropdown-search {
+      padding: 8px;
+      border-bottom: 1px solid var(--border-color);
+    }
+    .browser-preview-page .color-dropdown-search input {
+      width: 100%;
+      padding: 6px 10px;
+      background: var(--input-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 6px;
+      color: var(--text-primary);
+      font-size: 12px;
+      outline: none;
+    }
+    .browser-preview-page .color-dropdown-search input:focus {
+      border-color: var(--accent-blue);
+    }
+    .browser-preview-page .color-dropdown-search input::placeholder {
+      color: var(--text-muted);
+    }
+    .browser-preview-page .color-dropdown-list {
+      max-height: 200px;
+      overflow-y: auto;
+      padding: 4px 0;
+    }
+    .browser-preview-page .color-dropdown-option {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 12px;
+      background: transparent;
+      border: none;
+      width: 100%;
+      color: var(--text-secondary);
+      font-size: 12px;
+      text-align: left;
+      cursor: pointer;
+      transition: background 0.1s, color 0.1s;
+    }
+    .browser-preview-page .color-dropdown-option:hover {
+      background: rgba(74, 158, 255, 0.12);
+      color: var(--text-primary);
+    }
+    .browser-preview-page .color-dropdown-option .color-dropdown-swatch {
+      width: 18px;
+      height: 14px;
+    }
+    .browser-preview-page .color-dropdown-empty-msg {
+      padding: 12px 16px;
+      font-size: 12px;
+      color: var(--text-muted);
+      text-align: center;
+    }
+    @keyframes gradient-shift {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+    .browser-preview-page .progress-bar .banding-band {
+      display: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background: var(--banding-color, red);
+      opacity: var(--banding-opacity, 0.35);
+      pointer-events: none;
+    }
+    .browser-preview-page .progress-bar.banding .banding-band {
+      display: block;
+    }
+    .browser-preview-page .progress-bar.banding {
+      position: relative;
+      overflow: hidden;
+    }
+    .browser-preview-page .color-fields-row {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
+      border: none;
+      min-height: 0;
+    }
+    .browser-preview-page .color-fields-row[hidden],
+    .browser-preview-page .param-row[hidden] {
+      display: none !important;
+    }
+    .browser-preview-page .split-handle:hover,
+    .browser-preview-page .split-handle.dragging {
+      background: var(--accent-blue);
     }
     @media (max-width: 900px) {
       .browser-preview-page .split-main {
@@ -49,6 +467,9 @@
         border-left: none;
         border-top: 1px solid var(--border-color);
         max-height: 280px;
+      }
+      .browser-preview-page .control-bar {
+        flex-wrap: wrap;
       }
     }
     .browser-preview-page .browser-preview-area {
@@ -72,6 +493,16 @@
     }
     .browser-preview-page .browser-slot-label {
       display: none;
+    }
+    /* Remove hover states */
+    .browser-preview-page .btn-primary:hover {
+      background: var(--btn-primary-bg);
+    }
+    .browser-preview-page .btn-secondary:hover {
+      background: var(--btn-secondary-bg);
+    }
+    .browser-preview-page .url-bar-icon-btn:hover {
+      background: transparent;
     }
   </style>
 </head>
@@ -102,6 +533,13 @@
           <option value="3g" selected>3G</option>
           <option value="slow-3g">Slow 3G</option>
         </select>
+      </div>
+      <div class="control-group">
+        <label for="fake-data-toggle">Captured data</label>
+        <label class="param-toggle">
+          <input type="checkbox" id="fake-data-toggle" checked>
+          <span class="param-toggle-track"></span>
+        </label>
       </div>
       <button id="clear-btn" class="btn btn-secondary">Clear</button>
     </header>
@@ -146,7 +584,10 @@
                   </div>
                 </div>
                 <div class="progress-bar-container">
-                  <div class="progress-bar" id="progress-bar"></div>
+                  <div class="progress-bar" id="progress-bar">
+                    <span class="banding-band" id="banding-band-1"></span>
+                    <span class="banding-band banding-band-2" id="banding-band-2"></span>
+                  </div>
                 </div>
               </div>
               <div class="url-bar-toolbar">
@@ -162,11 +603,14 @@
               </div>
             </div>
           </div>
-          <iframe
-            id="page-iframe"
-            class="page-iframe"
-            sandbox="allow-scripts allow-same-origin allow-forms"
-          ></iframe>
+          <div class="iframe-wrap">
+            <iframe
+              id="page-iframe"
+              class="page-iframe"
+              sandbox="allow-scripts allow-same-origin allow-forms"
+            ></iframe>
+            <img class="capture-screenshot" id="capture-screenshot" hidden>
+          </div>
         </div>
       </div>
         </section>
@@ -176,14 +620,165 @@
           <div class="split-handle-grip"></div>
         </div>
 
-        <!-- Parameters Sidebar (blank) -->
+        <!-- Parameters Sidebar -->
         <aside class="params-sidebar">
+          <h2 class="params-sidebar-title">Parameters</h2>
+          <div class="preset-controls">
+            <select id="preset-select" class="param-select" style="flex: 1; min-width: 0;">
+              <option value="">-- Select preset --</option>
+            </select>
+            <button type="button" id="preset-save-btn" class="btn btn-secondary" style="flex-shrink: 0;">Save</button>
+            <button type="button" id="preset-default-btn" class="btn btn-secondary" style="flex-shrink: 0;" title="Make current preset the default">★</button>
+          </div>
+          <div class="params-form">
+            <h3 class="params-section-title">Progress bar</h3>
+            <div class="param-row">
+              <label class="param-label" for="param-progress-height">Height (px)</label>
+              <input type="number" id="param-progress-height" class="param-pct-input" value="2" min="1" max="24" step="1" aria-label="Progress bar height in pixels" style="width: 64px;">
+            </div>
+            <div class="param-row">
+              <label class="param-label" for="param-banding">Banding animation</label>
+              <label class="param-toggle">
+                <input type="checkbox" id="param-banding">
+                <span class="param-toggle-track"></span>
+              </label>
+            </div>
+            <div id="banding-speed-row" class="param-row" hidden>
+              <label class="param-label" for="param-banding-speed">Banding speed</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-banding-speed" class="param-slider" min="0.5" max="4" step="0.1" value="2">
+                <span class="param-slider-value" id="param-banding-speed-val">2</span>
+              </div>
+            </div>
+            <div id="banding-curve-row" class="param-row" hidden>
+              <label class="param-label" for="param-banding-curve">Animation curve</label>
+              <select id="param-banding-curve" class="param-select">
+                <option value="linear">Linear</option>
+                <option value="easeOut" selected>easeOut</option>
+                <option value="easeOutQuad">easeOutQuad</option>
+                <option value="easeOutCubic">easeOutCubic</option>
+                <option value="easeOutQuint">easeOutQuint</option>
+                <option value="easeInOutQuad">easeInOutQuad</option>
+                <option value="easeInOutCubic">easeInOutCubic</option>
+                <option value="easeInOutQuint">easeInOutQuint</option>
+              </select>
+            </div>
+            <div id="banding-opacity-row" class="param-row" hidden>
+              <label class="param-label" for="param-banding-opacity">Banding opacity</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-banding-opacity" class="param-slider" min="0" max="100" step="1" value="35">
+                <span class="param-slider-value" id="param-banding-opacity-val">35</span>
+              </div>
+            </div>
+            <div id="banding-length-start-row" class="param-row" hidden>
+              <label class="param-label" for="param-banding-length-start">Band length at start</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-banding-length-start" class="param-slider" min="5" max="60" step="1" value="10">
+                <span class="param-slider-value" id="param-banding-length-start-val">10</span>
+              </div>
+            </div>
+            <div id="banding-length-end-row" class="param-row" hidden>
+              <label class="param-label" for="param-banding-length-end">Band length at end</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-banding-length-end" class="param-slider" min="5" max="60" step="1" value="30">
+                <span class="param-slider-value" id="param-banding-length-end-val">30</span>
+              </div>
+            </div>
+            <div id="banding-color-row" class="param-row" hidden>
+              <label class="param-label" for="param-banding-color-trigger">Banding color</label>
+              <div id="banding-color-dropdown" class="color-dropdown">
+                <button type="button" id="param-banding-color-trigger" class="color-dropdown-trigger" aria-haspopup="dialog" aria-expanded="false" aria-label="Select banding color">
+                  <span class="color-dropdown-swatch" id="param-banding-color-swatch" style="background-color: #F5FBFE"></span>
+                  <span class="color-dropdown-label" id="param-banding-color-label">pondwater-0</span>
+                  <span class="color-dropdown-arrow">▼</span>
+                </button>
+              </div>
+            </div>
+            <div id="banding-loop-offset-row" class="param-row" hidden>
+              <label class="param-label" for="param-banding-loop-offset">Loop offset</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-banding-loop-offset" class="param-slider" min="-1.5" max="1.5" step="0.1" value="0">
+                <span class="param-slider-value" id="param-banding-loop-offset-val">0s</span>
+              </div>
+            </div>
+            <h3 class="params-section-title">Color</h3>
+            <div class="param-row">
+              <label class="param-label" for="param-color-type">Color type</label>
+              <select id="param-color-type" class="param-select">
+                <option value="solid" selected>Solid</option>
+                <option value="linear">Linear</option>
+              </select>
+            </div>
+            <div id="color-solid-row" class="param-row">
+              <label class="param-label" for="param-color-solid">Color</label>
+              <div id="color-solid-dropdown" class="color-dropdown">
+                <button type="button" id="param-color-solid-trigger" class="color-dropdown-trigger" aria-haspopup="dialog" aria-expanded="false" aria-label="Select color">
+                  <span class="color-dropdown-swatch" id="param-color-solid-swatch" style="background-color: #3969EF"></span>
+                  <span class="color-dropdown-label" id="param-color-solid-label">pondwater-60</span>
+                  <span class="color-dropdown-arrow">▼</span>
+                </button>
+              </div>
+            </div>
+            <div id="color-linear-row" class="color-fields-row" hidden>
+              <div id="color-stops-container"></div>
+              <button type="button" id="color-stop-add" class="btn btn-secondary color-stop-add">+ Add stop</button>
+              <div class="param-row" style="margin-top: 12px;">
+                <label class="param-label" for="param-gradient-animate">Animate gradient</label>
+                <label class="param-toggle">
+                  <input type="checkbox" id="param-gradient-animate">
+                  <span class="param-toggle-track"></span>
+                </label>
+              </div>
+              <div id="gradient-animate-curve-row" class="param-row" hidden>
+                <label class="param-label" for="param-gradient-curve">Animation curve</label>
+                <select id="param-gradient-curve" class="param-select">
+                  <option value="linear">Linear</option>
+                  <option value="ease-in">Ease in</option>
+                  <option value="ease-out">Ease out</option>
+                  <option value="ease-in-out" selected>Ease in-out</option>
+                </select>
+              </div>
+              <div id="gradient-animate-speed-row" class="param-row" hidden>
+                <label class="param-label" for="param-gradient-speed">Speed</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-gradient-speed" class="param-slider" min="0.5" max="5" step="0.5" value="2.5">
+                  <span class="param-slider-value" id="param-gradient-speed-val">2.5</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </aside>
       </div>
     </main>
   </div>
 
-  <script src="progress-bar.js"></script>
+  <!-- Color picker modal - positioned over trigger -->
+  <div id="color-picker-modal-backdrop" class="color-picker-modal-backdrop" aria-hidden="true">
+    <div class="color-picker-modal" role="dialog" aria-label="Select color">
+      <div class="color-dropdown-search">
+        <input type="text" id="color-picker-modal-search" placeholder="Search colors..." aria-label="Filter colors">
+      </div>
+      <div class="color-dropdown-list" id="color-picker-modal-list"></div>
+    </div>
+  </div>
+
+  <!-- Preset save modal -->
+  <div id="preset-modal-backdrop" class="preset-modal-backdrop" aria-hidden="true">
+    <div class="preset-modal" role="dialog" aria-label="Save preset">
+      <h3 class="preset-modal-title">Save Preset</h3>
+      <select id="preset-modal-existing" class="preset-modal-select">
+        <option value="">-- New preset --</option>
+      </select>
+      <input type="text" id="preset-name-input" class="preset-modal-input" placeholder="Enter preset name..." maxlength="50">
+      <div class="preset-modal-actions">
+        <button type="button" id="preset-modal-cancel" class="btn btn-secondary">Cancel</button>
+        <button type="button" id="preset-modal-save" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="progress-bar.js?v=20260226"></script>
+  <script src="capture-player.js?v=20260226"></script>
   <script>
     (function() {
       const urlInput = document.getElementById('url-input');
@@ -191,16 +786,19 @@
       const demoBtn = document.getElementById('demo-btn');
       const clearBtn = document.getElementById('clear-btn');
       const speedSelect = document.getElementById('speed-select');
+      const fakeDataToggle = document.getElementById('fake-data-toggle');
       const pageIframe = document.getElementById('page-iframe');
+      const captureScreenshot = document.getElementById('capture-screenshot');
       const progressBarEl = document.getElementById('progress-bar');
+      const progressBarContainer = progressBarEl.closest('.progress-bar-container');
       const androidUrlText = document.getElementById('android-url-text');
 
       const progressBar = new ProgressBar(progressBarEl, {
         getInitialProgress: () => 50,
         onComplete: () => progressBar.showAt(50)
       });
+      const capturePlayer = new CapturePlayer();
 
-      // Default: show bar at 50%
       progressBar.showAt(50);
 
       let stallTimer = null;
@@ -221,6 +819,23 @@
         androidUrlText.textContent = text;
       }
 
+      function hideScreenshot() {
+        captureScreenshot.hidden = true;
+        captureScreenshot.removeAttribute('src');
+        pageIframe.hidden = false;
+      }
+
+      function showScreenshot(src) {
+        pageIframe.hidden = true;
+        captureScreenshot.src = src;
+        captureScreenshot.hidden = false;
+      }
+
+      speedSelect.disabled = fakeDataToggle.checked;
+      fakeDataToggle.addEventListener('change', () => {
+        speedSelect.disabled = fakeDataToggle.checked;
+      });
+
       function loadUrl() {
         let url = urlInput.value.trim();
         if (!url) return;
@@ -230,23 +845,63 @@
           urlInput.value = url;
         }
 
+        let hostname = '';
         try {
           const parsed = new URL(url);
-          setUrlBarText(parsed.hostname + (parsed.pathname !== '/' ? parsed.pathname : ''));
+          hostname = parsed.hostname;
+          setUrlBarText(hostname + (parsed.pathname !== '/' ? parsed.pathname : ''));
         } catch {
           setUrlBarText(url);
         }
 
+        capturePlayer.stop();
+        hideScreenshot();
         progressBar.reset();
         progressBar.start();
-        resetStallTimer();
 
+        if (fakeDataToggle.checked && hostname) {
+          loadCapturedData(hostname);
+        } else {
+          loadLive(url);
+        }
+      }
+
+      function loadLive(url) {
+        resetStallTimer();
         const throttle = speedSelect.value;
         const proxyUrl = `/proxy?url=${encodeURIComponent(url)}&throttle=${throttle}`;
         pageIframe.src = proxyUrl;
       }
 
+      async function loadCapturedData(hostname) {
+        const hasData = await capturePlayer.hasCapture(hostname);
+        if (!hasData) {
+          alert(`No captured data for "${hostname}". Falling back to live mode.`);
+          fakeDataToggle.checked = false;
+          speedSelect.disabled = false;
+          loadLive('https://' + hostname);
+          return;
+        }
+
+        pageIframe.src = 'about:blank';
+
+        capturePlayer.play(hostname, {
+          onEvent(evt) {
+            if (evt.screenshotFile) {
+              showScreenshot(evt.screenshotFile);
+            }
+
+            if (evt.type === 'window-load') {
+              clearStallTimer();
+              progressBar.complete();
+            }
+          },
+        });
+      }
+
       function loadDemo() {
+        capturePlayer.stop();
+        hideScreenshot();
         setUrlBarText('demo');
         progressBar.startFrom(50);
         resetStallTimer();
@@ -258,7 +913,9 @@
       urlInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') loadUrl(); });
 
       clearBtn.addEventListener('click', () => {
+        capturePlayer.stop();
         clearStallTimer();
+        hideScreenshot();
         progressBar.showAt(50);
         pageIframe.src = 'about:blank';
         urlInput.value = '';
@@ -300,53 +957,700 @@
       new ResizeObserver(scaleContainer).observe(viewport);
       scaleContainer();
 
+      // Color parameters: toggle Solid vs Linear
+      const colorTypeSelect = document.getElementById('param-color-type');
+      const colorSolidRow = document.getElementById('color-solid-row');
+      const colorLinearRow = document.getElementById('color-linear-row');
+
+      function updateColorVisibility() {
+        const isSolid = colorTypeSelect.value === 'solid';
+        colorSolidRow.hidden = !isSolid;
+        colorLinearRow.hidden = isSolid;
+      }
+
+      colorTypeSelect.addEventListener('change', updateColorVisibility);
+      updateColorVisibility();
+
+      // Load RB colors from rb-colors.css
+      let rbColors = [];
+      let solidColorHex = '#1074CC';
+      let bandingColorHex = '#F5FBFE';
+
+      fetch('rb-colors.css')
+        .then(r => r.text())
+        .then(css => {
+          const re = /--rb-([a-z]+)-(\d+):\s*(#[0-9A-Fa-f]{3,8})/g;
+          let m;
+          while ((m = re.exec(css)) !== null) {
+            rbColors.push({ name: `${m[1]}-${m[2]}`, hex: m[3] });
+          }
+          initColorDropdowns();
+          renderColorStops();
+          loadDefaultPreset();
+        })
+        .catch(() => {
+          rbColors = [{ name: 'pondwater-60', hex: '#1074CC' }];
+          initColorDropdowns();
+          renderColorStops();
+          loadDefaultPreset();
+        });
+
+      function getColorName(hex) {
+        const h = (hex || '').toLowerCase();
+        return rbColors.find(c => c.hex.toLowerCase() === h)?.name || null;
+      }
+
+      function renderColorList(listEl, searchInput, colors, filter) {
+        const q = (filter || '').toLowerCase();
+        const filtered = q ? colors.filter(c =>
+          c.name.toLowerCase().includes(q) || c.hex.toLowerCase().includes(q)
+        ) : colors;
+        listEl.innerHTML = filtered.length
+          ? filtered.map(c => `
+            <button type="button" class="color-dropdown-option" role="option" data-hex="${c.hex}" data-name="${c.name}">
+              <span class="color-dropdown-swatch" style="background-color: ${c.hex}"></span>
+              <span style="flex: 1;">${c.name}</span>
+              <span style="color: var(--text-muted); font-size: 11px;">${c.hex}</span>
+            </button>
+          `).join('')
+          : '<div class="color-dropdown-empty-msg">No colors match</div>';
+      }
+
+      const colorModalBackdrop = document.getElementById('color-picker-modal-backdrop');
+      const colorModalSearch = document.getElementById('color-picker-modal-search');
+      const colorModalList = document.getElementById('color-picker-modal-list');
+
+      let activeColorCallback = null;
+      let activeColorWrap = null;
+
+      function closeColorModal() {
+        colorModalBackdrop.classList.remove('open');
+        colorModalBackdrop.setAttribute('aria-hidden', 'true');
+        if (activeColorWrap) activeColorWrap.classList.remove('open');
+        activeColorCallback = null;
+        activeColorWrap = null;
+      }
+
+      colorModalList.addEventListener('click', (e) => {
+        const opt = e.target.closest('.color-dropdown-option');
+        if (opt && activeColorCallback) {
+          activeColorCallback(opt.dataset.hex, opt.dataset.name);
+          closeColorModal();
+        }
+      });
+
+      colorModalSearch.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeColorModal();
+      });
+
+      colorModalSearch.addEventListener('input', () =>
+        renderColorList(colorModalList, colorModalSearch, rbColors, colorModalSearch.value));
+
+      document.addEventListener('click', (e) => {
+        if (!colorModalBackdrop.classList.contains('open')) return;
+        const modal = colorModalBackdrop.querySelector('.color-picker-modal');
+        if (!modal.contains(e.target) && !(activeColorWrap && activeColorWrap.contains(e.target))) {
+          closeColorModal();
+        }
+      });
+
+      function setupColorDropdown(trigger, initialHex, onSelect) {
+        const wrap = trigger.closest('.color-dropdown');
+        const swatch = trigger.querySelector('.color-dropdown-swatch');
+        const label = trigger.querySelector('.color-dropdown-label');
+
+        function setValue(hex, name) {
+          swatch.style.backgroundColor = hex;
+          label.textContent = name || hex;
+          onSelect(hex);
+        }
+
+        trigger.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (wrap.classList.contains('open')) {
+            closeColorModal();
+            return;
+          }
+          wrap.classList.add('open');
+          activeColorWrap = wrap;
+          activeColorCallback = (hex, name) => {
+            setValue(hex, name);
+          };
+          colorModalBackdrop.classList.add('open');
+          colorModalBackdrop.setAttribute('aria-hidden', 'false');
+          colorModalSearch.value = '';
+          renderColorList(colorModalList, colorModalSearch, rbColors);
+          colorModalSearch.focus();
+
+          const rect = trigger.getBoundingClientRect();
+          const modal = colorModalBackdrop.querySelector('.color-picker-modal');
+          const padding = 4;
+          let top = rect.bottom + padding;
+          let left = rect.left;
+          if (top + 300 > window.innerHeight) top = rect.top - 300 - padding;
+          if (left + 320 > window.innerWidth) left = window.innerWidth - 320 - 16;
+          if (left < 16) left = 16;
+          modal.style.top = top + 'px';
+          modal.style.left = left + 'px';
+        });
+
+        const match = rbColors.find(c => c.hex.toLowerCase() === (initialHex || '').toLowerCase());
+        setValue(initialHex || rbColors[0]?.hex || '#3969EF', match?.name || getColorName(initialHex) || initialHex);
+      }
+
+      function initColorDropdowns() {
+        const solidTrigger = document.getElementById('param-color-solid-trigger');
+        if (solidTrigger) {
+          const match = rbColors.find(c => c.hex === '#1074CC');
+          solidColorHex = match ? '#1074CC' : (rbColors[0]?.hex || '#3969EF');
+          setupColorDropdown(solidTrigger, solidColorHex, (hex) => {
+            solidColorHex = hex;
+            applyProgressBarColor();
+          });
+        }
+        const bandingTrigger = document.getElementById('param-banding-color-trigger');
+        if (bandingTrigger && rbColors.length > 0) {
+          const match = rbColors.find(c => c.hex === '#F5FBFE' || c.name === 'pondwater-0');
+          bandingColorHex = match ? '#F5FBFE' : (rbColors[0]?.hex || '#ffffff');
+          setupColorDropdown(bandingTrigger, bandingColorHex, (hex) => {
+            bandingColorHex = hex;
+            applyBandingStyle();
+          });
+        }
+      }
+
+      // Apply color to progress bar
+      function parseHex(val) {
+        const v = (val || '').trim();
+        if (/^#[0-9A-Fa-f]{3,8}$/.test(v) || /^[0-9A-Fa-f]{3,8}$/.test(v)) {
+          return v.startsWith('#') ? v : '#' + v;
+        }
+        return null;
+      }
+
+      // Linear color stops: [{ hex, pct }, ...] - use RB colors when available
+      let colorStops = [
+        { hex: '#1074CC', pct: 0 },
+        { hex: '#4397E0', pct: 100 }
+      ];
+
+      const colorStopsContainer = document.getElementById('color-stops-container');
+      const colorStopAddBtn = document.getElementById('color-stop-add');
+
       // Split panel drag handle
       const splitHandle = document.getElementById('split-handle');
       const splitMain = document.querySelector('.split-main');
       let isDragging = false;
 
-      splitHandle.addEventListener('mousedown', (e) => {
-        isDragging = true;
-        splitHandle.classList.add('dragging');
-        document.body.style.cursor = 'col-resize';
-        document.body.style.userSelect = 'none';
-        pageIframe.style.pointerEvents = 'none';
-        e.preventDefault();
+      if (splitHandle && splitMain) {
+        splitHandle.addEventListener('mousedown', (e) => {
+          isDragging = true;
+          splitHandle.classList.add('dragging');
+          document.body.style.cursor = 'col-resize';
+          document.body.style.userSelect = 'none';
+          pageIframe.style.pointerEvents = 'none';
+          e.preventDefault();
+        });
+
+        document.addEventListener('mousemove', (e) => {
+          if (!isDragging) return;
+          const panelRect = splitMain.getBoundingClientRect();
+          const newLeftWidth = e.clientX - panelRect.left;
+          const minWidth = 200;
+          const maxWidth = panelRect.width - 200 - 6;
+          const clamped = Math.max(minWidth, Math.min(maxWidth, newLeftWidth));
+          splitMain.style.gridTemplateColumns = clamped + 'px 6px 1fr';
+        });
+
+        document.addEventListener('mouseup', () => {
+          if (!isDragging) return;
+          isDragging = false;
+          splitHandle.classList.remove('dragging');
+          document.body.style.cursor = '';
+          document.body.style.userSelect = '';
+          pageIframe.style.pointerEvents = '';
+        });
+      }
+
+      function renderColorStops() {
+        colorStopsContainer.innerHTML = '';
+        colorStops.forEach((stop, i) => {
+          const row = document.createElement('div');
+          row.className = 'color-stop-row';
+          row.dataset.index = String(i);
+          const canRemove = colorStops.length > 2;
+          row.innerHTML = `
+            <div class="color-dropdown color-stop-dropdown" data-index="${i}">
+              <button type="button" class="color-dropdown-trigger color-stop-trigger" aria-haspopup="dialog" aria-expanded="false" aria-label="Select color ${i + 1}">
+                <span class="color-dropdown-swatch color-stop-swatch" style="background-color: ${stop.hex}"></span>
+                <span class="color-dropdown-label color-stop-label">${getColorName(stop.hex) || stop.hex}</span>
+                <span class="color-dropdown-arrow">▼</span>
+              </button>
+            </div>
+            <input type="number" class="param-pct-input color-stop-pct" value="${stop.pct}" min="0" max="100" step="1" aria-label="Position %">
+            <span style="font-size: 12px; color: var(--text-muted);">%</span>
+            <button type="button" class="color-stop-remove" aria-label="Remove stop" ${canRemove ? '' : 'disabled'}>−</button>
+          `;
+          const trigger = row.querySelector('.color-stop-trigger');
+          const pctInput = row.querySelector('.color-stop-pct');
+          const removeBtn = row.querySelector('.color-stop-remove');
+
+          if (rbColors.length > 0 && trigger) {
+            setupColorDropdown(trigger, stop.hex, (hex) => {
+              colorStops[i].hex = hex;
+              applyProgressBarColor();
+            });
+          }
+
+          pctInput.addEventListener('input', () => {
+            const pct = Math.min(100, Math.max(0, parseInt(pctInput.value, 10) || 0));
+            colorStops[i].pct = pct;
+            pctInput.value = pct;
+            applyProgressBarColor();
+          });
+          pctInput.addEventListener('change', applyProgressBarColor);
+
+          removeBtn.addEventListener('click', () => {
+            if (colorStops.length <= 2) return;
+            colorStops.splice(i, 1);
+            renderColorStops();
+            applyProgressBarColor();
+          });
+
+          colorStopsContainer.appendChild(row);
+        });
+      }
+
+      colorStopAddBtn.addEventListener('click', () => {
+        const lastPct = colorStops[colorStops.length - 1]?.pct ?? 100;
+        const prevPct = colorStops[colorStops.length - 2]?.pct ?? 0;
+        const midPct = Math.round((prevPct + lastPct) / 2);
+        const midColor = rbColors[Math.floor(rbColors.length / 2)]?.hex || '#75B6EB';
+        colorStops.splice(colorStops.length - 1, 0, { hex: midColor, pct: midPct });
+        renderColorStops();
+        applyProgressBarColor();
       });
 
-      document.addEventListener('mousemove', (e) => {
-        if (!isDragging) return;
-        const panelRect = splitMain.getBoundingClientRect();
-        const newLeftWidth = e.clientX - panelRect.left;
-        const minWidth = 200;
-        const maxWidth = panelRect.width - 200 - 6;
-        const clamped = Math.max(minWidth, Math.min(maxWidth, newLeftWidth));
-        splitMain.style.gridTemplateColumns = clamped + 'px 6px 1fr';
+      const gradientAnimateToggle = document.getElementById('param-gradient-animate');
+      const gradientCurveRow = document.getElementById('gradient-animate-curve-row');
+      const gradientSpeedRow = document.getElementById('gradient-animate-speed-row');
+      const gradientCurveSelect = document.getElementById('param-gradient-curve');
+      const gradientSpeedSelect = document.getElementById('param-gradient-speed');
+
+      const CURVE_MAP = {
+        'linear': 'linear',
+        'ease-in': 'ease-in',
+        'ease-out': 'ease-out',
+        'ease-in-out': 'ease-in-out'
+      };
+
+      function updateGradientAnimateVisibility() {
+        const isLinear = colorTypeSelect.value === 'linear';
+        const isAnimate = gradientAnimateToggle?.checked;
+        const show = isLinear && isAnimate;
+        if (gradientCurveRow) gradientCurveRow.hidden = !show;
+        if (gradientSpeedRow) gradientSpeedRow.hidden = !show;
+      }
+
+      function applyProgressBarColor() {
+        const isSolid = colorTypeSelect.value === 'solid';
+        const isAnimate = gradientAnimateToggle?.checked;
+        const curve = CURVE_MAP[gradientCurveSelect?.value] || 'ease-in-out';
+
+        progressBarEl.style.animation = '';
+        progressBarEl.style.backgroundSize = '';
+        progressBarEl.style.backgroundPosition = '';
+
+        if (isSolid) {
+          const hex = solidColorHex || '#3969EF';
+          progressBarEl.style.background = hex;
+        } else {
+          const sorted = [...colorStops].sort((a, b) => a.pct - b.pct);
+          const parts = sorted.map(s => {
+            const hex = parseHex(s.hex) || s.hex;
+            return `${hex} ${s.pct}%`;
+          });
+          let gradient = `linear-gradient(to right, ${parts.join(', ')})`;
+
+          if (isAnimate) {
+            const scaledParts = sorted.map(s => {
+              const hex = parseHex(s.hex) || s.hex;
+              return `${hex} ${s.pct / 2}%`;
+            });
+            const repeatParts = sorted.map(s => {
+              const hex = parseHex(s.hex) || s.hex;
+              return `${hex} ${50 + s.pct / 2}%`;
+            });
+            const duration = parseFloat(gradientSpeedSelect?.value) || 2.5;
+            gradient = `linear-gradient(to right, ${scaledParts.join(', ')}, ${repeatParts.join(', ')})`;
+            progressBarEl.style.background = gradient;
+            progressBarEl.style.backgroundSize = '200% 100%';
+            progressBarEl.style.animation = `gradient-shift ${duration}s ${curve} infinite`;
+          } else {
+            progressBarEl.style.background = gradient;
+          }
+        }
+      }
+
+      gradientAnimateToggle?.addEventListener('change', () => {
+        updateGradientAnimateVisibility();
+        applyProgressBarColor();
       });
 
-      document.addEventListener('mouseup', () => {
-        if (!isDragging) return;
-        isDragging = false;
-        splitHandle.classList.remove('dragging');
-        document.body.style.cursor = '';
-        document.body.style.userSelect = '';
-        pageIframe.style.pointerEvents = '';
+      gradientCurveSelect?.addEventListener('change', applyProgressBarColor);
+      gradientSpeedSelect?.addEventListener('input', () => {
+        const val = document.getElementById('param-gradient-speed-val');
+        if (val) val.textContent = parseFloat(gradientSpeedSelect.value).toFixed(1);
+        applyProgressBarColor();
       });
-    })();
-  </script>
-  <script>
-    (function() {
-      const dampenSlider = document.getElementById('param-dampen');
-      const dampenVal = document.getElementById('param-dampen-val');
-      const stiffnessSlider = document.getElementById('param-stiffness');
-      const stiffnessVal = document.getElementById('param-stiffness-val');
+      gradientSpeedSelect?.addEventListener('change', applyProgressBarColor);
 
-      if (dampenSlider) dampenSlider.addEventListener('input', () => {
-        dampenVal.textContent = parseFloat(dampenSlider.value).toFixed(2);
+      colorTypeSelect.addEventListener('change', () => {
+        updateColorVisibility();
+        updateGradientAnimateVisibility();
+        applyProgressBarColor();
       });
-      if (stiffnessSlider) stiffnessSlider.addEventListener('input', () => {
-        stiffnessVal.textContent = stiffnessSlider.value;
+
+      // Banding animation
+      const bandingToggle = document.getElementById('param-banding');
+      const bandingSpeedRow = document.getElementById('banding-speed-row');
+      const bandingCurveRow = document.getElementById('banding-curve-row');
+      const bandingOpacityRow = document.getElementById('banding-opacity-row');
+      const bandingLengthStartRow = document.getElementById('banding-length-start-row');
+      const bandingLengthEndRow = document.getElementById('banding-length-end-row');
+      const bandingColorRow = document.getElementById('banding-color-row');
+      const bandingLoopOffsetRow = document.getElementById('banding-loop-offset-row');
+      const bandingSpeedSlider = document.getElementById('param-banding-speed');
+      const bandingSpeedVal = document.getElementById('param-banding-speed-val');
+      const bandingCurveSelect = document.getElementById('param-banding-curve');
+      const bandingOpacitySlider = document.getElementById('param-banding-opacity');
+      const bandingOpacityVal = document.getElementById('param-banding-opacity-val');
+      const bandingLengthStartSlider = document.getElementById('param-banding-length-start');
+      const bandingLengthStartVal = document.getElementById('param-banding-length-start-val');
+      const bandingLengthEndSlider = document.getElementById('param-banding-length-end');
+      const bandingLengthEndVal = document.getElementById('param-banding-length-end-val');
+      const bandingLoopOffsetSlider = document.getElementById('param-banding-loop-offset');
+      const bandingLoopOffsetVal = document.getElementById('param-banding-loop-offset-val');
+
+      const BANDING_CURVE_MAP = {
+        linear: 'linear',
+        easeOut: 'cubic-bezier(0, 0, 0.2, 1)',
+        easeOutQuad: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+        easeOutCubic: 'cubic-bezier(0.33, 1, 0.68, 1)',
+        easeOutQuint: 'cubic-bezier(0.22, 1, 0.36, 1)',
+        easeInOutQuad: 'cubic-bezier(0.455, 0, 0.55, 1)',
+        easeInOutCubic: 'cubic-bezier(0.65, 0, 0.35, 1)',
+        easeInOutQuint: 'cubic-bezier(0.86, 0, 0.07, 1)'
+      };
+
+      function hexToRgba(hex, alpha) {
+        const v = (hex || '').trim().replace(/^#/, '');
+        if (!/^[0-9A-Fa-f]{3,8}$/.test(v)) return `rgba(255,255,255,${alpha})`;
+        let r, g, b;
+        if (v.length === 3) {
+          r = parseInt(v[0] + v[0], 16);
+          g = parseInt(v[1] + v[1], 16);
+          b = parseInt(v[2] + v[2], 16);
+        } else {
+          r = parseInt(v.slice(0, 2), 16);
+          g = parseInt(v.slice(2, 4), 16);
+          b = parseInt(v.slice(4, 6), 16);
+        }
+        return `rgba(${r},${g},${b},${alpha})`;
+      }
+
+      function applyBandingStyle() {
+        const duration = parseFloat(bandingSpeedSlider?.value) || 2;
+        const opacity = (parseInt(bandingOpacitySlider?.value, 10) || 35) / 100;
+        const lengthStart = parseInt(bandingLengthStartSlider?.value, 10) || 10;
+        const lengthEnd = parseInt(bandingLengthEndSlider?.value, 10) || 30;
+        const color = parseHex(bandingColorHex) || bandingColorHex || '#F5FBFE';
+        const curve = BANDING_CURVE_MAP[bandingCurveSelect?.value] || 'linear';
+        const loopOffset = parseFloat(bandingLoopOffsetSlider?.value) || 0;
+        progressBarEl.style.setProperty('--banding-color', color);
+        progressBarEl.style.setProperty('--banding-opacity', String(opacity));
+
+        const band2Delay = (duration / 2) + loopOffset;
+
+        let styleEl = document.getElementById('banding-keyframes');
+        if (!styleEl) {
+          styleEl = document.createElement('style');
+          styleEl.id = 'banding-keyframes';
+          document.head.appendChild(styleEl);
+        }
+        styleEl.textContent = `
+          @keyframes band-move {
+            0% { left: -${lengthStart}%; width: ${lengthStart}%; }
+            100% { left: 100%; width: ${lengthEnd}%; }
+          }
+          .browser-preview-page .progress-bar.banding .banding-band {
+            animation: band-move ${duration}s ${curve} infinite;
+          }
+          .browser-preview-page .progress-bar.banding .banding-band-2 {
+            animation: band-move ${duration}s ${curve} infinite;
+            animation-delay: ${band2Delay}s;
+          }
+        `;
+      }
+
+      function updateBandingVisibility() {
+        const show = bandingToggle?.checked;
+        if (bandingSpeedRow) bandingSpeedRow.hidden = !show;
+        if (bandingCurveRow) bandingCurveRow.hidden = !show;
+        if (bandingOpacityRow) bandingOpacityRow.hidden = !show;
+        if (bandingLengthStartRow) bandingLengthStartRow.hidden = !show;
+        if (bandingLengthEndRow) bandingLengthEndRow.hidden = !show;
+        if (bandingColorRow) bandingColorRow.hidden = !show;
+        if (bandingLoopOffsetRow) bandingLoopOffsetRow.hidden = !show;
+      }
+
+      function updateBanding() {
+        if (bandingToggle?.checked) {
+          progressBarEl.classList.add('banding');
+          applyBandingStyle();
+        } else {
+          progressBarEl.classList.remove('banding');
+        }
+        updateBandingVisibility();
+      }
+
+      bandingToggle?.addEventListener('change', updateBanding);
+      bandingSpeedSlider?.addEventListener('input', () => {
+        if (bandingSpeedVal) bandingSpeedVal.textContent = parseFloat(bandingSpeedSlider.value).toFixed(1);
+        applyBandingStyle();
       });
+      bandingSpeedSlider?.addEventListener('change', applyBandingStyle);
+      bandingCurveSelect?.addEventListener('change', applyBandingStyle);
+      bandingOpacitySlider?.addEventListener('input', () => {
+        if (bandingOpacityVal) bandingOpacityVal.textContent = bandingOpacitySlider.value;
+        applyBandingStyle();
+      });
+      bandingOpacitySlider?.addEventListener('change', applyBandingStyle);
+      bandingLengthStartSlider?.addEventListener('input', () => {
+        if (bandingLengthStartVal) bandingLengthStartVal.textContent = bandingLengthStartSlider.value;
+        applyBandingStyle();
+      });
+      bandingLengthStartSlider?.addEventListener('change', applyBandingStyle);
+      bandingLengthEndSlider?.addEventListener('input', () => {
+        if (bandingLengthEndVal) bandingLengthEndVal.textContent = bandingLengthEndSlider.value;
+        applyBandingStyle();
+      });
+      bandingLengthEndSlider?.addEventListener('change', applyBandingStyle);
+      bandingLoopOffsetSlider?.addEventListener('input', () => {
+        if (bandingLoopOffsetVal) bandingLoopOffsetVal.textContent = bandingLoopOffsetSlider.value + 's';
+        applyBandingStyle();
+      });
+      bandingLoopOffsetSlider?.addEventListener('change', applyBandingStyle);
+      updateBanding();
+
+      // Progress bar height
+      const progressHeightInput = document.getElementById('param-progress-height');
+      progressHeightInput?.addEventListener('input', () => {
+        const val = Math.min(24, Math.max(1, parseInt(progressHeightInput.value, 10) || 2));
+        progressHeightInput.value = val;
+        if (progressBarContainer) progressBarContainer.style.height = val + 'px';
+      });
+      progressHeightInput?.addEventListener('change', () => {
+        const val = Math.min(24, Math.max(1, parseInt(progressHeightInput.value, 10) || 2));
+        progressHeightInput.value = val;
+        if (progressBarContainer) progressBarContainer.style.height = val + 'px';
+      });
+      if (progressBarContainer && progressHeightInput) {
+        progressBarContainer.style.height = (parseInt(progressHeightInput.value, 10) || 2) + 'px';
+      }
+
+      renderColorStops();
+      updateGradientAnimateVisibility();
+      applyProgressBarColor();
+
+      // Preset system
+      const PRESETS_KEY = 'progressBarPresets';
+      const DEFAULT_KEY = 'progressBarDefaultPreset';
+      const presetSelect = document.getElementById('preset-select');
+      const presetSaveBtn = document.getElementById('preset-save-btn');
+      const presetDefaultBtn = document.getElementById('preset-default-btn');
+      const presetModalBackdrop = document.getElementById('preset-modal-backdrop');
+      const presetModalExisting = document.getElementById('preset-modal-existing');
+      const presetNameInput = document.getElementById('preset-name-input');
+      const presetModalSave = document.getElementById('preset-modal-save');
+      const presetModalCancel = document.getElementById('preset-modal-cancel');
+
+      function getPresets() {
+        try {
+          return JSON.parse(localStorage.getItem(PRESETS_KEY)) || {};
+        } catch { return {}; }
+      }
+
+      function savePresets(presets) {
+        localStorage.setItem(PRESETS_KEY, JSON.stringify(presets));
+      }
+
+      function getDefaultPresetName() {
+        return localStorage.getItem(DEFAULT_KEY) || '';
+      }
+
+      function setDefaultPresetName(name) {
+        localStorage.setItem(DEFAULT_KEY, name);
+      }
+
+      function gatherCurrentSettings() {
+        return {
+          height: progressHeightInput?.value || '2',
+          banding: bandingToggle?.checked || false,
+          bandingSpeed: bandingSpeedSlider?.value || '2',
+          bandingCurve: bandingCurveSelect?.value || 'easeOut',
+          bandingOpacity: bandingOpacitySlider?.value || '35',
+          bandingLengthStart: bandingLengthStartSlider?.value || '10',
+          bandingLengthEnd: bandingLengthEndSlider?.value || '30',
+          bandingColor: bandingColorHex || '#F5FBFE',
+          bandingLoopOffset: bandingLoopOffsetSlider?.value || '0',
+          colorType: colorTypeSelect?.value || 'solid',
+          solidColor: solidColorHex || '#1074CC',
+          colorStops: [...colorStops],
+          gradientAnimate: gradientAnimateToggle?.checked || false,
+          gradientCurve: gradientCurveSelect?.value || 'ease-in-out',
+          gradientSpeed: gradientSpeedSelect?.value || '2.5'
+        };
+      }
+
+      function applySettings(s) {
+        if (!s) return;
+        if (progressHeightInput) { progressHeightInput.value = s.height || '2'; progressHeightInput.dispatchEvent(new Event('change')); }
+        if (bandingToggle) bandingToggle.checked = s.banding || false;
+        if (bandingSpeedSlider) { bandingSpeedSlider.value = s.bandingSpeed || '2'; if (bandingSpeedVal) bandingSpeedVal.textContent = bandingSpeedSlider.value; }
+        if (bandingCurveSelect) bandingCurveSelect.value = s.bandingCurve || 'easeOut';
+        if (bandingOpacitySlider) { bandingOpacitySlider.value = s.bandingOpacity || '35'; if (bandingOpacityVal) bandingOpacityVal.textContent = bandingOpacitySlider.value; }
+        if (bandingLengthStartSlider) { bandingLengthStartSlider.value = s.bandingLengthStart || '10'; if (bandingLengthStartVal) bandingLengthStartVal.textContent = bandingLengthStartSlider.value; }
+        if (bandingLengthEndSlider) { bandingLengthEndSlider.value = s.bandingLengthEnd || '30'; if (bandingLengthEndVal) bandingLengthEndVal.textContent = bandingLengthEndSlider.value; }
+        bandingColorHex = s.bandingColor || '#F5FBFE';
+        if (bandingLoopOffsetSlider) { bandingLoopOffsetSlider.value = s.bandingLoopOffset || '0'; if (bandingLoopOffsetVal) bandingLoopOffsetVal.textContent = bandingLoopOffsetSlider.value + 's'; }
+        if (colorTypeSelect) colorTypeSelect.value = s.colorType || 'solid';
+        solidColorHex = s.solidColor || '#1074CC';
+        if (s.colorStops && Array.isArray(s.colorStops)) colorStops = [...s.colorStops];
+        if (gradientAnimateToggle) gradientAnimateToggle.checked = s.gradientAnimate || false;
+        if (gradientCurveSelect) gradientCurveSelect.value = s.gradientCurve || 'ease-in-out';
+        if (gradientSpeedSelect) { gradientSpeedSelect.value = s.gradientSpeed || '2.5'; const v = document.getElementById('param-gradient-speed-val'); if (v) v.textContent = gradientSpeedSelect.value; }
+
+        updateBanding();
+        updateColorVisibility();
+        updateGradientAnimateVisibility();
+        renderColorStops();
+        applyProgressBarColor();
+
+        const solidSwatch = document.getElementById('param-color-solid-swatch');
+        const solidLabel = document.getElementById('param-color-solid-label');
+        if (solidSwatch) solidSwatch.style.backgroundColor = solidColorHex;
+        if (solidLabel) solidLabel.textContent = getColorName(solidColorHex) || solidColorHex;
+
+        const bandingSwatch = document.getElementById('param-banding-color-swatch');
+        const bandingLabel = document.getElementById('param-banding-color-label');
+        if (bandingSwatch) bandingSwatch.style.backgroundColor = bandingColorHex;
+        if (bandingLabel) bandingLabel.textContent = getColorName(bandingColorHex) || bandingColorHex;
+      }
+
+      function populatePresetDropdown() {
+        const presets = getPresets();
+        const defaultName = getDefaultPresetName();
+        presetSelect.innerHTML = '<option value="">-- Select preset --</option>';
+        Object.keys(presets).sort().forEach(name => {
+          const opt = document.createElement('option');
+          opt.value = name;
+          opt.textContent = name + (name === defaultName ? ' ★' : '');
+          presetSelect.appendChild(opt);
+        });
+      }
+
+      function populateModalExisting() {
+        const presets = getPresets();
+        presetModalExisting.innerHTML = '<option value="">-- New preset --</option>';
+        Object.keys(presets).sort().forEach(name => {
+          const opt = document.createElement('option');
+          opt.value = name;
+          opt.textContent = name;
+          presetModalExisting.appendChild(opt);
+        });
+      }
+
+      function openSaveModal() {
+        populateModalExisting();
+        presetModalExisting.value = '';
+        presetNameInput.value = '';
+        presetModalBackdrop.classList.add('open');
+        presetModalBackdrop.setAttribute('aria-hidden', 'false');
+        presetNameInput.focus();
+      }
+
+      presetModalExisting?.addEventListener('change', () => {
+        const selected = presetModalExisting.value;
+        if (selected) {
+          presetNameInput.value = selected;
+        } else {
+          presetNameInput.value = '';
+        }
+        presetNameInput.focus();
+      });
+
+      function closeSaveModal() {
+        presetModalBackdrop.classList.remove('open');
+        presetModalBackdrop.setAttribute('aria-hidden', 'true');
+      }
+
+      function saveCurrentPreset(name) {
+        if (!name.trim()) return;
+        const presets = getPresets();
+        presets[name.trim()] = gatherCurrentSettings();
+        savePresets(presets);
+        populatePresetDropdown();
+        presetSelect.value = name.trim();
+      }
+
+      presetSaveBtn?.addEventListener('click', openSaveModal);
+      presetModalCancel?.addEventListener('click', closeSaveModal);
+      presetModalSave?.addEventListener('click', () => {
+        const name = presetNameInput.value.trim();
+        if (name) {
+          saveCurrentPreset(name);
+          closeSaveModal();
+        }
+      });
+      presetNameInput?.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const name = presetNameInput.value.trim();
+          if (name) { saveCurrentPreset(name); closeSaveModal(); }
+        } else if (e.key === 'Escape') {
+          closeSaveModal();
+        }
+      });
+
+      presetSelect?.addEventListener('change', () => {
+        const name = presetSelect.value;
+        if (!name) return;
+        const presets = getPresets();
+        if (presets[name]) applySettings(presets[name]);
+      });
+
+      presetDefaultBtn?.addEventListener('click', () => {
+        const name = presetSelect.value;
+        if (!name) {
+          alert('Select a preset first to make it the default.');
+          return;
+        }
+        setDefaultPresetName(name);
+        populatePresetDropdown();
+        presetSelect.value = name;
+      });
+
+      function loadDefaultPreset() {
+        populatePresetDropdown();
+        const defaultName = getDefaultPresetName();
+        if (defaultName) {
+          const presets = getPresets();
+          if (presets[defaultName]) {
+            applySettings(presets[defaultName]);
+            presetSelect.value = defaultName;
+          }
+        }
+      }
     })();
   </script>
 </body>

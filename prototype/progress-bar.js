@@ -3,6 +3,9 @@
  * A thin progress bar driven by weighted events.
  */
 const DEFAULT_INITIAL_PROGRESS = 10;
+const SLOW_DURATION_MS = 1500;
+const FAST_DURATION_MS = 200;
+const SPEED_THRESHOLD = 75;
 
 class ProgressBar {
   /**
@@ -82,37 +85,42 @@ class ProgressBar {
   }
 
   /**
-   * Mark loading as complete (window load fired)
+   * Mark loading as complete (window load fired).
+   * Animates to 100%, then dismisses when the animation finishes.
    */
   complete() {
     if (this.isComplete) return;
     this.isComplete = true;
     this.isLoading = false;
     this.targetProgress = 100;
-    this.startAnimation();
-    
-    // Let animation finish, then apply complete styling
-    setTimeout(() => {
+    this.stopAnimation();
+
+    const currentWidth = parseFloat(this.element.style.width) || this.progress;
+
+    const dismiss = () => {
       this.element.classList.remove('loading');
       this.element.classList.add('complete');
-      
-      // Fade out after a moment
-      setTimeout(() => {
-        this.element.style.opacity = '0';
-        setTimeout(() => {
-          this.element.style.transition = 'none';
-          this.element.style.width = '0%';
-          this.progress = 0;
-          void this.element.offsetWidth; // force reflow to commit instant reset
-          this.element.style.transition = '';
-          if (this.onCompleteCallback) {
-            this.onCompleteCallback();
-          } else {
-            this.element.style.opacity = '1';
-          }
-        }, 300);
-      }, 500);
-    }, 200);
+      this.element.style.transition = 'none';
+      this.element.style.opacity = '0';
+      this.element.style.width = '0%';
+      this.progress = 0;
+      void this.element.offsetWidth; // force reflow to commit instant reset
+      this.element.style.transition = '';
+      if (this.onCompleteCallback) {
+        this.onCompleteCallback();
+      } else {
+        this.element.style.opacity = '1';
+      }
+    };
+
+    if (currentWidth >= 100) {
+      dismiss();
+    } else {
+      const duration = currentWidth < SPEED_THRESHOLD ? SLOW_DURATION_MS : FAST_DURATION_MS;
+      this.element.style.transition = `width ${duration}ms ease-in-out`;
+      this.element.style.width = '100%';
+      this.element.addEventListener('transitionend', dismiss, { once: true });
+    }
   }
 
   /**

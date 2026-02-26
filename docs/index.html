@@ -460,7 +460,7 @@
         eventBus.emit({ type, time: performance.now() - loadStartTime, data: data || {} });
       }
 
-      const progressBarDDG = new RawModeProgressBar(progressBarElDDG, ddgLifecycleCallback);
+      const progressBarDDG = new window.RawModeProgressBar(progressBarElDDG, ddgLifecycleCallback);
       const webviewPctSelect = document.getElementById('param-webview-pct');
       const progressBarImproved = new ProgressBar(progressBarElImproved, {
         getInitialProgress: () => parseInt(webviewPctSelect?.value, 10) || 10

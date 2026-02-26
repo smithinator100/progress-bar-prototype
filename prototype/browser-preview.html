@@ -537,7 +537,7 @@
       <div class="control-group">
         <label for="fake-data-toggle">Captured data</label>
         <label class="param-toggle">
-          <input type="checkbox" id="fake-data-toggle">
+          <input type="checkbox" id="fake-data-toggle" checked>
           <span class="param-toggle-track"></span>
         </label>
       </div>
@@ -831,6 +831,7 @@
         captureScreenshot.hidden = false;
       }
 
+      speedSelect.disabled = fakeDataToggle.checked;
       fakeDataToggle.addEventListener('change', () => {
         speedSelect.disabled = fakeDataToggle.checked;
       });

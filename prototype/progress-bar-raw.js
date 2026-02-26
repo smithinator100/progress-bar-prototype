@@ -25,6 +25,7 @@
  *                         isLoading == false in the snapshot, matching Android's
  *                         pageLoadingIndicator.hide() call.
  */
+(function() {
 const PROGRESS_CLAMP_MIN = 50;
 const SLOW_DURATION_MS = 1500;
 const FAST_DURATION_MS = 200;
@@ -175,3 +176,4 @@ class RawModeProgressBar {
 if (typeof window !== 'undefined') {
   window.RawModeProgressBar = RawModeProgressBar;
 }
+})();

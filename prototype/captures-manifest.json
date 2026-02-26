@@ -1,0 +1,1092 @@
+{
+  "allrecipes.com": {
+    "screenshots": [],
+    "hasVideo": false,
+    "hasEvents": false
+  },
+  "apmex.com": {
+    "screenshots": [],
+    "hasVideo": false,
+    "hasEvents": false
+  },
+  "apnews.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 5318,
+        "file": "captures/apnews.com/first-contentful-paint-5318ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 5318,
+        "file": "captures/apnews.com/first-paint-5318ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 5373,
+        "file": "captures/apnews.com/lcp-5373ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 10242,
+        "file": "captures/apnews.com/above-fold-images-loaded-10242ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 10894,
+        "file": "captures/apnews.com/text-settled-10894ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "apple.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 6117,
+        "file": "captures/apple.com/first-contentful-paint-6117ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 6117,
+        "file": "captures/apple.com/first-paint-6117ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 6164,
+        "file": "captures/apple.com/lcp-6164ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 6175,
+        "file": "captures/apple.com/above-fold-images-loaded-6175ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 7368,
+        "file": "captures/apple.com/text-settled-7368ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "archive.org": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1632,
+        "file": "captures/archive.org/first-contentful-paint-1632ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1632,
+        "file": "captures/archive.org/first-paint-1632ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 3224,
+        "file": "captures/archive.org/above-fold-images-loaded-3224ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 3242,
+        "file": "captures/archive.org/lcp-3242ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 3721,
+        "file": "captures/archive.org/text-settled-3721ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "bbc.com": {
+    "screenshots": [
+      {
+        "type": "first-paint",
+        "timeMs": 981,
+        "file": "captures/bbc.com/first-paint-981ms.png"
+      },
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 982,
+        "file": "captures/bbc.com/first-contentful-paint-982ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1196,
+        "file": "captures/bbc.com/lcp-1196ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 8017,
+        "file": "captures/bbc.com/above-fold-images-loaded-8017ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 9017,
+        "file": "captures/bbc.com/text-settled-9017ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "bing.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 869,
+        "file": "captures/bing.com/first-contentful-paint-869ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 869,
+        "file": "captures/bing.com/first-paint-869ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 889,
+        "file": "captures/bing.com/lcp-889ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 1194,
+        "file": "captures/bing.com/above-fold-images-loaded-1194ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 2148,
+        "file": "captures/bing.com/text-settled-2148ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "bsky.app": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1140,
+        "file": "captures/bsky.app/first-contentful-paint-1140ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1140,
+        "file": "captures/bsky.app/first-paint-1140ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 22652,
+        "file": "captures/bsky.app/above-fold-images-loaded-22652ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 22652,
+        "file": "captures/bsky.app/lcp-22652ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 23152,
+        "file": "captures/bsky.app/text-settled-23152ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "costco.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1898,
+        "file": "captures/costco.com/first-contentful-paint-1898ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1898,
+        "file": "captures/costco.com/first-paint-1898ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1915,
+        "file": "captures/costco.com/lcp-1915ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 19004,
+        "file": "captures/costco.com/above-fold-images-loaded-19004ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 19503,
+        "file": "captures/costco.com/text-settled-19503ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "duckduckgo.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 2138,
+        "file": "captures/duckduckgo.com/first-contentful-paint-2138ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 2138,
+        "file": "captures/duckduckgo.com/first-paint-2138ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 2168,
+        "file": "captures/duckduckgo.com/lcp-2168ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 7843,
+        "file": "captures/duckduckgo.com/above-fold-images-loaded-7843ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 8632,
+        "file": "captures/duckduckgo.com/text-settled-8632ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "ebay.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 4960,
+        "file": "captures/ebay.com/first-contentful-paint-4960ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 4960,
+        "file": "captures/ebay.com/first-paint-4960ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 5007,
+        "file": "captures/ebay.com/lcp-5007ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 7036,
+        "file": "captures/ebay.com/above-fold-images-loaded-7036ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 7635,
+        "file": "captures/ebay.com/text-settled-7635ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "es.wikipedia.org": {
+    "screenshots": [
+      {
+        "type": "first-paint",
+        "timeMs": 1282,
+        "file": "captures/es.wikipedia.org/first-paint-1282ms.png"
+      },
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1283,
+        "file": "captures/es.wikipedia.org/first-contentful-paint-1283ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 1284,
+        "file": "captures/es.wikipedia.org/above-fold-images-loaded-1284ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1284,
+        "file": "captures/es.wikipedia.org/lcp-1284ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 1880,
+        "file": "captures/es.wikipedia.org/text-settled-1880ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "finance.yahoo.com": {
+    "screenshots": [
+      {
+        "type": "first-paint",
+        "timeMs": 2533,
+        "file": "captures/finance.yahoo.com/first-paint-2533ms.png"
+      },
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 2534,
+        "file": "captures/finance.yahoo.com/first-contentful-paint-2534ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 2536,
+        "file": "captures/finance.yahoo.com/above-fold-images-loaded-2536ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 2538,
+        "file": "captures/finance.yahoo.com/lcp-2538ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 3122,
+        "file": "captures/finance.yahoo.com/text-settled-3122ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "foxnews.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 3503,
+        "file": "captures/foxnews.com/first-contentful-paint-3503ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 3503,
+        "file": "captures/foxnews.com/first-paint-3503ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 3544,
+        "file": "captures/foxnews.com/lcp-3544ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 4589,
+        "file": "captures/foxnews.com/above-fold-images-loaded-4589ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 5640,
+        "file": "captures/foxnews.com/text-settled-5640ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "geeksforgeeks.org": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 3050,
+        "file": "captures/geeksforgeeks.org/first-contentful-paint-3050ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 3050,
+        "file": "captures/geeksforgeeks.org/first-paint-3050ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 6897,
+        "file": "captures/geeksforgeeks.org/above-fold-images-loaded-6897ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 6913,
+        "file": "captures/geeksforgeeks.org/lcp-6913ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 7481,
+        "file": "captures/geeksforgeeks.org/text-settled-7481ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "github.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 5006,
+        "file": "captures/github.com/first-contentful-paint-5006ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 5006,
+        "file": "captures/github.com/first-paint-5006ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 5019,
+        "file": "captures/github.com/lcp-5019ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 15821,
+        "file": "captures/github.com/above-fold-images-loaded-15821ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "goodrx.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1182,
+        "file": "captures/goodrx.com/first-contentful-paint-1182ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1182,
+        "file": "captures/goodrx.com/first-paint-1182ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1198,
+        "file": "captures/goodrx.com/lcp-1198ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 2072,
+        "file": "captures/goodrx.com/above-fold-images-loaded-2072ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 2671,
+        "file": "captures/goodrx.com/text-settled-2671ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "google.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 839,
+        "file": "captures/google.com/first-contentful-paint-839ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 839,
+        "file": "captures/google.com/first-paint-839ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1059,
+        "file": "captures/google.com/lcp-1059ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 1934,
+        "file": "captures/google.com/above-fold-images-loaded-1934ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 2458,
+        "file": "captures/google.com/text-settled-2458ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "healthline.com": {
+    "screenshots": [
+      {
+        "type": "first-paint",
+        "timeMs": 1960,
+        "file": "captures/healthline.com/first-paint-1960ms.png"
+      },
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1961,
+        "file": "captures/healthline.com/first-contentful-paint-1961ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 2089,
+        "file": "captures/healthline.com/lcp-2089ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 3373,
+        "file": "captures/healthline.com/text-settled-3373ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "ikea.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1664,
+        "file": "captures/ikea.com/first-contentful-paint-1664ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1664,
+        "file": "captures/ikea.com/first-paint-1664ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1682,
+        "file": "captures/ikea.com/lcp-1682ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 4313,
+        "file": "captures/ikea.com/above-fold-images-loaded-4313ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 4909,
+        "file": "captures/ikea.com/text-settled-4909ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "imdb.com": {
+    "screenshots": [
+      {
+        "type": "first-paint",
+        "timeMs": 5878,
+        "file": "captures/imdb.com/first-paint-5878ms.png"
+      },
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 5879,
+        "file": "captures/imdb.com/first-contentful-paint-5879ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 5882,
+        "file": "captures/imdb.com/lcp-5882ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 18595,
+        "file": "captures/imdb.com/above-fold-images-loaded-18595ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 19123,
+        "file": "captures/imdb.com/text-settled-19123ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "justwatch.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1801,
+        "file": "captures/justwatch.com/first-contentful-paint-1801ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1801,
+        "file": "captures/justwatch.com/first-paint-1801ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1829,
+        "file": "captures/justwatch.com/lcp-1829ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 9185,
+        "file": "captures/justwatch.com/above-fold-images-loaded-9185ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 9773,
+        "file": "captures/justwatch.com/text-settled-9773ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "kitco.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 4846,
+        "file": "captures/kitco.com/first-contentful-paint-4846ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 4846,
+        "file": "captures/kitco.com/first-paint-4846ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 4862,
+        "file": "captures/kitco.com/lcp-4862ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 10450,
+        "file": "captures/kitco.com/above-fold-images-loaded-10450ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 13201,
+        "file": "captures/kitco.com/text-settled-13201ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "linktr.ee": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 870,
+        "file": "captures/linktr.ee/first-contentful-paint-870ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 870,
+        "file": "captures/linktr.ee/first-paint-870ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 885,
+        "file": "captures/linktr.ee/lcp-885ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 2061,
+        "file": "captures/linktr.ee/text-settled-2061ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "mayoclinic.org": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 4386,
+        "file": "captures/mayoclinic.org/first-contentful-paint-4386ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 4386,
+        "file": "captures/mayoclinic.org/first-paint-4386ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 4690,
+        "file": "captures/mayoclinic.org/lcp-4690ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 10317,
+        "file": "captures/mayoclinic.org/above-fold-images-loaded-10317ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 10889,
+        "file": "captures/mayoclinic.org/text-settled-10889ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "medicalnewstoday.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1541,
+        "file": "captures/medicalnewstoday.com/first-contentful-paint-1541ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1541,
+        "file": "captures/medicalnewstoday.com/first-paint-1541ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1558,
+        "file": "captures/medicalnewstoday.com/lcp-1558ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 2470,
+        "file": "captures/medicalnewstoday.com/above-fold-images-loaded-2470ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 3063,
+        "file": "captures/medicalnewstoday.com/text-settled-3063ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "pexels.com": {
+    "screenshots": [],
+    "hasVideo": false,
+    "hasEvents": false
+  },
+  "reddit.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 2797,
+        "file": "captures/reddit.com/first-contentful-paint-2797ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 2797,
+        "file": "captures/reddit.com/first-paint-2797ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 2922,
+        "file": "captures/reddit.com/lcp-2922ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 4247,
+        "file": "captures/reddit.com/above-fold-images-loaded-4247ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 4817,
+        "file": "captures/reddit.com/text-settled-4817ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "rottentomatoes.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 2687,
+        "file": "captures/rottentomatoes.com/first-contentful-paint-2687ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 2687,
+        "file": "captures/rottentomatoes.com/first-paint-2687ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 2694,
+        "file": "captures/rottentomatoes.com/lcp-2694ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 3919,
+        "file": "captures/rottentomatoes.com/above-fold-images-loaded-3919ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 4735,
+        "file": "captures/rottentomatoes.com/text-settled-4735ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "speedtest.net": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 3688,
+        "file": "captures/speedtest.net/first-contentful-paint-3688ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 3688,
+        "file": "captures/speedtest.net/first-paint-3688ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 3689,
+        "file": "captures/speedtest.net/above-fold-images-loaded-3689ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 3689,
+        "file": "captures/speedtest.net/lcp-3689ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 4259,
+        "file": "captures/speedtest.net/text-settled-4259ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "stackoverflow.com": {
+    "screenshots": [],
+    "hasVideo": false,
+    "hasEvents": false
+  },
+  "target.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 3650,
+        "file": "captures/target.com/first-contentful-paint-3650ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 3650,
+        "file": "captures/target.com/first-paint-3650ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 3675,
+        "file": "captures/target.com/lcp-3675ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 13947,
+        "file": "captures/target.com/above-fold-images-loaded-13947ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 14455,
+        "file": "captures/target.com/text-settled-14455ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "theguardian.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 4139,
+        "file": "captures/theguardian.com/first-contentful-paint-4139ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 4139,
+        "file": "captures/theguardian.com/first-paint-4139ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 4156,
+        "file": "captures/theguardian.com/lcp-4156ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 7819,
+        "file": "captures/theguardian.com/above-fold-images-loaded-7819ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 8316,
+        "file": "captures/theguardian.com/text-settled-8316ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "timeanddate.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1550,
+        "file": "captures/timeanddate.com/first-contentful-paint-1550ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1550,
+        "file": "captures/timeanddate.com/first-paint-1550ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 1554,
+        "file": "captures/timeanddate.com/above-fold-images-loaded-1554ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1569,
+        "file": "captures/timeanddate.com/lcp-1569ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 2134,
+        "file": "captures/timeanddate.com/text-settled-2134ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "tomsguide.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 4431,
+        "file": "captures/tomsguide.com/first-contentful-paint-4431ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 4431,
+        "file": "captures/tomsguide.com/first-paint-4431ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 4760,
+        "file": "captures/tomsguide.com/lcp-4760ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 11916,
+        "file": "captures/tomsguide.com/text-settled-11916ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 15502,
+        "file": "captures/tomsguide.com/above-fold-images-loaded-15502ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "tripadvisor.com": {
+    "screenshots": [],
+    "hasVideo": false,
+    "hasEvents": false
+  },
+  "weather.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 4820,
+        "file": "captures/weather.com/first-contentful-paint-4820ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 4820,
+        "file": "captures/weather.com/first-paint-4820ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 4930,
+        "file": "captures/weather.com/lcp-4930ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 11404,
+        "file": "captures/weather.com/above-fold-images-loaded-11404ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 11904,
+        "file": "captures/weather.com/text-settled-11904ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "webmd.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1843,
+        "file": "captures/webmd.com/first-contentful-paint-1843ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1843,
+        "file": "captures/webmd.com/first-paint-1843ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1951,
+        "file": "captures/webmd.com/lcp-1951ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 6686,
+        "file": "captures/webmd.com/text-settled-6686ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "wikihow.com": {
+    "screenshots": [
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1406,
+        "file": "captures/wikihow.com/first-contentful-paint-1406ms.png"
+      },
+      {
+        "type": "first-paint",
+        "timeMs": 1406,
+        "file": "captures/wikihow.com/first-paint-1406ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1417,
+        "file": "captures/wikihow.com/lcp-1417ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 2299,
+        "file": "captures/wikihow.com/above-fold-images-loaded-2299ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 2806,
+        "file": "captures/wikihow.com/text-settled-2806ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  },
+  "wikipedia.org": {
+    "screenshots": [
+      {
+        "type": "first-paint",
+        "timeMs": 1064,
+        "file": "captures/wikipedia.org/first-paint-1064ms.png"
+      },
+      {
+        "type": "first-contentful-paint",
+        "timeMs": 1065,
+        "file": "captures/wikipedia.org/first-contentful-paint-1065ms.png"
+      },
+      {
+        "type": "lcp",
+        "timeMs": 1208,
+        "file": "captures/wikipedia.org/lcp-1208ms.png"
+      },
+      {
+        "type": "above-fold-images-loaded",
+        "timeMs": 1409,
+        "file": "captures/wikipedia.org/above-fold-images-loaded-1409ms.png"
+      },
+      {
+        "type": "text-settled",
+        "timeMs": 2006,
+        "file": "captures/wikipedia.org/text-settled-2006ms.png"
+      }
+    ],
+    "hasVideo": true,
+    "hasEvents": true
+  }
+}

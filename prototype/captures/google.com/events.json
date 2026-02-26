@@ -1,0 +1,1349 @@
+[
+  {
+    "type": "navigation-start",
+    "time": 604,
+    "delta": 604,
+    "data": {
+      "url": "http://localhost:3001/proxy?url=https%3A%2F%2Fgoogle.com&throttle=3g"
+    },
+    "videoTimeMs": 633
+  },
+  {
+    "type": "nav-response-start",
+    "time": 597,
+    "delta": -7,
+    "data": {},
+    "videoTimeMs": 633
+  },
+  {
+    "type": "resource-start",
+    "time": 610,
+    "delta": 13,
+    "data": {
+      "resourceType": "script",
+      "name": "/injected-observer.js"
+    },
+    "videoTimeMs": 633
+  },
+  {
+    "type": "resource-script",
+    "time": 610,
+    "delta": 0,
+    "data": {
+      "name": "/injected-observer.js",
+      "duration": 2,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 633
+  },
+  {
+    "type": "resource-complete",
+    "time": 610,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2
+    },
+    "videoTimeMs": 633
+  },
+  {
+    "type": "progress-update",
+    "time": 622,
+    "delta": 12,
+    "data": {
+      "value": 17,
+      "delta": 17
+    },
+    "videoTimeMs": 644
+  },
+  {
+    "type": "resource-start",
+    "time": 632,
+    "delta": 10,
+    "data": {
+      "resourceType": "css",
+      "name": "...IlJfC6mGS6vhAK1YobMu2vgCIhM907w.woff2"
+    },
+    "videoTimeMs": 654
+  },
+  {
+    "type": "resource-css",
+    "time": 632,
+    "delta": 0,
+    "data": {
+      "name": "...IlJfC6mGS6vhAK1YobMu2vgCIhM907w.woff2",
+      "duration": 22,
+      "transferSize": 24796,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 654
+  },
+  {
+    "type": "resource-complete",
+    "time": 632,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 24796,
+      "duration": 22
+    },
+    "videoTimeMs": 654
+  },
+  {
+    "type": "progress-update",
+    "time": 637,
+    "delta": 5,
+    "data": {
+      "value": 27,
+      "delta": 10
+    },
+    "videoTimeMs": 659
+  },
+  {
+    "type": "progress-update",
+    "time": 654,
+    "delta": 17,
+    "data": {
+      "value": 28,
+      "delta": 1
+    },
+    "videoTimeMs": 675
+  },
+  {
+    "type": "progress-update",
+    "time": 670,
+    "delta": 16,
+    "data": {
+      "value": 30,
+      "delta": 2
+    },
+    "videoTimeMs": 692
+  },
+  {
+    "type": "progress-update",
+    "time": 686,
+    "delta": 16,
+    "data": {
+      "value": 31,
+      "delta": 1
+    },
+    "videoTimeMs": 708
+  },
+  {
+    "type": "progress-update",
+    "time": 701,
+    "delta": 15,
+    "data": {
+      "value": 33,
+      "delta": 2
+    },
+    "videoTimeMs": 723
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 706,
+    "delta": 5,
+    "data": {
+      "nodesAdded": 22,
+      "textNodes": 11,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 728
+  },
+  {
+    "type": "progress-update",
+    "time": 718,
+    "delta": 12,
+    "data": {
+      "value": 34,
+      "delta": 1
+    },
+    "videoTimeMs": 740
+  },
+  {
+    "type": "progress-update",
+    "time": 735,
+    "delta": 17,
+    "data": {
+      "value": 35,
+      "delta": 1
+    },
+    "videoTimeMs": 756
+  },
+  {
+    "type": "progress-update",
+    "time": 750,
+    "delta": 15,
+    "data": {
+      "value": 36,
+      "delta": 1
+    },
+    "videoTimeMs": 772
+  },
+  {
+    "type": "progress-update",
+    "time": 766,
+    "delta": 16,
+    "data": {
+      "value": 38,
+      "delta": 2
+    },
+    "videoTimeMs": 788
+  },
+  {
+    "type": "progress-update",
+    "time": 782,
+    "delta": 16,
+    "data": {
+      "value": 39,
+      "delta": 1
+    },
+    "videoTimeMs": 804
+  },
+  {
+    "type": "progress-update",
+    "time": 798,
+    "delta": 16,
+    "data": {
+      "value": 40,
+      "delta": 1
+    },
+    "videoTimeMs": 820
+  },
+  {
+    "type": "progress-update",
+    "time": 814,
+    "delta": 16,
+    "data": {
+      "value": 41,
+      "delta": 1
+    },
+    "videoTimeMs": 836
+  },
+  {
+    "type": "first-paint",
+    "time": 817,
+    "delta": 3,
+    "data": {
+      "startTime": 817,
+      "synthetic": true
+    },
+    "videoTimeMs": 839
+  },
+  {
+    "type": "first-contentful-paint",
+    "time": 818,
+    "delta": 1,
+    "data": {
+      "startTime": 818,
+      "synthetic": true
+    },
+    "videoTimeMs": 839
+  },
+  {
+    "type": "progress-update",
+    "time": 830,
+    "delta": 12,
+    "data": {
+      "value": 42,
+      "delta": 1
+    },
+    "videoTimeMs": 851
+  },
+  {
+    "type": "progress-update",
+    "time": 846,
+    "delta": 16,
+    "data": {
+      "value": 43,
+      "delta": 1
+    },
+    "videoTimeMs": 868
+  },
+  {
+    "type": "progress-update",
+    "time": 862,
+    "delta": 16,
+    "data": {
+      "value": 44,
+      "delta": 1
+    },
+    "videoTimeMs": 884
+  },
+  {
+    "type": "progress-update",
+    "time": 878,
+    "delta": 16,
+    "data": {
+      "value": 45,
+      "delta": 1
+    },
+    "videoTimeMs": 899
+  },
+  {
+    "type": "progress-update",
+    "time": 894,
+    "delta": 16,
+    "data": {
+      "value": 46,
+      "delta": 1
+    },
+    "videoTimeMs": 915
+  },
+  {
+    "type": "progress-update",
+    "time": 911,
+    "delta": 17,
+    "data": {
+      "value": 47,
+      "delta": 1
+    },
+    "videoTimeMs": 932
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 911,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 6,
+      "textNodes": 5,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 932
+  },
+  {
+    "type": "progress-update",
+    "time": 942,
+    "delta": 31,
+    "data": {
+      "value": 48,
+      "delta": 1
+    },
+    "videoTimeMs": 964
+  },
+  {
+    "type": "progress-update",
+    "time": 957,
+    "delta": 15,
+    "data": {
+      "value": 49,
+      "delta": 1
+    },
+    "videoTimeMs": 979
+  },
+  {
+    "type": "progress-update",
+    "time": 973,
+    "delta": 16,
+    "data": {
+      "value": 50,
+      "delta": 1
+    },
+    "videoTimeMs": 995
+  },
+  {
+    "type": "progress-update",
+    "time": 990,
+    "delta": 17,
+    "data": {
+      "value": 51,
+      "delta": 1
+    },
+    "videoTimeMs": 1014
+  },
+  {
+    "type": "progress-update",
+    "time": 1018,
+    "delta": 28,
+    "data": {
+      "value": 52,
+      "delta": 1
+    },
+    "videoTimeMs": 1040
+  },
+  {
+    "type": "progress-update",
+    "time": 1038,
+    "delta": 20,
+    "data": {
+      "value": 53,
+      "delta": 1
+    },
+    "videoTimeMs": 1059
+  },
+  {
+    "type": "lcp",
+    "time": 1038,
+    "delta": 0,
+    "data": {
+      "startTime": 1036,
+      "size": 990,
+      "element": "A"
+    },
+    "videoTimeMs": 1059
+  },
+  {
+    "type": "progress-update",
+    "time": 1071,
+    "delta": 33,
+    "data": {
+      "value": 54,
+      "delta": 1
+    },
+    "videoTimeMs": 1092
+  },
+  {
+    "type": "progress-update",
+    "time": 1086,
+    "delta": 15,
+    "data": {
+      "value": 55,
+      "delta": 1
+    },
+    "videoTimeMs": 1108
+  },
+  {
+    "type": "progress-update",
+    "time": 1118,
+    "delta": 32,
+    "data": {
+      "value": 56,
+      "delta": 1
+    },
+    "videoTimeMs": 1139
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1118,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 159,
+      "textNodes": 64,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1139
+  },
+  {
+    "type": "lcp",
+    "time": 1134,
+    "delta": 16,
+    "data": {
+      "startTime": 1128,
+      "size": 1312,
+      "element": "A"
+    },
+    "videoTimeMs": 1156
+  },
+  {
+    "type": "progress-update",
+    "time": 1150,
+    "delta": 16,
+    "data": {
+      "value": 57,
+      "delta": 1
+    },
+    "videoTimeMs": 1172
+  },
+  {
+    "type": "progress-update",
+    "time": 1166,
+    "delta": 16,
+    "data": {
+      "value": 58,
+      "delta": 1
+    },
+    "videoTimeMs": 1187
+  },
+  {
+    "type": "progress-update",
+    "time": 1214,
+    "delta": 48,
+    "data": {
+      "value": 59,
+      "delta": 1
+    },
+    "videoTimeMs": 1236
+  },
+  {
+    "type": "progress-update",
+    "time": 1246,
+    "delta": 32,
+    "data": {
+      "value": 60,
+      "delta": 1
+    },
+    "videoTimeMs": 1268
+  },
+  {
+    "type": "progress-update",
+    "time": 1278,
+    "delta": 32,
+    "data": {
+      "value": 61,
+      "delta": 1
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "progress-update",
+    "time": 1310,
+    "delta": 32,
+    "data": {
+      "value": 62,
+      "delta": 1
+    },
+    "videoTimeMs": 1332
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1310,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 268,
+      "textNodes": 109,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1332
+  },
+  {
+    "type": "lcp",
+    "time": 1329,
+    "delta": 19,
+    "data": {
+      "startTime": 1328,
+      "size": 3345,
+      "element": "DIV"
+    },
+    "videoTimeMs": 1350
+  },
+  {
+    "type": "resource-start",
+    "time": 1353,
+    "delta": 24,
+    "data": {
+      "resourceType": "css",
+      "name": "...earchbox/searchbox_sprites350_hr.webp"
+    },
+    "videoTimeMs": 1375
+  },
+  {
+    "type": "resource-css",
+    "time": 1353,
+    "delta": 0,
+    "data": {
+      "name": "...earchbox/searchbox_sprites350_hr.webp",
+      "duration": 148,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 1375
+  },
+  {
+    "type": "resource-complete",
+    "time": 1353,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 148
+    },
+    "videoTimeMs": 1375
+  },
+  {
+    "type": "progress-update",
+    "time": 1358,
+    "delta": 5,
+    "data": {
+      "value": 69,
+      "delta": 7
+    },
+    "videoTimeMs": 1379
+  },
+  {
+    "type": "progress-update",
+    "time": 1390,
+    "delta": 32,
+    "data": {
+      "value": 70,
+      "delta": 1
+    },
+    "videoTimeMs": 1412
+  },
+  {
+    "type": "resource-start",
+    "time": 1413,
+    "delta": 23,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/async/hpba?yv=3&cs=0&ei=1kmgae"
+    },
+    "videoTimeMs": 1435
+  },
+  {
+    "type": "resource-fetch",
+    "time": 1413,
+    "delta": 0,
+    "data": {
+      "name": "/async/hpba?yv=3&cs=0&ei=1kmgae",
+      "duration": 105,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 1435
+  },
+  {
+    "type": "resource-complete",
+    "time": 1413,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 105
+    },
+    "videoTimeMs": 1435
+  },
+  {
+    "type": "progress-update",
+    "time": 1422,
+    "delta": 9,
+    "data": {
+      "value": 75,
+      "delta": 5
+    },
+    "videoTimeMs": 1443
+  },
+  {
+    "type": "resource-start",
+    "time": 1436,
+    "delta": 14,
+    "data": {
+      "resourceType": "img",
+      "name": "/s/i/productlogos/googleg/v6/24px.svg"
+    },
+    "videoTimeMs": 1458
+  },
+  {
+    "type": "resource-img",
+    "time": 1436,
+    "delta": 0,
+    "data": {
+      "name": "/s/i/productlogos/googleg/v6/24px.svg",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1458
+  },
+  {
+    "type": "resource-complete",
+    "time": 1436,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 1458
+  },
+  {
+    "type": "progress-update",
+    "time": 1437,
+    "delta": 1,
+    "data": {
+      "value": 79,
+      "delta": 4
+    },
+    "videoTimeMs": 1458
+  },
+  {
+    "type": "progress-update",
+    "time": 1453,
+    "delta": 16,
+    "data": {
+      "value": 80,
+      "delta": 1
+    },
+    "videoTimeMs": 1475
+  },
+  {
+    "type": "resource-start",
+    "time": 1456,
+    "delta": 3,
+    "data": {
+      "resourceType": "script",
+      "name": "...rs=AA2YrTt1HVPpsRCGO24KbJzqvGmOQTt6fA"
+    },
+    "videoTimeMs": 1478
+  },
+  {
+    "type": "resource-script",
+    "time": 1456,
+    "delta": 0,
+    "data": {
+      "name": "...rs=AA2YrTt1HVPpsRCGO24KbJzqvGmOQTt6fA",
+      "duration": 47,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1479
+  },
+  {
+    "type": "resource-complete",
+    "time": 1456,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 47
+    },
+    "videoTimeMs": 1479
+  },
+  {
+    "type": "progress-update",
+    "time": 1477,
+    "delta": 21,
+    "data": {
+      "value": 81,
+      "delta": 1
+    },
+    "videoTimeMs": 1498
+  },
+  {
+    "type": "resource-start",
+    "time": 1477,
+    "delta": 0,
+    "data": {
+      "resourceType": "beacon",
+      "name": "/gen_204?s=async&astyp=hpba&"
+    },
+    "videoTimeMs": 1498
+  },
+  {
+    "type": "resource-other",
+    "time": 1477,
+    "delta": 0,
+    "data": {
+      "name": "/gen_204?s=async&astyp=hpba&",
+      "duration": 47,
+      "transferSize": 0,
+      "initiatorType": "beacon"
+    },
+    "videoTimeMs": 1498
+  },
+  {
+    "type": "resource-complete",
+    "time": 1477,
+    "delta": 0,
+    "data": {
+      "resourceType": "beacon",
+      "transferSize": 0,
+      "duration": 47
+    },
+    "videoTimeMs": 1498
+  },
+  {
+    "type": "progress-update",
+    "time": 1502,
+    "delta": 25,
+    "data": {
+      "value": 82,
+      "delta": 1
+    },
+    "videoTimeMs": 1524
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1509,
+    "delta": 7,
+    "data": {
+      "nodesAdded": 279,
+      "textNodes": 154,
+      "headingNodes": 1
+    },
+    "videoTimeMs": 1531
+  },
+  {
+    "type": "resource-start",
+    "time": 1525,
+    "delta": 16,
+    "data": {
+      "resourceType": "img",
+      "name": "...aterialicons/expand_more/v12/24px.svg"
+    },
+    "videoTimeMs": 1546
+  },
+  {
+    "type": "resource-img",
+    "time": 1525,
+    "delta": 0,
+    "data": {
+      "name": "...aterialicons/expand_more/v12/24px.svg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1546
+  },
+  {
+    "type": "resource-complete",
+    "time": 1525,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 1546
+  },
+  {
+    "type": "progress-update",
+    "time": 1565,
+    "delta": 40,
+    "data": {
+      "value": 83,
+      "delta": 1
+    },
+    "videoTimeMs": 1586
+  },
+  {
+    "type": "resource-start",
+    "time": 1577,
+    "delta": 12,
+    "data": {
+      "resourceType": "script",
+      "name": "...xPNyi-IhgNVED-jgfZ-w/cb=gapi.loaded_0"
+    },
+    "videoTimeMs": 1598
+  },
+  {
+    "type": "resource-script",
+    "time": 1577,
+    "delta": 0,
+    "data": {
+      "name": "...xPNyi-IhgNVED-jgfZ-w/cb=gapi.loaded_0",
+      "duration": 100,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1598
+  },
+  {
+    "type": "resource-complete",
+    "time": 1577,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 100
+    },
+    "videoTimeMs": 1598
+  },
+  {
+    "type": "resource-start",
+    "time": 1587,
+    "delta": 10,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "...data.v1.AsyncDataService/GetAsyncData"
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "resource-fetch",
+    "time": 1587,
+    "delta": 0,
+    "data": {
+      "name": "...data.v1.AsyncDataService/GetAsyncData",
+      "duration": 111,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "resource-complete",
+    "time": 1587,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 111
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "progress-update",
+    "time": 1630,
+    "delta": 43,
+    "data": {
+      "value": 84,
+      "delta": 1
+    },
+    "videoTimeMs": 1652
+  },
+  {
+    "type": "resource-start",
+    "time": 1696,
+    "delta": 66,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1718
+  },
+  {
+    "type": "resource-css",
+    "time": 1696,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 287,
+      "transferSize": 11948,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1719
+  },
+  {
+    "type": "resource-complete",
+    "time": 1696,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 11948,
+      "duration": 287
+    },
+    "videoTimeMs": 1719
+  },
+  {
+    "type": "progress-update",
+    "time": 1719,
+    "delta": 23,
+    "data": {
+      "value": 85,
+      "delta": 1
+    },
+    "videoTimeMs": 1741
+  },
+  {
+    "type": "lcp",
+    "time": 1744,
+    "delta": 25,
+    "data": {
+      "startTime": 1744,
+      "size": 74151,
+      "element": "DIV"
+    },
+    "videoTimeMs": 1766
+  },
+  {
+    "type": "progress-update",
+    "time": 1821,
+    "delta": 77,
+    "data": {
+      "value": 86,
+      "delta": 1
+    },
+    "videoTimeMs": 1843
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1821,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 10,
+      "textNodes": 4,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1843
+  },
+  {
+    "type": "resource-start",
+    "time": 1825,
+    "delta": 4,
+    "data": {
+      "resourceType": "link",
+      "name": "...dgKe,sTsDMc,dtl0hd,eHDfl,YV5bee,d,csi"
+    },
+    "videoTimeMs": 1847
+  },
+  {
+    "type": "resource-css",
+    "time": 1825,
+    "delta": 0,
+    "data": {
+      "name": "...dgKe,sTsDMc,dtl0hd,eHDfl,YV5bee,d,csi",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1847
+  },
+  {
+    "type": "resource-complete",
+    "time": 1825,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 1847
+  },
+  {
+    "type": "resource-start",
+    "time": 1839,
+    "delta": 14,
+    "data": {
+      "resourceType": "beacon",
+      "name": "/gen_204?ei=1kmgaeL8Ntrv7_UP"
+    },
+    "videoTimeMs": 1862
+  },
+  {
+    "type": "resource-other",
+    "time": 1839,
+    "delta": 0,
+    "data": {
+      "name": "/gen_204?ei=1kmgaeL8Ntrv7_UP",
+      "duration": 127,
+      "transferSize": 0,
+      "initiatorType": "beacon"
+    },
+    "videoTimeMs": 1862
+  },
+  {
+    "type": "resource-complete",
+    "time": 1839,
+    "delta": 0,
+    "data": {
+      "resourceType": "beacon",
+      "transferSize": 0,
+      "duration": 127
+    },
+    "videoTimeMs": 1862
+  },
+  {
+    "type": "resource-start",
+    "time": 1840,
+    "delta": 1,
+    "data": {
+      "resourceType": "beacon",
+      "name": "/gen_204?ei=1kmgaeL8Ntrv7_UP"
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-other",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "name": "/gen_204?ei=1kmgaeL8Ntrv7_UP",
+      "duration": 123,
+      "transferSize": 0,
+      "initiatorType": "beacon"
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-complete",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "resourceType": "beacon",
+      "transferSize": 0,
+      "duration": 123
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-start",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/gen_204?atyp=i&ct=bxjs&cad="
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-img",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "name": "/gen_204?atyp=i&ct=bxjs&cad=",
+      "duration": 123,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-complete",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 123
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-start",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "resourceType": "beacon",
+      "name": "/gen_204?s=webhp&t=aft&atyp="
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-other",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "name": "/gen_204?s=webhp&t=aft&atyp=",
+      "duration": 122,
+      "transferSize": 0,
+      "initiatorType": "beacon"
+    },
+    "videoTimeMs": 1863
+  },
+  {
+    "type": "resource-complete",
+    "time": 1840,
+    "delta": 0,
+    "data": {
+      "resourceType": "beacon",
+      "transferSize": 0,
+      "duration": 122
+    },
+    "videoTimeMs": 1864
+  },
+  {
+    "type": "dom-ready",
+    "time": 1911,
+    "delta": 71,
+    "data": {},
+    "videoTimeMs": 1934
+  },
+  {
+    "type": "above-fold-images-loaded",
+    "time": 1912,
+    "delta": 1,
+    "data": {
+      "count": 2
+    },
+    "videoTimeMs": 1934
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1934,
+    "delta": 22,
+    "data": {
+      "nodesAdded": 6,
+      "textNodes": 4,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1956
+  },
+  {
+    "type": "progress-update",
+    "time": 1950,
+    "delta": 16,
+    "data": {
+      "value": 87,
+      "delta": 1
+    },
+    "videoTimeMs": 1971
+  },
+  {
+    "type": "resource-start",
+    "time": 1953,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "/images/nav_logo325_hr.webp"
+    },
+    "videoTimeMs": 1975
+  },
+  {
+    "type": "resource-img",
+    "time": 1953,
+    "delta": 0,
+    "data": {
+      "name": "/images/nav_logo325_hr.webp",
+      "duration": 41,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "resource-complete",
+    "time": 1953,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 41
+    },
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "nav-fetch-start",
+    "time": 0.2999999523162842,
+    "delta": -1952.7000000476837,
+    "data": {
+      "value": 0
+    },
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "nav-response-start",
+    "time": 596.7999999523163,
+    "delta": 596.5,
+    "data": {},
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "nav-response-end",
+    "time": 1910.2999999523163,
+    "delta": 1313.5,
+    "data": {},
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "progress-update",
+    "time": 1953,
+    "delta": 42.700000047683716,
+    "data": {
+      "value": 100,
+      "delta": 13
+    },
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "progress-complete",
+    "time": 1953,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "window-load",
+    "time": 1953,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 1976
+  },
+  {
+    "type": "resource-start",
+    "time": 1994,
+    "delta": 41,
+    "data": {
+      "resourceType": "other",
+      "name": "...ding/product/1x/gsa_android_144dp.png"
+    },
+    "videoTimeMs": 2016
+  },
+  {
+    "type": "resource-other",
+    "time": 1994,
+    "delta": 0,
+    "data": {
+      "name": "...ding/product/1x/gsa_android_144dp.png",
+      "duration": 39,
+      "transferSize": 0,
+      "initiatorType": "other"
+    },
+    "videoTimeMs": 2016
+  },
+  {
+    "type": "resource-complete",
+    "time": 1995,
+    "delta": 1,
+    "data": {
+      "resourceType": "other",
+      "transferSize": 0,
+      "duration": 39
+    },
+    "videoTimeMs": 2017
+  },
+  {
+    "type": "text-settled",
+    "time": 2436,
+    "delta": 441,
+    "data": {},
+    "videoTimeMs": 2458
+  },
+  {
+    "type": "resource-start",
+    "time": 2521,
+    "delta": 85,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/log?format=json&hasfast"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-fetch",
+    "time": 2521,
+    "delta": 0,
+    "data": {
+      "name": "/log?format=json&hasfast",
+      "duration": 45,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-complete",
+    "time": 2521,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 45
+    },
+    "videoTimeMs": 2543
+  },
+  {
+    "type": "resource-start",
+    "time": 4461,
+    "delta": 1940,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/log?format=json&hasfast"
+    },
+    "videoTimeMs": 4482
+  },
+  {
+    "type": "resource-fetch",
+    "time": 4461,
+    "delta": 0,
+    "data": {
+      "name": "/log?format=json&hasfast",
+      "duration": 120,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 4482
+  },
+  {
+    "type": "resource-complete",
+    "time": 4461,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 120
+    },
+    "videoTimeMs": 4483
+  }
+]

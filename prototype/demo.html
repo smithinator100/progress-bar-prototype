@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo - Progress Bar</title>
+  <style>
+    body { margin: 0; overflow: hidden; background: transparent; }
+  </style>
+</head>
+<body>
+  <script>
+    (function() {
+      const start = performance.now();
+      function post(type, data = {}, delta) {
+        const time = performance.now() - start;
+        try {
+          window.parent.postMessage({
+            source: 'progress-bar-observer',
+            event: { type, time, delta: delta ?? time, data }
+          }, '*');
+        } catch (e) {}
+      }
+      post('navigation-start', { url: window.location.href });
+      setTimeout(() => post('nav-response-start'), 80);
+      setTimeout(() => post('dom-ready'), 150);
+      setTimeout(() => post('first-paint'), 200);
+      setTimeout(() => post('first-contentful-paint'), 250);
+      setTimeout(() => post('mutation-nodes', { nodesAdded: 5, textNodes: 3, headingNodes: 1 }), 300);
+      setTimeout(() => post('text-settled'), 500);
+      setTimeout(() => post('above-fold-images-loaded', { count: 0 }), 600);
+      setTimeout(() => post('lcp', { element: 'h1' }), 700);
+      setTimeout(() => post('window-load'), 900);
+    })();
+  </script>
+</body>
+</html>

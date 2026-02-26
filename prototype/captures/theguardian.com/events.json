@@ -1,0 +1,7700 @@
+[
+  {
+    "type": "navigation-start",
+    "time": 562,
+    "delta": 562,
+    "data": {
+      "url": "http://localhost:3001/proxy?url=https%3A%2F%2Ftheguardian.com&throttle=3g"
+    },
+    "videoTimeMs": 588
+  },
+  {
+    "type": "nav-response-start",
+    "time": 555,
+    "delta": -7,
+    "data": {},
+    "videoTimeMs": 588
+  },
+  {
+    "type": "resource-start",
+    "time": 564,
+    "delta": 9,
+    "data": {
+      "resourceType": "script",
+      "name": "/injected-observer.js"
+    },
+    "videoTimeMs": 589
+  },
+  {
+    "type": "resource-script",
+    "time": 564,
+    "delta": 0,
+    "data": {
+      "name": "/injected-observer.js",
+      "duration": 2,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 589
+  },
+  {
+    "type": "resource-complete",
+    "time": 564,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2
+    },
+    "videoTimeMs": 590
+  },
+  {
+    "type": "progress-update",
+    "time": 581,
+    "delta": 17,
+    "data": {
+      "value": 17,
+      "delta": 17
+    },
+    "videoTimeMs": 604
+  },
+  {
+    "type": "progress-update",
+    "time": 596,
+    "delta": 15,
+    "data": {
+      "value": 18,
+      "delta": 1
+    },
+    "videoTimeMs": 619
+  },
+  {
+    "type": "progress-update",
+    "time": 613,
+    "delta": 17,
+    "data": {
+      "value": 20,
+      "delta": 2
+    },
+    "videoTimeMs": 636
+  },
+  {
+    "type": "resource-start",
+    "time": 626,
+    "delta": 13,
+    "data": {
+      "resourceType": "link",
+      "name": "/static/frontend/manifest.json"
+    },
+    "videoTimeMs": 649
+  },
+  {
+    "type": "resource-css",
+    "time": 626,
+    "delta": 0,
+    "data": {
+      "name": "/static/frontend/manifest.json",
+      "duration": 59,
+      "transferSize": 0,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 650
+  },
+  {
+    "type": "resource-complete",
+    "time": 626,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 0,
+      "duration": 59
+    },
+    "videoTimeMs": 650
+  },
+  {
+    "type": "progress-update",
+    "time": 627,
+    "delta": 1,
+    "data": {
+      "value": 30,
+      "delta": 10
+    },
+    "videoTimeMs": 650
+  },
+  {
+    "type": "progress-update",
+    "time": 644,
+    "delta": 17,
+    "data": {
+      "value": 31,
+      "delta": 1
+    },
+    "videoTimeMs": 668
+  },
+  {
+    "type": "progress-update",
+    "time": 659,
+    "delta": 15,
+    "data": {
+      "value": 33,
+      "delta": 2
+    },
+    "videoTimeMs": 683
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 665,
+    "delta": 6,
+    "data": {
+      "nodesAdded": 128,
+      "textNodes": 28,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 689
+  },
+  {
+    "type": "progress-update",
+    "time": 676,
+    "delta": 11,
+    "data": {
+      "value": 34,
+      "delta": 1
+    },
+    "videoTimeMs": 700
+  },
+  {
+    "type": "progress-update",
+    "time": 692,
+    "delta": 16,
+    "data": {
+      "value": 35,
+      "delta": 1
+    },
+    "videoTimeMs": 715
+  },
+  {
+    "type": "progress-update",
+    "time": 709,
+    "delta": 17,
+    "data": {
+      "value": 36,
+      "delta": 1
+    },
+    "videoTimeMs": 732
+  },
+  {
+    "type": "progress-update",
+    "time": 724,
+    "delta": 15,
+    "data": {
+      "value": 38,
+      "delta": 2
+    },
+    "videoTimeMs": 747
+  },
+  {
+    "type": "progress-update",
+    "time": 740,
+    "delta": 16,
+    "data": {
+      "value": 39,
+      "delta": 1
+    },
+    "videoTimeMs": 764
+  },
+  {
+    "type": "progress-update",
+    "time": 756,
+    "delta": 16,
+    "data": {
+      "value": 40,
+      "delta": 1
+    },
+    "videoTimeMs": 780
+  },
+  {
+    "type": "progress-update",
+    "time": 771,
+    "delta": 15,
+    "data": {
+      "value": 41,
+      "delta": 1
+    },
+    "videoTimeMs": 795
+  },
+  {
+    "type": "progress-update",
+    "time": 788,
+    "delta": 17,
+    "data": {
+      "value": 42,
+      "delta": 1
+    },
+    "videoTimeMs": 812
+  },
+  {
+    "type": "progress-update",
+    "time": 804,
+    "delta": 16,
+    "data": {
+      "value": 43,
+      "delta": 1
+    },
+    "videoTimeMs": 828
+  },
+  {
+    "type": "resource-start",
+    "time": 810,
+    "delta": 6,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 834
+  },
+  {
+    "type": "resource-css",
+    "time": 810,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 249,
+      "transferSize": 17092,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 834
+  },
+  {
+    "type": "resource-complete",
+    "time": 810,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 17092,
+      "duration": 249
+    },
+    "videoTimeMs": 834
+  },
+  {
+    "type": "resource-start",
+    "time": 813,
+    "delta": 3,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 837
+  },
+  {
+    "type": "resource-css",
+    "time": 813,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 254,
+      "transferSize": 16792,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 837
+  },
+  {
+    "type": "resource-complete",
+    "time": 813,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 16792,
+      "duration": 254
+    },
+    "videoTimeMs": 837
+  },
+  {
+    "type": "progress-update",
+    "time": 820,
+    "delta": 7,
+    "data": {
+      "value": 55,
+      "delta": 12
+    },
+    "videoTimeMs": 844
+  },
+  {
+    "type": "progress-update",
+    "time": 836,
+    "delta": 16,
+    "data": {
+      "value": 56,
+      "delta": 1
+    },
+    "videoTimeMs": 859
+  },
+  {
+    "type": "progress-update",
+    "time": 853,
+    "delta": 17,
+    "data": {
+      "value": 57,
+      "delta": 1
+    },
+    "videoTimeMs": 876
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 859,
+    "delta": 6,
+    "data": {
+      "nodesAdded": 6,
+      "textNodes": 6,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 882
+  },
+  {
+    "type": "progress-update",
+    "time": 869,
+    "delta": 10,
+    "data": {
+      "value": 58,
+      "delta": 1
+    },
+    "videoTimeMs": 892
+  },
+  {
+    "type": "progress-update",
+    "time": 884,
+    "delta": 15,
+    "data": {
+      "value": 59,
+      "delta": 1
+    },
+    "videoTimeMs": 908
+  },
+  {
+    "type": "progress-update",
+    "time": 915,
+    "delta": 31,
+    "data": {
+      "value": 60,
+      "delta": 1
+    },
+    "videoTimeMs": 939
+  },
+  {
+    "type": "progress-update",
+    "time": 932,
+    "delta": 17,
+    "data": {
+      "value": 61,
+      "delta": 1
+    },
+    "videoTimeMs": 956
+  },
+  {
+    "type": "progress-update",
+    "time": 948,
+    "delta": 16,
+    "data": {
+      "value": 62,
+      "delta": 1
+    },
+    "videoTimeMs": 972
+  },
+  {
+    "type": "progress-update",
+    "time": 980,
+    "delta": 32,
+    "data": {
+      "value": 63,
+      "delta": 1
+    },
+    "videoTimeMs": 1004
+  },
+  {
+    "type": "progress-update",
+    "time": 996,
+    "delta": 16,
+    "data": {
+      "value": 64,
+      "delta": 1
+    },
+    "videoTimeMs": 1020
+  },
+  {
+    "type": "progress-update",
+    "time": 1012,
+    "delta": 16,
+    "data": {
+      "value": 65,
+      "delta": 1
+    },
+    "videoTimeMs": 1036
+  },
+  {
+    "type": "resource-start",
+    "time": 1016,
+    "delta": 4,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 1040
+  },
+  {
+    "type": "resource-script",
+    "time": 1016,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 456,
+      "transferSize": 53789,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1040
+  },
+  {
+    "type": "resource-complete",
+    "time": 1016,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 53789,
+      "duration": 456
+    },
+    "videoTimeMs": 1040
+  },
+  {
+    "type": "progress-update",
+    "time": 1028,
+    "delta": 12,
+    "data": {
+      "value": 69,
+      "delta": 4
+    },
+    "videoTimeMs": 1052
+  },
+  {
+    "type": "progress-update",
+    "time": 1044,
+    "delta": 16,
+    "data": {
+      "value": 70,
+      "delta": 1
+    },
+    "videoTimeMs": 1068
+  },
+  {
+    "type": "progress-update",
+    "time": 1077,
+    "delta": 33,
+    "data": {
+      "value": 71,
+      "delta": 1
+    },
+    "videoTimeMs": 1100
+  },
+  {
+    "type": "progress-update",
+    "time": 1108,
+    "delta": 31,
+    "data": {
+      "value": 72,
+      "delta": 1
+    },
+    "videoTimeMs": 1133
+  },
+  {
+    "type": "progress-update",
+    "time": 1124,
+    "delta": 16,
+    "data": {
+      "value": 73,
+      "delta": 1
+    },
+    "videoTimeMs": 1148
+  },
+  {
+    "type": "progress-update",
+    "time": 1156,
+    "delta": 32,
+    "data": {
+      "value": 74,
+      "delta": 1
+    },
+    "videoTimeMs": 1180
+  },
+  {
+    "type": "progress-update",
+    "time": 1204,
+    "delta": 48,
+    "data": {
+      "value": 75,
+      "delta": 1
+    },
+    "videoTimeMs": 1227
+  },
+  {
+    "type": "progress-update",
+    "time": 1237,
+    "delta": 33,
+    "data": {
+      "value": 76,
+      "delta": 1
+    },
+    "videoTimeMs": 1260
+  },
+  {
+    "type": "resource-start",
+    "time": 1258,
+    "delta": 21,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 1282
+  },
+  {
+    "type": "resource-script",
+    "time": 1258,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 699,
+      "transferSize": 468,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1282
+  },
+  {
+    "type": "resource-complete",
+    "time": 1258,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 468,
+      "duration": 699
+    },
+    "videoTimeMs": 1283
+  },
+  {
+    "type": "progress-update",
+    "time": 1268,
+    "delta": 10,
+    "data": {
+      "value": 78,
+      "delta": 2
+    },
+    "videoTimeMs": 1291
+  },
+  {
+    "type": "progress-update",
+    "time": 1299,
+    "delta": 31,
+    "data": {
+      "value": 79,
+      "delta": 1
+    },
+    "videoTimeMs": 1323
+  },
+  {
+    "type": "progress-update",
+    "time": 1348,
+    "delta": 49,
+    "data": {
+      "value": 80,
+      "delta": 1
+    },
+    "videoTimeMs": 1372
+  },
+  {
+    "type": "progress-update",
+    "time": 1396,
+    "delta": 48,
+    "data": {
+      "value": 81,
+      "delta": 1
+    },
+    "videoTimeMs": 1420
+  },
+  {
+    "type": "progress-update",
+    "time": 1460,
+    "delta": 64,
+    "data": {
+      "value": 82,
+      "delta": 1
+    },
+    "videoTimeMs": 1484
+  },
+  {
+    "type": "progress-update",
+    "time": 1524,
+    "delta": 64,
+    "data": {
+      "value": 83,
+      "delta": 1
+    },
+    "videoTimeMs": 1548
+  },
+  {
+    "type": "progress-update",
+    "time": 1588,
+    "delta": 64,
+    "data": {
+      "value": 84,
+      "delta": 1
+    },
+    "videoTimeMs": 1612
+  },
+  {
+    "type": "progress-update",
+    "time": 1668,
+    "delta": 80,
+    "data": {
+      "value": 85,
+      "delta": 1
+    },
+    "videoTimeMs": 1692
+  },
+  {
+    "type": "progress-update",
+    "time": 1780,
+    "delta": 112,
+    "data": {
+      "value": 86,
+      "delta": 1
+    },
+    "videoTimeMs": 1804
+  },
+  {
+    "type": "resource-start",
+    "time": 1843,
+    "delta": 63,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 1867
+  },
+  {
+    "type": "resource-script",
+    "time": 1843,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 1283,
+      "transferSize": 62180,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1868
+  },
+  {
+    "type": "resource-complete",
+    "time": 1843,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 62180,
+      "duration": 1283
+    },
+    "videoTimeMs": 1868
+  },
+  {
+    "type": "progress-update",
+    "time": 1892,
+    "delta": 49,
+    "data": {
+      "value": 87,
+      "delta": 1
+    },
+    "videoTimeMs": 1916
+  },
+  {
+    "type": "resource-start",
+    "time": 1902,
+    "delta": 10,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 1926
+  },
+  {
+    "type": "resource-script",
+    "time": 1902,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 1342,
+      "transferSize": 171515,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1926
+  },
+  {
+    "type": "resource-complete",
+    "time": 1902,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 171515,
+      "duration": 1342
+    },
+    "videoTimeMs": 1926
+  },
+  {
+    "type": "progress-update",
+    "time": 2067,
+    "delta": 165,
+    "data": {
+      "value": 88,
+      "delta": 1
+    },
+    "videoTimeMs": 2091
+  },
+  {
+    "type": "progress-update",
+    "time": 2324,
+    "delta": 257,
+    "data": {
+      "value": 89,
+      "delta": 1
+    },
+    "videoTimeMs": 2348
+  },
+  {
+    "type": "progress-update",
+    "time": 2869,
+    "delta": 545,
+    "data": {
+      "value": 90,
+      "delta": 1
+    },
+    "videoTimeMs": 2893
+  },
+  {
+    "type": "first-paint",
+    "time": 4116,
+    "delta": 1247,
+    "data": {
+      "startTime": 4116,
+      "synthetic": true
+    },
+    "videoTimeMs": 4139
+  },
+  {
+    "type": "first-contentful-paint",
+    "time": 4116,
+    "delta": 0,
+    "data": {
+      "startTime": 4116,
+      "synthetic": true
+    },
+    "videoTimeMs": 4139
+  },
+  {
+    "type": "lcp",
+    "time": 4133,
+    "delta": 17,
+    "data": {
+      "startTime": 4132,
+      "size": 1176,
+      "element": "A"
+    },
+    "videoTimeMs": 4156
+  },
+  {
+    "type": "resource-start",
+    "time": 4145,
+    "delta": 12,
+    "data": {
+      "resourceType": "css",
+      "name": "...hinted/GuardianTextSans-Regular.woff2"
+    },
+    "videoTimeMs": 4169
+  },
+  {
+    "type": "resource-css",
+    "time": 4145,
+    "delta": 0,
+    "data": {
+      "name": "...hinted/GuardianTextSans-Regular.woff2",
+      "duration": 38,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 4169
+  },
+  {
+    "type": "resource-complete",
+    "time": 4145,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 38
+    },
+    "videoTimeMs": 4169
+  },
+  {
+    "type": "resource-start",
+    "time": 4145,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "name": "...ot-hinted/GuardianTextSans-Bold.woff2"
+    },
+    "videoTimeMs": 4169
+  },
+  {
+    "type": "resource-css",
+    "time": 4145,
+    "delta": 0,
+    "data": {
+      "name": "...ot-hinted/GuardianTextSans-Bold.woff2",
+      "duration": 38,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 4169
+  },
+  {
+    "type": "resource-complete",
+    "time": 4145,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 38
+    },
+    "videoTimeMs": 4169
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4212,
+    "delta": 67,
+    "data": {
+      "nodesAdded": 162,
+      "textNodes": 71,
+      "headingNodes": 6
+    },
+    "videoTimeMs": 4235
+  },
+  {
+    "type": "resource-start",
+    "time": 4214,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...b4bd40d/0_0_5000_4000/master/5000.jpg"
+    },
+    "videoTimeMs": 4238
+  },
+  {
+    "type": "resource-img",
+    "time": 4215,
+    "delta": 1,
+    "data": {
+      "name": "...b4bd40d/0_0_5000_4000/master/5000.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4238
+  },
+  {
+    "type": "resource-complete",
+    "time": 4215,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 4238
+  },
+  {
+    "type": "resource-start",
+    "time": 4215,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...c7dd8e1/1_0_4998_4000/master/4998.jpg"
+    },
+    "videoTimeMs": 4238
+  },
+  {
+    "type": "resource-img",
+    "time": 4215,
+    "delta": 0,
+    "data": {
+      "name": "...c7dd8e1/1_0_4998_4000/master/4998.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4238
+  },
+  {
+    "type": "resource-complete",
+    "time": 4215,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 4239
+  },
+  {
+    "type": "resource-start",
+    "time": 4216,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...d14d56aff/0_53_600_480/master/600.jpg"
+    },
+    "videoTimeMs": 4239
+  },
+  {
+    "type": "resource-img",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "name": "...d14d56aff/0_53_600_480/master/600.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4239
+  },
+  {
+    "type": "resource-complete",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 4239
+  },
+  {
+    "type": "resource-start",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...a03ec/457_0_4585_3668/master/4585.jpg"
+    },
+    "videoTimeMs": 4240
+  },
+  {
+    "type": "resource-img",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "name": "...a03ec/457_0_4585_3668/master/4585.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4240
+  },
+  {
+    "type": "resource-complete",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 4240
+  },
+  {
+    "type": "resource-start",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...684/624_586_2601_2081/master/2601.jpg"
+    },
+    "videoTimeMs": 4240
+  },
+  {
+    "type": "resource-img",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "name": "...684/624_586_2601_2081/master/2601.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4240
+  },
+  {
+    "type": "resource-complete",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 4240
+  },
+  {
+    "type": "resource-start",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ploads/2022/09/26/David_Broder,_L.png"
+    },
+    "videoTimeMs": 4240
+  },
+  {
+    "type": "resource-img",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "name": "...ploads/2022/09/26/David_Broder,_L.png",
+      "duration": 18,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4241
+  },
+  {
+    "type": "resource-complete",
+    "time": 4216,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 18
+    },
+    "videoTimeMs": 4241
+  },
+  {
+    "type": "resource-start",
+    "time": 4217,
+    "delta": 1,
+    "data": {
+      "resourceType": "css",
+      "name": "...inted/GHGuardianHeadline-Medium.woff2"
+    },
+    "videoTimeMs": 4241
+  },
+  {
+    "type": "resource-css",
+    "time": 4217,
+    "delta": 0,
+    "data": {
+      "name": "...inted/GHGuardianHeadline-Medium.woff2",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 4241
+  },
+  {
+    "type": "resource-complete",
+    "time": 4217,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 4241
+  },
+  {
+    "type": "lcp",
+    "time": 4232,
+    "delta": 15,
+    "data": {
+      "startTime": 4232,
+      "size": 9568,
+      "element": "IMG"
+    },
+    "videoTimeMs": 4256
+  },
+  {
+    "type": "resource-start",
+    "time": 4319,
+    "delta": 87,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 4343
+  },
+  {
+    "type": "resource-css",
+    "time": 4319,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 216,
+      "transferSize": 375,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 4343
+  },
+  {
+    "type": "resource-complete",
+    "time": 4319,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 375,
+      "duration": 216
+    },
+    "videoTimeMs": 4343
+  },
+  {
+    "type": "resource-start",
+    "time": 4533,
+    "delta": 214,
+    "data": {
+      "resourceType": "css",
+      "name": "...-hinted/GHGuardianHeadline-Bold.woff2"
+    },
+    "videoTimeMs": 4557
+  },
+  {
+    "type": "resource-css",
+    "time": 4533,
+    "delta": 0,
+    "data": {
+      "name": "...-hinted/GHGuardianHeadline-Bold.woff2",
+      "duration": 32,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 4557
+  },
+  {
+    "type": "resource-complete",
+    "time": 4533,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 32
+    },
+    "videoTimeMs": 4558
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4598,
+    "delta": 65,
+    "data": {
+      "nodesAdded": 159,
+      "textNodes": 70,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 4624
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4703,
+    "delta": 105,
+    "data": {
+      "nodesAdded": 444,
+      "textNodes": 172,
+      "headingNodes": 10
+    },
+    "videoTimeMs": 4727
+  },
+  {
+    "type": "resource-start",
+    "time": 4715,
+    "delta": 12,
+    "data": {
+      "resourceType": "img",
+      "name": "...2509f/980_0_6320_5058/master/6320.jpg"
+    },
+    "videoTimeMs": 4739
+  },
+  {
+    "type": "resource-img",
+    "time": 4715,
+    "delta": 0,
+    "data": {
+      "name": "...2509f/980_0_6320_5058/master/6320.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4739
+  },
+  {
+    "type": "resource-complete",
+    "time": 4715,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 4739
+  },
+  {
+    "type": "resource-start",
+    "time": 4718,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "...8d00954b/0_0_1024_823/master/1024.jpg"
+    },
+    "videoTimeMs": 4742
+  },
+  {
+    "type": "resource-img",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "name": "...8d00954b/0_0_1024_823/master/1024.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4742
+  },
+  {
+    "type": "resource-complete",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 4742
+  },
+  {
+    "type": "resource-start",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...b3c6/1210_0_6675_5341/master/6675.jpg"
+    },
+    "videoTimeMs": 4742
+  },
+  {
+    "type": "resource-img",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "name": "...b3c6/1210_0_6675_5341/master/6675.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4743
+  },
+  {
+    "type": "resource-complete",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 4743
+  },
+  {
+    "type": "resource-start",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...94645/149_0_7200_5760/master/7200.jpg"
+    },
+    "videoTimeMs": 4743
+  },
+  {
+    "type": "resource-img",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "name": "...94645/149_0_7200_5760/master/7200.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4743
+  },
+  {
+    "type": "resource-complete",
+    "time": 4718,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 4743
+  },
+  {
+    "type": "lcp",
+    "time": 4757,
+    "delta": 39,
+    "data": {
+      "startTime": 4752,
+      "size": 101920,
+      "element": "IMG"
+    },
+    "videoTimeMs": 4780
+  },
+  {
+    "type": "resource-start",
+    "time": 4815,
+    "delta": 58,
+    "data": {
+      "resourceType": "img",
+      "name": "...935d3/622_0_5000_4000/master/5000.jpg"
+    },
+    "videoTimeMs": 4839
+  },
+  {
+    "type": "resource-img",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "name": "...935d3/622_0_5000_4000/master/5000.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4839
+  },
+  {
+    "type": "resource-complete",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 4839
+  },
+  {
+    "type": "resource-start",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...d3d792f/0_0_2922_2337/master/2922.jpg"
+    },
+    "videoTimeMs": 4839
+  },
+  {
+    "type": "resource-img",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "name": "...d3d792f/0_0_2922_2337/master/2922.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4839
+  },
+  {
+    "type": "resource-complete",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 4839
+  },
+  {
+    "type": "resource-start",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...17260/680_0_3143_2515/master/3143.jpg"
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-img",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "name": "...17260/680_0_3143_2515/master/3143.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-complete",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-start",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...62ee5/708_0_6686_5352/master/6686.jpg"
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-img",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "name": "...62ee5/708_0_6686_5352/master/6686.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-complete",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-start",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...99bb0/0_656_3914_3130/master/3914.jpg"
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-img",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "name": "...99bb0/0_656_3914_3130/master/3914.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "resource-complete",
+    "time": 4815,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 4840
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4907,
+    "delta": 92,
+    "data": {
+      "nodesAdded": 376,
+      "textNodes": 130,
+      "headingNodes": 12
+    },
+    "videoTimeMs": 4930
+  },
+  {
+    "type": "resource-start",
+    "time": 4923,
+    "delta": 16,
+    "data": {
+      "resourceType": "img",
+      "name": "...a03ec/457_0_4585_3668/master/4585.jpg"
+    },
+    "videoTimeMs": 4946
+  },
+  {
+    "type": "resource-img",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "name": "...a03ec/457_0_4585_3668/master/4585.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4946
+  },
+  {
+    "type": "resource-complete",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 4946
+  },
+  {
+    "type": "resource-start",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...61d62/0_492_4739_3792/master/4739.jpg"
+    },
+    "videoTimeMs": 4947
+  },
+  {
+    "type": "resource-img",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "name": "...61d62/0_492_4739_3792/master/4739.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4947
+  },
+  {
+    "type": "resource-complete",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 4947
+  },
+  {
+    "type": "resource-start",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...bba5c/285_0_1350_1080/master/1350.jpg"
+    },
+    "videoTimeMs": 4947
+  },
+  {
+    "type": "resource-img",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "name": "...bba5c/285_0_1350_1080/master/1350.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4947
+  },
+  {
+    "type": "resource-complete",
+    "time": 4923,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 4947
+  },
+  {
+    "type": "resource-start",
+    "time": 4928,
+    "delta": 5,
+    "data": {
+      "resourceType": "img",
+      "name": "...c7dd8e1/1_0_4998_4000/master/4998.jpg"
+    },
+    "videoTimeMs": 4951
+  },
+  {
+    "type": "resource-img",
+    "time": 4928,
+    "delta": 0,
+    "data": {
+      "name": "...c7dd8e1/1_0_4998_4000/master/4998.jpg",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4951
+  },
+  {
+    "type": "resource-complete",
+    "time": 4928,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 4951
+  },
+  {
+    "type": "resource-start",
+    "time": 5022,
+    "delta": 94,
+    "data": {
+      "resourceType": "img",
+      "name": "...b4bd40d/0_0_5000_4000/master/5000.jpg"
+    },
+    "videoTimeMs": 5046
+  },
+  {
+    "type": "resource-img",
+    "time": 5022,
+    "delta": 0,
+    "data": {
+      "name": "...b4bd40d/0_0_5000_4000/master/5000.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5046
+  },
+  {
+    "type": "resource-complete",
+    "time": 5022,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 5046
+  },
+  {
+    "type": "resource-start",
+    "time": 5022,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...42767/710_0_5458_4366/master/5458.jpg"
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-img",
+    "time": 5022,
+    "delta": 0,
+    "data": {
+      "name": "...42767/710_0_5458_4366/master/5458.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-complete",
+    "time": 5022,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-start",
+    "time": 5023,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...776-a2b9-b4b4b6d9553e-1.0.0000000.jpg"
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-img",
+    "time": 5023,
+    "delta": 0,
+    "data": {
+      "name": "...776-a2b9-b4b4b6d9553e-1.0.0000000.jpg",
+      "duration": 18,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-complete",
+    "time": 5023,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 18
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-start",
+    "time": 5023,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...65ff/138_40_3292_2635/master/3292.jpg"
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-img",
+    "time": 5023,
+    "delta": 0,
+    "data": {
+      "name": "...65ff/138_40_3292_2635/master/3292.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "resource-complete",
+    "time": 5023,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 5047
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5107,
+    "delta": 84,
+    "data": {
+      "nodesAdded": 406,
+      "textNodes": 133,
+      "headingNodes": 12
+    },
+    "videoTimeMs": 5131
+  },
+  {
+    "type": "resource-start",
+    "time": 5186,
+    "delta": 79,
+    "data": {
+      "resourceType": "img",
+      "name": "...97e0/1423_0_3054_2445/master/3054.jpg"
+    },
+    "videoTimeMs": 5211
+  },
+  {
+    "type": "resource-img",
+    "time": 5186,
+    "delta": 0,
+    "data": {
+      "name": "...97e0/1423_0_3054_2445/master/3054.jpg",
+      "duration": 81,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5211
+  },
+  {
+    "type": "resource-complete",
+    "time": 5186,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 81
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-start",
+    "time": 5186,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...4764d/163_0_3777_3021/master/3777.jpg"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-img",
+    "time": 5186,
+    "delta": 0,
+    "data": {
+      "name": "...4764d/163_0_3777_3021/master/3777.jpg",
+      "duration": 81,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-complete",
+    "time": 5186,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 81
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-start",
+    "time": 5187,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...bc2a1fc/1_0_2999_2400/master/2999.jpg"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-img",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "name": "...bc2a1fc/1_0_2999_2400/master/2999.jpg",
+      "duration": 82,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-complete",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 82
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-start",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...684/624_586_2601_2081/master/2601.jpg"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-img",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "name": "...684/624_586_2601_2081/master/2601.jpg",
+      "duration": 81,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-complete",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 81
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-start",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...a2/306_1531_3086_2469/master/3086.jpg"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-img",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "name": "...a2/306_1531_3086_2469/master/3086.jpg",
+      "duration": 82,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5212
+  },
+  {
+    "type": "resource-complete",
+    "time": 5187,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 82
+    },
+    "videoTimeMs": 5213
+  },
+  {
+    "type": "resource-start",
+    "time": 5219,
+    "delta": 32,
+    "data": {
+      "resourceType": "img",
+      "name": "...ploads/2022/09/26/David_Broder,_L.png"
+    },
+    "videoTimeMs": 5243
+  },
+  {
+    "type": "resource-img",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "name": "...ploads/2022/09/26/David_Broder,_L.png",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5243
+  },
+  {
+    "type": "resource-complete",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5243
+  },
+  {
+    "type": "resource-start",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/img/uploads/2025/02/19/Kenneth_Roth.png?width=150&dpr=2&s=n"
+    },
+    "videoTimeMs": 5243
+  },
+  {
+    "type": "resource-img",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "name": "/img/uploads/2025/02/19/Kenneth_Roth.png?width=150&dpr=2&s=n",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "resource-complete",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "resource-start",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ploads/2022/09/20/Andy_Beckett_v2.png"
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "resource-img",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "name": "...ploads/2022/09/20/Andy_Beckett_v2.png",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "resource-complete",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "resource-start",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ds/2017/10/09/Moustafa_Bayoumi,_L.png"
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "resource-img",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "name": "...ds/2017/10/09/Moustafa_Bayoumi,_L.png",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "resource-complete",
+    "time": 5219,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5244
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5309,
+    "delta": 90,
+    "data": {
+      "nodesAdded": 429,
+      "textNodes": 178,
+      "headingNodes": 14
+    },
+    "videoTimeMs": 5333
+  },
+  {
+    "type": "resource-start",
+    "time": 5321,
+    "delta": 12,
+    "data": {
+      "resourceType": "img",
+      "name": "...ads/2026/02/03/Janine_di_Giovanni.png"
+    },
+    "videoTimeMs": 5345
+  },
+  {
+    "type": "resource-img",
+    "time": 5321,
+    "delta": 0,
+    "data": {
+      "name": "...ads/2026/02/03/Janine_di_Giovanni.png",
+      "duration": 12,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5345
+  },
+  {
+    "type": "resource-complete",
+    "time": 5321,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 12
+    },
+    "videoTimeMs": 5345
+  },
+  {
+    "type": "resource-start",
+    "time": 5321,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/img/uploads/2018/01/23/Coco_Khan,_L.png?width=80&dpr=2&s=no"
+    },
+    "videoTimeMs": 5345
+  },
+  {
+    "type": "resource-img",
+    "time": 5321,
+    "delta": 0,
+    "data": {
+      "name": "/img/uploads/2018/01/23/Coco_Khan,_L.png?width=80&dpr=2&s=no",
+      "duration": 12,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5345
+  },
+  {
+    "type": "resource-complete",
+    "time": 5321,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 12
+    },
+    "videoTimeMs": 5346
+  },
+  {
+    "type": "resource-start",
+    "time": 5322,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...ec781/0_100_6000_4800/master/6000.jpg"
+    },
+    "videoTimeMs": 5346
+  },
+  {
+    "type": "resource-img",
+    "time": 5322,
+    "delta": 0,
+    "data": {
+      "name": "...ec781/0_100_6000_4800/master/6000.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5346
+  },
+  {
+    "type": "resource-complete",
+    "time": 5322,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 5346
+  },
+  {
+    "type": "resource-start",
+    "time": 5324,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...e9fde27/0_0_6880_5504/master/6880.jpg"
+    },
+    "videoTimeMs": 5347
+  },
+  {
+    "type": "resource-img",
+    "time": 5324,
+    "delta": 0,
+    "data": {
+      "name": "...e9fde27/0_0_6880_5504/master/6880.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5348
+  },
+  {
+    "type": "resource-complete",
+    "time": 5324,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 5348
+  },
+  {
+    "type": "resource-start",
+    "time": 5423,
+    "delta": 99,
+    "data": {
+      "resourceType": "img",
+      "name": "...47/1452_984_4939_3951/master/4939.jpg"
+    },
+    "videoTimeMs": 5446
+  },
+  {
+    "type": "resource-img",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "name": "...47/1452_984_4939_3951/master/4939.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5446
+  },
+  {
+    "type": "resource-complete",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5446
+  },
+  {
+    "type": "resource-start",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...54fe4d3/0_0_3456_2764/master/3456.jpg"
+    },
+    "videoTimeMs": 5446
+  },
+  {
+    "type": "resource-img",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "name": "...54fe4d3/0_0_3456_2764/master/3456.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "resource-complete",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "resource-start",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...c8a2b84/5_0_3018_2414/master/3018.jpg"
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "resource-img",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "name": "...c8a2b84/5_0_3018_2414/master/3018.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "resource-complete",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "resource-start",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...8c850/649_0_6465_5175/master/6465.jpg"
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "resource-img",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "name": "...8c850/649_0_6465_5175/master/6465.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "resource-complete",
+    "time": 5423,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5447
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5509,
+    "delta": 86,
+    "data": {
+      "nodesAdded": 386,
+      "textNodes": 177,
+      "headingNodes": 16
+    },
+    "videoTimeMs": 5533
+  },
+  {
+    "type": "resource-start",
+    "time": 5523,
+    "delta": 14,
+    "data": {
+      "resourceType": "img",
+      "name": "...8c600/199_0_1992_1593/master/1992.jpg"
+    },
+    "videoTimeMs": 5547
+  },
+  {
+    "type": "resource-img",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "name": "...8c600/199_0_1992_1593/master/1992.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5547
+  },
+  {
+    "type": "resource-complete",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 5547
+  },
+  {
+    "type": "resource-start",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...3ef68/142_0_2560_2048/master/2560.jpg"
+    },
+    "videoTimeMs": 5547
+  },
+  {
+    "type": "resource-img",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "name": "...3ef68/142_0_2560_2048/master/2560.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5547
+  },
+  {
+    "type": "resource-complete",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 5547
+  },
+  {
+    "type": "resource-start",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...b2bb9/515_0_2535_2028/master/2535.jpg"
+    },
+    "videoTimeMs": 5547
+  },
+  {
+    "type": "resource-img",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "name": "...b2bb9/515_0_2535_2028/master/2535.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-complete",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-start",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...18f00/489_0_4215_3371/master/4215.jpg"
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-img",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "name": "...18f00/489_0_4215_3371/master/4215.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-complete",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-start",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...fdb97/639_0_3193_2555/master/3193.jpg"
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-img",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "name": "...fdb97/639_0_3193_2555/master/3193.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-complete",
+    "time": 5523,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 5548
+  },
+  {
+    "type": "resource-start",
+    "time": 5711,
+    "delta": 188,
+    "data": {
+      "resourceType": "img",
+      "name": "...566c5/201_9_2906_2324/master/2906.jpg"
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-img",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "name": "...566c5/201_9_2906_2324/master/2906.jpg",
+      "duration": 101,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-complete",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 101
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-start",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...8567/1440_0_7200_5760/master/7200.jpg"
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-img",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "name": "...8567/1440_0_7200_5760/master/7200.jpg",
+      "duration": 103,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-complete",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 103
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-start",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...6f438/217_0_2975_2379/master/2975.jpg"
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-img",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "name": "...6f438/217_0_2975_2379/master/2975.jpg",
+      "duration": 103,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-complete",
+    "time": 5711,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 103
+    },
+    "videoTimeMs": 5736
+  },
+  {
+    "type": "resource-start",
+    "time": 5712,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...3c598/291_0_2803_2243/master/2803.jpg"
+    },
+    "videoTimeMs": 5737
+  },
+  {
+    "type": "resource-img",
+    "time": 5712,
+    "delta": 0,
+    "data": {
+      "name": "...3c598/291_0_2803_2243/master/2803.jpg",
+      "duration": 103,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5737
+  },
+  {
+    "type": "resource-complete",
+    "time": 5712,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 103
+    },
+    "videoTimeMs": 5737
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5716,
+    "delta": 4,
+    "data": {
+      "nodesAdded": 301,
+      "textNodes": 127,
+      "headingNodes": 12
+    },
+    "videoTimeMs": 5739
+  },
+  {
+    "type": "resource-start",
+    "time": 5722,
+    "delta": 6,
+    "data": {
+      "resourceType": "img",
+      "name": "...3ab0e/857_0_2295_1836/master/2295.jpg"
+    },
+    "videoTimeMs": 5746
+  },
+  {
+    "type": "resource-img",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "name": "...3ab0e/857_0_2295_1836/master/2295.jpg",
+      "duration": 12,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5746
+  },
+  {
+    "type": "resource-complete",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 12
+    },
+    "videoTimeMs": 5746
+  },
+  {
+    "type": "resource-start",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...3bedf/260_0_2574_2059/master/2574.jpg"
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-img",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "name": "...3bedf/260_0_2574_2059/master/2574.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-complete",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-start",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...d5e43/492_0_2700_2160/master/2700.jpg"
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-img",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "name": "...d5e43/492_0_2700_2160/master/2700.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-complete",
+    "time": 5722,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-start",
+    "time": 5723,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...ca64f/323_0_3240_2592/master/3240.jpg"
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-img",
+    "time": 5723,
+    "delta": 0,
+    "data": {
+      "name": "...ca64f/323_0_3240_2592/master/3240.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5747
+  },
+  {
+    "type": "resource-complete",
+    "time": 5723,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 5748
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5921,
+    "delta": 198,
+    "data": {
+      "nodesAdded": 313,
+      "textNodes": 172,
+      "headingNodes": 13
+    },
+    "videoTimeMs": 5944
+  },
+  {
+    "type": "resource-start",
+    "time": 5933,
+    "delta": 12,
+    "data": {
+      "resourceType": "img",
+      "name": "...af/1623_401_2713_2172/master/2713.jpg"
+    },
+    "videoTimeMs": 5957
+  },
+  {
+    "type": "resource-img",
+    "time": 5933,
+    "delta": 0,
+    "data": {
+      "name": "...af/1623_401_2713_2172/master/2713.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5957
+  },
+  {
+    "type": "resource-complete",
+    "time": 5933,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 5957
+  },
+  {
+    "type": "resource-start",
+    "time": 5933,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...65ed2/364_0_3471_2776/master/3471.jpg"
+    },
+    "videoTimeMs": 5957
+  },
+  {
+    "type": "resource-img",
+    "time": 5933,
+    "delta": 0,
+    "data": {
+      "name": "...65ed2/364_0_3471_2776/master/3471.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5957
+  },
+  {
+    "type": "resource-complete",
+    "time": 5933,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 5957
+  },
+  {
+    "type": "resource-start",
+    "time": 6027,
+    "delta": 94,
+    "data": {
+      "resourceType": "img",
+      "name": "...ffb80/597_0_4280_3423/master/4280.jpg"
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-img",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "name": "...ffb80/597_0_4280_3423/master/4280.jpg",
+      "duration": 13,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-complete",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 13
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-start",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...c2f22/721_0_5496_4397/master/5496.jpg"
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-img",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "name": "...c2f22/721_0_5496_4397/master/5496.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-complete",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-start",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...7ba59a7/0_0_6880_5504/master/6880.jpg"
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-img",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "name": "...7ba59a7/0_0_6880_5504/master/6880.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "resource-complete",
+    "time": 6027,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6051
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 6116,
+    "delta": 89,
+    "data": {
+      "nodesAdded": 253,
+      "textNodes": 95,
+      "headingNodes": 9
+    },
+    "videoTimeMs": 6139
+  },
+  {
+    "type": "resource-start",
+    "time": 6129,
+    "delta": 13,
+    "data": {
+      "resourceType": "img",
+      "name": "...2e33b/607_0_5000_4000/master/5000.jpg"
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-img",
+    "time": 6130,
+    "delta": 1,
+    "data": {
+      "name": "...2e33b/607_0_5000_4000/master/5000.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-complete",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-start",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...4dc65/250_0_2500_2000/master/2500.jpg"
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-img",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "name": "...4dc65/250_0_2500_2000/master/2500.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-complete",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-start",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...9a6/230_128_1482_1185/master/1482.jpg"
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-img",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "name": "...9a6/230_128_1482_1185/master/1482.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-complete",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6154
+  },
+  {
+    "type": "resource-start",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...-b156-3c5587a38e93-Hilton_pos_280.png"
+    },
+    "videoTimeMs": 6155
+  },
+  {
+    "type": "resource-img",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "name": "...-b156-3c5587a38e93-Hilton_pos_280.png",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6155
+  },
+  {
+    "type": "resource-complete",
+    "time": 6130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 6155
+  },
+  {
+    "type": "resource-start",
+    "time": 6235,
+    "delta": 105,
+    "data": {
+      "resourceType": "img",
+      "name": "...6c11a/369_0_1800_1440/master/1800.jpg"
+    },
+    "videoTimeMs": 6259
+  },
+  {
+    "type": "resource-img",
+    "time": 6235,
+    "delta": 0,
+    "data": {
+      "name": "...6c11a/369_0_1800_1440/master/1800.jpg",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6259
+  },
+  {
+    "type": "resource-complete",
+    "time": 6235,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 6259
+  },
+  {
+    "type": "resource-start",
+    "time": 6235,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...e571b/503_0_2497_1996/master/2497.jpg"
+    },
+    "videoTimeMs": 6259
+  },
+  {
+    "type": "resource-img",
+    "time": 6235,
+    "delta": 0,
+    "data": {
+      "name": "...e571b/503_0_2497_1996/master/2497.jpg",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6259
+  },
+  {
+    "type": "resource-complete",
+    "time": 6235,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 6259
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 6317,
+    "delta": 82,
+    "data": {
+      "nodesAdded": 244,
+      "textNodes": 68,
+      "headingNodes": 8
+    },
+    "videoTimeMs": 6340
+  },
+  {
+    "type": "resource-start",
+    "time": 6331,
+    "delta": 14,
+    "data": {
+      "resourceType": "img",
+      "name": "...ceb74cc/0_0_1350_1080/master/1350.jpg"
+    },
+    "videoTimeMs": 6355
+  },
+  {
+    "type": "resource-img",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "name": "...ceb74cc/0_0_1350_1080/master/1350.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6355
+  },
+  {
+    "type": "resource-complete",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6355
+  },
+  {
+    "type": "resource-start",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...4333b/256_0_1692_1354/master/1692.jpg"
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-img",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "name": "...4333b/256_0_1692_1354/master/1692.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-complete",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-start",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...7231364/0_0_3239_2592/master/3239.jpg"
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-img",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "name": "...7231364/0_0_3239_2592/master/3239.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-complete",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-start",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...7ae7e72/0_0_1498_1198/master/1498.jpg"
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-img",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "name": "...7ae7e72/0_0_1498_1198/master/1498.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-complete",
+    "time": 6331,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6356
+  },
+  {
+    "type": "resource-start",
+    "time": 6455,
+    "delta": 124,
+    "data": {
+      "resourceType": "img",
+      "name": "...4ebc/943_16_4239_3392/master/4239.jpg"
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-img",
+    "time": 6455,
+    "delta": 0,
+    "data": {
+      "name": "...4ebc/943_16_4239_3392/master/4239.jpg",
+      "duration": 38,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-complete",
+    "time": 6455,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 38
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-start",
+    "time": 6455,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ec8a7/665_0_4800_3840/master/4800.jpg"
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-img",
+    "time": 6455,
+    "delta": 0,
+    "data": {
+      "name": "...ec8a7/665_0_4800_3840/master/4800.jpg",
+      "duration": 38,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-complete",
+    "time": 6455,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 38
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-start",
+    "time": 6456,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...62dda/18_15_1482_1185/master/1482.jpg"
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-img",
+    "time": 6456,
+    "delta": 0,
+    "data": {
+      "name": "...62dda/18_15_1482_1185/master/1482.jpg",
+      "duration": 38,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-complete",
+    "time": 6456,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 38
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-start",
+    "time": 6456,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...54564/610_0_6141_4912/master/6141.jpg"
+    },
+    "videoTimeMs": 6480
+  },
+  {
+    "type": "resource-img",
+    "time": 6456,
+    "delta": 0,
+    "data": {
+      "name": "...54564/610_0_6141_4912/master/6141.jpg",
+      "duration": 39,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6481
+  },
+  {
+    "type": "resource-complete",
+    "time": 6456,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 39
+    },
+    "videoTimeMs": 6481
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 6519,
+    "delta": 63,
+    "data": {
+      "nodesAdded": 288,
+      "textNodes": 97,
+      "headingNodes": 10
+    },
+    "videoTimeMs": 6543
+  },
+  {
+    "type": "resource-start",
+    "time": 6532,
+    "delta": 13,
+    "data": {
+      "resourceType": "img",
+      "name": "...9882c/263_0_5152_4122/master/5152.jpg"
+    },
+    "videoTimeMs": 6556
+  },
+  {
+    "type": "resource-img",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "name": "...9882c/263_0_5152_4122/master/5152.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6556
+  },
+  {
+    "type": "resource-complete",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6556
+  },
+  {
+    "type": "resource-start",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...3ffd/273_24_1542_1234/master/1542.jpg"
+    },
+    "videoTimeMs": 6557
+  },
+  {
+    "type": "resource-img",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "name": "...3ffd/273_24_1542_1234/master/1542.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6557
+  },
+  {
+    "type": "resource-complete",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6557
+  },
+  {
+    "type": "resource-start",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...aa4f/469_246_1041_833/master/1041.jpg"
+    },
+    "videoTimeMs": 6557
+  },
+  {
+    "type": "resource-img",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "name": "...aa4f/469_246_1041_833/master/1041.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6557
+  },
+  {
+    "type": "resource-complete",
+    "time": 6532,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6557
+  },
+  {
+    "type": "resource-start",
+    "time": 6534,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...cbc/781_250_2388_1910/master/2388.jpg"
+    },
+    "videoTimeMs": 6558
+  },
+  {
+    "type": "resource-img",
+    "time": 6534,
+    "delta": 0,
+    "data": {
+      "name": "...cbc/781_250_2388_1910/master/2388.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6558
+  },
+  {
+    "type": "resource-complete",
+    "time": 6534,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 6558
+  },
+  {
+    "type": "resource-start",
+    "time": 6633,
+    "delta": 99,
+    "data": {
+      "resourceType": "img",
+      "name": "...69f1b/269_0_2690_2152/master/2690.jpg"
+    },
+    "videoTimeMs": 6658
+  },
+  {
+    "type": "resource-img",
+    "time": 6633,
+    "delta": 0,
+    "data": {
+      "name": "...69f1b/269_0_2690_2152/master/2690.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6658
+  },
+  {
+    "type": "resource-complete",
+    "time": 6634,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6658
+  },
+  {
+    "type": "resource-start",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...6c01d/275_0_2145_1717/master/2145.jpg"
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-img",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "name": "...6c01d/275_0_2145_1717/master/2145.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-complete",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-start",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...5d90d7/45_0_2900_2320/master/2900.jpg"
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-img",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "name": "...5d90d7/45_0_2900_2320/master/2900.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-complete",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-start",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...8baeb1/54_0_4032_3225/master/4032.jpg"
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-img",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "name": "...8baeb1/54_0_4032_3225/master/4032.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6659
+  },
+  {
+    "type": "resource-complete",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6660
+  },
+  {
+    "type": "resource-start",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...df7de/271_0_1624_1300/master/1624.jpg"
+    },
+    "videoTimeMs": 6660
+  },
+  {
+    "type": "resource-img",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "name": "...df7de/271_0_1624_1300/master/1624.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6660
+  },
+  {
+    "type": "resource-complete",
+    "time": 6634,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6660
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 6723,
+    "delta": 89,
+    "data": {
+      "nodesAdded": 347,
+      "textNodes": 121,
+      "headingNodes": 11
+    },
+    "videoTimeMs": 6747
+  },
+  {
+    "type": "resource-start",
+    "time": 6759,
+    "delta": 36,
+    "data": {
+      "resourceType": "img",
+      "name": "...37c80/499_0_5018_4016/master/5018.jpg"
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-img",
+    "time": 6759,
+    "delta": 0,
+    "data": {
+      "name": "...37c80/499_0_5018_4016/master/5018.jpg",
+      "duration": 39,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-complete",
+    "time": 6759,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 39
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-start",
+    "time": 6760,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...268/36_1425_2270_1817/master/2270.jpg"
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-img",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "name": "...268/36_1425_2270_1817/master/2270.jpg",
+      "duration": 40,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-complete",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 40
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-start",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...c448a/531_0_2325_1860/master/2325.jpg"
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-img",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "name": "...c448a/531_0_2325_1860/master/2325.jpg",
+      "duration": 40,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-complete",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 40
+    },
+    "videoTimeMs": 6784
+  },
+  {
+    "type": "resource-start",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...1b9a/0_1667_4479_3582/master/4479.jpg"
+    },
+    "videoTimeMs": 6785
+  },
+  {
+    "type": "resource-img",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "name": "...1b9a/0_1667_4479_3582/master/4479.jpg",
+      "duration": 40,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6785
+  },
+  {
+    "type": "resource-complete",
+    "time": 6760,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 40
+    },
+    "videoTimeMs": 6785
+  },
+  {
+    "type": "resource-start",
+    "time": 6836,
+    "delta": 76,
+    "data": {
+      "resourceType": "img",
+      "name": "...cd0/511_954_4657_3726/master/4657.jpg"
+    },
+    "videoTimeMs": 6860
+  },
+  {
+    "type": "resource-img",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "name": "...cd0/511_954_4657_3726/master/4657.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "resource-complete",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "resource-start",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...e90bc/635_0_6139_4912/master/6139.jpg"
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "resource-img",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "name": "...e90bc/635_0_6139_4912/master/6139.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "resource-complete",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "resource-start",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...c44c2/930_0_7200_5760/master/7200.jpg"
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "resource-img",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "name": "...c44c2/930_0_7200_5760/master/7200.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "resource-complete",
+    "time": 6836,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 6861
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 6922,
+    "delta": 86,
+    "data": {
+      "nodesAdded": 298,
+      "textNodes": 102,
+      "headingNodes": 9
+    },
+    "videoTimeMs": 6946
+  },
+  {
+    "type": "resource-start",
+    "time": 6936,
+    "delta": 14,
+    "data": {
+      "resourceType": "img",
+      "name": "...0368c1c/0_0_5000_4000/master/5000.jpg"
+    },
+    "videoTimeMs": 6960
+  },
+  {
+    "type": "resource-img",
+    "time": 6936,
+    "delta": 0,
+    "data": {
+      "name": "...0368c1c/0_0_5000_4000/master/5000.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-complete",
+    "time": 6936,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-start",
+    "time": 6937,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...fe2f4ca/0_0_5873_4699/master/5873.jpg"
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-img",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "name": "...fe2f4ca/0_0_5873_4699/master/5873.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-complete",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-start",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...2f42a66/0_0_6849_5479/master/6849.jpg"
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-img",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "name": "...2f42a66/0_0_6849_5479/master/6849.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-complete",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-start",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...db4/153_172_1284_1028/master/1284.jpg"
+    },
+    "videoTimeMs": 6961
+  },
+  {
+    "type": "resource-img",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "name": "...db4/153_172_1284_1028/master/1284.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 6962
+  },
+  {
+    "type": "resource-complete",
+    "time": 6937,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 6962
+  },
+  {
+    "type": "resource-start",
+    "time": 7040,
+    "delta": 103,
+    "data": {
+      "resourceType": "img",
+      "name": "...14d36/588_0_7808_6250/master/7808.jpg"
+    },
+    "videoTimeMs": 7064
+  },
+  {
+    "type": "resource-img",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "name": "...14d36/588_0_7808_6250/master/7808.jpg",
+      "duration": 17,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7064
+  },
+  {
+    "type": "resource-complete",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 17
+    },
+    "videoTimeMs": 7065
+  },
+  {
+    "type": "resource-start",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...9847978/0_0_2500_2000/master/2500.jpg"
+    },
+    "videoTimeMs": 7065
+  },
+  {
+    "type": "resource-img",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "name": "...9847978/0_0_2500_2000/master/2500.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7065
+  },
+  {
+    "type": "resource-complete",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 7065
+  },
+  {
+    "type": "resource-start",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...3e4a200/0_0_4000_3199/master/4000.jpg"
+    },
+    "videoTimeMs": 7065
+  },
+  {
+    "type": "resource-img",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "name": "...3e4a200/0_0_4000_3199/master/4000.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "resource-complete",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "resource-start",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...4b9a859/0_0_2500_2000/master/2500.jpg"
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "resource-img",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "name": "...4b9a859/0_0_2500_2000/master/2500.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "resource-complete",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "resource-start",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...357d/100_79_1292_1033/master/1292.jpg"
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "resource-img",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "name": "...357d/100_79_1292_1033/master/1292.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "resource-complete",
+    "time": 7040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 7066
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 7125,
+    "delta": 85,
+    "data": {
+      "nodesAdded": 298,
+      "textNodes": 110,
+      "headingNodes": 10
+    },
+    "videoTimeMs": 7149
+  },
+  {
+    "type": "resource-start",
+    "time": 7138,
+    "delta": 13,
+    "data": {
+      "resourceType": "img",
+      "name": "...da6c4/241_0_3839_3072/master/3839.jpg"
+    },
+    "videoTimeMs": 7162
+  },
+  {
+    "type": "resource-img",
+    "time": 7138,
+    "delta": 0,
+    "data": {
+      "name": "...da6c4/241_0_3839_3072/master/3839.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7162
+  },
+  {
+    "type": "resource-complete",
+    "time": 7138,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7162
+  },
+  {
+    "type": "resource-start",
+    "time": 7139,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...3c9ccda9/0_0_1240_992/master/1240.jpg"
+    },
+    "videoTimeMs": 7163
+  },
+  {
+    "type": "resource-img",
+    "time": 7139,
+    "delta": 0,
+    "data": {
+      "name": "...3c9ccda9/0_0_1240_992/master/1240.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7163
+  },
+  {
+    "type": "resource-complete",
+    "time": 7139,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 7163
+  },
+  {
+    "type": "resource-start",
+    "time": 7139,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...29d9094/0_0_4090_3272/master/4090.jpg"
+    },
+    "videoTimeMs": 7163
+  },
+  {
+    "type": "resource-img",
+    "time": 7139,
+    "delta": 0,
+    "data": {
+      "name": "...29d9094/0_0_4090_3272/master/4090.jpg",
+      "duration": 16,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7163
+  },
+  {
+    "type": "resource-complete",
+    "time": 7139,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 16
+    },
+    "videoTimeMs": 7163
+  },
+  {
+    "type": "resource-start",
+    "time": 7286,
+    "delta": 147,
+    "data": {
+      "resourceType": "img",
+      "name": "...e9fd234/0_0_5000_4000/master/5000.jpg"
+    },
+    "videoTimeMs": 7310
+  },
+  {
+    "type": "resource-img",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "name": "...e9fd234/0_0_5000_4000/master/5000.jpg",
+      "duration": 60,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7310
+  },
+  {
+    "type": "resource-complete",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 60
+    },
+    "videoTimeMs": 7310
+  },
+  {
+    "type": "resource-start",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...641/60_1210_5317_4254/master/5317.jpg"
+    },
+    "videoTimeMs": 7311
+  },
+  {
+    "type": "resource-img",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "name": "...641/60_1210_5317_4254/master/5317.jpg",
+      "duration": 60,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7311
+  },
+  {
+    "type": "resource-complete",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 60
+    },
+    "videoTimeMs": 7311
+  },
+  {
+    "type": "resource-start",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...bea-a6dc-e556057e35a0-1.1.0000000.jpg"
+    },
+    "videoTimeMs": 7311
+  },
+  {
+    "type": "resource-img",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "name": "...bea-a6dc-e556057e35a0-1.1.0000000.jpg",
+      "duration": 60,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7311
+  },
+  {
+    "type": "resource-complete",
+    "time": 7286,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 60
+    },
+    "videoTimeMs": 7311
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 7331,
+    "delta": 45,
+    "data": {
+      "nodesAdded": 269,
+      "textNodes": 101,
+      "headingNodes": 11
+    },
+    "videoTimeMs": 7355
+  },
+  {
+    "type": "resource-start",
+    "time": 7340,
+    "delta": 9,
+    "data": {
+      "resourceType": "img",
+      "name": "...c7/2917_460_2994_3743/master/2994.jpg"
+    },
+    "videoTimeMs": 7364
+  },
+  {
+    "type": "resource-img",
+    "time": 7340,
+    "delta": 0,
+    "data": {
+      "name": "...c7/2917_460_2994_3743/master/2994.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7364
+  },
+  {
+    "type": "resource-complete",
+    "time": 7340,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7364
+  },
+  {
+    "type": "resource-start",
+    "time": 7342,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...d071d/417_0_4167_3333/master/4167.jpg"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-img",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "name": "...d071d/417_0_4167_3333/master/4167.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-complete",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-start",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...441d9f71/0_0_1000_800/master/1000.jpg"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-img",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "name": "...441d9f71/0_0_1000_800/master/1000.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-complete",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-start",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...6551a/858_0_5600_4480/master/5600.jpg"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-img",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "name": "...6551a/858_0_5600_4480/master/5600.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-complete",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-start",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...85b54/683_0_6827_5464/master/6827.jpg"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-img",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "name": "...85b54/683_0_6827_5464/master/6827.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-complete",
+    "time": 7342,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 7366
+  },
+  {
+    "type": "resource-start",
+    "time": 7442,
+    "delta": 100,
+    "data": {
+      "resourceType": "img",
+      "name": "...7567af/62_0_3010_2408/master/3010.jpg"
+    },
+    "videoTimeMs": 7466
+  },
+  {
+    "type": "resource-img",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "name": "...7567af/62_0_3010_2408/master/3010.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-complete",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-start",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...54734/648_0_7217_5774/master/7217.jpg"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-img",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "name": "...54734/648_0_7217_5774/master/7217.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-complete",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-start",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...15643c7/0_0_5000_3000/master/5000.jpg"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-img",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "name": "...15643c7/0_0_5000_3000/master/5000.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-complete",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-start",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...153b31b/0_0_5000_3000/master/5000.jpg"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-img",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "name": "...153b31b/0_0_5000_3000/master/5000.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-complete",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-start",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...7bce5d6/0_0_5000_3000/master/5000.jpg"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-img",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "name": "...7bce5d6/0_0_5000_3000/master/5000.jpg",
+      "duration": 15,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-complete",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 15
+    },
+    "videoTimeMs": 7467
+  },
+  {
+    "type": "resource-start",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...761d10c/0_0_5000_3000/master/5000.jpg"
+    },
+    "videoTimeMs": 7468
+  },
+  {
+    "type": "resource-img",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "name": "...761d10c/0_0_5000_3000/master/5000.jpg",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7468
+  },
+  {
+    "type": "resource-complete",
+    "time": 7442,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7468
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 7532,
+    "delta": 90,
+    "data": {
+      "nodesAdded": 436,
+      "textNodes": 232,
+      "headingNodes": 27
+    },
+    "videoTimeMs": 7555
+  },
+  {
+    "type": "resource-start",
+    "time": 7544,
+    "delta": 12,
+    "data": {
+      "resourceType": "img",
+      "name": "...1bd57f0/0_0_3250_2600/master/3250.png"
+    },
+    "videoTimeMs": 7568
+  },
+  {
+    "type": "resource-img",
+    "time": 7544,
+    "delta": 0,
+    "data": {
+      "name": "...1bd57f0/0_0_3250_2600/master/3250.png",
+      "duration": 14,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 7568
+  },
+  {
+    "type": "resource-complete",
+    "time": 7544,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 14
+    },
+    "videoTimeMs": 7568
+  },
+  {
+    "type": "dom-ready",
+    "time": 7787,
+    "delta": 243,
+    "data": {},
+    "videoTimeMs": 7819
+  },
+  {
+    "type": "above-fold-images-loaded",
+    "time": 7787,
+    "delta": 0,
+    "data": {
+      "count": 10
+    },
+    "videoTimeMs": 7819
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 7788,
+    "delta": 1,
+    "data": {
+      "nodesAdded": 297,
+      "textNodes": 136,
+      "headingNodes": 5
+    },
+    "videoTimeMs": 7819
+  },
+  {
+    "type": "resource-start",
+    "time": 7839,
+    "delta": 51,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/img/1?v=17&platform=next-"
+    },
+    "videoTimeMs": 7863
+  },
+  {
+    "type": "resource-fetch",
+    "time": 7839,
+    "delta": 0,
+    "data": {
+      "name": "/img/1?v=17&platform=next-",
+      "duration": 67,
+      "transferSize": 0,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 7863
+  },
+  {
+    "type": "resource-complete",
+    "time": 7839,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 0,
+      "duration": 67
+    },
+    "videoTimeMs": 7863
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 7895,
+    "delta": 56,
+    "data": {
+      "nodesAdded": 33,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 7919
+  },
+  {
+    "type": "resource-start",
+    "time": 7990,
+    "delta": 95,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8014
+  },
+  {
+    "type": "resource-script",
+    "time": 7990,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 251,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8014
+  },
+  {
+    "type": "resource-complete",
+    "time": 7990,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 251
+    },
+    "videoTimeMs": 8015
+  },
+  {
+    "type": "resource-error",
+    "time": 7990,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F7557.client.web.57a630c9e7e2da9aa003.js&throttle=3g"
+    },
+    "videoTimeMs": 8015
+  },
+  {
+    "type": "resource-start",
+    "time": 7991,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8015
+  },
+  {
+    "type": "resource-script",
+    "time": 7991,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 252,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8015
+  },
+  {
+    "type": "resource-complete",
+    "time": 7991,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 252
+    },
+    "videoTimeMs": 8015
+  },
+  {
+    "type": "resource-error",
+    "time": 7991,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F4355.client.web.c2a2dac32cea7e268621.js&throttle=3g"
+    },
+    "videoTimeMs": 8015
+  },
+  {
+    "type": "resource-start",
+    "time": 7991,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8016
+  },
+  {
+    "type": "resource-script",
+    "time": 7991,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 252,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8016
+  },
+  {
+    "type": "resource-complete",
+    "time": 7991,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 252
+    },
+    "videoTimeMs": 8016
+  },
+  {
+    "type": "resource-error",
+    "time": 7991,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F6824.client.web.091cc6dbd1e9e675f21e.js&throttle=3g"
+    },
+    "videoTimeMs": 8016
+  },
+  {
+    "type": "resource-start",
+    "time": 7993,
+    "delta": 2,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8017
+  },
+  {
+    "type": "resource-script",
+    "time": 7993,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 253,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8017
+  },
+  {
+    "type": "resource-complete",
+    "time": 7993,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 253
+    },
+    "videoTimeMs": 8017
+  },
+  {
+    "type": "resource-error",
+    "time": 7993,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F5606.client.web.e0e480f7186470542bae.js&throttle=3g"
+    },
+    "videoTimeMs": 8017
+  },
+  {
+    "type": "resource-start",
+    "time": 8027,
+    "delta": 34,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8050
+  },
+  {
+    "type": "resource-script",
+    "time": 8027,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 259,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8051
+  },
+  {
+    "type": "resource-complete",
+    "time": 8027,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 259
+    },
+    "videoTimeMs": 8051
+  },
+  {
+    "type": "resource-error",
+    "time": 8027,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FMetrics-importable.client.web.0ff907dd45ea441b29f1.js&throttle=3g"
+    },
+    "videoTimeMs": 8051
+  },
+  {
+    "type": "resource-start",
+    "time": 8051,
+    "delta": 24,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 8102
+  },
+  {
+    "type": "resource-fetch",
+    "time": 8051,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 279,
+      "transferSize": 321,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 8103
+  },
+  {
+    "type": "resource-complete",
+    "time": 8051,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 321,
+      "duration": 279
+    },
+    "videoTimeMs": 8103
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 8091,
+    "delta": 40,
+    "data": {
+      "nodesAdded": 2,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 8114
+  },
+  {
+    "type": "text-settled",
+    "time": 8292,
+    "delta": 201,
+    "data": {},
+    "videoTimeMs": 8316
+  },
+  {
+    "type": "resource-start",
+    "time": 8364,
+    "delta": 72,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8390
+  },
+  {
+    "type": "resource-script",
+    "time": 8365,
+    "delta": 1,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 597,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8390
+  },
+  {
+    "type": "resource-complete",
+    "time": 8365,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 597
+    },
+    "videoTimeMs": 8390
+  },
+  {
+    "type": "resource-error",
+    "time": 8365,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FSetABTests-importable.client.web.a48e262bf922bf94d019.js&throttle=3g"
+    },
+    "videoTimeMs": 8390
+  },
+  {
+    "type": "resource-start",
+    "time": 8365,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8390
+  },
+  {
+    "type": "resource-script",
+    "time": 8366,
+    "delta": 1,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 598,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8391
+  },
+  {
+    "type": "resource-complete",
+    "time": 8366,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 598
+    },
+    "videoTimeMs": 8391
+  },
+  {
+    "type": "resource-error",
+    "time": 8366,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FSetAdTargeting-importable.client.web.c5ac0f4819cffb826a79.js&throttle=3g"
+    },
+    "videoTimeMs": 8391
+  },
+  {
+    "type": "resource-start",
+    "time": 8429,
+    "delta": 63,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fo"
+    },
+    "videoTimeMs": 8453
+  },
+  {
+    "type": "resource-fetch",
+    "time": 8429,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fo",
+      "duration": 644,
+      "transferSize": 300,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 8453
+  },
+  {
+    "type": "resource-complete",
+    "time": 8429,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 300,
+      "duration": 644
+    },
+    "videoTimeMs": 8454
+  },
+  {
+    "type": "resource-start",
+    "time": 8429,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fo"
+    },
+    "videoTimeMs": 8454
+  },
+  {
+    "type": "resource-fetch",
+    "time": 8429,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fo",
+      "duration": 644,
+      "transferSize": 300,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 8454
+  },
+  {
+    "type": "resource-complete",
+    "time": 8429,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 300,
+      "duration": 644
+    },
+    "videoTimeMs": 8454
+  },
+  {
+    "type": "resource-start",
+    "time": 8435,
+    "delta": 6,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fo"
+    },
+    "videoTimeMs": 8459
+  },
+  {
+    "type": "resource-fetch",
+    "time": 8435,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fo",
+      "duration": 558,
+      "transferSize": 300,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 8459
+  },
+  {
+    "type": "resource-complete",
+    "time": 8435,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 300,
+      "duration": 558
+    },
+    "videoTimeMs": 8459
+  },
+  {
+    "type": "resource-start",
+    "time": 8435,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fo"
+    },
+    "videoTimeMs": 8459
+  },
+  {
+    "type": "resource-fetch",
+    "time": 8435,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fo",
+      "duration": 638,
+      "transferSize": 300,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 8459
+  },
+  {
+    "type": "resource-complete",
+    "time": 8435,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 300,
+      "duration": 638
+    },
+    "videoTimeMs": 8460
+  },
+  {
+    "type": "resource-start",
+    "time": 8617,
+    "delta": 182,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8643
+  },
+  {
+    "type": "resource-script",
+    "time": 8618,
+    "delta": 1,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 849,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8643
+  },
+  {
+    "type": "resource-complete",
+    "time": 8618,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 849
+    },
+    "videoTimeMs": 8643
+  },
+  {
+    "type": "resource-error",
+    "time": 8618,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F4615.client.web.965d4fd3459c1c9b598f.js&throttle=3g"
+    },
+    "videoTimeMs": 8643
+  },
+  {
+    "type": "resource-start",
+    "time": 8619,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8644
+  },
+  {
+    "type": "resource-script",
+    "time": 8619,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 851,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8644
+  },
+  {
+    "type": "resource-complete",
+    "time": 8620,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 851
+    },
+    "videoTimeMs": 8644
+  },
+  {
+    "type": "resource-error",
+    "time": 8620,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F6621.client.web.096fd9dbeb9aaeae24a9.js&throttle=3g"
+    },
+    "videoTimeMs": 8644
+  },
+  {
+    "type": "resource-start",
+    "time": 8679,
+    "delta": 59,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8703
+  },
+  {
+    "type": "resource-script",
+    "time": 8679,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 911,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8703
+  },
+  {
+    "type": "resource-complete",
+    "time": 8679,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 911
+    },
+    "videoTimeMs": 8703
+  },
+  {
+    "type": "resource-error",
+    "time": 8679,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F9814.client.web.1a794ccdeb37228247b8.js&throttle=3g"
+    },
+    "videoTimeMs": 8703
+  },
+  {
+    "type": "resource-start",
+    "time": 8682,
+    "delta": 3,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8706
+  },
+  {
+    "type": "resource-script",
+    "time": 8682,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 914,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8706
+  },
+  {
+    "type": "resource-complete",
+    "time": 8682,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 914
+    },
+    "videoTimeMs": 8706
+  },
+  {
+    "type": "resource-error",
+    "time": 8682,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F7699.client.web.a7d6e0ab5774e1290cd9.js&throttle=3g"
+    },
+    "videoTimeMs": 8707
+  },
+  {
+    "type": "resource-start",
+    "time": 8691,
+    "delta": 9,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8715
+  },
+  {
+    "type": "resource-script",
+    "time": 8691,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 923,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8715
+  },
+  {
+    "type": "resource-complete",
+    "time": 8691,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 923
+    },
+    "videoTimeMs": 8715
+  },
+  {
+    "type": "resource-error",
+    "time": 8691,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FTopBar-importable.client.web.73017d27d0d77380b37b.js&throttle=3g"
+    },
+    "videoTimeMs": 8716
+  },
+  {
+    "type": "resource-start",
+    "time": 8692,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8717
+  },
+  {
+    "type": "resource-script",
+    "time": 8692,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 924,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8717
+  },
+  {
+    "type": "resource-complete",
+    "time": 8692,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 924
+    },
+    "videoTimeMs": 8717
+  },
+  {
+    "type": "resource-error",
+    "time": 8692,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F9079.client.web.4965f1f6a01a2c0ec62b.js&throttle=3g"
+    },
+    "videoTimeMs": 8717
+  },
+  {
+    "type": "resource-start",
+    "time": 8890,
+    "delta": 198,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8915
+  },
+  {
+    "type": "resource-script",
+    "time": 8890,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1121,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8915
+  },
+  {
+    "type": "resource-complete",
+    "time": 8890,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1121
+    },
+    "videoTimeMs": 8916
+  },
+  {
+    "type": "resource-error",
+    "time": 8890,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F6512.client.web.815acf75718939c32067.js&throttle=3g"
+    },
+    "videoTimeMs": 8916
+  },
+  {
+    "type": "resource-start",
+    "time": 8891,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8916
+  },
+  {
+    "type": "resource-script",
+    "time": 8891,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1122,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8917
+  },
+  {
+    "type": "resource-complete",
+    "time": 8891,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1122
+    },
+    "videoTimeMs": 8917
+  },
+  {
+    "type": "resource-error",
+    "time": 8891,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F6991.client.web.bb9037d41b349f1de9d5.js&throttle=3g"
+    },
+    "videoTimeMs": 8917
+  },
+  {
+    "type": "resource-start",
+    "time": 8933,
+    "delta": 42,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8958
+  },
+  {
+    "type": "resource-script",
+    "time": 8933,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1140,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8958
+  },
+  {
+    "type": "resource-complete",
+    "time": 8933,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1140
+    },
+    "videoTimeMs": 8958
+  },
+  {
+    "type": "resource-error",
+    "time": 8934,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F5309.client.web.c6a6269f2a2217890c83.js&throttle=3g"
+    },
+    "videoTimeMs": 8958
+  },
+  {
+    "type": "resource-start",
+    "time": 8934,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8959
+  },
+  {
+    "type": "resource-script",
+    "time": 8934,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1165,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8959
+  },
+  {
+    "type": "resource-complete",
+    "time": 8934,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1165
+    },
+    "videoTimeMs": 8960
+  },
+  {
+    "type": "resource-error",
+    "time": 8934,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FTitlepiece-importable.client.web.eb95d88a64fce18b8c16.js&throttle=3g"
+    },
+    "videoTimeMs": 8960
+  },
+  {
+    "type": "resource-start",
+    "time": 8935,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8960
+  },
+  {
+    "type": "resource-script",
+    "time": 8935,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1142,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8961
+  },
+  {
+    "type": "resource-complete",
+    "time": 8935,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1142
+    },
+    "videoTimeMs": 8961
+  },
+  {
+    "type": "resource-error",
+    "time": 8935,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F0.client.web.cdf982bea1c81a0bbeee.js&throttle=3g"
+    },
+    "videoTimeMs": 8961
+  },
+  {
+    "type": "resource-start",
+    "time": 8936,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 8962
+  },
+  {
+    "type": "resource-script",
+    "time": 8936,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1142,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8962
+  },
+  {
+    "type": "resource-complete",
+    "time": 8936,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1142
+    },
+    "videoTimeMs": 8962
+  },
+  {
+    "type": "resource-error",
+    "time": 8936,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F1899.client.web.7df8b0369fef8e5701e6.js&throttle=3g"
+    },
+    "videoTimeMs": 8962
+  },
+  {
+    "type": "resource-start",
+    "time": 9144,
+    "delta": 208,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9169
+  },
+  {
+    "type": "resource-script",
+    "time": 9144,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1350,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9169
+  },
+  {
+    "type": "resource-complete",
+    "time": 9144,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1350
+    },
+    "videoTimeMs": 9169
+  },
+  {
+    "type": "resource-error",
+    "time": 9144,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F810.client.web.dafcab4c1d841db69004.js&throttle=3g"
+    },
+    "videoTimeMs": 9169
+  },
+  {
+    "type": "resource-start",
+    "time": 9144,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9169
+  },
+  {
+    "type": "resource-script",
+    "time": 9144,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1350,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9169
+  },
+  {
+    "type": "resource-complete",
+    "time": 9144,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1350
+    },
+    "videoTimeMs": 9169
+  },
+  {
+    "type": "resource-error",
+    "time": 9145,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FScrollableHighlights-importable.client.web.774df2e76d3d66dc80a0.js&throttle=3g"
+    },
+    "videoTimeMs": 9170
+  },
+  {
+    "type": "resource-start",
+    "time": 9188,
+    "delta": 43,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9212
+  },
+  {
+    "type": "resource-script",
+    "time": 9188,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1394,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9213
+  },
+  {
+    "type": "resource-complete",
+    "time": 9188,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1394
+    },
+    "videoTimeMs": 9213
+  },
+  {
+    "type": "resource-error",
+    "time": 9188,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F5207.client.web.97015d3c086392d344ae.js&throttle=3g"
+    },
+    "videoTimeMs": 9213
+  },
+  {
+    "type": "resource-start",
+    "time": 9193,
+    "delta": 5,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9217
+  },
+  {
+    "type": "resource-script",
+    "time": 9193,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1398,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9217
+  },
+  {
+    "type": "resource-complete",
+    "time": 9193,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1398
+    },
+    "videoTimeMs": 9217
+  },
+  {
+    "type": "resource-error",
+    "time": 9193,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F624.client.web.c144bfc8de18132f7201.js&throttle=3g"
+    },
+    "videoTimeMs": 9217
+  },
+  {
+    "type": "resource-start",
+    "time": 9193,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9218
+  },
+  {
+    "type": "resource-script",
+    "time": 9193,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1399,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9218
+  },
+  {
+    "type": "resource-complete",
+    "time": 9193,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1399
+    },
+    "videoTimeMs": 9218
+  },
+  {
+    "type": "resource-error",
+    "time": 9193,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F1706.client.web.4d518e734be46e422e25.js&throttle=3g"
+    },
+    "videoTimeMs": 9218
+  },
+  {
+    "type": "resource-start",
+    "time": 9194,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9219
+  },
+  {
+    "type": "resource-script",
+    "time": 9194,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1400,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9219
+  },
+  {
+    "type": "resource-complete",
+    "time": 9194,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1400
+    },
+    "videoTimeMs": 9219
+  },
+  {
+    "type": "resource-error",
+    "time": 9194,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F8377.client.web.eba2054efc2e935740e5.js&throttle=3g"
+    },
+    "videoTimeMs": 9219
+  },
+  {
+    "type": "resource-start",
+    "time": 9408,
+    "delta": 214,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9432
+  },
+  {
+    "type": "resource-script",
+    "time": 9408,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1614,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9433
+  },
+  {
+    "type": "resource-complete",
+    "time": 9408,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1614
+    },
+    "videoTimeMs": 9433
+  },
+  {
+    "type": "resource-error",
+    "time": 9408,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FSelfHostedVideo-importable.client.web.b121d788963945938b90.js&throttle=3g"
+    },
+    "videoTimeMs": 9433
+  },
+  {
+    "type": "resource-start",
+    "time": 9410,
+    "delta": 2,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9434
+  },
+  {
+    "type": "resource-script",
+    "time": 9410,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1616,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9434
+  },
+  {
+    "type": "resource-complete",
+    "time": 9410,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1616
+    },
+    "videoTimeMs": 9434
+  },
+  {
+    "type": "resource-error",
+    "time": 9410,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F9453.client.web.39d3d63090a64deeaed6.js&throttle=3g"
+    },
+    "videoTimeMs": 9435
+  },
+  {
+    "type": "resource-start",
+    "time": 9439,
+    "delta": 29,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9463
+  },
+  {
+    "type": "resource-script",
+    "time": 9439,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1644,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9463
+  },
+  {
+    "type": "resource-complete",
+    "time": 9439,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1644
+    },
+    "videoTimeMs": 9463
+  },
+  {
+    "type": "resource-error",
+    "time": 9439,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F5123.client.web.3c77c818079a5bd66c9a.js&throttle=3g"
+    },
+    "videoTimeMs": 9463
+  },
+  {
+    "type": "resource-start",
+    "time": 9450,
+    "delta": 11,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9473
+  },
+  {
+    "type": "resource-script",
+    "time": 9450,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1655,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9474
+  },
+  {
+    "type": "resource-complete",
+    "time": 9450,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1655
+    },
+    "videoTimeMs": 9474
+  },
+  {
+    "type": "resource-error",
+    "time": 9450,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F5733.client.web.84fd0d3324986b1bd936.js&throttle=3g"
+    },
+    "videoTimeMs": 9474
+  },
+  {
+    "type": "resource-start",
+    "time": 9456,
+    "delta": 6,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9480
+  },
+  {
+    "type": "resource-script",
+    "time": 9456,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1661,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9481
+  },
+  {
+    "type": "resource-complete",
+    "time": 9456,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1661
+    },
+    "videoTimeMs": 9481
+  },
+  {
+    "type": "resource-error",
+    "time": 9456,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F3276.client.web.2d8684cfcf3bcc7b8785.js&throttle=3g"
+    },
+    "videoTimeMs": 9481
+  },
+  {
+    "type": "resource-start",
+    "time": 9457,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9481
+  },
+  {
+    "type": "resource-script",
+    "time": 9457,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1662,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9482
+  },
+  {
+    "type": "resource-complete",
+    "time": 9457,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1662
+    },
+    "videoTimeMs": 9482
+  },
+  {
+    "type": "resource-error",
+    "time": 9457,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F4639.client.web.a6c890ee6380c8e67a84.js&throttle=3g"
+    },
+    "videoTimeMs": 9482
+  },
+  {
+    "type": "resource-start",
+    "time": 9654,
+    "delta": 197,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9678
+  },
+  {
+    "type": "resource-script",
+    "time": 9654,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1859,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9679
+  },
+  {
+    "type": "resource-complete",
+    "time": 9654,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1859
+    },
+    "videoTimeMs": 9679
+  },
+  {
+    "type": "resource-error",
+    "time": 9654,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FScrollableSmall-importable.client.web.8e390904d4227c81dc5d.js&throttle=3g"
+    },
+    "videoTimeMs": 9679
+  },
+  {
+    "type": "resource-start",
+    "time": 9660,
+    "delta": 6,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9684
+  },
+  {
+    "type": "resource-script",
+    "time": 9660,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1865,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9684
+  },
+  {
+    "type": "resource-complete",
+    "time": 9660,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1865
+    },
+    "videoTimeMs": 9684
+  },
+  {
+    "type": "resource-error",
+    "time": 9660,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FScrollableMedium-importable.client.web.69bf1702e4f71034c623.js&throttle=3g"
+    },
+    "videoTimeMs": 9684
+  },
+  {
+    "type": "resource-start",
+    "time": 9692,
+    "delta": 32,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9716
+  },
+  {
+    "type": "resource-script",
+    "time": 9692,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1897,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9717
+  },
+  {
+    "type": "resource-complete",
+    "time": 9692,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1897
+    },
+    "videoTimeMs": 9717
+  },
+  {
+    "type": "resource-error",
+    "time": 9693,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F8662.client.web.4a92dae9410a568373be.js&throttle=3g"
+    },
+    "videoTimeMs": 9717
+  },
+  {
+    "type": "resource-start",
+    "time": 9695,
+    "delta": 2,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9718
+  },
+  {
+    "type": "resource-script",
+    "time": 9695,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1899,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9718
+  },
+  {
+    "type": "resource-complete",
+    "time": 9695,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1899
+    },
+    "videoTimeMs": 9718
+  },
+  {
+    "type": "resource-error",
+    "time": 9695,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FScrollableFeature-importable.client.web.67d7eada270bdc843141.js&throttle=3g"
+    },
+    "videoTimeMs": 9719
+  },
+  {
+    "type": "resource-start",
+    "time": 9705,
+    "delta": 10,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9730
+  },
+  {
+    "type": "resource-script",
+    "time": 9705,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1909,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9730
+  },
+  {
+    "type": "resource-complete",
+    "time": 9705,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1909
+    },
+    "videoTimeMs": 9730
+  },
+  {
+    "type": "resource-error",
+    "time": 9705,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FRelativeTime-importable.client.web.13f17fc17cfc9347632e.js&throttle=3g"
+    },
+    "videoTimeMs": 9731
+  },
+  {
+    "type": "resource-start",
+    "time": 9711,
+    "delta": 6,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9735
+  },
+  {
+    "type": "resource-script",
+    "time": 9711,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1915,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9735
+  },
+  {
+    "type": "resource-complete",
+    "time": 9711,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 1915
+    },
+    "videoTimeMs": 9735
+  },
+  {
+    "type": "resource-error",
+    "time": 9711,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FPulsingDot-importable.client.web.e326588c177f57fcdac7.js&throttle=3g"
+    },
+    "videoTimeMs": 9735
+  },
+  {
+    "type": "resource-start",
+    "time": 9938,
+    "delta": 227,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9963
+  },
+  {
+    "type": "resource-script",
+    "time": 9938,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2137,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9964
+  },
+  {
+    "type": "resource-complete",
+    "time": 9938,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2137
+    },
+    "videoTimeMs": 9964
+  },
+  {
+    "type": "resource-error",
+    "time": 9938,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FAdmiralScript-importable.client.web.587bbc936e45358dd05a.js&throttle=3g"
+    },
+    "videoTimeMs": 9964
+  },
+  {
+    "type": "resource-start",
+    "time": 9939,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9965
+  },
+  {
+    "type": "resource-script",
+    "time": 9939,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2138,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9965
+  },
+  {
+    "type": "resource-complete",
+    "time": 9939,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2138
+    },
+    "videoTimeMs": 9965
+  },
+  {
+    "type": "resource-error",
+    "time": 9939,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FShowHideContainers-importable.client.web.1472496b462cdb0a9ed7.js&throttle=3g"
+    },
+    "videoTimeMs": 9965
+  },
+  {
+    "type": "resource-start",
+    "time": 9941,
+    "delta": 2,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9966
+  },
+  {
+    "type": "resource-script",
+    "time": 9941,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2140,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9966
+  },
+  {
+    "type": "resource-complete",
+    "time": 9941,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2140
+    },
+    "videoTimeMs": 9966
+  },
+  {
+    "type": "resource-error",
+    "time": 9941,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FAlreadyVisited-importable.client.web.b3963221733ca8d8aed2.js&throttle=3g"
+    },
+    "videoTimeMs": 9966
+  },
+  {
+    "type": "resource-start",
+    "time": 9951,
+    "delta": 10,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9975
+  },
+  {
+    "type": "resource-script",
+    "time": 9951,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2150,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9975
+  },
+  {
+    "type": "resource-complete",
+    "time": 9951,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2150
+    },
+    "videoTimeMs": 9975
+  },
+  {
+    "type": "resource-error",
+    "time": 9951,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FFocusStyles-importable.client.web.85ecdeab8a5059d2e1ed.js&throttle=3g"
+    },
+    "videoTimeMs": 9975
+  },
+  {
+    "type": "resource-start",
+    "time": 9951,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9976
+  },
+  {
+    "type": "resource-script",
+    "time": 9951,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2150,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9976
+  },
+  {
+    "type": "resource-complete",
+    "time": 9951,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2150
+    },
+    "videoTimeMs": 9976
+  },
+  {
+    "type": "resource-error",
+    "time": 9951,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FBrazeMessaging-importable.client.web.c8da09df78ef4edff77d.js&throttle=3g"
+    },
+    "videoTimeMs": 9976
+  },
+  {
+    "type": "resource-start",
+    "time": 9963,
+    "delta": 12,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9987
+  },
+  {
+    "type": "resource-script",
+    "time": 9963,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2162,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9987
+  },
+  {
+    "type": "resource-complete",
+    "time": 9963,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2162
+    },
+    "videoTimeMs": 9987
+  },
+  {
+    "type": "resource-error",
+    "time": 9963,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FReaderRevenueDev-importable.client.web.2f8ab593de2d149c19e7.js&throttle=3g"
+    },
+    "videoTimeMs": 9987
+  },
+  {
+    "type": "resource-start",
+    "time": 10190,
+    "delta": 227,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10215
+  },
+  {
+    "type": "resource-script",
+    "time": 10190,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2389,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10215
+  },
+  {
+    "type": "resource-complete",
+    "time": 10190,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2389
+    },
+    "videoTimeMs": 10215
+  },
+  {
+    "type": "resource-error",
+    "time": 10191,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F9216.client.web.f1ca6ec2b9b26658aed8.js&throttle=3g"
+    },
+    "videoTimeMs": 10215
+  },
+  {
+    "type": "resource-start",
+    "time": 10191,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10216
+  },
+  {
+    "type": "resource-script",
+    "time": 10191,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2390,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10216
+  },
+  {
+    "type": "resource-complete",
+    "time": 10191,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2390
+    },
+    "videoTimeMs": 10216
+  },
+  {
+    "type": "resource-error",
+    "time": 10191,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FGoogleOneTap-importable.client.web.98e739d86b339caa1f27.js&throttle=3g"
+    },
+    "videoTimeMs": 10216
+  },
+  {
+    "type": "resource-start",
+    "time": 10193,
+    "delta": 2,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10217
+  },
+  {
+    "type": "resource-script",
+    "time": 10193,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2392,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10217
+  },
+  {
+    "type": "resource-complete",
+    "time": 10193,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2392
+    },
+    "videoTimeMs": 10217
+  },
+  {
+    "type": "resource-error",
+    "time": 10193,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FEditionSwitcherBanner-importable.client.web.419195a8cfff4dbe34d3.js&throttle=3g"
+    },
+    "videoTimeMs": 10217
+  },
+  {
+    "type": "resource-start",
+    "time": 10204,
+    "delta": 11,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10228
+  },
+  {
+    "type": "resource-script",
+    "time": 10204,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2402,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10228
+  },
+  {
+    "type": "resource-complete",
+    "time": 10204,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2402
+    },
+    "videoTimeMs": 10228
+  },
+  {
+    "type": "resource-error",
+    "time": 10204,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F721.client.web.96d4c6db0c7892a092c0.js&throttle=3g"
+    },
+    "videoTimeMs": 10228
+  },
+  {
+    "type": "resource-start",
+    "time": 10204,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10228
+  },
+  {
+    "type": "resource-script",
+    "time": 10204,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2403,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10229
+  },
+  {
+    "type": "resource-complete",
+    "time": 10204,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2403
+    },
+    "videoTimeMs": 10229
+  },
+  {
+    "type": "resource-error",
+    "time": 10204,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2F7716.client.web.f436b9dbb1dfafc9b20a.js&throttle=3g"
+    },
+    "videoTimeMs": 10229
+  },
+  {
+    "type": "resource-start",
+    "time": 10208,
+    "delta": 4,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10231
+  },
+  {
+    "type": "resource-script",
+    "time": 10208,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2406,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10232
+  },
+  {
+    "type": "resource-complete",
+    "time": 10208,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2406
+    },
+    "videoTimeMs": 10232
+  },
+  {
+    "type": "resource-error",
+    "time": 10208,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/proxy-resource?url=https%3A%2F%2Fwww.theguardian.com%2Fassets%2FStickyBottomBanner-importable.client.web.286c7a27c297346b1cc3.js&throttle=3g"
+    },
+    "videoTimeMs": 10232
+  },
+  {
+    "type": "resource-start",
+    "time": 11214,
+    "delta": 1006,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fc"
+    },
+    "videoTimeMs": 11252
+  },
+  {
+    "type": "resource-script",
+    "time": 11214,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fc",
+      "duration": 3163,
+      "transferSize": 141250,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 11252
+  },
+  {
+    "type": "resource-complete",
+    "time": 11214,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 141250,
+      "duration": 3163
+    },
+    "videoTimeMs": 11253
+  },
+  {
+    "type": "resource-start",
+    "time": 11229,
+    "delta": 15,
+    "data": {
+      "resourceType": "script",
+      "name": "...pr-tcf.27718c8cb9d29947d2c1.bundle.js"
+    },
+    "videoTimeMs": 11254
+  },
+  {
+    "type": "resource-script",
+    "time": 11229,
+    "delta": 0,
+    "data": {
+      "name": "...pr-tcf.27718c8cb9d29947d2c1.bundle.js",
+      "duration": 2,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 11254
+  },
+  {
+    "type": "resource-complete",
+    "time": 11229,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2
+    },
+    "videoTimeMs": 11254
+  },
+  {
+    "type": "resource-error",
+    "time": 11229,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/unified/4.40.1/gdpr-tcf.27718c8cb9d29947d2c1.bundle.js"
+    },
+    "videoTimeMs": 11254
+  },
+  {
+    "type": "nav-fetch-start",
+    "time": 0.2999999523162842,
+    "delta": -11228.700000047684,
+    "data": {
+      "value": 0
+    },
+    "videoTimeMs": 11258
+  },
+  {
+    "type": "nav-response-start",
+    "time": 554.5999999046326,
+    "delta": 554.2999999523163,
+    "data": {},
+    "videoTimeMs": 11258
+  },
+  {
+    "type": "nav-response-end",
+    "time": 7729.200000047684,
+    "delta": 7174.600000143051,
+    "data": {},
+    "videoTimeMs": 11258
+  },
+  {
+    "type": "progress-update",
+    "time": 11230,
+    "delta": 3500.7999999523163,
+    "data": {
+      "value": 100,
+      "delta": 10
+    },
+    "videoTimeMs": 11258
+  },
+  {
+    "type": "progress-complete",
+    "time": 11230,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 11258
+  },
+  {
+    "type": "window-load",
+    "time": 11230,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 11259
+  },
+  {
+    "type": "resource-start",
+    "time": 11287,
+    "delta": 57,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fc"
+    },
+    "videoTimeMs": 11310
+  },
+  {
+    "type": "resource-fetch",
+    "time": 11287,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fc",
+      "duration": 1,
+      "transferSize": 454,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 11311
+  },
+  {
+    "type": "resource-complete",
+    "time": 11287,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 454,
+      "duration": 1
+    },
+    "videoTimeMs": 11311
+  },
+  {
+    "type": "resource-start",
+    "time": 11329,
+    "delta": 42,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/wrapper/v2/meta-data?hasCsp=true&account"
+    },
+    "videoTimeMs": 11353
+  },
+  {
+    "type": "resource-fetch",
+    "time": 11329,
+    "delta": 0,
+    "data": {
+      "name": "/wrapper/v2/meta-data?hasCsp=true&account",
+      "duration": 98,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 11353
+  },
+  {
+    "type": "resource-complete",
+    "time": 11329,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 98
+    },
+    "videoTimeMs": 11354
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 11329,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 2,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 11354
+  },
+  {
+    "type": "resource-start",
+    "time": 11472,
+    "delta": 143,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/wrapper/v2/messages?hasCsp=true&env=pro"
+    },
+    "videoTimeMs": 11496
+  },
+  {
+    "type": "resource-fetch",
+    "time": 11472,
+    "delta": 0,
+    "data": {
+      "name": "/wrapper/v2/messages?hasCsp=true&env=pro",
+      "duration": 141,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 11496
+  },
+  {
+    "type": "resource-complete",
+    "time": 11472,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 141
+    },
+    "videoTimeMs": 11497
+  },
+  {
+    "type": "resource-start",
+    "time": 11513,
+    "delta": 41,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fo"
+    },
+    "videoTimeMs": 11537
+  },
+  {
+    "type": "resource-fetch",
+    "time": 11513,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fo",
+      "duration": 282,
+      "transferSize": 300,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 11537
+  },
+  {
+    "type": "resource-complete",
+    "time": 11513,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 300,
+      "duration": 282
+    },
+    "videoTimeMs": 11537
+  },
+  {
+    "type": "resource-start",
+    "time": 11513,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fo"
+    },
+    "videoTimeMs": 11537
+  },
+  {
+    "type": "resource-fetch",
+    "time": 11513,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fo",
+      "duration": 282,
+      "transferSize": 300,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 11537
+  },
+  {
+    "type": "resource-complete",
+    "time": 11513,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 300,
+      "duration": 282
+    },
+    "videoTimeMs": 11537
+  },
+  {
+    "type": "resource-start",
+    "time": 11539,
+    "delta": 26,
+    "data": {
+      "resourceType": "other",
+      "name": "/proxy-resource?url=https%3A%2F%2Fs"
+    },
+    "videoTimeMs": 11563
+  },
+  {
+    "type": "resource-other",
+    "time": 11539,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fs",
+      "duration": 304,
+      "transferSize": 4586,
+      "initiatorType": "other"
+    },
+    "videoTimeMs": 11563
+  },
+  {
+    "type": "resource-complete",
+    "time": 11539,
+    "delta": 0,
+    "data": {
+      "resourceType": "other",
+      "transferSize": 4586,
+      "duration": 304
+    },
+    "videoTimeMs": 11563
+  },
+  {
+    "type": "resource-start",
+    "time": 11696,
+    "delta": 157,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Fo"
+    },
+    "videoTimeMs": 11722
+  },
+  {
+    "type": "resource-fetch",
+    "time": 11696,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fo",
+      "duration": 253,
+      "transferSize": 300,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 11723
+  },
+  {
+    "type": "resource-complete",
+    "time": 11696,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 300,
+      "duration": 253
+    },
+    "videoTimeMs": 11724
+  }
+]

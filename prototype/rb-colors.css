@@ -1,0 +1,82 @@
+:root {
+  /* RB-Mandarin */
+  --rb-mandarin-0: #FFFAF9;
+  --rb-mandarin-10: #FFEBE5;
+  --rb-mandarin-20: #FFDACC;
+  --rb-mandarin-30: #FFB294;
+  --rb-mandarin-40: #FF8D5C;
+  --rb-mandarin-50: #F05F2B;
+  --rb-mandarin-60: #CC3B0A;
+  --rb-mandarin-70: #9E2B08;
+  --rb-mandarin-80: #671907;
+  --rb-mandarin-90: #47140B;
+  --rb-mandarin-100: #290E0A;
+
+  /* RB-Pondwater */
+  --rb-pondwater-0: #F5FBFE;
+  --rb-pondwater-10: #E6F6FF;
+  --rb-pondwater-20: #CBEAFF;
+  --rb-pondwater-30: #A1D0F7;
+  --rb-pondwater-40: #75B6EB;
+  --rb-pondwater-50: #4397E0;
+  --rb-pondwater-60: #1074CC;
+  --rb-pondwater-70: #045EB2;
+  --rb-pondwater-80: #034180;
+  --rb-pondwater-90: #02254D;
+  --rb-pondwater-100: #01142D;
+
+  /* RB-Lilypad */
+  --rb-lilypad-0: #F8FCF9;
+  --rb-lilypad-10: #E2F3E9;
+  --rb-lilypad-20: #CFEBDA;
+  --rb-lilypad-30: #AED5C2;
+  --rb-lilypad-40: #84BBA8;
+  --rb-lilypad-50: #589D88;
+  --rb-lilypad-60: #247A64;
+  --rb-lilypad-70: #11604D;
+  --rb-lilypad-80: #0A4739;
+  --rb-lilypad-90: #052F25;
+  --rb-lilypad-100: #082119;
+
+  /* RB-Blossom */
+  --rb-blossom-0: #FBF7FF;
+  --rb-blossom-10: #F5EDFF;
+  --rb-blossom-20: #EADAFD;
+  --rb-blossom-30: #D3B9EB;
+  --rb-blossom-40: #C19EDB;
+  --rb-blossom-50: #9F6EB8;
+  --rb-blossom-60: #7D4794;
+  --rb-blossom-70: #682A7A;
+  --rb-blossom-80: #521A61;
+  --rb-blossom-90: #3E0E47;
+  --rb-blossom-100: #230829;
+
+  /* RB-Pollen */
+  --rb-pollen-0: #FFFBF0;
+  --rb-pollen-10: #FEF4DA;
+  --rb-pollen-20: #FFEAB8;
+  --rb-pollen-30: #FFD885;
+  --rb-pollen-40: #FFC95C;
+  --rb-pollen-50: #FAB341;
+  --rb-pollen-60: #F5A031;
+  --rb-pollen-70: #B66A1F;
+  --rb-pollen-80: #783B13;
+  --rb-pollen-90: #47210A;
+  --rb-pollen-100: #240F04;
+
+  /* RB-Red */
+  --rb-red-0: #FEF9FA;
+  --rb-red-10: #FCECF0;
+  --rb-red-20: #FAD8DC;
+  --rb-red-30: #F7AAAD;
+  --rb-red-40: #F06565;
+  --rb-red-50: #EC434F;
+  --rb-red-60: #CA2B3D;
+  --rb-red-70: #A02231;
+  --rb-red-80: #671421;
+  --rb-red-90: #46111C;
+  --rb-red-100: #2A0C14;
+
+  /* RB-Green */
+  --rb-green-40: #39B25E;
+}

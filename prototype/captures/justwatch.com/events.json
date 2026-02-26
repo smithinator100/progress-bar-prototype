@@ -1,0 +1,7837 @@
+[
+  {
+    "type": "navigation-start",
+    "time": 655,
+    "delta": 655,
+    "data": {
+      "url": "http://localhost:3001/proxy?url=https%3A%2F%2Fjustwatch.com&throttle=3g"
+    },
+    "videoTimeMs": 677
+  },
+  {
+    "type": "nav-response-start",
+    "time": 649,
+    "delta": -6,
+    "data": {},
+    "videoTimeMs": 677
+  },
+  {
+    "type": "resource-start",
+    "time": 656,
+    "delta": 7,
+    "data": {
+      "resourceType": "script",
+      "name": "/injected-observer.js"
+    },
+    "videoTimeMs": 677
+  },
+  {
+    "type": "resource-script",
+    "time": 656,
+    "delta": 0,
+    "data": {
+      "name": "/injected-observer.js",
+      "duration": 2,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 677
+  },
+  {
+    "type": "resource-complete",
+    "time": 656,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2
+    },
+    "videoTimeMs": 677
+  },
+  {
+    "type": "progress-update",
+    "time": 673,
+    "delta": 17,
+    "data": {
+      "value": 17,
+      "delta": 17
+    },
+    "videoTimeMs": 694
+  },
+  {
+    "type": "progress-update",
+    "time": 689,
+    "delta": 16,
+    "data": {
+      "value": 18,
+      "delta": 1
+    },
+    "videoTimeMs": 709
+  },
+  {
+    "type": "progress-update",
+    "time": 705,
+    "delta": 16,
+    "data": {
+      "value": 20,
+      "delta": 2
+    },
+    "videoTimeMs": 725
+  },
+  {
+    "type": "progress-update",
+    "time": 721,
+    "delta": 16,
+    "data": {
+      "value": 21,
+      "delta": 1
+    },
+    "videoTimeMs": 741
+  },
+  {
+    "type": "progress-update",
+    "time": 736,
+    "delta": 15,
+    "data": {
+      "value": 23,
+      "delta": 2
+    },
+    "videoTimeMs": 757
+  },
+  {
+    "type": "progress-update",
+    "time": 752,
+    "delta": 16,
+    "data": {
+      "value": 24,
+      "delta": 1
+    },
+    "videoTimeMs": 773
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 757,
+    "delta": 5,
+    "data": {
+      "nodesAdded": 39,
+      "textNodes": 4,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 778
+  },
+  {
+    "type": "progress-update",
+    "time": 769,
+    "delta": 12,
+    "data": {
+      "value": 25,
+      "delta": 1
+    },
+    "videoTimeMs": 789
+  },
+  {
+    "type": "progress-update",
+    "time": 785,
+    "delta": 16,
+    "data": {
+      "value": 26,
+      "delta": 1
+    },
+    "videoTimeMs": 806
+  },
+  {
+    "type": "progress-update",
+    "time": 801,
+    "delta": 16,
+    "data": {
+      "value": 28,
+      "delta": 2
+    },
+    "videoTimeMs": 822
+  },
+  {
+    "type": "progress-update",
+    "time": 816,
+    "delta": 15,
+    "data": {
+      "value": 29,
+      "delta": 1
+    },
+    "videoTimeMs": 837
+  },
+  {
+    "type": "progress-update",
+    "time": 833,
+    "delta": 17,
+    "data": {
+      "value": 30,
+      "delta": 1
+    },
+    "videoTimeMs": 854
+  },
+  {
+    "type": "progress-update",
+    "time": 849,
+    "delta": 16,
+    "data": {
+      "value": 31,
+      "delta": 1
+    },
+    "videoTimeMs": 870
+  },
+  {
+    "type": "progress-update",
+    "time": 865,
+    "delta": 16,
+    "data": {
+      "value": 32,
+      "delta": 1
+    },
+    "videoTimeMs": 886
+  },
+  {
+    "type": "progress-update",
+    "time": 880,
+    "delta": 15,
+    "data": {
+      "value": 33,
+      "delta": 1
+    },
+    "videoTimeMs": 901
+  },
+  {
+    "type": "progress-update",
+    "time": 897,
+    "delta": 17,
+    "data": {
+      "value": 34,
+      "delta": 1
+    },
+    "videoTimeMs": 918
+  },
+  {
+    "type": "progress-update",
+    "time": 913,
+    "delta": 16,
+    "data": {
+      "value": 35,
+      "delta": 1
+    },
+    "videoTimeMs": 933
+  },
+  {
+    "type": "resource-start",
+    "time": 926,
+    "delta": 13,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 947
+  },
+  {
+    "type": "resource-css",
+    "time": 926,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 273,
+      "transferSize": 10282,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 947
+  },
+  {
+    "type": "resource-complete",
+    "time": 926,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 10282,
+      "duration": 273
+    },
+    "videoTimeMs": 947
+  },
+  {
+    "type": "progress-update",
+    "time": 928,
+    "delta": 2,
+    "data": {
+      "value": 45,
+      "delta": 10
+    },
+    "videoTimeMs": 949
+  },
+  {
+    "type": "progress-update",
+    "time": 945,
+    "delta": 17,
+    "data": {
+      "value": 46,
+      "delta": 1
+    },
+    "videoTimeMs": 965
+  },
+  {
+    "type": "progress-update",
+    "time": 969,
+    "delta": 24,
+    "data": {
+      "value": 47,
+      "delta": 1
+    },
+    "videoTimeMs": 990
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 969,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 181,
+      "textNodes": 25,
+      "headingNodes": 3
+    },
+    "videoTimeMs": 991
+  },
+  {
+    "type": "resource-start",
+    "time": 976,
+    "delta": 7,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 997
+  },
+  {
+    "type": "resource-css",
+    "time": 976,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 323,
+      "transferSize": 23784,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 997
+  },
+  {
+    "type": "resource-complete",
+    "time": 976,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 23784,
+      "duration": 323
+    },
+    "videoTimeMs": 997
+  },
+  {
+    "type": "resource-start",
+    "time": 976,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ts/img/logo/JustWatch-logo-large.webp"
+    },
+    "videoTimeMs": 997
+  },
+  {
+    "type": "resource-img",
+    "time": 976,
+    "delta": 0,
+    "data": {
+      "name": "...ts/img/logo/JustWatch-logo-large.webp",
+      "duration": 120,
+      "transferSize": 483,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 997
+  },
+  {
+    "type": "resource-complete",
+    "time": 976,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 483,
+      "duration": 120
+    },
+    "videoTimeMs": 997
+  },
+  {
+    "type": "resource-error",
+    "time": 976,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/logo/JustWatch-logo-large.png"
+    },
+    "videoTimeMs": 997
+  },
+  {
+    "type": "progress-update",
+    "time": 991,
+    "delta": 15,
+    "data": {
+      "value": 59,
+      "delta": 12
+    },
+    "videoTimeMs": 1012
+  },
+  {
+    "type": "progress-update",
+    "time": 1009,
+    "delta": 18,
+    "data": {
+      "value": 60,
+      "delta": 1
+    },
+    "videoTimeMs": 1029
+  },
+  {
+    "type": "progress-update",
+    "time": 1024,
+    "delta": 15,
+    "data": {
+      "value": 61,
+      "delta": 1
+    },
+    "videoTimeMs": 1045
+  },
+  {
+    "type": "resource-start",
+    "time": 1036,
+    "delta": 12,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/207360008/s100/netflix.avif"
+    },
+    "videoTimeMs": 1057
+  },
+  {
+    "type": "resource-img",
+    "time": 1036,
+    "delta": 0,
+    "data": {
+      "name": "/icon/207360008/s100/netflix.avif",
+      "duration": 67,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1057
+  },
+  {
+    "type": "resource-complete",
+    "time": 1036,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 67
+    },
+    "videoTimeMs": 1057
+  },
+  {
+    "type": "resource-start",
+    "time": 1036,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/313118777/s100/disneyplus.avif"
+    },
+    "videoTimeMs": 1057
+  },
+  {
+    "type": "resource-img",
+    "time": 1036,
+    "delta": 0,
+    "data": {
+      "name": "/icon/313118777/s100/disneyplus.avif",
+      "duration": 67,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1057
+  },
+  {
+    "type": "resource-complete",
+    "time": 1036,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 67
+    },
+    "videoTimeMs": 1057
+  },
+  {
+    "type": "resource-start",
+    "time": 1039,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/338367329/s100/appletvplus.avif"
+    },
+    "videoTimeMs": 1060
+  },
+  {
+    "type": "resource-img",
+    "time": 1039,
+    "delta": 0,
+    "data": {
+      "name": "/icon/338367329/s100/appletvplus.avif",
+      "duration": 71,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1060
+  },
+  {
+    "type": "resource-complete",
+    "time": 1039,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 71
+    },
+    "videoTimeMs": 1060
+  },
+  {
+    "type": "resource-start",
+    "time": 1039,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../322992749/s100/amazonprimevideo.avif"
+    },
+    "videoTimeMs": 1060
+  },
+  {
+    "type": "resource-img",
+    "time": 1039,
+    "delta": 0,
+    "data": {
+      "name": ".../322992749/s100/amazonprimevideo.avif",
+      "duration": 71,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1061
+  },
+  {
+    "type": "resource-complete",
+    "time": 1039,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 71
+    },
+    "videoTimeMs": 1061
+  },
+  {
+    "type": "progress-update",
+    "time": 1039,
+    "delta": 0,
+    "data": {
+      "value": 67,
+      "delta": 6
+    },
+    "videoTimeMs": 1061
+  },
+  {
+    "type": "resource-start",
+    "time": 1040,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/338253243/s100/itunes.avif"
+    },
+    "videoTimeMs": 1061
+  },
+  {
+    "type": "resource-img",
+    "time": 1040,
+    "delta": 0,
+    "data": {
+      "name": "/icon/338253243/s100/itunes.avif",
+      "duration": 72,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1061
+  },
+  {
+    "type": "resource-complete",
+    "time": 1040,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 72
+    },
+    "videoTimeMs": 1061
+  },
+  {
+    "type": "resource-start",
+    "time": 1042,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/321303679/s100/movistarott.avif"
+    },
+    "videoTimeMs": 1062
+  },
+  {
+    "type": "resource-img",
+    "time": 1042,
+    "delta": 0,
+    "data": {
+      "name": "/icon/321303679/s100/movistarott.avif",
+      "duration": 73,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1062
+  },
+  {
+    "type": "resource-complete",
+    "time": 1042,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 73
+    },
+    "videoTimeMs": 1062
+  },
+  {
+    "type": "resource-start",
+    "time": 1043,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/321303676/s100/movistar.avif"
+    },
+    "videoTimeMs": 1064
+  },
+  {
+    "type": "resource-img",
+    "time": 1043,
+    "delta": 0,
+    "data": {
+      "name": "/icon/321303676/s100/movistar.avif",
+      "duration": 75,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1064
+  },
+  {
+    "type": "resource-complete",
+    "time": 1043,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 75
+    },
+    "videoTimeMs": 1064
+  },
+  {
+    "type": "resource-start",
+    "time": 1047,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/187161245/s100/filmin.avif"
+    },
+    "videoTimeMs": 1068
+  },
+  {
+    "type": "resource-img",
+    "time": 1047,
+    "delta": 0,
+    "data": {
+      "name": "/icon/187161245/s100/filmin.avif",
+      "duration": 79,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1068
+  },
+  {
+    "type": "resource-complete",
+    "time": 1047,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 79
+    },
+    "videoTimeMs": 1068
+  },
+  {
+    "type": "resource-start",
+    "time": 1047,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/128599720/s100/wuaki.avif"
+    },
+    "videoTimeMs": 1068
+  },
+  {
+    "type": "resource-img",
+    "time": 1047,
+    "delta": 0,
+    "data": {
+      "name": "/icon/128599720/s100/wuaki.avif",
+      "duration": 79,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1068
+  },
+  {
+    "type": "resource-complete",
+    "time": 1047,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 79
+    },
+    "videoTimeMs": 1068
+  },
+  {
+    "type": "resource-start",
+    "time": 1052,
+    "delta": 5,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/316727345/s100/fubotv.avif"
+    },
+    "videoTimeMs": 1073
+  },
+  {
+    "type": "resource-img",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "name": "/icon/316727345/s100/fubotv.avif",
+      "duration": 83,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1073
+  },
+  {
+    "type": "resource-complete",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 83
+    },
+    "videoTimeMs": 1073
+  },
+  {
+    "type": "resource-start",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/330520548/s100/skyshowtime.avif"
+    },
+    "videoTimeMs": 1073
+  },
+  {
+    "type": "resource-img",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "name": "/icon/330520548/s100/skyshowtime.avif",
+      "duration": 83,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1073
+  },
+  {
+    "type": "resource-complete",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 83
+    },
+    "videoTimeMs": 1073
+  },
+  {
+    "type": "resource-start",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/188383996/s100/filminplus.avif"
+    },
+    "videoTimeMs": 1073
+  },
+  {
+    "type": "resource-img",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "name": "/icon/188383996/s100/filminplus.avif",
+      "duration": 83,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1074
+  },
+  {
+    "type": "resource-complete",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 83
+    },
+    "videoTimeMs": 1074
+  },
+  {
+    "type": "resource-start",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/341906804/s100/mlsseasonpass.avif"
+    },
+    "videoTimeMs": 1074
+  },
+  {
+    "type": "resource-img",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "name": "/icon/341906804/s100/mlsseasonpass.avif",
+      "duration": 83,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1074
+  },
+  {
+    "type": "resource-complete",
+    "time": 1052,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 83
+    },
+    "videoTimeMs": 1074
+  },
+  {
+    "type": "progress-update",
+    "time": 1058,
+    "delta": 6,
+    "data": {
+      "value": 68,
+      "delta": 1
+    },
+    "videoTimeMs": 1079
+  },
+  {
+    "type": "resource-start",
+    "time": 1079,
+    "delta": 21,
+    "data": {
+      "resourceType": "img",
+      "name": "...r/341932859/s332/los-tigres-2025.avif"
+    },
+    "videoTimeMs": 1099
+  },
+  {
+    "type": "resource-img",
+    "time": 1079,
+    "delta": 0,
+    "data": {
+      "name": "...r/341932859/s332/los-tigres-2025.avif",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1099
+  },
+  {
+    "type": "resource-complete",
+    "time": 1079,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 1099
+  },
+  {
+    "type": "resource-start",
+    "time": 1083,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/336487621/s332/i-swear.avif"
+    },
+    "videoTimeMs": 1104
+  },
+  {
+    "type": "resource-img",
+    "time": 1083,
+    "delta": 0,
+    "data": {
+      "name": "/poster/336487621/s332/i-swear.avif",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1104
+  },
+  {
+    "type": "resource-complete",
+    "time": 1083,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 1104
+  },
+  {
+    "type": "resource-start",
+    "time": 1085,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/341910710/s332/cortafuego.avif"
+    },
+    "videoTimeMs": 1105
+  },
+  {
+    "type": "resource-img",
+    "time": 1085,
+    "delta": 0,
+    "data": {
+      "name": "/poster/341910710/s332/cortafuego.avif",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1105
+  },
+  {
+    "type": "resource-complete",
+    "time": 1085,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 1105
+  },
+  {
+    "type": "progress-update",
+    "time": 1087,
+    "delta": 2,
+    "data": {
+      "value": 69,
+      "delta": 1
+    },
+    "videoTimeMs": 1108
+  },
+  {
+    "type": "resource-start",
+    "time": 1088,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...er/341890562/s332/agente-secreto.avif"
+    },
+    "videoTimeMs": 1109
+  },
+  {
+    "type": "resource-img",
+    "time": 1088,
+    "delta": 0,
+    "data": {
+      "name": "...er/341890562/s332/agente-secreto.avif",
+      "duration": 30,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1109
+  },
+  {
+    "type": "resource-complete",
+    "time": 1088,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 30
+    },
+    "videoTimeMs": 1109
+  },
+  {
+    "type": "resource-start",
+    "time": 1092,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "...339250829/s332/los-domingos-2025.avif"
+    },
+    "videoTimeMs": 1113
+  },
+  {
+    "type": "resource-img",
+    "time": 1092,
+    "delta": 0,
+    "data": {
+      "name": "...339250829/s332/los-domingos-2025.avif",
+      "duration": 35,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1113
+  },
+  {
+    "type": "resource-complete",
+    "time": 1092,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 35
+    },
+    "videoTimeMs": 1113
+  },
+  {
+    "type": "progress-update",
+    "time": 1105,
+    "delta": 13,
+    "data": {
+      "value": 70,
+      "delta": 1
+    },
+    "videoTimeMs": 1126
+  },
+  {
+    "type": "resource-start",
+    "time": 1130,
+    "delta": 25,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1151
+  },
+  {
+    "type": "resource-css",
+    "time": 1130,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 476,
+      "transferSize": 26928,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1151
+  },
+  {
+    "type": "resource-complete",
+    "time": 1130,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 26928,
+      "duration": 476
+    },
+    "videoTimeMs": 1152
+  },
+  {
+    "type": "resource-start",
+    "time": 1130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ts/img/home/all_in_one_place-comp.png"
+    },
+    "videoTimeMs": 1152
+  },
+  {
+    "type": "resource-img",
+    "time": 1130,
+    "delta": 0,
+    "data": {
+      "name": "...ts/img/home/all_in_one_place-comp.png",
+      "duration": 73,
+      "transferSize": 483,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1152
+  },
+  {
+    "type": "resource-complete",
+    "time": 1130,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 483,
+      "duration": 73
+    },
+    "videoTimeMs": 1152
+  },
+  {
+    "type": "resource-error",
+    "time": 1130,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/home/all_in_one_place-comp.png"
+    },
+    "videoTimeMs": 1152
+  },
+  {
+    "type": "resource-start",
+    "time": 1131,
+    "delta": 1,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1152
+  },
+  {
+    "type": "resource-css",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 477,
+      "transferSize": 23292,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-complete",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 23292,
+      "duration": 477
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-start",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...assets/img/home/one_search-comp-2.png"
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-img",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "name": "...assets/img/home/one_search-comp-2.png",
+      "duration": 73,
+      "transferSize": 479,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-complete",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 479,
+      "duration": 73
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-error",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/home/one_search-comp-2.png"
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-start",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ssets/img/home/one_watchlist-comp.png"
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-img",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "name": "...ssets/img/home/one_watchlist-comp.png",
+      "duration": 73,
+      "transferSize": 480,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1153
+  },
+  {
+    "type": "resource-complete",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 480,
+      "duration": 73
+    },
+    "videoTimeMs": 1154
+  },
+  {
+    "type": "resource-error",
+    "time": 1131,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/home/one_watchlist-comp.png"
+    },
+    "videoTimeMs": 1154
+  },
+  {
+    "type": "progress-update",
+    "time": 1136,
+    "delta": 5,
+    "data": {
+      "value": 71,
+      "delta": 1
+    },
+    "videoTimeMs": 1156
+  },
+  {
+    "type": "resource-start",
+    "time": 1146,
+    "delta": 10,
+    "data": {
+      "resourceType": "img",
+      "name": "...ets/img/home/global-home-bg-comp.avif"
+    },
+    "videoTimeMs": 1166
+  },
+  {
+    "type": "resource-img",
+    "time": 1146,
+    "delta": 0,
+    "data": {
+      "name": "...ets/img/home/global-home-bg-comp.avif",
+      "duration": 88,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1166
+  },
+  {
+    "type": "resource-complete",
+    "time": 1146,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 88
+    },
+    "videoTimeMs": 1166
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1158,
+    "delta": 12,
+    "data": {
+      "nodesAdded": 477,
+      "textNodes": 81,
+      "headingNodes": 16
+    },
+    "videoTimeMs": 1179
+  },
+  {
+    "type": "progress-update",
+    "time": 1168,
+    "delta": 10,
+    "data": {
+      "value": 72,
+      "delta": 1
+    },
+    "videoTimeMs": 1189
+  },
+  {
+    "type": "resource-start",
+    "time": 1181,
+    "delta": 13,
+    "data": {
+      "resourceType": "img",
+      "name": "...-seven-kingdoms-the-hedge-knight.avif"
+    },
+    "videoTimeMs": 1201
+  },
+  {
+    "type": "resource-img",
+    "time": 1181,
+    "delta": 0,
+    "data": {
+      "name": "...-seven-kingdoms-the-hedge-knight.avif",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1201
+  },
+  {
+    "type": "resource-complete",
+    "time": 1181,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 1201
+  },
+  {
+    "type": "progress-update",
+    "time": 1184,
+    "delta": 3,
+    "data": {
+      "value": 73,
+      "delta": 1
+    },
+    "videoTimeMs": 1204
+  },
+  {
+    "type": "resource-start",
+    "time": 1185,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/326336001/s332/paradise.avif"
+    },
+    "videoTimeMs": 1206
+  },
+  {
+    "type": "resource-img",
+    "time": 1185,
+    "delta": 0,
+    "data": {
+      "name": "/poster/326336001/s332/paradise.avif",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1206
+  },
+  {
+    "type": "resource-complete",
+    "time": 1185,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 1206
+  },
+  {
+    "type": "resource-start",
+    "time": 1190,
+    "delta": 5,
+    "data": {
+      "resourceType": "img",
+      "name": "...er/341718817/s332/obsession-2026.avif"
+    },
+    "videoTimeMs": 1210
+  },
+  {
+    "type": "resource-img",
+    "time": 1190,
+    "delta": 0,
+    "data": {
+      "name": "...er/341718817/s332/obsession-2026.avif",
+      "duration": 33,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1210
+  },
+  {
+    "type": "resource-complete",
+    "time": 1190,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 33
+    },
+    "videoTimeMs": 1210
+  },
+  {
+    "type": "resource-start",
+    "time": 1194,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "...733/s332/anatomia-de-un-instante.avif"
+    },
+    "videoTimeMs": 1214
+  },
+  {
+    "type": "resource-img",
+    "time": 1194,
+    "delta": 0,
+    "data": {
+      "name": "...733/s332/anatomia-de-un-instante.avif",
+      "duration": 37,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1214
+  },
+  {
+    "type": "resource-complete",
+    "time": 1194,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 37
+    },
+    "videoTimeMs": 1214
+  },
+  {
+    "type": "resource-start",
+    "time": 1199,
+    "delta": 5,
+    "data": {
+      "resourceType": "img",
+      "name": "...r/304465294/s332/the-night-agent.avif"
+    },
+    "videoTimeMs": 1220
+  },
+  {
+    "type": "resource-img",
+    "time": 1199,
+    "delta": 0,
+    "data": {
+      "name": "...r/304465294/s332/the-night-agent.avif",
+      "duration": 42,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1220
+  },
+  {
+    "type": "resource-complete",
+    "time": 1199,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 42
+    },
+    "videoTimeMs": 1220
+  },
+  {
+    "type": "resource-start",
+    "time": 1202,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "...-seven-kingdoms-the-hedge-knight.avif"
+    },
+    "videoTimeMs": 1223
+  },
+  {
+    "type": "resource-img",
+    "time": 1202,
+    "delta": 0,
+    "data": {
+      "name": "...-seven-kingdoms-the-hedge-knight.avif",
+      "duration": 45,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1223
+  },
+  {
+    "type": "resource-complete",
+    "time": 1202,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 45
+    },
+    "videoTimeMs": 1223
+  },
+  {
+    "type": "progress-update",
+    "time": 1216,
+    "delta": 14,
+    "data": {
+      "value": 74,
+      "delta": 1
+    },
+    "videoTimeMs": 1237
+  },
+  {
+    "type": "resource-start",
+    "time": 1240,
+    "delta": 24,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1260
+  },
+  {
+    "type": "resource-css",
+    "time": 1240,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 585,
+      "transferSize": 41356,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1260
+  },
+  {
+    "type": "resource-complete",
+    "time": 1240,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 41356,
+      "duration": 585
+    },
+    "videoTimeMs": 1260
+  },
+  {
+    "type": "progress-update",
+    "time": 1248,
+    "delta": 8,
+    "data": {
+      "value": 75,
+      "delta": 1
+    },
+    "videoTimeMs": 1268
+  },
+  {
+    "type": "resource-start",
+    "time": 1279,
+    "delta": 31,
+    "data": {
+      "resourceType": "img",
+      "name": "/backdrop/313866794/s640/fallout.avif"
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "resource-img",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "name": "/backdrop/313866794/s640/fallout.avif",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "resource-complete",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "resource-start",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/backdrop/322035531/s640/the-pitt.avif"
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "resource-img",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "name": "/backdrop/322035531/s640/the-pitt.avif",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "resource-complete",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "resource-start",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/backdrop/340352004/s640/salvador.avif"
+    },
+    "videoTimeMs": 1300
+  },
+  {
+    "type": "resource-img",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "name": "/backdrop/340352004/s640/salvador.avif",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1301
+  },
+  {
+    "type": "resource-complete",
+    "time": 1279,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 1301
+  },
+  {
+    "type": "progress-update",
+    "time": 1280,
+    "delta": 1,
+    "data": {
+      "value": 76,
+      "delta": 1
+    },
+    "videoTimeMs": 1301
+  },
+  {
+    "type": "progress-update",
+    "time": 1313,
+    "delta": 33,
+    "data": {
+      "value": 77,
+      "delta": 1
+    },
+    "videoTimeMs": 1334
+  },
+  {
+    "type": "progress-update",
+    "time": 1362,
+    "delta": 49,
+    "data": {
+      "value": 78,
+      "delta": 1
+    },
+    "videoTimeMs": 1382
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1362,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 365,
+      "textNodes": 54,
+      "headingNodes": 14
+    },
+    "videoTimeMs": 1383
+  },
+  {
+    "type": "resource-start",
+    "time": 1385,
+    "delta": 23,
+    "data": {
+      "resourceType": "img",
+      "name": "...rop/338549728/s640/el-infiltrado.avif"
+    },
+    "videoTimeMs": 1405
+  },
+  {
+    "type": "resource-img",
+    "time": 1385,
+    "delta": 0,
+    "data": {
+      "name": "...rop/338549728/s640/el-infiltrado.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1405
+  },
+  {
+    "type": "resource-complete",
+    "time": 1385,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1406
+  },
+  {
+    "type": "resource-start",
+    "time": 1385,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/189664535/s332/metropolis.avif"
+    },
+    "videoTimeMs": 1406
+  },
+  {
+    "type": "resource-img",
+    "time": 1385,
+    "delta": 0,
+    "data": {
+      "name": "/poster/189664535/s332/metropolis.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1406
+  },
+  {
+    "type": "resource-complete",
+    "time": 1385,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1406
+  },
+  {
+    "type": "resource-start",
+    "time": 1388,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "/backdrop/340366959/s640/pluribus.avif"
+    },
+    "videoTimeMs": 1409
+  },
+  {
+    "type": "resource-img",
+    "time": 1388,
+    "delta": 0,
+    "data": {
+      "name": "/backdrop/340366959/s640/pluribus.avif",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1409
+  },
+  {
+    "type": "resource-complete",
+    "time": 1388,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 1409
+  },
+  {
+    "type": "resource-start",
+    "time": 1389,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...p/338976604/s640/mas-que-rivales.avif"
+    },
+    "videoTimeMs": 1410
+  },
+  {
+    "type": "resource-img",
+    "time": 1389,
+    "delta": 0,
+    "data": {
+      "name": "...p/338976604/s640/mas-que-rivales.avif",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1410
+  },
+  {
+    "type": "resource-complete",
+    "time": 1389,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 1410
+  },
+  {
+    "type": "progress-update",
+    "time": 1392,
+    "delta": 3,
+    "data": {
+      "value": 79,
+      "delta": 1
+    },
+    "videoTimeMs": 1413
+  },
+  {
+    "type": "resource-start",
+    "time": 1402,
+    "delta": 10,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/239196320/s332/rebeca.avif"
+    },
+    "videoTimeMs": 1423
+  },
+  {
+    "type": "resource-img",
+    "time": 1402,
+    "delta": 0,
+    "data": {
+      "name": "/poster/239196320/s332/rebeca.avif",
+      "duration": 41,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1423
+  },
+  {
+    "type": "resource-complete",
+    "time": 1402,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 41
+    },
+    "videoTimeMs": 1423
+  },
+  {
+    "type": "resource-start",
+    "time": 1402,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...1300717/s332/matar-a-un-ruisenor.avif"
+    },
+    "videoTimeMs": 1423
+  },
+  {
+    "type": "resource-img",
+    "time": 1402,
+    "delta": 0,
+    "data": {
+      "name": "...1300717/s332/matar-a-un-ruisenor.avif",
+      "duration": 41,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1423
+  },
+  {
+    "type": "resource-complete",
+    "time": 1402,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 41
+    },
+    "videoTimeMs": 1423
+  },
+  {
+    "type": "progress-update",
+    "time": 1441,
+    "delta": 39,
+    "data": {
+      "value": 80,
+      "delta": 1
+    },
+    "videoTimeMs": 1461
+  },
+  {
+    "type": "progress-update",
+    "time": 1489,
+    "delta": 48,
+    "data": {
+      "value": 81,
+      "delta": 1
+    },
+    "videoTimeMs": 1509
+  },
+  {
+    "type": "progress-update",
+    "time": 1552,
+    "delta": 63,
+    "data": {
+      "value": 82,
+      "delta": 1
+    },
+    "videoTimeMs": 1573
+  },
+  {
+    "type": "resource-start",
+    "time": 1562,
+    "delta": 10,
+    "data": {
+      "resourceType": "img",
+      "name": "...652850/s332/descubriendo-el-amor.avif"
+    },
+    "videoTimeMs": 1583
+  },
+  {
+    "type": "resource-img",
+    "time": 1562,
+    "delta": 0,
+    "data": {
+      "name": "...652850/s332/descubriendo-el-amor.avif",
+      "duration": 99,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-complete",
+    "time": 1562,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 99
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-start",
+    "time": 1562,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/307373054/s332/avatar.avif"
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-img",
+    "time": 1562,
+    "delta": 0,
+    "data": {
+      "name": "/poster/307373054/s332/avatar.avif",
+      "duration": 101,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-complete",
+    "time": 1562,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 101
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-start",
+    "time": 1562,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...er/341050233/s332/broken-english.avif"
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-img",
+    "time": 1562,
+    "delta": 0,
+    "data": {
+      "name": "...er/341050233/s332/broken-english.avif",
+      "duration": 99,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-complete",
+    "time": 1563,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 99
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-start",
+    "time": 1563,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../301928372/s332/tout-nous-sourit.avif"
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-img",
+    "time": 1563,
+    "delta": 0,
+    "data": {
+      "name": ".../301928372/s332/tout-nous-sourit.avif",
+      "duration": 101,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1584
+  },
+  {
+    "type": "resource-complete",
+    "time": 1563,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 101
+    },
+    "videoTimeMs": 1585
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1568,
+    "delta": 5,
+    "data": {
+      "nodesAdded": 524,
+      "textNodes": 40,
+      "headingNodes": 6
+    },
+    "videoTimeMs": 1588
+  },
+  {
+    "type": "resource-start",
+    "time": 1572,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "...7125/s332/carreteras-secundarias.avif"
+    },
+    "videoTimeMs": 1593
+  },
+  {
+    "type": "resource-img",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "name": "...7125/s332/carreteras-secundarias.avif",
+      "duration": 112,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1593
+  },
+  {
+    "type": "resource-complete",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 112
+    },
+    "videoTimeMs": 1593
+  },
+  {
+    "type": "resource-start",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...icos-los-crimenes-de-grindelwald.avif"
+    },
+    "videoTimeMs": 1593
+  },
+  {
+    "type": "resource-img",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "name": "...icos-los-crimenes-de-grindelwald.avif",
+      "duration": 112,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1593
+  },
+  {
+    "type": "resource-complete",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 112
+    },
+    "videoTimeMs": 1594
+  },
+  {
+    "type": "resource-start",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...er/239549156/s332/jujutsu-kaisen.avif"
+    },
+    "videoTimeMs": 1594
+  },
+  {
+    "type": "resource-img",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "name": "...er/239549156/s332/jujutsu-kaisen.avif",
+      "duration": 112,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1594
+  },
+  {
+    "type": "resource-complete",
+    "time": 1572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 112
+    },
+    "videoTimeMs": 1594
+  },
+  {
+    "type": "resource-start",
+    "time": 1584,
+    "delta": 12,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/340734842/s332/strip-law.avif"
+    },
+    "videoTimeMs": 1605
+  },
+  {
+    "type": "resource-img",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "name": "/poster/340734842/s332/strip-law.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1605
+  },
+  {
+    "type": "resource-complete",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1605
+  },
+  {
+    "type": "resource-start",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...7989419/s332/the-ugly-stepsister.avif"
+    },
+    "videoTimeMs": 1605
+  },
+  {
+    "type": "resource-img",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "name": "...7989419/s332/the-ugly-stepsister.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1605
+  },
+  {
+    "type": "resource-complete",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1605
+  },
+  {
+    "type": "resource-start",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/335328237/s332/bugonia.avif"
+    },
+    "videoTimeMs": 1605
+  },
+  {
+    "type": "resource-img",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "name": "/poster/335328237/s332/bugonia.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1606
+  },
+  {
+    "type": "resource-complete",
+    "time": 1584,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1606
+  },
+  {
+    "type": "resource-start",
+    "time": 1587,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/321562890/s332/shrinking.avif"
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "resource-img",
+    "time": 1587,
+    "delta": 0,
+    "data": {
+      "name": "/poster/321562890/s332/shrinking.avif",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "resource-complete",
+    "time": 1587,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "resource-start",
+    "time": 1587,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/327083982/s332/the-rookie.avif"
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "resource-img",
+    "time": 1588,
+    "delta": 1,
+    "data": {
+      "name": "/poster/327083982/s332/the-rookie.avif",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1608
+  },
+  {
+    "type": "resource-complete",
+    "time": 1588,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 1609
+  },
+  {
+    "type": "progress-update",
+    "time": 1616,
+    "delta": 28,
+    "data": {
+      "value": 83,
+      "delta": 1
+    },
+    "videoTimeMs": 1637
+  },
+  {
+    "type": "progress-update",
+    "time": 1681,
+    "delta": 65,
+    "data": {
+      "value": 84,
+      "delta": 1
+    },
+    "videoTimeMs": 1701
+  },
+  {
+    "type": "resource-start",
+    "time": 1686,
+    "delta": 5,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/338564461/s332/dracula-2025.avif"
+    },
+    "videoTimeMs": 1707
+  },
+  {
+    "type": "resource-img",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "name": "/poster/338564461/s332/dracula-2025.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1707
+  },
+  {
+    "type": "resource-complete",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1707
+  },
+  {
+    "type": "resource-start",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...r/264378409/s332/stranger-things.avif"
+    },
+    "videoTimeMs": 1707
+  },
+  {
+    "type": "resource-img",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "name": "...r/264378409/s332/stranger-things.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1707
+  },
+  {
+    "type": "resource-complete",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1707
+  },
+  {
+    "type": "resource-start",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...er/333748158/s332/bring-her-back.avif"
+    },
+    "videoTimeMs": 1707
+  },
+  {
+    "type": "resource-img",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "name": "...er/333748158/s332/bring-her-back.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1708
+  },
+  {
+    "type": "resource-complete",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1708
+  },
+  {
+    "type": "resource-start",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/340868122/s332/el-mal-2025.avif"
+    },
+    "videoTimeMs": 1708
+  },
+  {
+    "type": "resource-img",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "name": "/poster/340868122/s332/el-mal-2025.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1708
+  },
+  {
+    "type": "resource-complete",
+    "time": 1686,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1708
+  },
+  {
+    "type": "resource-start",
+    "time": 1758,
+    "delta": 72,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1798
+  },
+  {
+    "type": "resource-css",
+    "time": 1758,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1102,
+      "transferSize": 133945,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1798
+  },
+  {
+    "type": "resource-complete",
+    "time": 1758,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 133945,
+      "duration": 1102
+    },
+    "videoTimeMs": 1798
+  },
+  {
+    "type": "first-paint",
+    "time": 1777,
+    "delta": 19,
+    "data": {
+      "startTime": 1777,
+      "synthetic": true
+    },
+    "videoTimeMs": 1801
+  },
+  {
+    "type": "first-contentful-paint",
+    "time": 1778,
+    "delta": 1,
+    "data": {
+      "startTime": 1778,
+      "synthetic": true
+    },
+    "videoTimeMs": 1801
+  },
+  {
+    "type": "progress-update",
+    "time": 1778,
+    "delta": 0,
+    "data": {
+      "value": 85,
+      "delta": 1
+    },
+    "videoTimeMs": 1801
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1778,
+    "delta": 0,
+    "data": {
+      "nodesAdded": 270,
+      "textNodes": 23,
+      "headingNodes": 2
+    },
+    "videoTimeMs": 1801
+  },
+  {
+    "type": "resource-start",
+    "time": 1780,
+    "delta": 2,
+    "data": {
+      "resourceType": "css",
+      "name": "/appassets/fonts/lato-regular.woff2"
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-css",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "name": "/appassets/fonts/lato-regular.woff2",
+      "duration": 0,
+      "transferSize": 300,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-complete",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 300,
+      "duration": 0
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-start",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "name": "/appassets/fonts/lato-900.woff2"
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-css",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "name": "/appassets/fonts/lato-900.woff2",
+      "duration": 0,
+      "transferSize": 300,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-complete",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 300,
+      "duration": 0
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-start",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "name": "/appassets/fonts/lato-700.woff2"
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-css",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "name": "/appassets/fonts/lato-700.woff2",
+      "duration": 0,
+      "transferSize": 300,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-complete",
+    "time": 1780,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 300,
+      "duration": 0
+    },
+    "videoTimeMs": 1802
+  },
+  {
+    "type": "resource-start",
+    "time": 1800,
+    "delta": 20,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/188662357/s332/temporada-1.avif"
+    },
+    "videoTimeMs": 1821
+  },
+  {
+    "type": "resource-img",
+    "time": 1800,
+    "delta": 0,
+    "data": {
+      "name": "/poster/188662357/s332/temporada-1.avif",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1821
+  },
+  {
+    "type": "resource-complete",
+    "time": 1800,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 1821
+  },
+  {
+    "type": "resource-start",
+    "time": 1800,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/301736593/s332/temporada-1.avif"
+    },
+    "videoTimeMs": 1821
+  },
+  {
+    "type": "resource-img",
+    "time": 1800,
+    "delta": 0,
+    "data": {
+      "name": "/poster/301736593/s332/temporada-1.avif",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1821
+  },
+  {
+    "type": "resource-complete",
+    "time": 1800,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 1821
+  },
+  {
+    "type": "resource-start",
+    "time": 1802,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...gos-mortales-para-ganarse-el-pan.avif"
+    },
+    "videoTimeMs": 1822
+  },
+  {
+    "type": "resource-img",
+    "time": 1802,
+    "delta": 0,
+    "data": {
+      "name": "...gos-mortales-para-ganarse-el-pan.avif",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1823
+  },
+  {
+    "type": "resource-complete",
+    "time": 1802,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 1823
+  },
+  {
+    "type": "resource-start",
+    "time": 1802,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...arty-wo-oida-sareta-kiyou-binbou.avif"
+    },
+    "videoTimeMs": 1823
+  },
+  {
+    "type": "resource-img",
+    "time": 1802,
+    "delta": 0,
+    "data": {
+      "name": "...arty-wo-oida-sareta-kiyou-binbou.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1824
+  },
+  {
+    "type": "resource-complete",
+    "time": 1802,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 1824
+  },
+  {
+    "type": "resource-start",
+    "time": 1804,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/168300457/s332/temporada-1.avif"
+    },
+    "videoTimeMs": 1825
+  },
+  {
+    "type": "resource-img",
+    "time": 1805,
+    "delta": 1,
+    "data": {
+      "name": "/poster/168300457/s332/temporada-1.avif",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1825
+  },
+  {
+    "type": "resource-complete",
+    "time": 1805,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 1825
+  },
+  {
+    "type": "resource-start",
+    "time": 1805,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/17683452/s332/temporada-2.avif"
+    },
+    "videoTimeMs": 1825
+  },
+  {
+    "type": "resource-img",
+    "time": 1805,
+    "delta": 0,
+    "data": {
+      "name": "/poster/17683452/s332/temporada-2.avif",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1825
+  },
+  {
+    "type": "resource-complete",
+    "time": 1805,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 1825
+  },
+  {
+    "type": "lcp",
+    "time": 1808,
+    "delta": 3,
+    "data": {
+      "startTime": 1804,
+      "size": 309000,
+      "element": "IMG"
+    },
+    "videoTimeMs": 1829
+  },
+  {
+    "type": "progress-update",
+    "time": 1873,
+    "delta": 65,
+    "data": {
+      "value": 86,
+      "delta": 1
+    },
+    "videoTimeMs": 1893
+  },
+  {
+    "type": "resource-start",
+    "time": 1879,
+    "delta": 6,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/305536111/s332/hijack.avif"
+    },
+    "videoTimeMs": 1900
+  },
+  {
+    "type": "resource-img",
+    "time": 1879,
+    "delta": 0,
+    "data": {
+      "name": "/poster/305536111/s332/hijack.avif",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1900
+  },
+  {
+    "type": "resource-complete",
+    "time": 1879,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 1900
+  },
+  {
+    "type": "resource-start",
+    "time": 1880,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/338958263/s332/pluribus.avif"
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-img",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "name": "/poster/338958263/s332/pluribus.avif",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-complete",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-start",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...er/335913162/s332/f1-la-pelicula.avif"
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-img",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "name": "...er/335913162/s332/f1-la-pelicula.avif",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-complete",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-start",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/273858119/s332/teheran.avif"
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-img",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "name": "/poster/273858119/s332/teheran.avif",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "resource-complete",
+    "time": 1880,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 1901
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1889,
+    "delta": 9,
+    "data": {
+      "nodesAdded": 437,
+      "textNodes": 34,
+      "headingNodes": 9
+    },
+    "videoTimeMs": 1909
+  },
+  {
+    "type": "progress-update",
+    "time": 2001,
+    "delta": 112,
+    "data": {
+      "value": 87,
+      "delta": 1
+    },
+    "videoTimeMs": 2021
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2064,
+    "delta": 63,
+    "data": {
+      "nodesAdded": 504,
+      "textNodes": 21,
+      "headingNodes": 4
+    },
+    "videoTimeMs": 2084
+  },
+  {
+    "type": "resource-start",
+    "time": 2065,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": ".../s332/the-battle-of-baktan-cross.avif"
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-img",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "name": ".../s332/the-battle-of-baktan-cross.avif",
+      "duration": 105,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-complete",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 105
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-start",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...er/341745780/s332/la-cena-2025-1.avif"
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-img",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "name": "...er/341745780/s332/la-cena-2025-1.avif",
+      "duration": 105,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-complete",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 105
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-start",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/327644800/s332/pecadores.avif"
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-img",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "name": "/poster/327644800/s332/pecadores.avif",
+      "duration": 105,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-complete",
+    "time": 2065,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 105
+    },
+    "videoTimeMs": 2086
+  },
+  {
+    "type": "resource-start",
+    "time": 2066,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/340862781/s332/hamnet.avif"
+    },
+    "videoTimeMs": 2087
+  },
+  {
+    "type": "resource-img",
+    "time": 2066,
+    "delta": 0,
+    "data": {
+      "name": "/poster/340862781/s332/hamnet.avif",
+      "duration": 106,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2087
+  },
+  {
+    "type": "resource-complete",
+    "time": 2066,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 106
+    },
+    "videoTimeMs": 2087
+  },
+  {
+    "type": "resource-start",
+    "time": 2084,
+    "delta": 18,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/313866768/s332/fallout.avif"
+    },
+    "videoTimeMs": 2104
+  },
+  {
+    "type": "resource-img",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "name": "/poster/313866768/s332/fallout.avif",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2104
+  },
+  {
+    "type": "resource-complete",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 2104
+  },
+  {
+    "type": "resource-start",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/341619847/s332/the-pitt.avif"
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-img",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "name": "/poster/341619847/s332/the-pitt.avif",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-complete",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-start",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/poster/341619956/s332/salvador.avif"
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-img",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "name": "/poster/341619956/s332/salvador.avif",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-complete",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-start",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...ter/341248526/s332/el-infiltrado.avif"
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-img",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "name": "...ter/341248526/s332/el-infiltrado.avif",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "resource-complete",
+    "time": 2084,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 2105
+  },
+  {
+    "type": "progress-update",
+    "time": 2160,
+    "delta": 76,
+    "data": {
+      "value": 88,
+      "delta": 1
+    },
+    "videoTimeMs": 2181
+  },
+  {
+    "type": "resource-start",
+    "time": 2164,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "...mg/home/global-sports-hero-1-comp.png"
+    },
+    "videoTimeMs": 2184
+  },
+  {
+    "type": "resource-img",
+    "time": 2164,
+    "delta": 0,
+    "data": {
+      "name": "...mg/home/global-sports-hero-1-comp.png",
+      "duration": 1,
+      "transferSize": 487,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2184
+  },
+  {
+    "type": "resource-complete",
+    "time": 2164,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 487,
+      "duration": 1
+    },
+    "videoTimeMs": 2184
+  },
+  {
+    "type": "resource-error",
+    "time": 2164,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/home/global-sports-hero-1-comp.png"
+    },
+    "videoTimeMs": 2184
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2266,
+    "delta": 102,
+    "data": {
+      "nodesAdded": 354,
+      "textNodes": 79,
+      "headingNodes": 19
+    },
+    "videoTimeMs": 2287
+  },
+  {
+    "type": "resource-start",
+    "time": 2266,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...s/img/sports/icons/sport/football.png"
+    },
+    "videoTimeMs": 2287
+  },
+  {
+    "type": "resource-img",
+    "time": 2266,
+    "delta": 0,
+    "data": {
+      "name": "...s/img/sports/icons/sport/football.png",
+      "duration": 2,
+      "transferSize": 484,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2287
+  },
+  {
+    "type": "resource-complete",
+    "time": 2266,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 484,
+      "duration": 2
+    },
+    "videoTimeMs": 2287
+  },
+  {
+    "type": "resource-error",
+    "time": 2266,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/sport/football.png"
+    },
+    "videoTimeMs": 2287
+  },
+  {
+    "type": "resource-start",
+    "time": 2287,
+    "delta": 21,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/312325338/s166/fc-goa.png"
+    },
+    "videoTimeMs": 2308
+  },
+  {
+    "type": "resource-img",
+    "time": 2287,
+    "delta": 0,
+    "data": {
+      "name": "/icon/312325338/s166/fc-goa.png",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2308
+  },
+  {
+    "type": "resource-complete",
+    "time": 2287,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 2309
+  },
+  {
+    "type": "resource-start",
+    "time": 2288,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/312325328/s166/hyderabad-fc.png"
+    },
+    "videoTimeMs": 2309
+  },
+  {
+    "type": "resource-img",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "name": "/icon/312325328/s166/hyderabad-fc.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2309
+  },
+  {
+    "type": "resource-complete",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2309
+  },
+  {
+    "type": "resource-start",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306629529/s166/nk-celje.png"
+    },
+    "videoTimeMs": 2309
+  },
+  {
+    "type": "resource-img",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "name": "/icon/306629529/s166/nk-celje.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2309
+  },
+  {
+    "type": "resource-complete",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2310
+  },
+  {
+    "type": "resource-start",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306629305/s166/kf-drita.png"
+    },
+    "videoTimeMs": 2310
+  },
+  {
+    "type": "resource-img",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "name": "/icon/306629305/s166/kf-drita.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2310
+  },
+  {
+    "type": "resource-complete",
+    "time": 2288,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2310
+  },
+  {
+    "type": "resource-start",
+    "time": 2312,
+    "delta": 24,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 2332
+  },
+  {
+    "type": "resource-css",
+    "time": 2312,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1457,
+      "transferSize": 222641,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 2333
+  },
+  {
+    "type": "resource-complete",
+    "time": 2312,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 222641,
+      "duration": 1457
+    },
+    "videoTimeMs": 2333
+  },
+  {
+    "type": "resource-start",
+    "time": 2388,
+    "delta": 76,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/293968629/s166/hnk-rijeka.png"
+    },
+    "videoTimeMs": 2408
+  },
+  {
+    "type": "resource-img",
+    "time": 2388,
+    "delta": 0,
+    "data": {
+      "name": "/icon/293968629/s166/hnk-rijeka.png",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2408
+  },
+  {
+    "type": "resource-complete",
+    "time": 2388,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 2408
+  },
+  {
+    "type": "resource-start",
+    "time": 2388,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/302119271/s166/samsunspor.png"
+    },
+    "videoTimeMs": 2409
+  },
+  {
+    "type": "resource-img",
+    "time": 2388,
+    "delta": 0,
+    "data": {
+      "name": "/icon/302119271/s166/samsunspor.png",
+      "duration": 21,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2409
+  },
+  {
+    "type": "resource-complete",
+    "time": 2388,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 21
+    },
+    "videoTimeMs": 2409
+  },
+  {
+    "type": "resource-start",
+    "time": 2390,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...435704/s166/jagiellonia-bialystok.png"
+    },
+    "videoTimeMs": 2410
+  },
+  {
+    "type": "resource-img",
+    "time": 2390,
+    "delta": 0,
+    "data": {
+      "name": "...435704/s166/jagiellonia-bialystok.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2410
+  },
+  {
+    "type": "resource-complete",
+    "time": 2390,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2411
+  },
+  {
+    "type": "resource-start",
+    "time": 2392,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": ".../300554074/s166/ac-omonia-nicosia.png"
+    },
+    "videoTimeMs": 2412
+  },
+  {
+    "type": "resource-img",
+    "time": 2392,
+    "delta": 0,
+    "data": {
+      "name": ".../300554074/s166/ac-omonia-nicosia.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2412
+  },
+  {
+    "type": "resource-complete",
+    "time": 2392,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 2413
+  },
+  {
+    "type": "resource-start",
+    "time": 2392,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/292990218/s166/acf-fiorentina.png"
+    },
+    "videoTimeMs": 2413
+  },
+  {
+    "type": "resource-img",
+    "time": 2392,
+    "delta": 0,
+    "data": {
+      "name": "/icon/292990218/s166/acf-fiorentina.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2413
+  },
+  {
+    "type": "resource-complete",
+    "time": 2392,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 2413
+  },
+  {
+    "type": "resource-start",
+    "time": 2395,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "...4945843/s166/panathinaikos-atenas.png"
+    },
+    "videoTimeMs": 2416
+  },
+  {
+    "type": "resource-img",
+    "time": 2395,
+    "delta": 0,
+    "data": {
+      "name": "...4945843/s166/panathinaikos-atenas.png",
+      "duration": 30,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2416
+  },
+  {
+    "type": "resource-complete",
+    "time": 2395,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 30
+    },
+    "videoTimeMs": 2416
+  },
+  {
+    "type": "resource-start",
+    "time": 2403,
+    "delta": 8,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/294950829/s166/fk-shkendija.png"
+    },
+    "videoTimeMs": 2423
+  },
+  {
+    "type": "resource-img",
+    "time": 2403,
+    "delta": 0,
+    "data": {
+      "name": "/icon/294950829/s166/fk-shkendija.png",
+      "duration": 37,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2423
+  },
+  {
+    "type": "resource-complete",
+    "time": 2403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 37
+    },
+    "videoTimeMs": 2424
+  },
+  {
+    "type": "resource-start",
+    "time": 2403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../297304389/s166/fc-viktoria-plzen.png"
+    },
+    "videoTimeMs": 2424
+  },
+  {
+    "type": "resource-img",
+    "time": 2403,
+    "delta": 0,
+    "data": {
+      "name": ".../297304389/s166/fc-viktoria-plzen.png",
+      "duration": 37,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2424
+  },
+  {
+    "type": "resource-complete",
+    "time": 2403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 37
+    },
+    "videoTimeMs": 2424
+  },
+  {
+    "type": "progress-update",
+    "time": 2417,
+    "delta": 14,
+    "data": {
+      "value": 89,
+      "delta": 1
+    },
+    "videoTimeMs": 2437
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2472,
+    "delta": 55,
+    "data": {
+      "nodesAdded": 316,
+      "textNodes": 121,
+      "headingNodes": 32
+    },
+    "videoTimeMs": 2492
+  },
+  {
+    "type": "resource-start",
+    "time": 2491,
+    "delta": 19,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300554070/s166/ferencvarosi-tc.png"
+    },
+    "videoTimeMs": 2511
+  },
+  {
+    "type": "resource-img",
+    "time": 2491,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300554070/s166/ferencvarosi-tc.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2511
+  },
+  {
+    "type": "resource-complete",
+    "time": 2491,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2511
+  },
+  {
+    "type": "resource-start",
+    "time": 2491,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../s166/pfc-ludogorets-1945-razgrad.png"
+    },
+    "videoTimeMs": 2511
+  },
+  {
+    "type": "resource-img",
+    "time": 2491,
+    "delta": 0,
+    "data": {
+      "name": ".../s166/pfc-ludogorets-1945-razgrad.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2512
+  },
+  {
+    "type": "resource-complete",
+    "time": 2491,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2512
+  },
+  {
+    "type": "resource-start",
+    "time": 2492,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/297303687/s166/fk-crvena-zvezda.png"
+    },
+    "videoTimeMs": 2513
+  },
+  {
+    "type": "resource-img",
+    "time": 2492,
+    "delta": 0,
+    "data": {
+      "name": "...n/297303687/s166/fk-crvena-zvezda.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2513
+  },
+  {
+    "type": "resource-complete",
+    "time": 2492,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 2513
+  },
+  {
+    "type": "resource-start",
+    "time": 2492,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/284747968/s166/stuttgart.png"
+    },
+    "videoTimeMs": 2513
+  },
+  {
+    "type": "resource-img",
+    "time": 2492,
+    "delta": 0,
+    "data": {
+      "name": "/icon/284747968/s166/stuttgart.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2513
+  },
+  {
+    "type": "resource-complete",
+    "time": 2492,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 2513
+  },
+  {
+    "type": "resource-start",
+    "time": 2495,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300491086/s166/celtic-glasgow.png"
+    },
+    "videoTimeMs": 2515
+  },
+  {
+    "type": "resource-img",
+    "time": 2495,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300491086/s166/celtic-glasgow.png",
+      "duration": 29,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2516
+  },
+  {
+    "type": "resource-complete",
+    "time": 2495,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 29
+    },
+    "videoTimeMs": 2516
+  },
+  {
+    "type": "resource-start",
+    "time": 2497,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/288851335/s166/losc-lille.png"
+    },
+    "videoTimeMs": 2518
+  },
+  {
+    "type": "resource-img",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "name": "/icon/288851335/s166/losc-lille.png",
+      "duration": 32,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2518
+  },
+  {
+    "type": "resource-complete",
+    "time": 2497,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 32
+    },
+    "videoTimeMs": 2518
+  },
+  {
+    "type": "resource-start",
+    "time": 2498,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/307045644/s166/al-fateh-sc.png"
+    },
+    "videoTimeMs": 2519
+  },
+  {
+    "type": "resource-img",
+    "time": 2498,
+    "delta": 0,
+    "data": {
+      "name": "/icon/307045644/s166/al-fateh-sc.png",
+      "duration": 32,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2519
+  },
+  {
+    "type": "resource-complete",
+    "time": 2498,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 32
+    },
+    "videoTimeMs": 2519
+  },
+  {
+    "type": "resource-start",
+    "time": 2572,
+    "delta": 74,
+    "data": {
+      "resourceType": "img",
+      "name": "...ets/img/sports/icons/sport/tennis.png"
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-img",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "name": "...ets/img/sports/icons/sport/tennis.png",
+      "duration": 5,
+      "transferSize": 482,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-complete",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 482,
+      "duration": 5
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-start",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-img",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "name": "...img/sports/icons/team-placeholder.svg",
+      "duration": 6,
+      "transferSize": 486,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-complete",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 486,
+      "duration": 6
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-error",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/sport/tennis.png"
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-error",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-error",
+    "time": 2572,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2593
+  },
+  {
+    "type": "resource-start",
+    "time": 2590,
+    "delta": 18,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/307045637/s166/damac-fc.png"
+    },
+    "videoTimeMs": 2610
+  },
+  {
+    "type": "resource-img",
+    "time": 2590,
+    "delta": 0,
+    "data": {
+      "name": "/icon/307045637/s166/damac-fc.png",
+      "duration": 124,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2610
+  },
+  {
+    "type": "resource-complete",
+    "time": 2590,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 124
+    },
+    "videoTimeMs": 2610
+  },
+  {
+    "type": "resource-start",
+    "time": 2605,
+    "delta": 15,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/302476009/s166/simone-bolelli.png"
+    },
+    "videoTimeMs": 2626
+  },
+  {
+    "type": "resource-img",
+    "time": 2605,
+    "delta": 0,
+    "data": {
+      "name": "/icon/302476009/s166/simone-bolelli.png",
+      "duration": 39,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2626
+  },
+  {
+    "type": "resource-complete",
+    "time": 2605,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 39
+    },
+    "videoTimeMs": 2626
+  },
+  {
+    "type": "resource-start",
+    "time": 2606,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/298838195/s166/daniil-medvedev.png"
+    },
+    "videoTimeMs": 2627
+  },
+  {
+    "type": "resource-img",
+    "time": 2606,
+    "delta": 0,
+    "data": {
+      "name": "/icon/298838195/s166/daniil-medvedev.png",
+      "duration": 39,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2627
+  },
+  {
+    "type": "resource-complete",
+    "time": 2606,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 39
+    },
+    "videoTimeMs": 2627
+  },
+  {
+    "type": "resource-start",
+    "time": 2607,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/298853810/s166/andrea-vavassori.png"
+    },
+    "videoTimeMs": 2628
+  },
+  {
+    "type": "resource-img",
+    "time": 2607,
+    "delta": 0,
+    "data": {
+      "name": "...n/298853810/s166/andrea-vavassori.png",
+      "duration": 40,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2628
+  },
+  {
+    "type": "resource-complete",
+    "time": 2607,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 40
+    },
+    "videoTimeMs": 2628
+  },
+  {
+    "type": "resource-start",
+    "time": 2607,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/298986043/s166/jenson-brooksby.png"
+    },
+    "videoTimeMs": 2628
+  },
+  {
+    "type": "resource-img",
+    "time": 2607,
+    "delta": 0,
+    "data": {
+      "name": "/icon/298986043/s166/jenson-brooksby.png",
+      "duration": 40,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2628
+  },
+  {
+    "type": "resource-complete",
+    "time": 2607,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 40
+    },
+    "videoTimeMs": 2628
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2674,
+    "delta": 67,
+    "data": {
+      "nodesAdded": 303,
+      "textNodes": 99,
+      "headingNodes": 24
+    },
+    "videoTimeMs": 2695
+  },
+  {
+    "type": "resource-start",
+    "time": 2674,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2695
+  },
+  {
+    "type": "resource-img",
+    "time": 2674,
+    "delta": 0,
+    "data": {
+      "name": "...img/sports/icons/team-placeholder.svg",
+      "duration": 6,
+      "transferSize": 486,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2695
+  },
+  {
+    "type": "resource-complete",
+    "time": 2674,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 486,
+      "duration": 6
+    },
+    "videoTimeMs": 2695
+  },
+  {
+    "type": "resource-error",
+    "time": 2674,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2695
+  },
+  {
+    "type": "resource-start",
+    "time": 2690,
+    "delta": 16,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/299971541/s166/lloyd-glasspool.png"
+    },
+    "videoTimeMs": 2710
+  },
+  {
+    "type": "resource-img",
+    "time": 2690,
+    "delta": 0,
+    "data": {
+      "name": "/icon/299971541/s166/lloyd-glasspool.png",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2710
+  },
+  {
+    "type": "resource-complete",
+    "time": 2690,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 2710
+  },
+  {
+    "type": "resource-start",
+    "time": 2698,
+    "delta": 8,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/299063292/s166/albano-olivetti.png"
+    },
+    "videoTimeMs": 2719
+  },
+  {
+    "type": "resource-img",
+    "time": 2698,
+    "delta": 0,
+    "data": {
+      "name": "/icon/299063292/s166/albano-olivetti.png",
+      "duration": 31,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2719
+  },
+  {
+    "type": "resource-complete",
+    "time": 2698,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 31
+    },
+    "videoTimeMs": 2719
+  },
+  {
+    "type": "resource-start",
+    "time": 2699,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/298998741/s166/jiri-lehecka.png"
+    },
+    "videoTimeMs": 2720
+  },
+  {
+    "type": "resource-img",
+    "time": 2699,
+    "delta": 0,
+    "data": {
+      "name": "/icon/298998741/s166/jiri-lehecka.png",
+      "duration": 31,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2720
+  },
+  {
+    "type": "resource-complete",
+    "time": 2699,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 31
+    },
+    "videoTimeMs": 2720
+  },
+  {
+    "type": "resource-start",
+    "time": 2699,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/297695620/s166/julian-cash.png"
+    },
+    "videoTimeMs": 2720
+  },
+  {
+    "type": "resource-img",
+    "time": 2699,
+    "delta": 0,
+    "data": {
+      "name": "/icon/297695620/s166/julian-cash.png",
+      "duration": 32,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2720
+  },
+  {
+    "type": "resource-complete",
+    "time": 2699,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 32
+    },
+    "videoTimeMs": 2721
+  },
+  {
+    "type": "resource-start",
+    "time": 2705,
+    "delta": 6,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/297670176/s166/andrey-rublev.png"
+    },
+    "videoTimeMs": 2726
+  },
+  {
+    "type": "resource-img",
+    "time": 2705,
+    "delta": 0,
+    "data": {
+      "name": "/icon/297670176/s166/andrey-rublev.png",
+      "duration": 37,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2726
+  },
+  {
+    "type": "resource-complete",
+    "time": 2705,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 37
+    },
+    "videoTimeMs": 2726
+  },
+  {
+    "type": "resource-start",
+    "time": 2705,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...299793112/s166/arthur-rinderknech.png"
+    },
+    "videoTimeMs": 2726
+  },
+  {
+    "type": "resource-img",
+    "time": 2705,
+    "delta": 0,
+    "data": {
+      "name": "...299793112/s166/arthur-rinderknech.png",
+      "duration": 37,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2726
+  },
+  {
+    "type": "resource-complete",
+    "time": 2705,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 37
+    },
+    "videoTimeMs": 2726
+  },
+  {
+    "type": "resource-start",
+    "time": 2713,
+    "delta": 8,
+    "data": {
+      "resourceType": "img",
+      "name": "...336427/s166/felix-auger-aliassime.png"
+    },
+    "videoTimeMs": 2733
+  },
+  {
+    "type": "resource-img",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "name": "...336427/s166/felix-auger-aliassime.png",
+      "duration": 45,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2733
+  },
+  {
+    "type": "resource-complete",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 45
+    },
+    "videoTimeMs": 2733
+  },
+  {
+    "type": "resource-start",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/318262585/s166/jakub-mensik.png"
+    },
+    "videoTimeMs": 2733
+  },
+  {
+    "type": "resource-img",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "name": "/icon/318262585/s166/jakub-mensik.png",
+      "duration": 44,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2734
+  },
+  {
+    "type": "resource-complete",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 44
+    },
+    "videoTimeMs": 2734
+  },
+  {
+    "type": "resource-start",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../297942798/s166/tallon-griekspoor.png"
+    },
+    "videoTimeMs": 2734
+  },
+  {
+    "type": "resource-img",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "name": ".../297942798/s166/tallon-griekspoor.png",
+      "duration": 44,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2734
+  },
+  {
+    "type": "resource-complete",
+    "time": 2713,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 44
+    },
+    "videoTimeMs": 2734
+  },
+  {
+    "type": "resource-start",
+    "time": 2770,
+    "delta": 57,
+    "data": {
+      "resourceType": "img",
+      "name": "...img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2791
+  },
+  {
+    "type": "resource-img",
+    "time": 2770,
+    "delta": 0,
+    "data": {
+      "name": "...img/sports/icons/team-placeholder.svg",
+      "duration": 4,
+      "transferSize": 486,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2791
+  },
+  {
+    "type": "resource-complete",
+    "time": 2770,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 486,
+      "duration": 4
+    },
+    "videoTimeMs": 2791
+  },
+  {
+    "type": "resource-error",
+    "time": 2770,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2791
+  },
+  {
+    "type": "resource-error",
+    "time": 2770,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2791
+  },
+  {
+    "type": "resource-error",
+    "time": 2770,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2791
+  },
+  {
+    "type": "resource-error",
+    "time": 2770,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 2791
+  },
+  {
+    "type": "resource-start",
+    "time": 2791,
+    "delta": 21,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/299976653/s166/jasmine-paolini.png"
+    },
+    "videoTimeMs": 2812
+  },
+  {
+    "type": "resource-img",
+    "time": 2791,
+    "delta": 0,
+    "data": {
+      "name": "/icon/299976653/s166/jasmine-paolini.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2813
+  },
+  {
+    "type": "resource-complete",
+    "time": 2791,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2813
+  },
+  {
+    "type": "resource-start",
+    "time": 2791,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/332623692/s166/zeynep-sonmez.png"
+    },
+    "videoTimeMs": 2813
+  },
+  {
+    "type": "resource-img",
+    "time": 2791,
+    "delta": 0,
+    "data": {
+      "name": "/icon/332623692/s166/zeynep-sonmez.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2813
+  },
+  {
+    "type": "resource-complete",
+    "time": 2791,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2813
+  },
+  {
+    "type": "resource-start",
+    "time": 2792,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300265193/s166/priscilla-hon.png"
+    },
+    "videoTimeMs": 2814
+  },
+  {
+    "type": "resource-img",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300265193/s166/priscilla-hon.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2814
+  },
+  {
+    "type": "resource-complete",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2814
+  },
+  {
+    "type": "resource-start",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300321148/s166/ann-li.png"
+    },
+    "videoTimeMs": 2814
+  },
+  {
+    "type": "resource-img",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300321148/s166/ann-li.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2814
+  },
+  {
+    "type": "resource-complete",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2815
+  },
+  {
+    "type": "resource-start",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/318263230/s166/emma-navarro.png"
+    },
+    "videoTimeMs": 2815
+  },
+  {
+    "type": "resource-img",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "name": "/icon/318263230/s166/emma-navarro.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2815
+  },
+  {
+    "type": "resource-complete",
+    "time": 2792,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2815
+  },
+  {
+    "type": "resource-start",
+    "time": 2793,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300490517/s166/shuai-zhang.png"
+    },
+    "videoTimeMs": 2815
+  },
+  {
+    "type": "resource-img",
+    "time": 2793,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300490517/s166/shuai-zhang.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2815
+  },
+  {
+    "type": "resource-complete",
+    "time": 2793,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 2815
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2867,
+    "delta": 74,
+    "data": {
+      "nodesAdded": 162,
+      "textNodes": 61,
+      "headingNodes": 18
+    },
+    "videoTimeMs": 2889
+  },
+  {
+    "type": "resource-start",
+    "time": 2878,
+    "delta": 11,
+    "data": {
+      "resourceType": "img",
+      "name": "...img/sports/icons/sport/basketball.png"
+    },
+    "videoTimeMs": 2898
+  },
+  {
+    "type": "resource-img",
+    "time": 2878,
+    "delta": 0,
+    "data": {
+      "name": "...img/sports/icons/sport/basketball.png",
+      "duration": 7,
+      "transferSize": 486,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2898
+  },
+  {
+    "type": "resource-complete",
+    "time": 2878,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 486,
+      "duration": 7
+    },
+    "videoTimeMs": 2898
+  },
+  {
+    "type": "resource-error",
+    "time": 2878,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/sport/basketball.png"
+    },
+    "videoTimeMs": 2898
+  },
+  {
+    "type": "resource-start",
+    "time": 2895,
+    "delta": 17,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/338117302/s166/hampton-pirates.png"
+    },
+    "videoTimeMs": 2916
+  },
+  {
+    "type": "resource-img",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "name": "/icon/338117302/s166/hampton-pirates.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2916
+  },
+  {
+    "type": "resource-complete",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2916
+  },
+  {
+    "type": "resource-start",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...6192/s166/asvel-lyon-villeurbanne.png"
+    },
+    "videoTimeMs": 2916
+  },
+  {
+    "type": "resource-img",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "name": "...6192/s166/asvel-lyon-villeurbanne.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2916
+  },
+  {
+    "type": "resource-complete",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2917
+  },
+  {
+    "type": "resource-start",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/336528534/s166/bc-dubai.png"
+    },
+    "videoTimeMs": 2917
+  },
+  {
+    "type": "resource-img",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "name": "/icon/336528534/s166/bc-dubai.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2917
+  },
+  {
+    "type": "resource-complete",
+    "time": 2895,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 2917
+  },
+  {
+    "type": "resource-start",
+    "time": 2896,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...797379/s166/college-of-charleston.png"
+    },
+    "videoTimeMs": 2917
+  },
+  {
+    "type": "resource-img",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "name": "...797379/s166/college-of-charleston.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2917
+  },
+  {
+    "type": "resource-complete",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2917
+  },
+  {
+    "type": "resource-start",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/301536175/s166/maccabi-tel-aviv.png"
+    },
+    "videoTimeMs": 2918
+  },
+  {
+    "type": "resource-img",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "name": "...n/301536175/s166/maccabi-tel-aviv.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2918
+  },
+  {
+    "type": "resource-complete",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2918
+  },
+  {
+    "type": "resource-start",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301536263/s166/as-monaco.png"
+    },
+    "videoTimeMs": 2918
+  },
+  {
+    "type": "resource-img",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301536263/s166/as-monaco.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 2918
+  },
+  {
+    "type": "resource-complete",
+    "time": 2896,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 2918
+  },
+  {
+    "type": "progress-update",
+    "time": 2961,
+    "delta": 65,
+    "data": {
+      "value": 90,
+      "delta": 1
+    },
+    "videoTimeMs": 2982
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2976,
+    "delta": 15,
+    "data": {
+      "nodesAdded": 321,
+      "textNodes": 93,
+      "headingNodes": 24
+    },
+    "videoTimeMs": 2997
+  },
+  {
+    "type": "resource-start",
+    "time": 2994,
+    "delta": 18,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301537138/s166/hapoel-tel-aviv.png"
+    },
+    "videoTimeMs": 3016
+  },
+  {
+    "type": "resource-img",
+    "time": 2994,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301537138/s166/hapoel-tel-aviv.png",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3016
+  },
+  {
+    "type": "resource-complete",
+    "time": 2994,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 3016
+  },
+  {
+    "type": "resource-start",
+    "time": 2995,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301535941/s166/olimpia-milano.png"
+    },
+    "videoTimeMs": 3016
+  },
+  {
+    "type": "resource-img",
+    "time": 2995,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301535941/s166/olimpia-milano.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3016
+  },
+  {
+    "type": "resource-complete",
+    "time": 2995,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 3016
+  },
+  {
+    "type": "resource-start",
+    "time": 2996,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301536246/s166/baskonia.png"
+    },
+    "videoTimeMs": 3017
+  },
+  {
+    "type": "resource-img",
+    "time": 2996,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301536246/s166/baskonia.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3017
+  },
+  {
+    "type": "resource-complete",
+    "time": 2996,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3017
+  },
+  {
+    "type": "resource-start",
+    "time": 2997,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301536256/s166/valencia-basket.png"
+    },
+    "videoTimeMs": 3018
+  },
+  {
+    "type": "resource-img",
+    "time": 2997,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301536256/s166/valencia-basket.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3018
+  },
+  {
+    "type": "resource-complete",
+    "time": 2997,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 3019
+  },
+  {
+    "type": "resource-start",
+    "time": 2998,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301536091/s166/real-madrid.png"
+    },
+    "videoTimeMs": 3021
+  },
+  {
+    "type": "resource-img",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301536091/s166/real-madrid.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3021
+  },
+  {
+    "type": "resource-complete",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 3021
+  },
+  {
+    "type": "resource-start",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/301535644/s166/fc-bayern-munich.png"
+    },
+    "videoTimeMs": 3021
+  },
+  {
+    "type": "resource-img",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "name": "...n/301535644/s166/fc-bayern-munich.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3021
+  },
+  {
+    "type": "resource-complete",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 3021
+  },
+  {
+    "type": "resource-start",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/301536236/s166/panathinaikos-bc.png"
+    },
+    "videoTimeMs": 3021
+  },
+  {
+    "type": "resource-img",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "name": "...n/301536236/s166/panathinaikos-bc.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3022
+  },
+  {
+    "type": "resource-complete",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 3022
+  },
+  {
+    "type": "resource-start",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/301537096/s166/paris-basketball.png"
+    },
+    "videoTimeMs": 3022
+  },
+  {
+    "type": "resource-img",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "name": "...n/301537096/s166/paris-basketball.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3022
+  },
+  {
+    "type": "resource-complete",
+    "time": 2998,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 3022
+  },
+  {
+    "type": "resource-start",
+    "time": 3075,
+    "delta": 77,
+    "data": {
+      "resourceType": "img",
+      "name": "...img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 3096
+  },
+  {
+    "type": "resource-img",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "name": "...img/sports/icons/team-placeholder.svg",
+      "duration": 4,
+      "transferSize": 486,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3096
+  },
+  {
+    "type": "resource-complete",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 486,
+      "duration": 4
+    },
+    "videoTimeMs": 3096
+  },
+  {
+    "type": "resource-start",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...s/img/sports/icons/sport/baseball.png"
+    },
+    "videoTimeMs": 3096
+  },
+  {
+    "type": "resource-img",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "name": "...s/img/sports/icons/sport/baseball.png",
+      "duration": 4,
+      "transferSize": 484,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3096
+  },
+  {
+    "type": "resource-complete",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 484,
+      "duration": 4
+    },
+    "videoTimeMs": 3096
+  },
+  {
+    "type": "resource-error",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 3096
+  },
+  {
+    "type": "resource-error",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/team-placeholder.svg"
+    },
+    "videoTimeMs": 3097
+  },
+  {
+    "type": "resource-error",
+    "time": 3075,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/sport/baseball.png"
+    },
+    "videoTimeMs": 3097
+  },
+  {
+    "type": "resource-start",
+    "time": 3136,
+    "delta": 61,
+    "data": {
+      "resourceType": "img",
+      "name": "...56039/s166/st-bonaventure-bonnies.png"
+    },
+    "videoTimeMs": 3157
+  },
+  {
+    "type": "resource-img",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "name": "...56039/s166/st-bonaventure-bonnies.png",
+      "duration": 61,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3157
+  },
+  {
+    "type": "resource-complete",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 61
+    },
+    "videoTimeMs": 3157
+  },
+  {
+    "type": "resource-start",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../338731829/s166/rhode-island-rams.png"
+    },
+    "videoTimeMs": 3157
+  },
+  {
+    "type": "resource-img",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "name": ".../338731829/s166/rhode-island-rams.png",
+      "duration": 62,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "resource-complete",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 62
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "resource-start",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300713523/s166/houston-astros.png"
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "resource-img",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300713523/s166/houston-astros.png",
+      "duration": 63,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "resource-complete",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 63
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "resource-start",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...306043600/s166/st-louis-cardinals.png"
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "resource-img",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "name": "...306043600/s166/st-louis-cardinals.png",
+      "duration": 63,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "resource-complete",
+    "time": 3136,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 63
+    },
+    "videoTimeMs": 3158
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3178,
+    "delta": 42,
+    "data": {
+      "nodesAdded": 395,
+      "textNodes": 159,
+      "headingNodes": 23
+    },
+    "videoTimeMs": 3199
+  },
+  {
+    "type": "resource-start",
+    "time": 3200,
+    "delta": 22,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300713193/s166/detroit-tigers.png"
+    },
+    "videoTimeMs": 3220
+  },
+  {
+    "type": "resource-img",
+    "time": 3200,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300713193/s166/detroit-tigers.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3221
+  },
+  {
+    "type": "resource-complete",
+    "time": 3200,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 3221
+  },
+  {
+    "type": "resource-start",
+    "time": 3200,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...043449/s166/philadelphia-phillies.png"
+    },
+    "videoTimeMs": 3221
+  },
+  {
+    "type": "resource-img",
+    "time": 3200,
+    "delta": 0,
+    "data": {
+      "name": "...043449/s166/philadelphia-phillies.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3221
+  },
+  {
+    "type": "resource-complete",
+    "time": 3200,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 3221
+  },
+  {
+    "type": "resource-start",
+    "time": 3200,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306043594/s166/new-york-mets.png"
+    },
+    "videoTimeMs": 3222
+  },
+  {
+    "type": "resource-img",
+    "time": 3201,
+    "delta": 1,
+    "data": {
+      "name": "/icon/306043594/s166/new-york-mets.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3223
+  },
+  {
+    "type": "resource-complete",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3223
+  },
+  {
+    "type": "resource-start",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../300713465/s166/baltimore-orioles.png"
+    },
+    "videoTimeMs": 3223
+  },
+  {
+    "type": "resource-img",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "name": ".../300713465/s166/baltimore-orioles.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3223
+  },
+  {
+    "type": "resource-complete",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3223
+  },
+  {
+    "type": "resource-start",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...6043356/s166/washington-nationals.png"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-img",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "name": "...6043356/s166/washington-nationals.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-complete",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-start",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/300713543/s166/atlanta-braves.png"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-img",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "name": "/icon/300713543/s166/atlanta-braves.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-complete",
+    "time": 3201,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-start",
+    "time": 3202,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306043452/s166/boston-red-sox.png"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-img",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "name": "/icon/306043452/s166/boston-red-sox.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-complete",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-start",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/306043705/s166/new-york-yankees.png"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-img",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "name": "...n/306043705/s166/new-york-yankees.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-complete",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3224
+  },
+  {
+    "type": "resource-start",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306043703/s166/tampa-bay-rays.png"
+    },
+    "videoTimeMs": 3225
+  },
+  {
+    "type": "resource-img",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "name": "/icon/306043703/s166/tampa-bay-rays.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3225
+  },
+  {
+    "type": "resource-complete",
+    "time": 3202,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3225
+  },
+  {
+    "type": "resource-start",
+    "time": 3282,
+    "delta": 80,
+    "data": {
+      "resourceType": "img",
+      "name": "...img/sports/icons/sport/ice_hockey.png"
+    },
+    "videoTimeMs": 3302
+  },
+  {
+    "type": "resource-img",
+    "time": 3282,
+    "delta": 0,
+    "data": {
+      "name": "...img/sports/icons/sport/ice_hockey.png",
+      "duration": 6,
+      "transferSize": 486,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3302
+  },
+  {
+    "type": "resource-complete",
+    "time": 3282,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 486,
+      "duration": 6
+    },
+    "videoTimeMs": 3302
+  },
+  {
+    "type": "resource-error",
+    "time": 3282,
+    "delta": 0,
+    "data": {
+      "element": "img",
+      "src": "http://localhost:3001/appassets/img/sports/icons/sport/ice_hockey.png"
+    },
+    "videoTimeMs": 3303
+  },
+  {
+    "type": "resource-start",
+    "time": 3300,
+    "delta": 18,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306043443/s166/miami-marlins.png"
+    },
+    "videoTimeMs": 3321
+  },
+  {
+    "type": "resource-img",
+    "time": 3300,
+    "delta": 0,
+    "data": {
+      "name": "/icon/306043443/s166/miami-marlins.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3321
+  },
+  {
+    "type": "resource-complete",
+    "time": 3300,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 3321
+  },
+  {
+    "type": "resource-start",
+    "time": 3300,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306043584/s166/minnesota-twins.png"
+    },
+    "videoTimeMs": 3321
+  },
+  {
+    "type": "resource-img",
+    "time": 3300,
+    "delta": 0,
+    "data": {
+      "name": "/icon/306043584/s166/minnesota-twins.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3321
+  },
+  {
+    "type": "resource-complete",
+    "time": 3300,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3321
+  },
+  {
+    "type": "resource-start",
+    "time": 3301,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...300713173/s166/pittsburgh-pirates.png"
+    },
+    "videoTimeMs": 3322
+  },
+  {
+    "type": "resource-img",
+    "time": 3301,
+    "delta": 0,
+    "data": {
+      "name": "...300713173/s166/pittsburgh-pirates.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3322
+  },
+  {
+    "type": "resource-complete",
+    "time": 3301,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 3322
+  },
+  {
+    "type": "resource-start",
+    "time": 3301,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../300713506/s166/toronto-blue-jays.png"
+    },
+    "videoTimeMs": 3322
+  },
+  {
+    "type": "resource-img",
+    "time": 3301,
+    "delta": 0,
+    "data": {
+      "name": ".../300713506/s166/toronto-blue-jays.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3322
+  },
+  {
+    "type": "resource-complete",
+    "time": 3301,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3322
+  },
+  {
+    "type": "resource-start",
+    "time": 3304,
+    "delta": 3,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/306043595/s166/texas-rangers.png"
+    },
+    "videoTimeMs": 3324
+  },
+  {
+    "type": "resource-img",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "name": "/icon/306043595/s166/texas-rangers.png",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3324
+  },
+  {
+    "type": "resource-complete",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 3324
+  },
+  {
+    "type": "resource-start",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../300713398/s166/milwaukee-brewers.png"
+    },
+    "videoTimeMs": 3324
+  },
+  {
+    "type": "resource-img",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "name": ".../300713398/s166/milwaukee-brewers.png",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "resource-complete",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "resource-start",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301136705/s166/ottawa-senators.png"
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "resource-img",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301136705/s166/ottawa-senators.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "resource-complete",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "resource-start",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../301271678/s166/detroit-red-wings.png"
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "resource-img",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "name": ".../301271678/s166/detroit-red-wings.png",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "resource-complete",
+    "time": 3304,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 3325
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3380,
+    "delta": 76,
+    "data": {
+      "nodesAdded": 329,
+      "textNodes": 96,
+      "headingNodes": 24
+    },
+    "videoTimeMs": 3400
+  },
+  {
+    "type": "resource-start",
+    "time": 3403,
+    "delta": 23,
+    "data": {
+      "resourceType": "img",
+      "name": "...301136698/s166/montreal-canadiens.png"
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-img",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "name": "...301136698/s166/montreal-canadiens.png",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-complete",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-start",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...301136717/s166/new-york-islanders.png"
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-img",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "name": "...301136717/s166/new-york-islanders.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-complete",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-start",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...01136726/s166/carolina-hurricanes.png"
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-img",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "name": "...01136726/s166/carolina-hurricanes.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-complete",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-start",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/301136739/s166/florida-panthers.png"
+    },
+    "videoTimeMs": 3424
+  },
+  {
+    "type": "resource-img",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "name": "...n/301136739/s166/florida-panthers.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-complete",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-start",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...01136735/s166/tampa-bay-lightning.png"
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-img",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "name": "...01136735/s166/tampa-bay-lightning.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-complete",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-start",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...01136707/s166/toronto-maple-leafs.png"
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-img",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "name": "...01136707/s166/toronto-maple-leafs.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-complete",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-start",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...01136711/s166/pittsburgh-penguins.png"
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-img",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "name": "...01136711/s166/pittsburgh-penguins.png",
+      "duration": 26,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-complete",
+    "time": 3403,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 26
+    },
+    "videoTimeMs": 3425
+  },
+  {
+    "type": "resource-start",
+    "time": 3500,
+    "delta": 97,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301239246/s166/boston-bruins.png"
+    },
+    "videoTimeMs": 3521
+  },
+  {
+    "type": "resource-img",
+    "time": 3500,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301239246/s166/boston-bruins.png",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3521
+  },
+  {
+    "type": "resource-complete",
+    "time": 3500,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 3521
+  },
+  {
+    "type": "resource-start",
+    "time": 3501,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": ".../301136715/s166/new-jersey-devils.png"
+    },
+    "videoTimeMs": 3522
+  },
+  {
+    "type": "resource-img",
+    "time": 3501,
+    "delta": 0,
+    "data": {
+      "name": ".../301136715/s166/new-jersey-devils.png",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3522
+  },
+  {
+    "type": "resource-complete",
+    "time": 3501,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 3522
+  },
+  {
+    "type": "resource-start",
+    "time": 3505,
+    "delta": 4,
+    "data": {
+      "resourceType": "img",
+      "name": "...01136713/s166/nashville-predators.png"
+    },
+    "videoTimeMs": 3526
+  },
+  {
+    "type": "resource-img",
+    "time": 3505,
+    "delta": 0,
+    "data": {
+      "name": "...01136713/s166/nashville-predators.png",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3526
+  },
+  {
+    "type": "resource-complete",
+    "time": 3505,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 3527
+  },
+  {
+    "type": "resource-start",
+    "time": 3506,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...136714/s166/columbus-blue-jackets.png"
+    },
+    "videoTimeMs": 3527
+  },
+  {
+    "type": "resource-img",
+    "time": 3506,
+    "delta": 0,
+    "data": {
+      "name": "...136714/s166/columbus-blue-jackets.png",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-complete",
+    "time": 3506,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-start",
+    "time": 3506,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...n/301136676/s166/new-york-rangers.png"
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-img",
+    "time": 3506,
+    "delta": 0,
+    "data": {
+      "name": "...n/301136676/s166/new-york-rangers.png",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-complete",
+    "time": 3506,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-start",
+    "time": 3507,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "...301271673/s166/chicago-blackhawks.png"
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-img",
+    "time": 3507,
+    "delta": 0,
+    "data": {
+      "name": "...301271673/s166/chicago-blackhawks.png",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-complete",
+    "time": 3507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-start",
+    "time": 3507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...01540283/s166/philadelphia-flyers.png"
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-img",
+    "time": 3507,
+    "delta": 0,
+    "data": {
+      "name": "...01540283/s166/philadelphia-flyers.png",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "resource-complete",
+    "time": 3507,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 3528
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3585,
+    "delta": 78,
+    "data": {
+      "nodesAdded": 597,
+      "textNodes": 215,
+      "headingNodes": 32
+    },
+    "videoTimeMs": 3606
+  },
+  {
+    "type": "resource-start",
+    "time": 3651,
+    "delta": 66,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301136672/s166/seattle-kraken.png"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-img",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301136672/s166/seattle-kraken.png",
+      "duration": 69,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-complete",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 69
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-start",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301136668/s166/st-louis-blues.png"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-img",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301136668/s166/st-louis-blues.png",
+      "duration": 69,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-complete",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 69
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-start",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...301136662/s166/colorado-avalanche.png"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-img",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "name": "...301136662/s166/colorado-avalanche.png",
+      "duration": 69,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-complete",
+    "time": 3651,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 69
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-start",
+    "time": 3652,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "name": "/icon/301136721/s166/minnesota-wild.png"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-img",
+    "time": 3652,
+    "delta": 0,
+    "data": {
+      "name": "/icon/301136721/s166/minnesota-wild.png",
+      "duration": 69,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "resource-complete",
+    "time": 3652,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 69
+    },
+    "videoTimeMs": 3672
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3780,
+    "delta": 128,
+    "data": {
+      "nodesAdded": 687,
+      "textNodes": 311,
+      "headingNodes": 16
+    },
+    "videoTimeMs": 3800
+  },
+  {
+    "type": "resource-start",
+    "time": 3918,
+    "delta": 138,
+    "data": {
+      "resourceType": "img",
+      "name": "/pagead/imgad?id=CICAgKDnqzjtABAB"
+    },
+    "videoTimeMs": 3939
+  },
+  {
+    "type": "resource-img",
+    "time": 3918,
+    "delta": 0,
+    "data": {
+      "name": "/pagead/imgad?id=CICAgKDnqzjtABAB",
+      "duration": 139,
+      "transferSize": 342,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 3939
+  },
+  {
+    "type": "resource-complete",
+    "time": 3918,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 342,
+      "duration": 139
+    },
+    "videoTimeMs": 3939
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5605,
+    "delta": 1687,
+    "data": {
+      "nodesAdded": 2,
+      "textNodes": 2,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 5626
+  },
+  {
+    "type": "resource-error",
+    "time": 9154,
+    "delta": 3549,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_runtime.d080cbfa.js"
+    },
+    "videoTimeMs": 9176
+  },
+  {
+    "type": "resource-start",
+    "time": 9155,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": ".../js/1772044464424_runtime.d080cbfa.js"
+    },
+    "videoTimeMs": 9176
+  },
+  {
+    "type": "resource-script",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "name": ".../js/1772044464424_runtime.d080cbfa.js",
+      "duration": 2,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9176
+  },
+  {
+    "type": "resource-complete",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2
+    },
+    "videoTimeMs": 9176
+  },
+  {
+    "type": "resource-error",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_home.7141a429.js"
+    },
+    "videoTimeMs": 9177
+  },
+  {
+    "type": "resource-start",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...ets/js/1772044464424_home.7141a429.js"
+    },
+    "videoTimeMs": 9177
+  },
+  {
+    "type": "resource-script",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "name": "...ets/js/1772044464424_home.7141a429.js",
+      "duration": 3,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9177
+  },
+  {
+    "type": "resource-complete",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 3
+    },
+    "videoTimeMs": 9177
+  },
+  {
+    "type": "resource-error",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_chunk-5155a99a.9391d046.js"
+    },
+    "videoTimeMs": 9177
+  },
+  {
+    "type": "resource-start",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...2044464424_chunk-5155a99a.9391d046.js"
+    },
+    "videoTimeMs": 9178
+  },
+  {
+    "type": "resource-script",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "name": "...2044464424_chunk-5155a99a.9391d046.js",
+      "duration": 3,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9178
+  },
+  {
+    "type": "resource-complete",
+    "time": 9155,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 3
+    },
+    "videoTimeMs": 9178
+  },
+  {
+    "type": "resource-error",
+    "time": 9156,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_spotlight-sport.0df8a329.js"
+    },
+    "videoTimeMs": 9179
+  },
+  {
+    "type": "resource-error",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_default-footer.5eb42f12.js"
+    },
+    "videoTimeMs": 9179
+  },
+  {
+    "type": "resource-start",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...044464424_spotlight-sport.0df8a329.js"
+    },
+    "videoTimeMs": 9179
+  },
+  {
+    "type": "resource-script",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "name": "...044464424_spotlight-sport.0df8a329.js",
+      "duration": 4,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9179
+  },
+  {
+    "type": "resource-complete",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 4
+    },
+    "videoTimeMs": 9179
+  },
+  {
+    "type": "resource-start",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...2044464424_default-footer.5eb42f12.js"
+    },
+    "videoTimeMs": 9179
+  },
+  {
+    "type": "resource-script",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "name": "...2044464424_default-footer.5eb42f12.js",
+      "duration": 4,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9179
+  },
+  {
+    "type": "resource-complete",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 4
+    },
+    "videoTimeMs": 9180
+  },
+  {
+    "type": "resource-start",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...4_low-priority-components.22630518.js"
+    },
+    "videoTimeMs": 9180
+  },
+  {
+    "type": "resource-script",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "name": "...4_low-priority-components.22630518.js",
+      "duration": 4,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9180
+  },
+  {
+    "type": "resource-complete",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 4
+    },
+    "videoTimeMs": 9180
+  },
+  {
+    "type": "resource-error",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_european-banner-footer.b353877e.js"
+    },
+    "videoTimeMs": 9181
+  },
+  {
+    "type": "resource-error",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_low-priority-components.22630518.js"
+    },
+    "videoTimeMs": 9181
+  },
+  {
+    "type": "resource-start",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...24_european-banner-footer.b353877e.js"
+    },
+    "videoTimeMs": 9181
+  },
+  {
+    "type": "resource-script",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "name": "...24_european-banner-footer.b353877e.js",
+      "duration": 4,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9181
+  },
+  {
+    "type": "resource-complete",
+    "time": 9156,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 4
+    },
+    "videoTimeMs": 9181
+  },
+  {
+    "type": "resource-error",
+    "time": 9157,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.fortawesome.b9ed9691.js"
+    },
+    "videoTimeMs": 9181
+  },
+  {
+    "type": "resource-error",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.firebase.00e90a63.js"
+    },
+    "videoTimeMs": 9181
+  },
+  {
+    "type": "resource-start",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...044464424_npm.fortawesome.b9ed9691.js"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-script",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "name": "...044464424_npm.fortawesome.b9ed9691.js",
+      "duration": 4,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-complete",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 4
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-start",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...772044464424_npm.firebase.00e90a63.js"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-script",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "name": "...772044464424_npm.firebase.00e90a63.js",
+      "duration": 4,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-complete",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 4
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-error",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.graphql.0fdb0149.js"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-start",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...1772044464424_npm.graphql.0fdb0149.js"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-script",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "name": "...1772044464424_npm.graphql.0fdb0149.js",
+      "duration": 5,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-complete",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 5
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-error",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.vue.2d6035bd.js"
+    },
+    "videoTimeMs": 9182
+  },
+  {
+    "type": "resource-start",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": ".../js/1772044464424_npm.vue.2d6035bd.js"
+    },
+    "videoTimeMs": 9183
+  },
+  {
+    "type": "resource-script",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "name": ".../js/1772044464424_npm.vue.2d6035bd.js",
+      "duration": 5,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9183
+  },
+  {
+    "type": "resource-complete",
+    "time": 9157,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 5
+    },
+    "videoTimeMs": 9183
+  },
+  {
+    "type": "resource-error",
+    "time": 9158,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.vueuse.325cc107.js"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-error",
+    "time": 9158,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.apollo-client.25b9e10b.js"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-start",
+    "time": 9158,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": ".../1772044464424_npm.vueuse.325cc107.js"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-script",
+    "time": 9158,
+    "delta": 0,
+    "data": {
+      "name": ".../1772044464424_npm.vueuse.325cc107.js",
+      "duration": 6,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-complete",
+    "time": 9158,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 6
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-start",
+    "time": 9158,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...4464424_npm.apollo-client.25b9e10b.js"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-script",
+    "time": 9158,
+    "delta": 0,
+    "data": {
+      "name": "...4464424_npm.apollo-client.25b9e10b.js",
+      "duration": 6,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-complete",
+    "time": 9158,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 6
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-error",
+    "time": 9159,
+    "delta": 1,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.vue-router.b0a354bf.js"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-error",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_npm.localforage.67c908d6.js"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-start",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...2044464424_npm.vue-router.b0a354bf.js"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-script",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "name": "...2044464424_npm.vue-router.b0a354bf.js",
+      "duration": 6,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-complete",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 6
+    },
+    "videoTimeMs": 9184
+  },
+  {
+    "type": "resource-start",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...044464424_npm.localforage.67c908d6.js"
+    },
+    "videoTimeMs": 9185
+  },
+  {
+    "type": "resource-script",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "name": "...044464424_npm.localforage.67c908d6.js",
+      "duration": 6,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9185
+  },
+  {
+    "type": "resource-complete",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 6
+    },
+    "videoTimeMs": 9185
+  },
+  {
+    "type": "resource-error",
+    "time": 9159,
+    "delta": 0,
+    "data": {
+      "element": "script",
+      "src": "http://localhost:3001/appassets/js/1772044464424_app.a6475d51.js"
+    },
+    "videoTimeMs": 9185
+  },
+  {
+    "type": "dom-ready",
+    "time": 9159,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 9185
+  },
+  {
+    "type": "above-fold-images-loaded",
+    "time": 9160,
+    "delta": 1,
+    "data": {
+      "count": 27
+    },
+    "videoTimeMs": 9185
+  },
+  {
+    "type": "nav-fetch-start",
+    "time": 0.3000001907348633,
+    "delta": -9159.699999809265,
+    "data": {
+      "value": 0
+    },
+    "videoTimeMs": 9186
+  },
+  {
+    "type": "nav-response-start",
+    "time": 649,
+    "delta": 648.6999998092651,
+    "data": {},
+    "videoTimeMs": 9186
+  },
+  {
+    "type": "nav-response-end",
+    "time": 9137.100000143051,
+    "delta": 8488.100000143051,
+    "data": {},
+    "videoTimeMs": 9186
+  },
+  {
+    "type": "progress-update",
+    "time": 9160,
+    "delta": 22.899999856948853,
+    "data": {
+      "value": 100,
+      "delta": 10
+    },
+    "videoTimeMs": 9186
+  },
+  {
+    "type": "progress-complete",
+    "time": 9160,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 9186
+  },
+  {
+    "type": "window-load",
+    "time": 9160,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 9197
+  },
+  {
+    "type": "resource-start",
+    "time": 9160,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...sets/js/1772044464424_app.a6475d51.js"
+    },
+    "videoTimeMs": 9197
+  },
+  {
+    "type": "resource-script",
+    "time": 9160,
+    "delta": 0,
+    "data": {
+      "name": "...sets/js/1772044464424_app.a6475d51.js",
+      "duration": 7,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 9197
+  },
+  {
+    "type": "resource-complete",
+    "time": 9160,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 7
+    },
+    "videoTimeMs": 9197
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 9249,
+    "delta": 89,
+    "data": {
+      "nodesAdded": 19,
+      "textNodes": 2,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 9270
+  },
+  {
+    "type": "resource-start",
+    "time": 9459,
+    "delta": 210,
+    "data": {
+      "resourceType": "other",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 9479
+  },
+  {
+    "type": "resource-other",
+    "time": 9459,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 296,
+      "transferSize": 5730,
+      "initiatorType": "other"
+    },
+    "videoTimeMs": 9480
+  },
+  {
+    "type": "resource-complete",
+    "time": 9459,
+    "delta": 0,
+    "data": {
+      "resourceType": "other",
+      "transferSize": 5730,
+      "duration": 296
+    },
+    "videoTimeMs": 9480
+  },
+  {
+    "type": "text-settled",
+    "time": 9752,
+    "delta": 293,
+    "data": {},
+    "videoTimeMs": 9773
+  }
+]

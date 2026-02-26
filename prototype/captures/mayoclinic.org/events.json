@@ -1,0 +1,3612 @@
+[
+  {
+    "type": "navigation-start",
+    "time": 1020,
+    "delta": 1020,
+    "data": {
+      "url": "http://localhost:3001/proxy?url=https%3A%2F%2Fmayoclinic.org&throttle=3g"
+    },
+    "videoTimeMs": 1043
+  },
+  {
+    "type": "nav-response-start",
+    "time": 1014,
+    "delta": -6,
+    "data": {},
+    "videoTimeMs": 1044
+  },
+  {
+    "type": "resource-start",
+    "time": 1022,
+    "delta": 8,
+    "data": {
+      "resourceType": "script",
+      "name": "/injected-observer.js"
+    },
+    "videoTimeMs": 1044
+  },
+  {
+    "type": "resource-script",
+    "time": 1022,
+    "delta": 0,
+    "data": {
+      "name": "/injected-observer.js",
+      "duration": 2,
+      "transferSize": 300,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1044
+  },
+  {
+    "type": "resource-complete",
+    "time": 1022,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 300,
+      "duration": 2
+    },
+    "videoTimeMs": 1044
+  },
+  {
+    "type": "progress-update",
+    "time": 1037,
+    "delta": 15,
+    "data": {
+      "value": 17,
+      "delta": 17
+    },
+    "videoTimeMs": 1059
+  },
+  {
+    "type": "progress-update",
+    "time": 1054,
+    "delta": 17,
+    "data": {
+      "value": 18,
+      "delta": 1
+    },
+    "videoTimeMs": 1075
+  },
+  {
+    "type": "progress-update",
+    "time": 1070,
+    "delta": 16,
+    "data": {
+      "value": 20,
+      "delta": 2
+    },
+    "videoTimeMs": 1091
+  },
+  {
+    "type": "progress-update",
+    "time": 1086,
+    "delta": 16,
+    "data": {
+      "value": 21,
+      "delta": 1
+    },
+    "videoTimeMs": 1107
+  },
+  {
+    "type": "progress-update",
+    "time": 1101,
+    "delta": 15,
+    "data": {
+      "value": 22,
+      "delta": 1
+    },
+    "videoTimeMs": 1122
+  },
+  {
+    "type": "progress-update",
+    "time": 1117,
+    "delta": 16,
+    "data": {
+      "value": 24,
+      "delta": 2
+    },
+    "videoTimeMs": 1138
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1122,
+    "delta": 5,
+    "data": {
+      "nodesAdded": 48,
+      "textNodes": 11,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1143
+  },
+  {
+    "type": "progress-update",
+    "time": 1134,
+    "delta": 12,
+    "data": {
+      "value": 25,
+      "delta": 1
+    },
+    "videoTimeMs": 1156
+  },
+  {
+    "type": "progress-update",
+    "time": 1149,
+    "delta": 15,
+    "data": {
+      "value": 26,
+      "delta": 1
+    },
+    "videoTimeMs": 1171
+  },
+  {
+    "type": "progress-update",
+    "time": 1165,
+    "delta": 16,
+    "data": {
+      "value": 28,
+      "delta": 2
+    },
+    "videoTimeMs": 1187
+  },
+  {
+    "type": "progress-update",
+    "time": 1182,
+    "delta": 17,
+    "data": {
+      "value": 29,
+      "delta": 1
+    },
+    "videoTimeMs": 1203
+  },
+  {
+    "type": "progress-update",
+    "time": 1198,
+    "delta": 16,
+    "data": {
+      "value": 30,
+      "delta": 1
+    },
+    "videoTimeMs": 1219
+  },
+  {
+    "type": "progress-update",
+    "time": 1213,
+    "delta": 15,
+    "data": {
+      "value": 31,
+      "delta": 1
+    },
+    "videoTimeMs": 1234
+  },
+  {
+    "type": "progress-update",
+    "time": 1230,
+    "delta": 17,
+    "data": {
+      "value": 32,
+      "delta": 1
+    },
+    "videoTimeMs": 1251
+  },
+  {
+    "type": "progress-update",
+    "time": 1245,
+    "delta": 15,
+    "data": {
+      "value": 33,
+      "delta": 1
+    },
+    "videoTimeMs": 1267
+  },
+  {
+    "type": "resource-start",
+    "time": 1246,
+    "delta": 1,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1267
+  },
+  {
+    "type": "resource-css",
+    "time": 1246,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 228,
+      "transferSize": 3522,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1268
+  },
+  {
+    "type": "resource-complete",
+    "time": 1246,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 3522,
+      "duration": 228
+    },
+    "videoTimeMs": 1268
+  },
+  {
+    "type": "progress-update",
+    "time": 1262,
+    "delta": 16,
+    "data": {
+      "value": 43,
+      "delta": 10
+    },
+    "videoTimeMs": 1283
+  },
+  {
+    "type": "progress-update",
+    "time": 1276,
+    "delta": 14,
+    "data": {
+      "value": 44,
+      "delta": 1
+    },
+    "videoTimeMs": 1298
+  },
+  {
+    "type": "resource-start",
+    "time": 1277,
+    "delta": 1,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 1298
+  },
+  {
+    "type": "resource-css",
+    "time": 1277,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 259,
+      "transferSize": 2255,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 1298
+  },
+  {
+    "type": "resource-complete",
+    "time": 1277,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 2255,
+      "duration": 259
+    },
+    "videoTimeMs": 1299
+  },
+  {
+    "type": "progress-update",
+    "time": 1293,
+    "delta": 16,
+    "data": {
+      "value": 51,
+      "delta": 7
+    },
+    "videoTimeMs": 1315
+  },
+  {
+    "type": "progress-update",
+    "time": 1310,
+    "delta": 17,
+    "data": {
+      "value": 52,
+      "delta": 1
+    },
+    "videoTimeMs": 1331
+  },
+  {
+    "type": "progress-update",
+    "time": 1326,
+    "delta": 16,
+    "data": {
+      "value": 53,
+      "delta": 1
+    },
+    "videoTimeMs": 1348
+  },
+  {
+    "type": "progress-update",
+    "time": 1342,
+    "delta": 16,
+    "data": {
+      "value": 54,
+      "delta": 1
+    },
+    "videoTimeMs": 1364
+  },
+  {
+    "type": "progress-update",
+    "time": 1357,
+    "delta": 15,
+    "data": {
+      "value": 55,
+      "delta": 1
+    },
+    "videoTimeMs": 1379
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1379,
+    "delta": 22,
+    "data": {
+      "nodesAdded": 23,
+      "textNodes": 4,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1403
+  },
+  {
+    "type": "progress-update",
+    "time": 1389,
+    "delta": 10,
+    "data": {
+      "value": 56,
+      "delta": 1
+    },
+    "videoTimeMs": 1411
+  },
+  {
+    "type": "progress-update",
+    "time": 1405,
+    "delta": 16,
+    "data": {
+      "value": 57,
+      "delta": 1
+    },
+    "videoTimeMs": 1427
+  },
+  {
+    "type": "progress-update",
+    "time": 1421,
+    "delta": 16,
+    "data": {
+      "value": 58,
+      "delta": 1
+    },
+    "videoTimeMs": 1442
+  },
+  {
+    "type": "progress-update",
+    "time": 1453,
+    "delta": 32,
+    "data": {
+      "value": 59,
+      "delta": 1
+    },
+    "videoTimeMs": 1475
+  },
+  {
+    "type": "progress-update",
+    "time": 1470,
+    "delta": 17,
+    "data": {
+      "value": 60,
+      "delta": 1
+    },
+    "videoTimeMs": 1492
+  },
+  {
+    "type": "progress-update",
+    "time": 1502,
+    "delta": 32,
+    "data": {
+      "value": 61,
+      "delta": 1
+    },
+    "videoTimeMs": 1524
+  },
+  {
+    "type": "progress-update",
+    "time": 1517,
+    "delta": 15,
+    "data": {
+      "value": 62,
+      "delta": 1
+    },
+    "videoTimeMs": 1539
+  },
+  {
+    "type": "progress-update",
+    "time": 1549,
+    "delta": 32,
+    "data": {
+      "value": 63,
+      "delta": 1
+    },
+    "videoTimeMs": 1571
+  },
+  {
+    "type": "progress-update",
+    "time": 1582,
+    "delta": 33,
+    "data": {
+      "value": 64,
+      "delta": 1
+    },
+    "videoTimeMs": 1604
+  },
+  {
+    "type": "progress-update",
+    "time": 1614,
+    "delta": 32,
+    "data": {
+      "value": 65,
+      "delta": 1
+    },
+    "videoTimeMs": 1636
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 1630,
+    "delta": 16,
+    "data": {
+      "nodesAdded": 2,
+      "textNodes": 2,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 1652
+  },
+  {
+    "type": "progress-update",
+    "time": 1646,
+    "delta": 16,
+    "data": {
+      "value": 66,
+      "delta": 1
+    },
+    "videoTimeMs": 1668
+  },
+  {
+    "type": "progress-update",
+    "time": 1677,
+    "delta": 31,
+    "data": {
+      "value": 67,
+      "delta": 1
+    },
+    "videoTimeMs": 1700
+  },
+  {
+    "type": "resource-start",
+    "time": 1703,
+    "delta": 26,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Ft"
+    },
+    "videoTimeMs": 1725
+  },
+  {
+    "type": "resource-script",
+    "time": 1703,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Ft",
+      "duration": 685,
+      "transferSize": 410,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 1725
+  },
+  {
+    "type": "resource-complete",
+    "time": 1703,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 410,
+      "duration": 685
+    },
+    "videoTimeMs": 1725
+  },
+  {
+    "type": "progress-update",
+    "time": 1709,
+    "delta": 6,
+    "data": {
+      "value": 72,
+      "delta": 5
+    },
+    "videoTimeMs": 1730
+  },
+  {
+    "type": "progress-update",
+    "time": 1725,
+    "delta": 16,
+    "data": {
+      "value": 73,
+      "delta": 1
+    },
+    "videoTimeMs": 1747
+  },
+  {
+    "type": "progress-update",
+    "time": 1774,
+    "delta": 49,
+    "data": {
+      "value": 74,
+      "delta": 1
+    },
+    "videoTimeMs": 1796
+  },
+  {
+    "type": "progress-update",
+    "time": 1822,
+    "delta": 48,
+    "data": {
+      "value": 75,
+      "delta": 1
+    },
+    "videoTimeMs": 1844
+  },
+  {
+    "type": "progress-update",
+    "time": 1870,
+    "delta": 48,
+    "data": {
+      "value": 76,
+      "delta": 1
+    },
+    "videoTimeMs": 1892
+  },
+  {
+    "type": "progress-update",
+    "time": 1918,
+    "delta": 48,
+    "data": {
+      "value": 77,
+      "delta": 1
+    },
+    "videoTimeMs": 1940
+  },
+  {
+    "type": "progress-update",
+    "time": 1981,
+    "delta": 63,
+    "data": {
+      "value": 78,
+      "delta": 1
+    },
+    "videoTimeMs": 2003
+  },
+  {
+    "type": "resource-start",
+    "time": 2037,
+    "delta": 56,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 2061
+  },
+  {
+    "type": "resource-script",
+    "time": 2037,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1019,
+      "transferSize": 26332,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 2061
+  },
+  {
+    "type": "resource-complete",
+    "time": 2037,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 26332,
+      "duration": 1019
+    },
+    "videoTimeMs": 2061
+  },
+  {
+    "type": "progress-update",
+    "time": 2045,
+    "delta": 8,
+    "data": {
+      "value": 82,
+      "delta": 4
+    },
+    "videoTimeMs": 2068
+  },
+  {
+    "type": "progress-update",
+    "time": 2062,
+    "delta": 17,
+    "data": {
+      "value": 83,
+      "delta": 1
+    },
+    "videoTimeMs": 2085
+  },
+  {
+    "type": "progress-update",
+    "time": 2157,
+    "delta": 95,
+    "data": {
+      "value": 84,
+      "delta": 1
+    },
+    "videoTimeMs": 2179
+  },
+  {
+    "type": "resource-start",
+    "time": 2248,
+    "delta": 91,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Ft"
+    },
+    "videoTimeMs": 2270
+  },
+  {
+    "type": "resource-script",
+    "time": 2248,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Ft",
+      "duration": 1222,
+      "transferSize": 144436,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 2271
+  },
+  {
+    "type": "resource-complete",
+    "time": 2248,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 144436,
+      "duration": 1222
+    },
+    "videoTimeMs": 2271
+  },
+  {
+    "type": "progress-update",
+    "time": 2252,
+    "delta": 4,
+    "data": {
+      "value": 86,
+      "delta": 2
+    },
+    "videoTimeMs": 2274
+  },
+  {
+    "type": "progress-update",
+    "time": 2366,
+    "delta": 114,
+    "data": {
+      "value": 87,
+      "delta": 1
+    },
+    "videoTimeMs": 2388
+  },
+  {
+    "type": "resource-start",
+    "time": 2399,
+    "delta": 33,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 2422
+  },
+  {
+    "type": "resource-script",
+    "time": 2399,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1381,
+      "transferSize": 29515,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 2422
+  },
+  {
+    "type": "resource-complete",
+    "time": 2399,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 29515,
+      "duration": 1381
+    },
+    "videoTimeMs": 2422
+  },
+  {
+    "type": "progress-update",
+    "time": 2526,
+    "delta": 127,
+    "data": {
+      "value": 88,
+      "delta": 1
+    },
+    "videoTimeMs": 2548
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2542,
+    "delta": 16,
+    "data": {
+      "nodesAdded": 10,
+      "textNodes": 10,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 2563
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2733,
+    "delta": 191,
+    "data": {
+      "nodesAdded": 12,
+      "textNodes": 12,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 2756
+  },
+  {
+    "type": "resource-start",
+    "time": 2733,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 2756
+  },
+  {
+    "type": "resource-script",
+    "time": 2733,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1714,
+      "transferSize": 22847,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 2757
+  },
+  {
+    "type": "resource-complete",
+    "time": 2733,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 22847,
+      "duration": 1714
+    },
+    "videoTimeMs": 2757
+  },
+  {
+    "type": "progress-update",
+    "time": 2781,
+    "delta": 48,
+    "data": {
+      "value": 89,
+      "delta": 1
+    },
+    "videoTimeMs": 2805
+  },
+  {
+    "type": "resource-start",
+    "time": 2782,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 2806
+  },
+  {
+    "type": "resource-script",
+    "time": 2782,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1763,
+      "transferSize": 71870,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 2806
+  },
+  {
+    "type": "resource-complete",
+    "time": 2782,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 71870,
+      "duration": 1763
+    },
+    "videoTimeMs": 2806
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 2835,
+    "delta": 53,
+    "data": {
+      "nodesAdded": 8,
+      "textNodes": 8,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 2857
+  },
+  {
+    "type": "resource-start",
+    "time": 3017,
+    "delta": 182,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 3039
+  },
+  {
+    "type": "resource-script",
+    "time": 3017,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 1999,
+      "transferSize": 19732,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 3039
+  },
+  {
+    "type": "resource-complete",
+    "time": 3017,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 19732,
+      "duration": 1999
+    },
+    "videoTimeMs": 3040
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3037,
+    "delta": 20,
+    "data": {
+      "nodesAdded": 4,
+      "textNodes": 4,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 3058
+  },
+  {
+    "type": "resource-start",
+    "time": 3066,
+    "delta": 29,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 3088
+  },
+  {
+    "type": "resource-script",
+    "time": 3066,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2047,
+      "transferSize": 20342,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 3088
+  },
+  {
+    "type": "resource-complete",
+    "time": 3066,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 20342,
+      "duration": 2047
+    },
+    "videoTimeMs": 3089
+  },
+  {
+    "type": "resource-start",
+    "time": 3306,
+    "delta": 240,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 3328
+  },
+  {
+    "type": "resource-script",
+    "time": 3306,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2288,
+      "transferSize": 6032,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 3328
+  },
+  {
+    "type": "resource-complete",
+    "time": 3306,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 6032,
+      "duration": 2288
+    },
+    "videoTimeMs": 3328
+  },
+  {
+    "type": "resource-start",
+    "time": 3307,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 3329
+  },
+  {
+    "type": "resource-script",
+    "time": 3307,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2288,
+      "transferSize": 15479,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 3329
+  },
+  {
+    "type": "resource-complete",
+    "time": 3307,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 15479,
+      "duration": 2288
+    },
+    "videoTimeMs": 3329
+  },
+  {
+    "type": "progress-update",
+    "time": 3325,
+    "delta": 18,
+    "data": {
+      "value": 90,
+      "delta": 1
+    },
+    "videoTimeMs": 3347
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3341,
+    "delta": 16,
+    "data": {
+      "nodesAdded": 18,
+      "textNodes": 18,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 3363
+  },
+  {
+    "type": "resource-start",
+    "time": 3536,
+    "delta": 195,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 3558
+  },
+  {
+    "type": "resource-script",
+    "time": 3536,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 2518,
+      "transferSize": 6559,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 3559
+  },
+  {
+    "type": "resource-complete",
+    "time": 3536,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 6559,
+      "duration": 2518
+    },
+    "videoTimeMs": 3559
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3550,
+    "delta": 14,
+    "data": {
+      "nodesAdded": 6,
+      "textNodes": 6,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 3571
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 3949,
+    "delta": 399,
+    "data": {
+      "nodesAdded": 10,
+      "textNodes": 10,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 3971
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4148,
+    "delta": 199,
+    "data": {
+      "nodesAdded": 2,
+      "textNodes": 2,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 4170
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4253,
+    "delta": 105,
+    "data": {
+      "nodesAdded": 14,
+      "textNodes": 14,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 4275
+  },
+  {
+    "type": "resource-start",
+    "time": 4327,
+    "delta": 74,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 4352
+  },
+  {
+    "type": "resource-script",
+    "time": 4327,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 3308,
+      "transferSize": 104008,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 4353
+  },
+  {
+    "type": "resource-complete",
+    "time": 4327,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 104008,
+      "duration": 3308
+    },
+    "videoTimeMs": 4353
+  },
+  {
+    "type": "first-paint",
+    "time": 4364,
+    "delta": 37,
+    "data": {
+      "startTime": 4364,
+      "synthetic": true
+    },
+    "videoTimeMs": 4386
+  },
+  {
+    "type": "first-contentful-paint",
+    "time": 4364,
+    "delta": 0,
+    "data": {
+      "startTime": 4364,
+      "synthetic": true
+    },
+    "videoTimeMs": 4386
+  },
+  {
+    "type": "resource-start",
+    "time": 4384,
+    "delta": 20,
+    "data": {
+      "resourceType": "img",
+      "name": "...nic/images/logos/mayo-clinic-logo.svg"
+    },
+    "videoTimeMs": 4405
+  },
+  {
+    "type": "resource-img",
+    "time": 4384,
+    "delta": 0,
+    "data": {
+      "name": "...nic/images/logos/mayo-clinic-logo.svg",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4405
+  },
+  {
+    "type": "resource-complete",
+    "time": 4384,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 4405
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4451,
+    "delta": 67,
+    "data": {
+      "nodesAdded": 417,
+      "textNodes": 193,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 4472
+  },
+  {
+    "type": "resource-start",
+    "time": 4476,
+    "delta": 25,
+    "data": {
+      "resourceType": "img",
+      "name": "...s/2025/03/19/1710753_3980687_0060.png"
+    },
+    "videoTimeMs": 4498
+  },
+  {
+    "type": "resource-img",
+    "time": 4476,
+    "delta": 0,
+    "data": {
+      "name": "...s/2025/03/19/1710753_3980687_0060.png",
+      "duration": 25,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4498
+  },
+  {
+    "type": "resource-complete",
+    "time": 4476,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 25
+    },
+    "videoTimeMs": 4498
+  },
+  {
+    "type": "resource-start",
+    "time": 4491,
+    "delta": 15,
+    "data": {
+      "resourceType": "img",
+      "name": "...-visitor-Getty-1419492732-415x275.jpg"
+    },
+    "videoTimeMs": 4513
+  },
+  {
+    "type": "resource-img",
+    "time": 4491,
+    "delta": 0,
+    "data": {
+      "name": "...-visitor-Getty-1419492732-415x275.jpg",
+      "duration": 41,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4513
+  },
+  {
+    "type": "resource-complete",
+    "time": 4491,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 41
+    },
+    "videoTimeMs": 4513
+  },
+  {
+    "type": "resource-start",
+    "time": 4576,
+    "delta": 85,
+    "data": {
+      "resourceType": "img",
+      "name": "...ed-1676659-3734290-0048-C-415x275.jpg"
+    },
+    "videoTimeMs": 4597
+  },
+  {
+    "type": "resource-img",
+    "time": 4576,
+    "delta": 0,
+    "data": {
+      "name": "...ed-1676659-3734290-0048-C-415x275.jpg",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4597
+  },
+  {
+    "type": "resource-complete",
+    "time": 4576,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 4597
+  },
+  {
+    "type": "resource-start",
+    "time": 4580,
+    "delta": 4,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 4601
+  },
+  {
+    "type": "resource-script",
+    "time": 4580,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 3562,
+      "transferSize": 1522,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 4601
+  },
+  {
+    "type": "resource-complete",
+    "time": 4580,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 1522,
+      "duration": 3562
+    },
+    "videoTimeMs": 4601
+  },
+  {
+    "type": "resource-start",
+    "time": 4583,
+    "delta": 3,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 4605
+  },
+  {
+    "type": "resource-script",
+    "time": 4583,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 3565,
+      "transferSize": 211006,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 4605
+  },
+  {
+    "type": "resource-complete",
+    "time": 4583,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 211006,
+      "duration": 3565
+    },
+    "videoTimeMs": 4605
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4653,
+    "delta": 70,
+    "data": {
+      "nodesAdded": 448,
+      "textNodes": 210,
+      "headingNodes": 2
+    },
+    "videoTimeMs": 4674
+  },
+  {
+    "type": "lcp",
+    "time": 4669,
+    "delta": 16,
+    "data": {
+      "startTime": 4664,
+      "size": 2304,
+      "element": "IMG"
+    },
+    "videoTimeMs": 4690
+  },
+  {
+    "type": "resource-start",
+    "time": 4679,
+    "delta": 10,
+    "data": {
+      "resourceType": "img",
+      "name": "...26/mccms-Getty-1082003662-415x275.jpg"
+    },
+    "videoTimeMs": 4701
+  },
+  {
+    "type": "resource-img",
+    "time": 4679,
+    "delta": 0,
+    "data": {
+      "name": "...26/mccms-Getty-1082003662-415x275.jpg",
+      "duration": 27,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4701
+  },
+  {
+    "type": "resource-complete",
+    "time": 4680,
+    "delta": 1,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 27
+    },
+    "videoTimeMs": 4701
+  },
+  {
+    "type": "resource-start",
+    "time": 4682,
+    "delta": 2,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 4703
+  },
+  {
+    "type": "resource-script",
+    "time": 4682,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 3664,
+      "transferSize": 949,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 4703
+  },
+  {
+    "type": "resource-complete",
+    "time": 4682,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 949,
+      "duration": 3664
+    },
+    "videoTimeMs": 4703
+  },
+  {
+    "type": "resource-start",
+    "time": 4688,
+    "delta": 6,
+    "data": {
+      "resourceType": "img",
+      "name": "...o-em100063715-p-195580295-415x275.png"
+    },
+    "videoTimeMs": 4709
+  },
+  {
+    "type": "resource-img",
+    "time": 4688,
+    "delta": 0,
+    "data": {
+      "name": "...o-em100063715-p-195580295-415x275.png",
+      "duration": 36,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 4709
+  },
+  {
+    "type": "resource-complete",
+    "time": 4688,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 36
+    },
+    "videoTimeMs": 4710
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 4861,
+    "delta": 173,
+    "data": {
+      "nodesAdded": 448,
+      "textNodes": 179,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 4885
+  },
+  {
+    "type": "resource-start",
+    "time": 4938,
+    "delta": 77,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 4960
+  },
+  {
+    "type": "resource-script",
+    "time": 4938,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 3919,
+      "transferSize": 414,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 4961
+  },
+  {
+    "type": "resource-complete",
+    "time": 4938,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 414,
+      "duration": 3919
+    },
+    "videoTimeMs": 4961
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5057,
+    "delta": 119,
+    "data": {
+      "nodesAdded": 218,
+      "textNodes": 112,
+      "headingNodes": 2
+    },
+    "videoTimeMs": 5092
+  },
+  {
+    "type": "lcp",
+    "time": 5094,
+    "delta": 37,
+    "data": {
+      "startTime": 5092,
+      "size": 31458,
+      "element": "H1"
+    },
+    "videoTimeMs": 5115
+  },
+  {
+    "type": "resource-start",
+    "time": 5161,
+    "delta": 67,
+    "data": {
+      "resourceType": "css",
+      "name": "...nts/mayo/MayoClinicSans-Regular.woff2"
+    },
+    "videoTimeMs": 5183
+  },
+  {
+    "type": "resource-css",
+    "time": 5161,
+    "delta": 0,
+    "data": {
+      "name": "...nts/mayo/MayoClinicSans-Regular.woff2",
+      "duration": 96,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 5183
+  },
+  {
+    "type": "resource-complete",
+    "time": 5161,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 96
+    },
+    "videoTimeMs": 5183
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5170,
+    "delta": 9,
+    "data": {
+      "nodesAdded": 458,
+      "textNodes": 137,
+      "headingNodes": 3
+    },
+    "videoTimeMs": 5192
+  },
+  {
+    "type": "resource-start",
+    "time": 5171,
+    "delta": 1,
+    "data": {
+      "resourceType": "css",
+      "name": "...yo/MayoClinicSerifDisplay-Light.woff2"
+    },
+    "videoTimeMs": 5192
+  },
+  {
+    "type": "resource-css",
+    "time": 5171,
+    "delta": 0,
+    "data": {
+      "name": "...yo/MayoClinicSerifDisplay-Light.woff2",
+      "duration": 108,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 5192
+  },
+  {
+    "type": "resource-complete",
+    "time": 5171,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 108
+    },
+    "videoTimeMs": 5192
+  },
+  {
+    "type": "resource-start",
+    "time": 5188,
+    "delta": 17,
+    "data": {
+      "resourceType": "css",
+      "name": ".../Fonts/mayo/MayoClinicSans-Bold.woff2"
+    },
+    "videoTimeMs": 5209
+  },
+  {
+    "type": "resource-css",
+    "time": 5188,
+    "delta": 0,
+    "data": {
+      "name": ".../Fonts/mayo/MayoClinicSans-Bold.woff2",
+      "duration": 28,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 5209
+  },
+  {
+    "type": "resource-complete",
+    "time": 5188,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 28
+    },
+    "videoTimeMs": 5210
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5364,
+    "delta": 176,
+    "data": {
+      "nodesAdded": 459,
+      "textNodes": 182,
+      "headingNodes": 16
+    },
+    "videoTimeMs": 5385
+  },
+  {
+    "type": "resource-start",
+    "time": 5374,
+    "delta": 10,
+    "data": {
+      "resourceType": "img",
+      "name": "...ling-starts-here-MC11REJU-600x800.jpg"
+    },
+    "videoTimeMs": 5395
+  },
+  {
+    "type": "resource-img",
+    "time": 5374,
+    "delta": 0,
+    "data": {
+      "name": "...ling-starts-here-MC11REJU-600x800.jpg",
+      "duration": 111,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5395
+  },
+  {
+    "type": "resource-complete",
+    "time": 5374,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 111
+    },
+    "videoTimeMs": 5395
+  },
+  {
+    "type": "resource-start",
+    "time": 5374,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...orld-class%20care-MC1XASH-600x800.jpg"
+    },
+    "videoTimeMs": 5395
+  },
+  {
+    "type": "resource-img",
+    "time": 5374,
+    "delta": 0,
+    "data": {
+      "name": "...orld-class%20care-MC1XASH-600x800.jpg",
+      "duration": 111,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5395
+  },
+  {
+    "type": "resource-complete",
+    "time": 5374,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 111
+    },
+    "videoTimeMs": 5396
+  },
+  {
+    "type": "resource-start",
+    "time": 5375,
+    "delta": 1,
+    "data": {
+      "resourceType": "css",
+      "name": "...ayo/MayoClinicSerifDisplay-Bold.woff2"
+    },
+    "videoTimeMs": 5396
+  },
+  {
+    "type": "resource-css",
+    "time": 5375,
+    "delta": 0,
+    "data": {
+      "name": "...ayo/MayoClinicSerifDisplay-Bold.woff2",
+      "duration": 114,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 5397
+  },
+  {
+    "type": "resource-complete",
+    "time": 5375,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 114
+    },
+    "videoTimeMs": 5397
+  },
+  {
+    "type": "resource-start",
+    "time": 5377,
+    "delta": 2,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fs"
+    },
+    "videoTimeMs": 5398
+  },
+  {
+    "type": "resource-css",
+    "time": 5377,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fs",
+      "duration": 1024,
+      "transferSize": 155360,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 5398
+  },
+  {
+    "type": "resource-complete",
+    "time": 5377,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 155360,
+      "duration": 1024
+    },
+    "videoTimeMs": 5398
+  },
+  {
+    "type": "resource-start",
+    "time": 5393,
+    "delta": 16,
+    "data": {
+      "resourceType": "img",
+      "name": ".../global/images/2023/06/26/Arizona.png"
+    },
+    "videoTimeMs": 5414
+  },
+  {
+    "type": "resource-img",
+    "time": 5393,
+    "delta": 0,
+    "data": {
+      "name": ".../global/images/2023/06/26/Arizona.png",
+      "duration": 131,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5414
+  },
+  {
+    "type": "resource-complete",
+    "time": 5393,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 131
+    },
+    "videoTimeMs": 5414
+  },
+  {
+    "type": "resource-start",
+    "time": 5416,
+    "delta": 23,
+    "data": {
+      "resourceType": "img",
+      "name": ".../global/images/2023/06/26/Florida.png"
+    },
+    "videoTimeMs": 5437
+  },
+  {
+    "type": "resource-img",
+    "time": 5416,
+    "delta": 0,
+    "data": {
+      "name": ".../global/images/2023/06/26/Florida.png",
+      "duration": 53,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5437
+  },
+  {
+    "type": "resource-complete",
+    "time": 5416,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 53
+    },
+    "videoTimeMs": 5437
+  },
+  {
+    "type": "resource-start",
+    "time": 5428,
+    "delta": 12,
+    "data": {
+      "resourceType": "img",
+      "name": "...lobal/images/2023/06/26/Minnesota.png"
+    },
+    "videoTimeMs": 5449
+  },
+  {
+    "type": "resource-img",
+    "time": 5428,
+    "delta": 0,
+    "data": {
+      "name": "...lobal/images/2023/06/26/Minnesota.png",
+      "duration": 65,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5449
+  },
+  {
+    "type": "resource-complete",
+    "time": 5428,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 65
+    },
+    "videoTimeMs": 5449
+  },
+  {
+    "type": "resource-start",
+    "time": 5430,
+    "delta": 2,
+    "data": {
+      "resourceType": "img",
+      "name": "...6/Mayo%20Clinic%20Health%20System.png"
+    },
+    "videoTimeMs": 5451
+  },
+  {
+    "type": "resource-img",
+    "time": 5430,
+    "delta": 0,
+    "data": {
+      "name": "...6/Mayo%20Clinic%20Health%20System.png",
+      "duration": 67,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5451
+  },
+  {
+    "type": "resource-complete",
+    "time": 5430,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 67
+    },
+    "videoTimeMs": 5451
+  },
+  {
+    "type": "resource-start",
+    "time": 5436,
+    "delta": 6,
+    "data": {
+      "resourceType": "img",
+      "name": "...Clinic%20Healthcare%20London%20UK.png"
+    },
+    "videoTimeMs": 5457
+  },
+  {
+    "type": "resource-img",
+    "time": 5436,
+    "delta": 0,
+    "data": {
+      "name": "...Clinic%20Healthcare%20London%20UK.png",
+      "duration": 73,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5457
+  },
+  {
+    "type": "resource-complete",
+    "time": 5436,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 73
+    },
+    "videoTimeMs": 5457
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5486,
+    "delta": 50,
+    "data": {
+      "nodesAdded": 144,
+      "textNodes": 52,
+      "headingNodes": 2
+    },
+    "videoTimeMs": 5507
+  },
+  {
+    "type": "resource-start",
+    "time": 5486,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": "...linic/images/icons/giving-charity.svg"
+    },
+    "videoTimeMs": 5507
+  },
+  {
+    "type": "resource-img",
+    "time": 5486,
+    "delta": 0,
+    "data": {
+      "name": "...linic/images/icons/giving-charity.svg",
+      "duration": 22,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5507
+  },
+  {
+    "type": "resource-complete",
+    "time": 5486,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 22
+    },
+    "videoTimeMs": 5507
+  },
+  {
+    "type": "resource-start",
+    "time": 5614,
+    "delta": 128,
+    "data": {
+      "resourceType": "css",
+      "name": "...Fonts/mayo/MayoClinicSerif-Bold.woff2"
+    },
+    "videoTimeMs": 5637
+  },
+  {
+    "type": "resource-css",
+    "time": 5614,
+    "delta": 0,
+    "data": {
+      "name": "...Fonts/mayo/MayoClinicSerif-Bold.woff2",
+      "duration": 49,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 5637
+  },
+  {
+    "type": "resource-complete",
+    "time": 5614,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 49
+    },
+    "videoTimeMs": 5638
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5665,
+    "delta": 51,
+    "data": {
+      "nodesAdded": 414,
+      "textNodes": 157,
+      "headingNodes": 6
+    },
+    "videoTimeMs": 5686
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 5868,
+    "delta": 203,
+    "data": {
+      "nodesAdded": 357,
+      "textNodes": 133,
+      "headingNodes": 6
+    },
+    "videoTimeMs": 5889
+  },
+  {
+    "type": "resource-start",
+    "time": 5916,
+    "delta": 48,
+    "data": {
+      "resourceType": "img",
+      "name": "...badges/Google_Play_Store_badge_EN.svg"
+    },
+    "videoTimeMs": 5938
+  },
+  {
+    "type": "resource-img",
+    "time": 5916,
+    "delta": 0,
+    "data": {
+      "name": "...badges/Google_Play_Store_badge_EN.svg",
+      "duration": 47,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5938
+  },
+  {
+    "type": "resource-complete",
+    "time": 5916,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 47
+    },
+    "videoTimeMs": 5938
+  },
+  {
+    "type": "resource-start",
+    "time": 5916,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "name": ".../images/badges/App_Store_Badge_EN.svg"
+    },
+    "videoTimeMs": 5938
+  },
+  {
+    "type": "resource-img",
+    "time": 5916,
+    "delta": 0,
+    "data": {
+      "name": ".../images/badges/App_Store_Badge_EN.svg",
+      "duration": 47,
+      "transferSize": 0,
+      "initiatorType": "img"
+    },
+    "videoTimeMs": 5938
+  },
+  {
+    "type": "resource-complete",
+    "time": 5916,
+    "delta": 0,
+    "data": {
+      "resourceType": "img",
+      "transferSize": 0,
+      "duration": 47
+    },
+    "videoTimeMs": 5938
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 6067,
+    "delta": 151,
+    "data": {
+      "nodesAdded": 183,
+      "textNodes": 91,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 6091
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 6173,
+    "delta": 106,
+    "data": {
+      "nodesAdded": 163,
+      "textNodes": 33,
+      "headingNodes": 1
+    },
+    "videoTimeMs": 6195
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 7985,
+    "delta": 1812,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 8007
+  },
+  {
+    "type": "resource-start",
+    "time": 8158,
+    "delta": 173,
+    "data": {
+      "resourceType": "script",
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B"
+    },
+    "videoTimeMs": 8181
+  },
+  {
+    "type": "resource-script",
+    "time": 8158,
+    "delta": 0,
+    "data": {
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B",
+      "duration": 211,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 8181
+  },
+  {
+    "type": "resource-complete",
+    "time": 8158,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 211
+    },
+    "videoTimeMs": 8181
+  },
+  {
+    "type": "resource-start",
+    "time": 8160,
+    "delta": 2,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/_bm/get_params?type=get-akid&v=gA+"
+    },
+    "videoTimeMs": 8196
+  },
+  {
+    "type": "resource-fetch",
+    "time": 8160,
+    "delta": 0,
+    "data": {
+      "name": "/_bm/get_params?type=get-akid&v=gA+",
+      "duration": 1,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 8196
+  },
+  {
+    "type": "resource-complete",
+    "time": 8160,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 1
+    },
+    "videoTimeMs": 8196
+  },
+  {
+    "type": "resource-start",
+    "time": 8218,
+    "delta": 58,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B"
+    },
+    "videoTimeMs": 8239
+  },
+  {
+    "type": "resource-fetch",
+    "time": 8218,
+    "delta": 0,
+    "data": {
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B",
+      "duration": 60,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 8240
+  },
+  {
+    "type": "resource-complete",
+    "time": 8218,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 60
+    },
+    "videoTimeMs": 8240
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 8272,
+    "delta": 54,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 8293
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 9269,
+    "delta": 997,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 9290
+  },
+  {
+    "type": "resource-start",
+    "time": 9290,
+    "delta": 21,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B"
+    },
+    "videoTimeMs": 9312
+  },
+  {
+    "type": "resource-fetch",
+    "time": 9290,
+    "delta": 0,
+    "data": {
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B",
+      "duration": 41,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 9312
+  },
+  {
+    "type": "resource-complete",
+    "time": 9290,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 41
+    },
+    "videoTimeMs": 9312
+  },
+  {
+    "type": "resource-start",
+    "time": 9290,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B"
+    },
+    "videoTimeMs": 9312
+  },
+  {
+    "type": "resource-fetch",
+    "time": 9290,
+    "delta": 0,
+    "data": {
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B",
+      "duration": 67,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 9312
+  },
+  {
+    "type": "resource-complete",
+    "time": 9290,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 67
+    },
+    "videoTimeMs": 9312
+  },
+  {
+    "type": "spa-navigate",
+    "time": 10265,
+    "delta": 975,
+    "data": {
+      "type": "replaceState",
+      "url": "http://localhost:3001/proxy?url=https%3A%2F%2Fmayoclinic.org&throttle=3g"
+    },
+    "videoTimeMs": 10289
+  },
+  {
+    "type": "dom-ready",
+    "time": 10267,
+    "delta": 2,
+    "data": {},
+    "videoTimeMs": 10317
+  },
+  {
+    "type": "above-fold-images-loaded",
+    "time": 10267,
+    "delta": 0,
+    "data": {
+      "count": 15
+    },
+    "videoTimeMs": 10317
+  },
+  {
+    "type": "resource-start",
+    "time": 10268,
+    "delta": 1,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10317
+  },
+  {
+    "type": "resource-script",
+    "time": 10268,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 9217,
+      "transferSize": 1117338,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10317
+  },
+  {
+    "type": "resource-complete",
+    "time": 10268,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 1117338,
+      "duration": 9217
+    },
+    "videoTimeMs": 10317
+  },
+  {
+    "type": "resource-start",
+    "time": 10310,
+    "delta": 42,
+    "data": {
+      "resourceType": "script",
+      "name": "...static/chunks/338.c3bc386a285fdac8.js"
+    },
+    "videoTimeMs": 10354
+  },
+  {
+    "type": "resource-script",
+    "time": 10310,
+    "delta": 0,
+    "data": {
+      "name": "...static/chunks/338.c3bc386a285fdac8.js",
+      "duration": 24,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10354
+  },
+  {
+    "type": "resource-complete",
+    "time": 10310,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 24
+    },
+    "videoTimeMs": 10354
+  },
+  {
+    "type": "resource-start",
+    "time": 10310,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "name": "...tatic/chunks/1508.30cb27dcf6ff94a8.js"
+    },
+    "videoTimeMs": 10354
+  },
+  {
+    "type": "resource-script",
+    "time": 10310,
+    "delta": 0,
+    "data": {
+      "name": "...tatic/chunks/1508.30cb27dcf6ff94a8.js",
+      "duration": 33,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10354
+  },
+  {
+    "type": "resource-complete",
+    "time": 10310,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 33
+    },
+    "videoTimeMs": 10354
+  },
+  {
+    "type": "resource-start",
+    "time": 10328,
+    "delta": 18,
+    "data": {
+      "resourceType": "script",
+      "name": "...tatic/chunks/6642.5288611e77103dcb.js"
+    },
+    "videoTimeMs": 10355
+  },
+  {
+    "type": "resource-script",
+    "time": 10328,
+    "delta": 0,
+    "data": {
+      "name": "...tatic/chunks/6642.5288611e77103dcb.js",
+      "duration": 35,
+      "transferSize": 0,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10355
+  },
+  {
+    "type": "resource-complete",
+    "time": 10328,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 0,
+      "duration": 35
+    },
+    "videoTimeMs": 10355
+  },
+  {
+    "type": "resource-start",
+    "time": 10330,
+    "delta": 2,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/assets/directory/icons.json"
+    },
+    "videoTimeMs": 10355
+  },
+  {
+    "type": "resource-fetch",
+    "time": 10330,
+    "delta": 0,
+    "data": {
+      "name": "/assets/directory/icons.json",
+      "duration": 1,
+      "transferSize": 466,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 10355
+  },
+  {
+    "type": "resource-complete",
+    "time": 10330,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 466,
+      "duration": 1
+    },
+    "videoTimeMs": 10355
+  },
+  {
+    "type": "resource-start",
+    "time": 10341,
+    "delta": 11,
+    "data": {
+      "resourceType": "css",
+      "name": "...ovation_possible-campaign_675x900.png"
+    },
+    "videoTimeMs": 10362
+  },
+  {
+    "type": "resource-css",
+    "time": 10341,
+    "delta": 0,
+    "data": {
+      "name": "...ovation_possible-campaign_675x900.png",
+      "duration": 23,
+      "transferSize": 0,
+      "initiatorType": "css"
+    },
+    "videoTimeMs": 10363
+  },
+  {
+    "type": "resource-complete",
+    "time": 10341,
+    "delta": 0,
+    "data": {
+      "resourceType": "css",
+      "transferSize": 0,
+      "duration": 23
+    },
+    "videoTimeMs": 10363
+  },
+  {
+    "type": "resource-start",
+    "time": 10356,
+    "delta": 15,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B"
+    },
+    "videoTimeMs": 10377
+  },
+  {
+    "type": "resource-fetch",
+    "time": 10356,
+    "delta": 0,
+    "data": {
+      "name": "...O2fuEO1V9fp/WV47agRFFAY/ehV5/bw42Wx8B",
+      "duration": 46,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 10377
+  },
+  {
+    "type": "resource-complete",
+    "time": 10356,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 46
+    },
+    "videoTimeMs": 10377
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 10366,
+    "delta": 10,
+    "data": {
+      "nodesAdded": 33,
+      "textNodes": 8,
+      "headingNodes": 1
+    },
+    "videoTimeMs": 10387
+  },
+  {
+    "type": "lcp",
+    "time": 10366,
+    "delta": 0,
+    "data": {
+      "startTime": 10364,
+      "size": 226188,
+      "element": "DIV"
+    },
+    "videoTimeMs": 10387
+  },
+  {
+    "type": "resource-start",
+    "time": 10368,
+    "delta": 2,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/sdk/goals/65801b740c1ee60f44aadf37"
+    },
+    "videoTimeMs": 10390
+  },
+  {
+    "type": "resource-fetch",
+    "time": 10368,
+    "delta": 0,
+    "data": {
+      "name": "/sdk/goals/65801b740c1ee60f44aadf37",
+      "duration": 73,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 10390
+  },
+  {
+    "type": "resource-complete",
+    "time": 10368,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 73
+    },
+    "videoTimeMs": 10390
+  },
+  {
+    "type": "resource-start",
+    "time": 10369,
+    "delta": 1,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "...kIjoidXNlciIsImtleSI6ImFub24tdXNlciJ9"
+    },
+    "videoTimeMs": 10391
+  },
+  {
+    "type": "resource-fetch",
+    "time": 10369,
+    "delta": 0,
+    "data": {
+      "name": "...kIjoidXNlciIsImtleSI6ImFub24tdXNlciJ9",
+      "duration": 72,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 10391
+  },
+  {
+    "type": "resource-complete",
+    "time": 10369,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 72
+    },
+    "videoTimeMs": 10391
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 10477,
+    "delta": 108,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 10498
+  },
+  {
+    "type": "resource-start",
+    "time": 10680,
+    "delta": 203,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fw"
+    },
+    "videoTimeMs": 10701
+  },
+  {
+    "type": "resource-script",
+    "time": 10680,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fw",
+      "duration": 381,
+      "transferSize": 1139,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 10701
+  },
+  {
+    "type": "resource-complete",
+    "time": 10680,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 1139,
+      "duration": 381
+    },
+    "videoTimeMs": 10701
+  },
+  {
+    "type": "resource-start",
+    "time": 10688,
+    "delta": 8,
+    "data": {
+      "resourceType": "video",
+      "name": "...1/ev/4/flavorId/1_hi0uvr0j/name/a.mp4"
+    },
+    "videoTimeMs": 10710
+  },
+  {
+    "type": "resource-media",
+    "time": 10688,
+    "delta": 0,
+    "data": {
+      "name": "...1/ev/4/flavorId/1_hi0uvr0j/name/a.mp4",
+      "duration": 361,
+      "transferSize": 300,
+      "initiatorType": "video"
+    },
+    "videoTimeMs": 10710
+  },
+  {
+    "type": "resource-complete",
+    "time": 10688,
+    "delta": 0,
+    "data": {
+      "resourceType": "video",
+      "transferSize": 300,
+      "duration": 361
+    },
+    "videoTimeMs": 10710
+  },
+  {
+    "type": "text-settled",
+    "time": 10867,
+    "delta": 179,
+    "data": {},
+    "videoTimeMs": 10889
+  },
+  {
+    "type": "resource-start",
+    "time": 11228,
+    "delta": 361,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 11270
+  },
+  {
+    "type": "resource-script",
+    "time": 11228,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 3052,
+      "transferSize": 377481,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 11270
+  },
+  {
+    "type": "resource-complete",
+    "time": 11228,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 377481,
+      "duration": 3052
+    },
+    "videoTimeMs": 11270
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 11347,
+    "delta": 119,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 11369
+  },
+  {
+    "type": "resource-start",
+    "time": 11508,
+    "delta": 161,
+    "data": {
+      "resourceType": "link",
+      "name": "/proxy-resource?url=https%3A%2F%2Fa"
+    },
+    "videoTimeMs": 11530
+  },
+  {
+    "type": "resource-css",
+    "time": 11508,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Fa",
+      "duration": 260,
+      "transferSize": 19585,
+      "initiatorType": "link"
+    },
+    "videoTimeMs": 11530
+  },
+  {
+    "type": "resource-complete",
+    "time": 11508,
+    "delta": 0,
+    "data": {
+      "resourceType": "link",
+      "transferSize": 19585,
+      "duration": 260
+    },
+    "videoTimeMs": 11530
+  },
+  {
+    "type": "resource-start",
+    "time": 11536,
+    "delta": 28,
+    "data": {
+      "resourceType": "fetch",
+      "name": "/proxy-resource?url=https%3A%2F%2Ft"
+    },
+    "videoTimeMs": 11559
+  },
+  {
+    "type": "resource-fetch",
+    "time": 11536,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=https%3A%2F%2Ft",
+      "duration": 287,
+      "transferSize": 13444,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 11559
+  },
+  {
+    "type": "resource-complete",
+    "time": 11536,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 13444,
+      "duration": 287
+    },
+    "videoTimeMs": 11559
+  },
+  {
+    "type": "resource-start",
+    "time": 11902,
+    "delta": 366,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 11944
+  },
+  {
+    "type": "resource-script",
+    "time": 11903,
+    "delta": 1,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 1602,
+      "transferSize": 181361,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 11944
+  },
+  {
+    "type": "resource-complete",
+    "time": 11903,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 181361,
+      "duration": 1602
+    },
+    "videoTimeMs": 11945
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 12030,
+    "delta": 127,
+    "data": {
+      "nodesAdded": 7,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 12052
+  },
+  {
+    "type": "resource-start",
+    "time": 12331,
+    "delta": 301,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fne"
+    },
+    "videoTimeMs": 12372
+  },
+  {
+    "type": "resource-script",
+    "time": 12331,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fne",
+      "duration": 1958,
+      "transferSize": 326423,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 12373
+  },
+  {
+    "type": "resource-complete",
+    "time": 12331,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 326423,
+      "duration": 1958
+    },
+    "videoTimeMs": 12373
+  },
+  {
+    "type": "resource-start",
+    "time": 12352,
+    "delta": 21,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 12373
+  },
+  {
+    "type": "resource-script",
+    "time": 12352,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 418,
+      "transferSize": 2591,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 12373
+  },
+  {
+    "type": "resource-complete",
+    "time": 12352,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 2591,
+      "duration": 418
+    },
+    "videoTimeMs": 12373
+  },
+  {
+    "type": "resource-start",
+    "time": 12438,
+    "delta": 86,
+    "data": {
+      "resourceType": "fetch",
+      "name": "...c/clinic_aem_prod/serverComponent.php"
+    },
+    "videoTimeMs": 12459
+  },
+  {
+    "type": "resource-fetch",
+    "time": 12438,
+    "delta": 0,
+    "data": {
+      "name": "...c/clinic_aem_prod/serverComponent.php",
+      "duration": 86,
+      "transferSize": 0,
+      "initiatorType": "fetch"
+    },
+    "videoTimeMs": 12459
+  },
+  {
+    "type": "resource-complete",
+    "time": 12438,
+    "delta": 0,
+    "data": {
+      "resourceType": "fetch",
+      "transferSize": 0,
+      "duration": 86
+    },
+    "videoTimeMs": 12459
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 12541,
+    "delta": 103,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 12563
+  },
+  {
+    "type": "resource-start",
+    "time": 12556,
+    "delta": 15,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 12578
+  },
+  {
+    "type": "resource-script",
+    "time": 12556,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 624,
+      "transferSize": 4935,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 12579
+  },
+  {
+    "type": "resource-complete",
+    "time": 12556,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 4935,
+      "duration": 624
+    },
+    "videoTimeMs": 12579
+  },
+  {
+    "type": "resource-start",
+    "time": 12572,
+    "delta": 16,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 12595
+  },
+  {
+    "type": "resource-script",
+    "time": 12572,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 641,
+      "transferSize": 4071,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 12595
+  },
+  {
+    "type": "resource-complete",
+    "time": 12572,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 4071,
+      "duration": 641
+    },
+    "videoTimeMs": 12595
+  },
+  {
+    "type": "resource-start",
+    "time": 12869,
+    "delta": 297,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 12891
+  },
+  {
+    "type": "resource-script",
+    "time": 12869,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 938,
+      "transferSize": 2970,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 12891
+  },
+  {
+    "type": "resource-complete",
+    "time": 12869,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 2970,
+      "duration": 938
+    },
+    "videoTimeMs": 12891
+  },
+  {
+    "type": "resource-start",
+    "time": 12898,
+    "delta": 29,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fne"
+    },
+    "videoTimeMs": 12921
+  },
+  {
+    "type": "resource-script",
+    "time": 12898,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fne",
+      "duration": 460,
+      "transferSize": 23403,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 12921
+  },
+  {
+    "type": "resource-complete",
+    "time": 12898,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 23403,
+      "duration": 460
+    },
+    "videoTimeMs": 12921
+  },
+  {
+    "type": "resource-start",
+    "time": 12911,
+    "delta": 13,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 12933
+  },
+  {
+    "type": "resource-script",
+    "time": 12911,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 980,
+      "transferSize": 3007,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 12933
+  },
+  {
+    "type": "resource-complete",
+    "time": 12911,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 3007,
+      "duration": 980
+    },
+    "videoTimeMs": 12933
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 13005,
+    "delta": 94,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 1,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 13027
+  },
+  {
+    "type": "resource-start",
+    "time": 13303,
+    "delta": 298,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 13327
+  },
+  {
+    "type": "resource-script",
+    "time": 13303,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 1372,
+      "transferSize": 56349,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 13327
+  },
+  {
+    "type": "resource-complete",
+    "time": 13303,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 56349,
+      "duration": 1372
+    },
+    "videoTimeMs": 13327
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 13407,
+    "delta": 104,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 13429
+  },
+  {
+    "type": "resource-start",
+    "time": 13858,
+    "delta": 451,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fta"
+    },
+    "videoTimeMs": 13881
+  },
+  {
+    "type": "resource-script",
+    "time": 13858,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fta",
+      "duration": 552,
+      "transferSize": 302,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 13881
+  },
+  {
+    "type": "resource-complete",
+    "time": 13858,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 302,
+      "duration": 552
+    },
+    "videoTimeMs": 13881
+  },
+  {
+    "type": "resource-start",
+    "time": 13899,
+    "delta": 41,
+    "data": {
+      "resourceType": "script",
+      "name": "/proxy-resource?url=http%3A%2F%2Fxi"
+    },
+    "videoTimeMs": 13942
+  },
+  {
+    "type": "resource-script",
+    "time": 13899,
+    "delta": 0,
+    "data": {
+      "name": "/proxy-resource?url=http%3A%2F%2Fxi",
+      "duration": 1974,
+      "transferSize": 317498,
+      "initiatorType": "script"
+    },
+    "videoTimeMs": 13943
+  },
+  {
+    "type": "resource-complete",
+    "time": 13899,
+    "delta": 0,
+    "data": {
+      "resourceType": "script",
+      "transferSize": 317498,
+      "duration": 1974
+    },
+    "videoTimeMs": 13943
+  },
+  {
+    "type": "nav-fetch-start",
+    "time": 0.2999999523162842,
+    "delta": -13898.700000047684,
+    "data": {
+      "value": 0
+    },
+    "videoTimeMs": 13948
+  },
+  {
+    "type": "nav-response-start",
+    "time": 1014,
+    "delta": 1013.7000000476837,
+    "data": {},
+    "videoTimeMs": 13948
+  },
+  {
+    "type": "nav-response-end",
+    "time": 7883.099999904633,
+    "delta": 6869.099999904633,
+    "data": {},
+    "videoTimeMs": 13948
+  },
+  {
+    "type": "progress-update",
+    "time": 13923,
+    "delta": 6039.900000095367,
+    "data": {
+      "value": 100,
+      "delta": 10
+    },
+    "videoTimeMs": 13948
+  },
+  {
+    "type": "progress-complete",
+    "time": 13923,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 13948
+  },
+  {
+    "type": "window-load",
+    "time": 13923,
+    "delta": 0,
+    "data": {},
+    "videoTimeMs": 13948
+  },
+  {
+    "type": "resource-start",
+    "time": 13929,
+    "delta": 6,
+    "data": {
+      "resourceType": "other",
+      "name": "/assets/images/favicon.png"
+    },
+    "videoTimeMs": 13950
+  },
+  {
+    "type": "resource-other",
+    "time": 13929,
+    "delta": 0,
+    "data": {
+      "name": "/assets/images/favicon.png",
+      "duration": 1,
+      "transferSize": 464,
+      "initiatorType": "other"
+    },
+    "videoTimeMs": 13950
+  },
+  {
+    "type": "resource-complete",
+    "time": 13929,
+    "delta": 0,
+    "data": {
+      "resourceType": "other",
+      "transferSize": 464,
+      "duration": 1
+    },
+    "videoTimeMs": 13950
+  },
+  {
+    "type": "mutation-nodes",
+    "time": 14269,
+    "delta": 340,
+    "data": {
+      "nodesAdded": 1,
+      "textNodes": 0,
+      "headingNodes": 0
+    },
+    "videoTimeMs": 14291
+  },
+  {
+    "type": "resource-start",
+    "time": 14396,
+    "delta": 127,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "...s/diagnostic/65801b740c1ee60f44aadf37"
+    },
+    "videoTimeMs": 14418
+  },
+  {
+    "type": "resource-fetch",
+    "time": 14397,
+    "delta": 1,
+    "data": {
+      "name": "...s/diagnostic/65801b740c1ee60f44aadf37",
+      "duration": 472,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 14418
+  },
+  {
+    "type": "resource-complete",
+    "time": 14397,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 472
+    },
+    "videoTimeMs": 14418
+  },
+  {
+    "type": "resource-start",
+    "time": 14459,
+    "delta": 62,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/geolocation"
+    },
+    "videoTimeMs": 14481
+  },
+  {
+    "type": "resource-fetch",
+    "time": 14459,
+    "delta": 0,
+    "data": {
+      "name": "/geolocation",
+      "duration": 542,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 14481
+  },
+  {
+    "type": "resource-complete",
+    "time": 14459,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 542
+    },
+    "videoTimeMs": 14481
+  },
+  {
+    "type": "resource-start",
+    "time": 14460,
+    "delta": 1,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/visit/visitor?siteCode=xih9lsprjt"
+    },
+    "videoTimeMs": 14481
+  },
+  {
+    "type": "resource-fetch",
+    "time": 14460,
+    "delta": 0,
+    "data": {
+      "name": "/visit/visitor?siteCode=xih9lsprjt",
+      "duration": 544,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 14482
+  },
+  {
+    "type": "resource-complete",
+    "time": 14460,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 544
+    },
+    "videoTimeMs": 14482
+  },
+  {
+    "type": "resource-start",
+    "time": 14584,
+    "delta": 124,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/visit/events?siteCode=xih9lsprjt"
+    },
+    "videoTimeMs": 14607
+  },
+  {
+    "type": "resource-fetch",
+    "time": 14584,
+    "delta": 0,
+    "data": {
+      "name": "/visit/events?siteCode=xih9lsprjt",
+      "duration": 168,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 14608
+  },
+  {
+    "type": "resource-complete",
+    "time": 14584,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 168
+    },
+    "videoTimeMs": 14608
+  },
+  {
+    "type": "resource-start",
+    "time": 15084,
+    "delta": 500,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/visit/events?siteCode=xih9lsprjt"
+    },
+    "videoTimeMs": 15106
+  },
+  {
+    "type": "resource-fetch",
+    "time": 15085,
+    "delta": 1,
+    "data": {
+      "name": "/visit/events?siteCode=xih9lsprjt",
+      "duration": 169,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 15107
+  },
+  {
+    "type": "resource-complete",
+    "time": 15085,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 169
+    },
+    "videoTimeMs": 15107
+  },
+  {
+    "type": "resource-start",
+    "time": 16141,
+    "delta": 1056,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "name": "/events/bulk/65801b740c1ee60f44aadf37"
+    },
+    "videoTimeMs": 16162
+  },
+  {
+    "type": "resource-fetch",
+    "time": 16141,
+    "delta": 0,
+    "data": {
+      "name": "/events/bulk/65801b740c1ee60f44aadf37",
+      "duration": 216,
+      "transferSize": 0,
+      "initiatorType": "xmlhttprequest"
+    },
+    "videoTimeMs": 16163
+  },
+  {
+    "type": "resource-complete",
+    "time": 16141,
+    "delta": 0,
+    "data": {
+      "resourceType": "xmlhttprequest",
+      "transferSize": 0,
+      "duration": 216
+    },
+    "videoTimeMs": 16163
+  }
+]

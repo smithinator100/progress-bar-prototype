@@ -88,7 +88,7 @@
   let resourcesCompleted = 0;
   let lastEmittedProgress = 0;
   let progressPollingActive = false;
-  let progressRafId = null;
+  let progressIntervalId = null;
   const progressStartTime = performance.now();
 
   // Mutation batching state
@@ -265,21 +265,19 @@
       });
       lastEmittedProgress = progress;
     }
-
-    progressRafId = requestAnimationFrame(tickProgress);
   }
 
   function startProgressPolling() {
     progressPollingActive = true;
     lastEmittedProgress = 0;
-    tickProgress();
+    progressIntervalId = setInterval(tickProgress, 16);
   }
 
   function stopProgressPolling() {
     progressPollingActive = false;
-    if (progressRafId) {
-      cancelAnimationFrame(progressRafId);
-      progressRafId = null;
+    if (progressIntervalId) {
+      clearInterval(progressIntervalId);
+      progressIntervalId = null;
     }
   }
 

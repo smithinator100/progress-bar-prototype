@@ -9,9 +9,29 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Roboto+Condensed:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
+  <style>
+    .progress-bar .banding-band {
+      display: none;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      background: var(--banding-color, #F5FBFE);
+      opacity: var(--banding-opacity, 0.35);
+      pointer-events: none;
+    }
+    .progress-bar.banding {
+      position: relative;
+      overflow: hidden;
+    }
+    .progress-bar.banding .banding-band {
+      display: block;
+    }
+  </style>
   <div class="app">
     <!-- Control Bar -->
     <header class="control-bar">
+      <a href="browser-preview.html" class="btn btn-secondary" style="text-decoration: none; margin-right: 8px;">Browser Preview</a>
       <div class="url-input-group">
         <div class="url-combobox" id="url-combobox">
           <input
@@ -110,6 +130,13 @@
           <option value="slow-3g">Slow 3G (400ms / 400Kbps)</option>
         </select>
       </div>
+      <div class="control-group">
+        <label for="fake-data-toggle">Captured data</label>
+        <label class="param-toggle">
+          <input type="checkbox" id="fake-data-toggle">
+          <span class="param-toggle-track"></span>
+        </label>
+      </div>
       <button id="clear-btn" class="btn btn-secondary">Clear</button>
     </header>
 
@@ -149,35 +176,42 @@
                 </div>
                 <!-- Android URL Bar -->
                 <div class="android-url-bar">
-                  <div class="url-bar-input">
-                    <div class="url-bar-site-status">
-                      <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                  <div class="url-bar-row">
+                    <div class="url-bar-input-wrap">
+                      <div class="url-bar-input">
+                        <div class="url-bar-site-status">
+                          <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                        </div>
+                        <span class="url-bar-text" id="android-url-text-ddg">Search</span>
+                        <div class="url-bar-icon-btn" aria-label="AI Chat">
+                          <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                        </div>
+                      </div>
+                      <div class="progress-bar-container">
+                        <div class="progress-bar" id="progress-bar-ddg"></div>
+                      </div>
                     </div>
-                    <span class="url-bar-text" id="android-url-text-ddg">Search</span>
-                    <div class="url-bar-icon-btn" aria-label="AI Chat">
-                      <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                    <div class="url-bar-toolbar">
+                      <button class="url-bar-icon-btn" aria-label="Fireproof">
+                        <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="Tabs">
+                        <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="More options">
+                        <img src="img/more-menu.svg" width="40" height="40" alt="More options">
+                      </button>
                     </div>
-                    <div class="progress-bar-container">
-                      <div class="progress-bar" id="progress-bar-ddg"></div>
-                    </div>
-                  </div>
-                  <div class="url-bar-toolbar">
-                    <button class="url-bar-icon-btn" aria-label="Fireproof">
-                      <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="Tabs">
-                      <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="More options">
-                      <img src="img/more-menu.svg" width="40" height="40" alt="More options">
-                    </button>
                   </div>
                 </div>
-                <iframe
-                  id="page-iframe-ddg"
-                  class="page-iframe"
-                  sandbox="allow-scripts allow-same-origin allow-forms"
-                ></iframe>
+                <div class="iframe-wrap">
+                  <iframe
+                    id="page-iframe-ddg"
+                    class="page-iframe"
+                    sandbox="allow-scripts allow-same-origin allow-forms"
+                  ></iframe>
+                  <img class="capture-screenshot" id="capture-screenshot-ddg" hidden>
+                </div>
               </div>
             </div>
           </div>
@@ -208,35 +242,45 @@
                 </div>
                 <!-- Android URL Bar -->
                 <div class="android-url-bar">
-                  <div class="url-bar-input">
-                    <div class="url-bar-site-status">
-                      <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                  <div class="url-bar-row">
+                    <div class="url-bar-input-wrap">
+                      <div class="url-bar-input">
+                        <div class="url-bar-site-status">
+                          <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                        </div>
+                        <span class="url-bar-text" id="android-url-text-improved">Search</span>
+                        <div class="url-bar-icon-btn" aria-label="AI Chat">
+                          <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                        </div>
+                      </div>
+                      <div class="progress-bar-container">
+                        <div class="progress-bar" id="progress-bar-improved">
+                          <span class="banding-band"></span>
+                          <span class="banding-band banding-band-2"></span>
+                        </div>
+                      </div>
                     </div>
-                    <span class="url-bar-text" id="android-url-text-improved">Search</span>
-                    <div class="url-bar-icon-btn" aria-label="AI Chat">
-                      <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                    <div class="url-bar-toolbar">
+                      <button class="url-bar-icon-btn" aria-label="Fireproof">
+                        <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="Tabs">
+                        <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="More options">
+                        <img src="img/more-menu.svg" width="40" height="40" alt="More options">
+                      </button>
                     </div>
-                    <div class="progress-bar-container">
-                      <div class="progress-bar" id="progress-bar-improved"></div>
-                    </div>
-                  </div>
-                  <div class="url-bar-toolbar">
-                    <button class="url-bar-icon-btn" aria-label="Fireproof">
-                      <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="Tabs">
-                      <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="More options">
-                      <img src="img/more-menu.svg" width="40" height="40" alt="More options">
-                    </button>
                   </div>
                 </div>
-                <iframe
-                  id="page-iframe-improved"
-                  class="page-iframe"
-                  sandbox="allow-scripts allow-same-origin allow-forms"
-                ></iframe>
+                <div class="iframe-wrap">
+                  <iframe
+                    id="page-iframe-improved"
+                    class="page-iframe"
+                    sandbox="allow-scripts allow-same-origin allow-forms"
+                  ></iframe>
+                  <img class="capture-screenshot" id="capture-screenshot-improved" hidden>
+                </div>
               </div>
             </div>
           </div>
@@ -252,28 +296,30 @@
       <!-- Right Panel: Tabbed Event Sidebar -->
       <section class="event-panel">
         <div class="event-panel-tabs">
-          <button class="tab-btn" data-tab="parameters">Parameters</button>
-          <button class="tab-btn active" data-tab="event-stream">Event Stream</button>
+          <button class="tab-btn active" data-tab="parameters">Parameters</button>
+          <button class="tab-btn" data-tab="event-stream">Event Stream</button>
         </div>
 
-        <div class="tab-content" id="tab-parameters">
+        <div class="tab-content active" id="tab-parameters">
           <div class="params-form">
 
-            <!-- Bar color -->
+            <!-- Bar style -->
             <div class="param-row">
-              <label class="param-label" for="param-bar-color">Bar color</label>
-              <input type="color" id="param-bar-color" class="param-color" value="#4a9eff">
+              <label class="param-label" for="param-bar-style">Bar style</label>
+              <select id="param-bar-style" class="param-select">
+                <option value="">-- Select style --</option>
+              </select>
             </div>
 
             <!-- Percentage at Webview Load -->
             <div class="param-row">
               <label class="param-label" for="param-webview-pct">Percentage at Webview Load</label>
               <select id="param-webview-pct" class="param-select">
-                <option value="0">0%</option>
+                <option value="5">5%</option>
+                <option value="10" selected>10%</option>
+                <option value="15">15%</option>
                 <option value="25">25%</option>
-                <option value="50" selected>50%</option>
-                <option value="75">75%</option>
-                <option value="100">100%</option>
+                <option value="50">50%</option>
               </select>
             </div>
 
@@ -364,7 +410,7 @@
           </div>
         </div>
 
-        <div class="tab-content active" id="tab-event-stream">
+        <div class="tab-content" id="tab-event-stream">
           <div class="event-panel-header">
             <div class="event-density" id="event-density"></div>
           </div>
@@ -402,15 +448,19 @@
   <script src="event-timeline.js"></script>
   <script src="progress-bar.js"></script>
   <script src="progress-bar-raw.js"></script>
+  <script src="capture-player.js"></script>
   <script>
     (function() {
       const urlInput = document.getElementById('url-input');
       const goBtn = document.getElementById('go-btn');
       const clearBtn = document.getElementById('clear-btn');
       const speedSelect = document.getElementById('speed-select');
+      const fakeDataToggle = document.getElementById('fake-data-toggle');
 
       const pageIframeDDG = document.getElementById('page-iframe-ddg');
       const pageIframeImproved = document.getElementById('page-iframe-improved');
+      const captureScreenshotDDG = document.getElementById('capture-screenshot-ddg');
+      const captureScreenshotImproved = document.getElementById('capture-screenshot-improved');
 
       const progressBarElDDG = document.getElementById('progress-bar-ddg');
       const progressBarElImproved = document.getElementById('progress-bar-improved');
@@ -422,13 +472,19 @@
       const eventBus = new EventBus();
       const eventPanel = new EventPanel('event-list', 'event-density');
       const eventTimeline = new EventTimeline('event-timeline');
+      const capturePlayer = new CapturePlayer();
+
+      let loadStartTime = 0;
 
       function ddgLifecycleCallback(type, data) {
-        eventBus.emit({ type, time: performance.now(), data: data || {} });
+        eventBus.emit({ type, time: performance.now() - loadStartTime, data: data || {} });
       }
 
       const progressBarDDG = new RawModeProgressBar(progressBarElDDG, ddgLifecycleCallback);
-      const progressBarImproved = new ProgressBar(progressBarElImproved);
+      const webviewPctSelect = document.getElementById('param-webview-pct');
+      const progressBarImproved = new ProgressBar(progressBarElImproved, {
+        getInitialProgress: () => parseInt(webviewPctSelect?.value, 10) || 10
+      });
 
       // Stall timers
       let stallTimerDDG = null;
@@ -474,6 +530,29 @@
         androidUrlTextImproved.textContent = text;
       }
 
+      function hideScreenshots() {
+        captureScreenshotDDG.hidden = true;
+        captureScreenshotDDG.removeAttribute('src');
+        captureScreenshotImproved.hidden = true;
+        captureScreenshotImproved.removeAttribute('src');
+        pageIframeDDG.hidden = false;
+        pageIframeImproved.hidden = false;
+      }
+
+      function showScreenshot(src) {
+        pageIframeDDG.hidden = true;
+        pageIframeImproved.hidden = true;
+        captureScreenshotDDG.src = src;
+        captureScreenshotDDG.hidden = false;
+        captureScreenshotImproved.src = src;
+        captureScreenshotImproved.hidden = false;
+      }
+
+      // Disable speed selector when captured data mode is active
+      fakeDataToggle.addEventListener('change', () => {
+        speedSelect.disabled = fakeDataToggle.checked;
+      });
+
       function loadUrl() {
         let url = urlInput.value.trim();
         if (!url) return;
@@ -483,29 +562,70 @@
           urlInput.value = url;
         }
 
+        let hostname = '';
         try {
           const parsed = new URL(url);
-          setUrlBarText(parsed.hostname + (parsed.pathname !== '/' ? parsed.pathname : ''));
+          hostname = parsed.hostname;
+          setUrlBarText(hostname + (parsed.pathname !== '/' ? parsed.pathname : ''));
         } catch {
           setUrlBarText(url);
         }
 
-        const throttle = speedSelect.value;
-
+        // Common reset
+        capturePlayer.stop();
+        hideScreenshots();
         eventPanel.clear();
         eventTimeline.clear();
         progressBarDDG.reset();
         progressBarImproved.reset();
+        loadStartTime = performance.now();
         progressBarDDG.start();
         progressBarImproved.start();
-
         eventBus.emit({ type: 'iframe-load-start', time: 0, data: { url } });
 
-        resetStallTimers();
+        if (fakeDataToggle.checked && hostname) {
+          loadCapturedData(hostname);
+        } else {
+          loadLive(url);
+        }
+      }
 
+      function loadLive(url) {
+        const throttle = speedSelect.value;
+        resetStallTimers();
         const proxyUrl = `/proxy?url=${encodeURIComponent(url)}&throttle=${throttle}`;
         pageIframeDDG.src = proxyUrl;
         pageIframeImproved.src = proxyUrl;
+      }
+
+      async function loadCapturedData(hostname) {
+        const hasData = await capturePlayer.hasCapture(hostname);
+        if (!hasData) {
+          alert(`No captured data for "${hostname}". Falling back to live mode.`);
+          fakeDataToggle.checked = false;
+          speedSelect.disabled = false;
+          loadLive('https://' + hostname);
+          return;
+        }
+
+        pageIframeDDG.src = 'about:blank';
+        pageIframeImproved.src = 'about:blank';
+
+        capturePlayer.play(hostname, {
+          onEvent(evt) {
+            eventBus.emit({ type: evt.type, time: evt.time, delta: evt.delta, data: evt.data });
+
+            if (evt.screenshotFile) {
+              showScreenshot(evt.screenshotFile);
+            }
+
+            if (evt.type === 'window-load') {
+              clearStallTimers();
+              if (!progressBarDDG.isComplete) progressBarDDG.complete();
+              if (!progressBarImproved.isComplete) progressBarImproved.complete();
+            }
+          },
+        });
       }
 
       // URL combobox dropdown
@@ -573,7 +693,9 @@
       urlInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') loadUrl(); });
 
       clearBtn.addEventListener('click', () => {
+        capturePlayer.stop();
         clearStallTimers();
+        hideScreenshots();
         eventPanel.clear();
         eventTimeline.clear();
         progressBarDDG.reset();
@@ -603,7 +725,6 @@
         }
 
         if (fromImproved) {
-          // Improved iframe drives the event panel, timeline, and both completions
           eventBus.emit(e.data.event);
           if (e.data.event.type === 'window-load') {
             if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
@@ -617,15 +738,14 @@
         }
       });
 
-      // Iframe load fallback — only the Improved iframe's load event completes
-      // both bars, keeping them in lockstep even when postMessage events don't fire.
       pageIframeDDG.addEventListener('load', () => {
+        if (fakeDataToggle.checked) return;
         if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
-        // Completion is driven by the Improved iframe; don't call complete() here.
       });
 
       pageIframeImproved.addEventListener('load', () => {
-        eventBus.emit({ type: 'iframe-load-end', time: performance.now(), data: {} });
+        if (fakeDataToggle.checked) return;
+        eventBus.emit({ type: 'iframe-load-end', time: performance.now() - loadStartTime, data: {} });
         if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
         if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
         if (!progressBarDDG.isComplete) progressBarDDG.complete();
@@ -717,6 +837,159 @@
       stiffnessSlider.addEventListener('input', () => {
         stiffnessVal.textContent = stiffnessSlider.value;
       });
+    })();
+  </script>
+  <script>
+    (function() {
+      const progressBarImproved = document.getElementById('progress-bar-improved');
+      const progressBarContainer = progressBarImproved?.closest('.progress-bar-container');
+      const barStyleSelect = document.getElementById('param-bar-style');
+
+      const PRESETS_KEY = 'progressBarPresets';
+      const DEFAULT_KEY = 'progressBarDefaultPreset';
+
+      const BANDING_CURVE_MAP = {
+        linear: 'linear',
+        easeOut: 'cubic-bezier(0, 0, 0.2, 1)',
+        easeOutQuad: 'cubic-bezier(0.25, 0.46, 0.45, 0.94)',
+        easeOutCubic: 'cubic-bezier(0.33, 1, 0.68, 1)',
+        easeOutQuint: 'cubic-bezier(0.22, 1, 0.36, 1)',
+        easeInOutQuad: 'cubic-bezier(0.455, 0, 0.55, 1)',
+        easeInOutCubic: 'cubic-bezier(0.65, 0, 0.35, 1)',
+        easeInOutQuint: 'cubic-bezier(0.86, 0, 0.07, 1)'
+      };
+
+      function getPresets() {
+        try {
+          return JSON.parse(localStorage.getItem(PRESETS_KEY)) || {};
+        } catch { return {}; }
+      }
+
+      function getDefaultPresetName() {
+        return localStorage.getItem(DEFAULT_KEY) || '';
+      }
+
+      function populateStyleDropdown() {
+        const presets = getPresets();
+        const defaultName = getDefaultPresetName();
+        barStyleSelect.innerHTML = '<option value="">-- Select style --</option>';
+        Object.keys(presets).sort().forEach(name => {
+          const opt = document.createElement('option');
+          opt.value = name;
+          opt.textContent = name + (name === defaultName ? ' ★' : '');
+          barStyleSelect.appendChild(opt);
+        });
+
+        if (Object.keys(presets).length === 0) {
+          const emptyOpt = document.createElement('option');
+          emptyOpt.value = '';
+          emptyOpt.textContent = 'No presets saved';
+          emptyOpt.disabled = true;
+          barStyleSelect.appendChild(emptyOpt);
+        }
+      }
+
+      let bandingStyleEl = null;
+
+      function applyPreset(preset) {
+        if (!preset || !progressBarImproved) return;
+
+        // Apply height
+        if (progressBarContainer && preset.height) {
+          progressBarContainer.style.height = preset.height + 'px';
+        }
+
+        // Reset animations
+        progressBarImproved.style.animation = '';
+        progressBarImproved.style.backgroundSize = '';
+        progressBarImproved.style.backgroundPosition = '';
+
+        // Apply color
+        if (preset.colorType === 'linear' && preset.colorStops && preset.colorStops.length > 0) {
+          const sorted = [...preset.colorStops].sort((a, b) => a.pct - b.pct);
+          const parts = sorted.map(s => `${s.hex} ${s.pct}%`);
+
+          if (preset.gradientAnimate) {
+            const scaledParts = sorted.map(s => `${s.hex} ${s.pct / 2}%`);
+            const repeatParts = sorted.map(s => `${s.hex} ${50 + s.pct / 2}%`);
+            const duration = parseFloat(preset.gradientSpeed) || 2.5;
+            const gradient = `linear-gradient(to right, ${scaledParts.join(', ')}, ${repeatParts.join(', ')})`;
+            progressBarImproved.style.background = gradient;
+            progressBarImproved.style.backgroundSize = '200% 100%';
+            progressBarImproved.style.animation = `gradient-shift ${duration}s ease-in-out infinite`;
+          } else {
+            progressBarImproved.style.background = `linear-gradient(to right, ${parts.join(', ')})`;
+          }
+        } else {
+          progressBarImproved.style.background = preset.solidColor || '#3969EF';
+        }
+
+        // Apply banding
+        if (preset.banding) {
+          progressBarImproved.classList.add('banding');
+          applyBandingStyle(preset);
+        } else {
+          progressBarImproved.classList.remove('banding');
+        }
+      }
+
+      function applyBandingStyle(preset) {
+        const duration = parseFloat(preset.bandingSpeed) || 2;
+        const opacity = (parseInt(preset.bandingOpacity, 10) || 35) / 100;
+        const lengthStart = parseInt(preset.bandingLengthStart, 10) || 10;
+        const lengthEnd = parseInt(preset.bandingLengthEnd, 10) || 30;
+        const color = preset.bandingColor || '#F5FBFE';
+        const curve = BANDING_CURVE_MAP[preset.bandingCurve] || 'cubic-bezier(0, 0, 0.2, 1)';
+        const loopOffset = parseFloat(preset.bandingLoopOffset) || 0;
+
+        progressBarImproved.style.setProperty('--banding-color', color);
+        progressBarImproved.style.setProperty('--banding-opacity', String(opacity));
+
+        const band2Delay = (duration / 2) + loopOffset;
+
+        if (!bandingStyleEl) {
+          bandingStyleEl = document.createElement('style');
+          bandingStyleEl.id = 'banding-keyframes-compare';
+          document.head.appendChild(bandingStyleEl);
+        }
+        bandingStyleEl.textContent = `
+          @keyframes band-move-compare {
+            0% { left: -${lengthStart}%; width: ${lengthStart}%; }
+            100% { left: 100%; width: ${lengthEnd}%; }
+          }
+          #progress-bar-improved.banding .banding-band {
+            animation: band-move-compare ${duration}s ${curve} infinite;
+          }
+          #progress-bar-improved.banding .banding-band-2 {
+            animation: band-move-compare ${duration}s ${curve} infinite;
+            animation-delay: ${band2Delay}s;
+          }
+          @keyframes gradient-shift {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 100% 50%; }
+          }
+        `;
+      }
+
+      barStyleSelect?.addEventListener('change', () => {
+        const name = barStyleSelect.value;
+        if (!name) return;
+        const presets = getPresets();
+        if (presets[name]) {
+          applyPreset(presets[name]);
+        }
+      });
+
+      // Initialize dropdown and apply default preset on load
+      populateStyleDropdown();
+      const defaultName = getDefaultPresetName();
+      if (defaultName) {
+        const presets = getPresets();
+        if (presets[defaultName]) {
+          barStyleSelect.value = defaultName;
+          applyPreset(presets[defaultName]);
+        }
+      }
     })();
   </script>
 </body>

@@ -12,6 +12,7 @@
   <div class="app">
     <!-- Control Bar -->
     <header class="control-bar">
+      <a href="browser-preview.html" class="btn btn-secondary" style="text-decoration: none; margin-right: 8px;">Browser Preview</a>
       <div class="url-input-group">
         <div class="url-combobox" id="url-combobox">
           <input
@@ -150,28 +151,32 @@
                 </div>
                 <!-- Android URL Bar -->
                 <div class="android-url-bar">
-                  <div class="url-bar-input">
-                    <div class="url-bar-site-status">
-                      <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                  <div class="url-bar-row">
+                    <div class="url-bar-input-wrap">
+                      <div class="url-bar-input">
+                        <div class="url-bar-site-status">
+                          <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                        </div>
+                        <span class="url-bar-text" id="android-url-text-ddg">Search</span>
+                        <div class="url-bar-icon-btn" aria-label="AI Chat">
+                          <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                        </div>
+                      </div>
+                      <div class="progress-bar-container">
+                        <div class="progress-bar" id="progress-bar-ddg"></div>
+                      </div>
                     </div>
-                    <span class="url-bar-text" id="android-url-text-ddg">Search</span>
-                    <div class="url-bar-icon-btn" aria-label="AI Chat">
-                      <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                    <div class="url-bar-toolbar">
+                      <button class="url-bar-icon-btn" aria-label="Fireproof">
+                        <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="Tabs">
+                        <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="More options">
+                        <img src="img/more-menu.svg" width="40" height="40" alt="More options">
+                      </button>
                     </div>
-                    <div class="progress-bar-container">
-                      <div class="progress-bar" id="progress-bar-ddg"></div>
-                    </div>
-                  </div>
-                  <div class="url-bar-toolbar">
-                    <button class="url-bar-icon-btn" aria-label="Fireproof">
-                      <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="Tabs">
-                      <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="More options">
-                      <img src="img/more-menu.svg" width="40" height="40" alt="More options">
-                    </button>
                   </div>
                 </div>
                 <iframe
@@ -209,28 +214,32 @@
                 </div>
                 <!-- Android URL Bar -->
                 <div class="android-url-bar">
-                  <div class="url-bar-input">
-                    <div class="url-bar-site-status">
-                      <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                  <div class="url-bar-row">
+                    <div class="url-bar-input-wrap">
+                      <div class="url-bar-input">
+                        <div class="url-bar-site-status">
+                          <img src="img/shield.svg" width="40" height="40" alt="Site is secure">
+                        </div>
+                        <span class="url-bar-text" id="android-url-text-improved">Search</span>
+                        <div class="url-bar-icon-btn" aria-label="AI Chat">
+                          <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                        </div>
+                      </div>
+                      <div class="progress-bar-container">
+                        <div class="progress-bar" id="progress-bar-improved"></div>
+                      </div>
                     </div>
-                    <span class="url-bar-text" id="android-url-text-improved">Search</span>
-                    <div class="url-bar-icon-btn" aria-label="AI Chat">
-                      <img src="img/ai.svg" width="40" height="40" alt="AI Chat">
+                    <div class="url-bar-toolbar">
+                      <button class="url-bar-icon-btn" aria-label="Fireproof">
+                        <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="Tabs">
+                        <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
+                      </button>
+                      <button class="url-bar-icon-btn" aria-label="More options">
+                        <img src="img/more-menu.svg" width="40" height="40" alt="More options">
+                      </button>
                     </div>
-                    <div class="progress-bar-container">
-                      <div class="progress-bar" id="progress-bar-improved"></div>
-                    </div>
-                  </div>
-                  <div class="url-bar-toolbar">
-                    <button class="url-bar-icon-btn" aria-label="Fireproof">
-                      <img src="img/fire.svg" width="40" height="40" alt="Fireproof">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="Tabs">
-                      <img src="img/tabs.svg" width="40" height="40" alt="Tabs">
-                    </button>
-                    <button class="url-bar-icon-btn" aria-label="More options">
-                      <img src="img/more-menu.svg" width="40" height="40" alt="More options">
-                    </button>
                   </div>
                 </div>
                 <iframe
@@ -253,28 +262,49 @@
       <!-- Right Panel: Tabbed Event Sidebar -->
       <section class="event-panel">
         <div class="event-panel-tabs">
-          <button class="tab-btn" data-tab="parameters">Parameters</button>
-          <button class="tab-btn active" data-tab="event-stream">Event Stream</button>
+          <button class="tab-btn active" data-tab="parameters">Parameters</button>
+          <button class="tab-btn" data-tab="event-stream">Event Stream</button>
         </div>
 
-        <div class="tab-content" id="tab-parameters">
+        <div class="tab-content active" id="tab-parameters">
           <div class="params-form">
 
             <!-- Bar color -->
-            <div class="param-row">
-              <label class="param-label" for="param-bar-color">Bar color</label>
-              <input type="color" id="param-bar-color" class="param-color" value="#4a9eff">
+            <div class="param-row param-row-color">
+              <label class="param-label" for="param-bar-color-trigger">Bar color</label>
+              <div class="param-color-popover-wrap">
+                <button type="button" id="param-bar-color-trigger" class="param-color-trigger" aria-haspopup="true" aria-expanded="false" aria-label="Open bar color picker">
+                  <span class="param-color-swatch" id="param-bar-color-swatch" style="background-color: #4a9eff"></span>
+                  <span class="param-color-hex" id="param-bar-color-hex">#4a9eff</span>
+                </button>
+                <div id="bar-color-popover" class="color-picker-popover" hidden aria-labelledby="bar-color-popover-title">
+                  <div class="color-picker-popover-content">
+                    <h2 id="bar-color-popover-title" class="color-picker-popover-title">Bar color</h2>
+                    <div class="color-picker-row">
+                      <input type="color" id="param-bar-color-picker" class="color-picker-input" value="#4a9eff" aria-label="Color picker">
+                      <div class="color-picker-hex-wrap">
+                        <label for="param-bar-color-hex-input" class="color-picker-hex-label">Hex</label>
+                        <input type="text" id="param-bar-color-hex-input" class="color-picker-hex-input" value="#4a9eff" placeholder="#4a9eff" maxlength="9" aria-label="Hex color value">
+                      </div>
+                    </div>
+                    <div class="color-picker-actions">
+                      <button type="button" id="bar-color-modal-apply" class="btn btn-primary">Apply</button>
+                      <button type="button" id="bar-color-modal-cancel" class="btn btn-secondary">Cancel</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <!-- Percentage at Webview Load -->
             <div class="param-row">
               <label class="param-label" for="param-webview-pct">Percentage at Webview Load</label>
               <select id="param-webview-pct" class="param-select">
-                <option value="0">0%</option>
+                <option value="5">5%</option>
+                <option value="10" selected>10%</option>
+                <option value="15">15%</option>
                 <option value="25">25%</option>
-                <option value="50" selected>50%</option>
-                <option value="75">75%</option>
-                <option value="100">100%</option>
+                <option value="50">50%</option>
               </select>
             </div>
 
@@ -365,7 +395,7 @@
           </div>
         </div>
 
-        <div class="tab-content active" id="tab-event-stream">
+        <div class="tab-content" id="tab-event-stream">
           <div class="event-panel-header">
             <div class="event-density" id="event-density"></div>
           </div>
@@ -424,12 +454,17 @@
       const eventPanel = new EventPanel('event-list', 'event-density');
       const eventTimeline = new EventTimeline('event-timeline');
 
+      let loadStartTime = 0;
+
       function ddgLifecycleCallback(type, data) {
-        eventBus.emit({ type, time: performance.now(), data: data || {} });
+        eventBus.emit({ type, time: performance.now() - loadStartTime, data: data || {} });
       }
 
       const progressBarDDG = new RawModeProgressBar(progressBarElDDG, ddgLifecycleCallback);
-      const progressBarImproved = new ProgressBar(progressBarElImproved);
+      const webviewPctSelect = document.getElementById('param-webview-pct');
+      const progressBarImproved = new ProgressBar(progressBarElImproved, {
+        getInitialProgress: () => parseInt(webviewPctSelect?.value, 10) || 10
+      });
 
       // Stall timers
       let stallTimerDDG = null;
@@ -497,6 +532,7 @@
         eventTimeline.clear();
         progressBarDDG.reset();
         progressBarImproved.reset();
+        loadStartTime = performance.now();
         progressBarDDG.start();
         progressBarImproved.start();
 
@@ -577,6 +613,7 @@
         eventTimeline.clear();
         progressBarDDG.reset();
         progressBarImproved.reset();
+        loadStartTime = performance.now();
         progressBarDDG.start();
         progressBarImproved.start();
         eventBus.emit({ type: 'iframe-load-start', time: 0, data: { url: 'demo.html' } });
@@ -639,7 +676,7 @@
       });
 
       pageIframeImproved.addEventListener('load', () => {
-        eventBus.emit({ type: 'iframe-load-end', time: performance.now(), data: {} });
+        eventBus.emit({ type: 'iframe-load-end', time: performance.now() - loadStartTime, data: {} });
         if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
         if (!progressBarImproved.isComplete) progressBarImproved.complete();
       });
@@ -729,6 +766,100 @@
       stiffnessSlider.addEventListener('input', () => {
         stiffnessVal.textContent = stiffnessSlider.value;
       });
+    })();
+  </script>
+  <script>
+    (function() {
+      const progressBarImproved = document.getElementById('progress-bar-improved');
+      const barColorTrigger = document.getElementById('param-bar-color-trigger');
+      const barColorSwatch = document.getElementById('param-bar-color-swatch');
+      const barColorHexDisplay = document.getElementById('param-bar-color-hex');
+      const barColorPopover = document.getElementById('bar-color-popover');
+      const barColorPicker = document.getElementById('param-bar-color-picker');
+      const barColorHexInput = document.getElementById('param-bar-color-hex-input');
+      const barColorApply = document.getElementById('bar-color-modal-apply');
+      const barColorCancel = document.getElementById('bar-color-modal-cancel');
+
+      const HEX_REGEX = /^#?([0-9A-Fa-f]{3}|[0-9A-Fa-f]{6})$/;
+
+      function parseHex(hex) {
+        const normalized = hex.startsWith('#') ? hex : '#' + hex;
+        const m = normalized.match(HEX_REGEX);
+        if (!m) return null;
+        const digits = m[1];
+        let r, g, b;
+        if (digits.length === 3) {
+          r = parseInt(digits[0] + digits[0], 16);
+          g = parseInt(digits[1] + digits[1], 16);
+          b = parseInt(digits[2] + digits[2], 16);
+        } else {
+          r = parseInt(digits.slice(0, 2), 16);
+          g = parseInt(digits.slice(2, 4), 16);
+          b = parseInt(digits.slice(4, 6), 16);
+        }
+        return '#' + [r, g, b].map(x => x.toString(16).padStart(2, '0')).join('');
+      }
+
+      function applyBarColor(hex) {
+        const normalized = parseHex(hex) || hex;
+        progressBarImproved.style.backgroundColor = normalized;
+        barColorSwatch.style.backgroundColor = normalized;
+        barColorHexDisplay.textContent = normalized;
+      }
+
+      function openPopover() {
+        const current = barColorHexDisplay.textContent;
+        barColorPicker.value = current;
+        barColorHexInput.value = current;
+        barColorPopover.hidden = false;
+        barColorTrigger.setAttribute('aria-expanded', 'true');
+        barColorHexInput.focus();
+      }
+
+      function closePopover() {
+        barColorPopover.hidden = true;
+        barColorTrigger.setAttribute('aria-expanded', 'false');
+      }
+
+      barColorTrigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (barColorPopover.hidden) openPopover();
+        else closePopover();
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!barColorPopover.hidden && !barColorPopover.contains(e.target) && !barColorTrigger.contains(e.target)) {
+          closePopover();
+        }
+      });
+
+      barColorPicker.addEventListener('input', () => {
+        barColorHexInput.value = barColorPicker.value;
+      });
+
+      barColorHexInput.addEventListener('input', () => {
+        const hex = barColorHexInput.value.trim();
+        const parsed = parseHex(hex);
+        if (parsed) barColorPicker.value = parsed;
+      });
+
+      barColorApply.addEventListener('click', () => {
+        const hex = barColorHexInput.value.trim();
+        const normalized = parseHex(hex) || barColorPicker.value;
+        applyBarColor(normalized);
+        barColorPicker.value = normalized;
+        barColorHexInput.value = normalized;
+        closePopover();
+      });
+
+      barColorCancel.addEventListener('click', closePopover);
+
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && !barColorPopover.hidden) closePopover();
+      });
+
+      // Initialize DDG v2 bar color on load
+      applyBarColor('#4a9eff');
     })();
   </script>
 </body>

@@ -68,22 +68,6 @@ class EventPanel {
     }
 
     this.listElement.insertBefore(item, this.listElement.firstChild);
-
-    // Limit displayed events to prevent DOM bloat, but preserve milestone events
-    const maxEvents = 200;
-    while (this.listElement.children.length > maxEvents) {
-      let removed = false;
-      for (let i = this.listElement.children.length - 1; i >= 0; i--) {
-        const child = this.listElement.children[i];
-        const cat = child.dataset.category;
-        if (cat !== 'paint' && cat !== 'load') {
-          this.listElement.removeChild(child);
-          removed = true;
-          break;
-        }
-      }
-      if (!removed) break;
-    }
   }
 
   /**

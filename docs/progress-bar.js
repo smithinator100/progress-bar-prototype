@@ -2,11 +2,18 @@
  * Standard Progress Bar
  * A thin progress bar driven by weighted events.
  */
-const FIXED_PROGRESS = 50;
+const DEFAULT_INITIAL_PROGRESS = 10;
 
 class ProgressBar {
-  constructor(element) {
+  /**
+   * @param {HTMLElement} element
+   * @param {Object} [options]
+   * @param {Function} [options.getInitialProgress] - Returns 0-100, the percentage to animate to at start (same as DDG v1, but configurable)
+   */
+  constructor(element, options = {}) {
     this.element = element;
+    this.getInitialProgress = options.getInitialProgress || (() => DEFAULT_INITIAL_PROGRESS);
+    this.onCompleteCallback = options.onComplete || null;
     this.progress = 0;
     this.targetProgress = 0;
     this.isLoading = false;
@@ -23,7 +30,8 @@ class ProgressBar {
   }
 
   /**
-   * Start the progress bar (first onProgressChanged where progress > 0)
+   * Start the progress bar (first onProgressChanged where progress > 0).
+   * Same as DDG v1: bar at 0%, then animates to the configured percentage.
    */
   start() {
     this.reset();
@@ -31,7 +39,14 @@ class ProgressBar {
     this.element.classList.add('loading');
     this.element.classList.remove('complete', 'error');
     
-    this.targetProgress = FIXED_PROGRESS;
+    const initialProgress = Math.min(100, Math.max(0, this.getInitialProgress()));
+    this.targetProgress = initialProgress;
+    this.progress = 0;
+    
+    // Bar visible at 0%, animates to target (same as DDG v1)
+    this.element.style.opacity = '1';
+    this.element.style.width = '0%';
+    
     this.startAnimation();
   }
 
@@ -51,8 +66,9 @@ class ProgressBar {
     // Cap at 95% until complete - never reach 100% from events alone
     newProgress = Math.min(newProgress, 95);
     
-    // Clamp to FIXED_PROGRESS minimum
-    newProgress = Math.max(newProgress, FIXED_PROGRESS);
+    // Clamp to initial progress minimum (set at start)
+    const minProgress = Math.min(100, Math.max(0, this.getInitialProgress()));
+    newProgress = Math.max(newProgress, minProgress);
     
     // Only move forward
     if (newProgress > this.targetProgress) {
@@ -89,10 +105,44 @@ class ProgressBar {
           this.progress = 0;
           void this.element.offsetWidth; // force reflow to commit instant reset
           this.element.style.transition = '';
-          this.element.style.opacity = '1';
+          if (this.onCompleteCallback) {
+            this.onCompleteCallback();
+          } else {
+            this.element.style.opacity = '1';
+          }
         }, 300);
       }, 500);
     }, 200);
+  }
+
+  /**
+   * Show bar at a specific percentage (no loading state).
+   * Used for default/idle display.
+   */
+  showAt(percent) {
+    this.stopAnimation();
+    this.progress = Math.min(100, Math.max(0, percent));
+    this.targetProgress = this.progress;
+    this.isLoading = false;
+    this.isComplete = false;
+    this.element.style.width = `${this.progress}%`;
+    this.element.style.opacity = '1';
+    this.element.classList.remove('loading', 'complete', 'error');
+  }
+
+  /**
+   * Start loading from a specific percentage (e.g. 50), animates to 100 on complete.
+   */
+  startFrom(percent) {
+    this.reset();
+    this.isLoading = true;
+    this.element.classList.add('loading');
+    this.element.classList.remove('complete', 'error');
+    this.progress = Math.min(100, Math.max(0, percent));
+    this.targetProgress = this.progress;
+    this.element.style.opacity = '1';
+    this.element.style.width = `${this.progress}%`;
+    this.startAnimation();
   }
 
   /**

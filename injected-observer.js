@@ -328,6 +328,12 @@
 
     postEvent('progress-complete', {});
     postEvent('window-load');
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        postEvent('visual-state-ready', {});
+      });
+    });
   });
 
   // Paint Observer (first-paint, first-contentful-paint)
@@ -594,8 +600,8 @@
   // Uses prototype-level overrides so every script/link element is covered
   // regardless of how it was created (createElement, innerHTML, etc.).
   try {
-    const _proxyOrigin = window.location.origin;
-    const _proxyThrottle = new URLSearchParams(window.location.search).get('throttle') || 'none';
+    const _proxyOrigin = window.__proxyOrigin || window.location.origin;
+    const _proxyThrottle = window.__proxyThrottle || new URLSearchParams(window.location.search).get('throttle') || 'none';
 
     function _rewriteToProxy(url) {
       try {

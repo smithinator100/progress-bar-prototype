@@ -45,6 +45,13 @@ app.use((req, res, next) => {
 // Serve static files
 app.use(express.static(path.join(__dirname)));
 
+// Read observer script at startup for inlining into proxied HTML.
+// Inlining avoids an extra HTTP request per iframe, which would otherwise
+// compete with throttled subresource requests for connection pool slots,
+// causing the second iframe's observer to fire seconds later.
+const fs = require('fs');
+const OBSERVER_SCRIPT_INLINE = fs.readFileSync(path.join(__dirname, 'injected-observer.js'), 'utf8');
+
 // Request coalescing cache for /proxy — ensures both iframes receive the same
 // fetched+processed HTML without a double round-trip to the origin server.
 // Key: `${url}|${throttle}`. Entries expire after PROXY_CACHE_TTL ms so that
@@ -125,7 +132,7 @@ app.get('/proxy', async (req, res) => {
     res.setHeader('Content-Type', result.contentType);
 
     if (profile.bandwidth !== Infinity && profile.bandwidth > 0) {
-      await sendThrottled(res, result.data, profile.bandwidth);
+      await getOrJoinBroadcast(cacheKey, result.data, profile.bandwidth, res);
     } else {
       res.send(result.data);
     }
@@ -136,6 +143,28 @@ app.get('/proxy', async (req, res) => {
 });
 
 // Proxy for sub-resources (CSS, JS, images, etc.)
+// Uses the same fetch-coalescing cache and broadcast delivery as /proxy
+// so both iframes receive the same subresources at the same time.
+const resourceCache = new Map();
+const RESOURCE_CACHE_TTL = 10000;
+
+function getOrFetchResource(key, fetchFn) {
+  const cached = resourceCache.get(key);
+  if (cached?.result && Date.now() - cached.timestamp < RESOURCE_CACHE_TTL) {
+    return Promise.resolve(cached.result);
+  }
+  if (cached?.pending) return cached.pending;
+  const pending = fetchFn().then(result => {
+    resourceCache.set(key, { result, timestamp: Date.now(), pending: null });
+    return result;
+  }).catch(err => {
+    resourceCache.delete(key);
+    throw err;
+  });
+  resourceCache.set(key, { pending });
+  return pending;
+}
+
 app.get('/proxy-resource', async (req, res) => {
   const targetUrl = req.query.url;
   const throttleProfile = req.query.throttle || 'none';
@@ -146,33 +175,40 @@ app.get('/proxy-resource', async (req, res) => {
 
   try {
     const profile = THROTTLE_PROFILES[throttleProfile] || THROTTLE_PROFILES['none'];
+    const cacheKey = `res|${targetUrl}|${throttleProfile}`;
 
-    // Apply latency
-    if (profile.latency > 0) {
-      await delay(profile.latency);
-    }
-
-    const response = await fetch(targetUrl, {
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Linux; Android 10; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
-        'Accept': '*/*',
-        'Accept-Encoding': 'identity'
+    const result = await getOrFetchResource(cacheKey, async () => {
+      if (profile.latency > 0) {
+        await delay(profile.latency);
       }
+
+      const response = await fetch(targetUrl, {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Linux; Android 10; SM-G960U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36',
+          'Accept': '*/*',
+          'Accept-Encoding': 'identity'
+        }
+      });
+
+      if (!response.ok) {
+        return { error: true, status: response.status };
+      }
+
+      const contentType = response.headers.get('content-type') || 'application/octet-stream';
+      const buffer = Buffer.from(await response.arrayBuffer());
+      return { error: false, contentType, data: buffer };
     });
 
-    if (!response.ok) {
-      return res.status(response.status).send();
+    if (result.error) {
+      return res.status(result.status).send();
     }
 
-    const contentType = response.headers.get('content-type') || 'application/octet-stream';
-    const buffer = await response.arrayBuffer();
-
-    res.setHeader('Content-Type', contentType);
+    res.setHeader('Content-Type', result.contentType);
 
     if (profile.bandwidth !== Infinity && profile.bandwidth > 0) {
-      await sendThrottled(res, Buffer.from(buffer), profile.bandwidth);
+      await getOrJoinBroadcast(cacheKey, result.data, profile.bandwidth, res);
     } else {
-      res.send(Buffer.from(buffer));
+      res.send(result.data);
     }
   } catch (error) {
     console.error('Resource proxy error:', error);
@@ -208,9 +244,10 @@ function injectObserverScript(html, baseUrl, throttleProfile = 'none', serverOri
 
     // 1. Build head injection (style + observer + base tag)
     const resetStyle = `<style id="proxy-reset">html,body{margin:0}img[src*="grey-placeholder"]{display:none!important}html,body,*{-ms-overflow-style:none!important;scrollbar-width:none!important}html::-webkit-scrollbar,body::-webkit-scrollbar,*::-webkit-scrollbar{display:none!important}</style>`;
-    const observerScript = `<script src="${serverOrigin}/injected-observer.js"></script>`;
+    const proxyGlobals = `<script>window.__proxyOrigin="${serverOrigin}";window.__proxyThrottle="${throttleProfile}";</script>`;
+    const observerScript = `<script>${OBSERVER_SCRIPT_INLINE}</script>`;
     const baseTag = /<base\s/i.test(html) ? '' : `<base href="${base}">`;
-    const injection = resetStyle + observerScript + baseTag;
+    const injection = resetStyle + proxyGlobals + observerScript + baseTag;
 
     const headMatch = html.match(/<head(\s[^>]*)?>/i);
     if (headMatch) {
@@ -293,6 +330,64 @@ async function sendThrottled(res, data, bytesPerSecond) {
   }
   
   res.end();
+}
+
+// Synchronized broadcast delivery: when multiple responses need the same
+// throttled content, a single loop writes each chunk to all of them
+// simultaneously, eliminating per-chunk timing drift between iframes.
+// Late joiners receive all previously-sent chunks as an instant replay
+// before continuing in lockstep with the live stream.
+const activeBroadcasts = new Map();
+
+function getOrJoinBroadcast(cacheKey, data, bytesPerSecond, res) {
+  const existing = activeBroadcasts.get(cacheKey);
+  if (existing && !existing.done) {
+    for (const prev of existing.sentChunks) {
+      try { res.write(prev); } catch (e) {}
+    }
+    existing.responses.push(res);
+    res.on('close', () => {
+      const idx = existing.responses.indexOf(res);
+      if (idx !== -1) existing.responses.splice(idx, 1);
+    });
+    return existing.promise;
+  }
+
+  const broadcast = { responses: [res], done: false, sentChunks: [] };
+  res.on('close', () => {
+    const idx = broadcast.responses.indexOf(res);
+    if (idx !== -1) broadcast.responses.splice(idx, 1);
+  });
+
+  const promise = sendThrottledBroadcast(broadcast, data, bytesPerSecond)
+    .finally(() => {
+      broadcast.done = true;
+      activeBroadcasts.delete(cacheKey);
+    });
+  broadcast.promise = promise;
+  activeBroadcasts.set(cacheKey, broadcast);
+  return promise;
+}
+
+async function sendThrottledBroadcast(broadcast, data, bytesPerSecond) {
+  const buffer = Buffer.isBuffer(data) ? data : Buffer.from(data);
+  const chunkSize = Math.max(1024, Math.floor(bytesPerSecond / 10));
+  const delayMs = 100;
+
+  for (let i = 0; i < buffer.length; i += chunkSize) {
+    const chunk = buffer.slice(i, Math.min(i + chunkSize, buffer.length));
+    broadcast.sentChunks.push(chunk);
+    for (const res of broadcast.responses) {
+      try { res.write(chunk); } catch (e) {}
+    }
+    if (i + chunkSize < buffer.length) {
+      await delay(delayMs);
+    }
+  }
+
+  for (const res of broadcast.responses) {
+    try { res.end(); } catch (e) {}
+  }
 }
 
 /**

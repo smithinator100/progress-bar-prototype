@@ -31,7 +31,10 @@
   <div class="app">
     <!-- Control Bar -->
     <header class="control-bar">
-      <a href="browser-preview.html" class="btn btn-secondary" style="text-decoration: none; margin-right: 8px;">Browser Preview</a>
+      <nav class="page-tabs" role="tablist">
+        <a href="index.html" class="active" aria-current="page">Compare</a>
+        <a href="browser-preview.html">Component</a>
+      </nav>
       <div class="url-input-group">
         <div class="url-combobox" id="url-combobox">
           <input
@@ -118,6 +121,13 @@
           </div>
         </div>
         <button id="go-btn" class="btn btn-primary">Go</button>
+        <div class="control-group" style="margin-left: 8px;">
+          <label for="fake-data-toggle">Captured data</label>
+          <label class="param-toggle">
+            <input type="checkbox" id="fake-data-toggle">
+            <span class="param-toggle-track"></span>
+          </label>
+        </div>
       </div>
       <div class="control-group">
         <label for="speed-select">Speed:</label>
@@ -129,13 +139,6 @@
           <option value="3g" selected>3G (200ms / 1.5Mbps)</option>
           <option value="slow-3g">Slow 3G (400ms / 400Kbps)</option>
         </select>
-      </div>
-      <div class="control-group">
-        <label for="fake-data-toggle">Captured data</label>
-        <label class="param-toggle">
-          <input type="checkbox" id="fake-data-toggle">
-          <span class="param-toggle-track"></span>
-        </label>
       </div>
       <button id="clear-btn" class="btn btn-secondary">Clear</button>
     </header>
@@ -311,102 +314,175 @@
               </select>
             </div>
 
-            <!-- Percentage at Webview Load -->
-            <div class="param-row">
-              <label class="param-label" for="param-webview-pct">Percentage at Webview Load</label>
-              <select id="param-webview-pct" class="param-select">
-                <option value="5">5%</option>
-                <option value="10" selected>10%</option>
-                <option value="15">15%</option>
-                <option value="25">25%</option>
-                <option value="50">50%</option>
-              </select>
-            </div>
-
-            <!-- Animation Curve -->
-            <div class="param-row">
-              <label class="param-label" for="param-anim-curve">Animation Curve</label>
-              <select id="param-anim-curve" class="param-select">
-                <option value="linear">Linear</option>
-                <option value="ease-in">Ease in</option>
-                <option value="ease-out">Ease out</option>
-                <option value="ease-in-out" selected>Ease in-out</option>
-              </select>
-            </div>
-
-            <!-- Physics based easing -->
-            <div class="param-row">
-              <label class="param-label" for="param-physics-easing">Physics based easing</label>
+            <div class="params-section-header">
+              <h3 class="params-section-title">Visibility</h3>
               <label class="param-toggle">
-                <input type="checkbox" id="param-physics-easing">
+                <input type="checkbox" id="section-toggle-visibility" checked data-section="section-visibility">
                 <span class="param-toggle-track"></span>
               </label>
             </div>
-
-            <!-- Dampening Ratio -->
-            <div class="param-row">
-              <label class="param-label" for="param-dampen">Dampening Ratio</label>
-              <div class="param-slider-wrap">
-                <input type="range" id="param-dampen" class="param-slider" min="0.1" max="1" step="0.05" value="0.5">
-                <span class="param-slider-value" id="param-dampen-val">0.5</span>
+            <div class="params-section-body" id="section-visibility">
+              <div class="param-row">
+                <label class="param-label" for="param-bar-start-trigger">Bar start trigger</label>
+                <select id="param-bar-start-trigger" class="param-select">
+                  <option value="onPageStarted" selected>onPageStarted</option>
+                  <option value="shouldOverrideUrlLoading">shouldOverrideUrlLoading</option>
+                  <option value="firstOnProgressChanged">first onProgressChanged</option>
+                </select>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-min-display">Minimum display %</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-min-display" class="param-slider" min="0" max="50" step="1" value="0">
+                  <span class="param-slider-value" id="param-min-display-val">0%</span>
+                </div>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-fade-in">Fade-in duration</label>
+                <input type="number" id="param-fade-in" class="param-number-input" value="150" min="0" max="2000" step="50">
               </div>
             </div>
 
-            <!-- Stiffness -->
-            <div class="param-row">
-              <label class="param-label" for="param-stiffness">Stiffness</label>
-              <div class="param-slider-wrap">
-                <input type="range" id="param-stiffness" class="param-slider" min="50" max="500" step="10" value="200">
-                <span class="param-slider-value" id="param-stiffness-val">200</span>
+            <div class="params-section-header">
+              <h3 class="params-section-title">Fast-Start Phase</h3>
+              <label class="param-toggle">
+                <input type="checkbox" id="section-toggle-fast-start" checked data-section="section-fast-start">
+                <span class="param-toggle-track"></span>
+              </label>
+            </div>
+            <div class="params-section-body" id="section-fast-start">
+              <div class="param-row">
+                <label class="param-label" for="param-fast-start-target">Fast-start target</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-fast-start-target" class="param-slider" min="0" max="100" step="1" value="30">
+                  <span class="param-slider-value" id="param-fast-start-target-val">30%</span>
+                </div>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-fast-start-duration">Fast-start duration</label>
+                <input type="number" id="param-fast-start-duration" class="param-number-input" value="300" min="0" max="2000" step="50">
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-fast-start-curve">Fast-start curve</label>
+                <select id="param-fast-start-curve" class="param-select">
+                  <option value="linear">Linear</option>
+                  <option value="easeOut" selected>easeOut</option>
+                  <option value="easeOutQuad">easeOutQuad</option>
+                  <option value="easeOutCubic">easeOutCubic</option>
+                  <option value="easeOutQuint">easeOutQuint</option>
+                  <option value="easeInOutQuad">easeInOutQuad</option>
+                  <option value="easeInOutCubic">easeInOutCubic</option>
+                  <option value="easeInOutQuint">easeInOutQuint</option>
+                  <option value="logarithmic">Logarithmic</option>
+                </select>
               </div>
             </div>
 
-            <!-- Deliberate creep -->
-            <div class="param-row">
-              <label class="param-label" for="param-creep">Deliberate creep</label>
+            <div class="params-section-header">
+              <h3 class="params-section-title">Smooth Phase (Spring Physics)</h3>
               <label class="param-toggle">
-                <input type="checkbox" id="param-creep">
+                <input type="checkbox" id="section-toggle-smooth" data-section="section-smooth">
                 <span class="param-toggle-track"></span>
               </label>
             </div>
+            <div class="params-section-body collapsed" id="section-smooth">
+              <div class="param-row">
+                <label class="param-label" for="param-spring-stiffness">Spring stiffness</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-spring-stiffness" class="param-slider" min="0.5" max="20" step="0.5" value="4">
+                  <span class="param-slider-value" id="param-spring-stiffness-val">4.0</span>
+                </div>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-damping-ratio">Damping ratio</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-damping-ratio" class="param-slider" min="0.1" max="10" step="0.1" value="2.5">
+                  <span class="param-slider-value" id="param-damping-ratio-val">2.5</span>
+                </div>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-creep-velocity">Creep velocity</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-creep-velocity" class="param-slider" min="0" max="0.01" step="0.001" value="0.002">
+                  <span class="param-slider-value" id="param-creep-velocity-val">0.002</span>
+                </div>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-overshoot-clamp">Overshoot clamp</label>
+                <label class="param-toggle">
+                  <input type="checkbox" id="param-overshoot-clamp" checked>
+                  <span class="param-toggle-track"></span>
+                </label>
+              </div>
+            </div>
 
-            <!-- Animated bar transitions -->
-            <div class="param-row">
-              <label class="param-label" for="param-anim-transitions">Animated bar transitions</label>
+            <div class="params-section-header">
+              <h3 class="params-section-title">Completion</h3>
               <label class="param-toggle">
-                <input type="checkbox" id="param-anim-transitions" checked>
+                <input type="checkbox" id="section-toggle-completion" data-section="section-completion">
                 <span class="param-toggle-track"></span>
               </label>
             </div>
-
-            <!-- Fav icon spinner -->
-            <div class="param-row">
-              <label class="param-label" for="param-favicon-spinner">Fav icon spinner</label>
-              <label class="param-toggle">
-                <input type="checkbox" id="param-favicon-spinner">
-                <span class="param-toggle-track"></span>
-              </label>
+            <div class="params-section-body collapsed" id="section-completion">
+              <div class="param-row">
+                <label class="param-label" for="param-early-completion">Early completion threshold</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-early-completion" class="param-slider" min="50" max="100" step="1" value="80">
+                  <span class="param-slider-value" id="param-early-completion-val">80%</span>
+                </div>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-completion-trigger">Completion trigger</label>
+                <select id="param-completion-trigger" class="param-select">
+                  <option value="onPageFinished" selected>onPageFinished</option>
+                  <option value="onprogressChanged(100)">onprogressChanged(100)</option>
+                  <option value="DOMContentLoaded">DOMContentLoaded</option>
+                  <option value="pageReady">Page ready</option>
+                  <option value="VisualStateCallback">VisualStateCallback</option>
+                </select>
+              </div>
+              <div class="param-row" id="param-completion-delay-row" hidden>
+                <label class="param-label" for="param-completion-delay">Completion delay (ms)</label>
+                <input type="number" id="param-completion-delay" class="param-number-input" value="0" min="0" max="2000" step="50">
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-snap-velocity">Snap velocity</label>
+                <div class="param-slider-wrap">
+                  <input type="range" id="param-snap-velocity" class="param-slider" min="0.5" max="10" step="0.5" value="3">
+                  <span class="param-slider-value" id="param-snap-velocity-val">3.0</span>
+                </div>
+              </div>
+              <div class="param-row">
+                <label class="param-label" for="param-fade-out">Fade-out duration</label>
+                <input type="number" id="param-fade-out" class="param-number-input" value="200" min="0" max="2000" step="50">
+              </div>
             </div>
 
-            <!-- Bar completion event -->
+            <h3 class="params-section-title" style="padding: 16px 0 8px; margin-top: 4px;">Stall Fallback</h3>
+
             <div class="param-row">
-              <label class="param-label" for="param-completion-event">Bar completion event</label>
-              <select id="param-completion-event" class="param-select">
-                <option value="window.load" selected>window.load</option>
-                <option value="DOMContentLoaded">DOMContentLoaded</option>
-                <option value="first-paint">First paint</option>
-              </select>
+              <label class="param-label" for="param-stall-timeout">Stall timeout</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-stall-timeout" class="param-slider" min="1" max="15" step="0.5" value="5">
+                <span class="param-slider-value" id="param-stall-timeout-val">5s</span>
+              </div>
             </div>
 
-            <!-- Pipeline visualisation -->
             <div class="param-row">
-              <label class="param-label" for="param-pipeline">Pipeline visualisation</label>
-              <label class="param-toggle">
-                <input type="checkbox" id="param-pipeline">
-                <span class="param-toggle-track"></span>
-              </label>
+              <label class="param-label" for="param-shimmer-speed">Shimmer speed</label>
+              <div class="param-slider-wrap">
+                <input type="range" id="param-shimmer-speed" class="param-slider" min="0.5" max="5" step="0.1" value="1.5">
+                <span class="param-slider-value" id="param-shimmer-speed-val">1.5s</span>
+              </div>
             </div>
 
+          </div>
+          <div class="v2-preset-controls">
+            <select id="v2-preset-select" class="param-select" style="flex: 1; min-width: 0;">
+              <option value="">-- Select preset --</option>
+            </select>
+            <button type="button" id="v2-preset-save-btn" class="btn btn-secondary" style="flex-shrink: 0;">Save</button>
+            <button type="button" id="v2-preset-default-btn" class="btn btn-secondary" style="flex-shrink: 0;" title="Make current preset the default">★</button>
           </div>
         </div>
 
@@ -442,6 +518,21 @@
     </main>
   </div>
 
+  <!-- V2 Preset save modal -->
+  <div id="v2-preset-modal-backdrop" class="preset-modal-backdrop" aria-hidden="true">
+    <div class="preset-modal" role="dialog" aria-label="Save preset">
+      <h3 class="preset-modal-title">Save Preset</h3>
+      <select id="v2-preset-modal-existing" class="preset-modal-select">
+        <option value="">-- New preset --</option>
+      </select>
+      <input type="text" id="v2-preset-name-input" class="preset-modal-input" placeholder="Enter preset name..." maxlength="50">
+      <div class="preset-modal-actions">
+        <button type="button" id="v2-preset-modal-cancel" class="btn btn-secondary">Cancel</button>
+        <button type="button" id="v2-preset-modal-save" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+
   <!-- Scripts -->
   <script src="event-bus.js"></script>
   <script src="event-panel.js"></script>
@@ -449,6 +540,35 @@
   <script src="progress-bar.js"></script>
   <script src="progress-bar-raw.js"></script>
   <script src="capture-player.js"></script>
+  <script>
+    function gatherV2Params() {
+      return {
+        visibilityEnabled: document.getElementById('section-toggle-visibility')?.checked ?? true,
+        fastStartEnabled: document.getElementById('section-toggle-fast-start')?.checked ?? true,
+        smoothEnabled: document.getElementById('section-toggle-smooth')?.checked ?? true,
+        completionEnabled: document.getElementById('section-toggle-completion')?.checked ?? true,
+        indeterminateEnabled: document.getElementById('param-indeterminate')?.checked ?? false,
+
+        fastStartTarget: parseFloat(document.getElementById('param-fast-start-target')?.value) || 30,
+        fastStartDuration: parseInt(document.getElementById('param-fast-start-duration')?.value, 10) || 300,
+        fastStartCurve: document.getElementById('param-fast-start-curve')?.value || 'easeOut',
+        springStiffness: parseFloat(document.getElementById('param-spring-stiffness')?.value) || 4.0,
+        dampingRatio: parseFloat(document.getElementById('param-damping-ratio')?.value) || 2.5,
+        creepVelocity: parseFloat(document.getElementById('param-creep-velocity')?.value) || 0.002,
+        overshootClamp: document.getElementById('param-overshoot-clamp')?.checked ?? true,
+        earlyCompletionThreshold: parseFloat(document.getElementById('param-early-completion')?.value) || 80,
+        completionTrigger: document.getElementById('param-completion-trigger')?.value || 'onPageFinished',
+        completionDelay: parseInt(document.getElementById('param-completion-delay')?.value, 10) || 0,
+        snapVelocity: parseFloat(document.getElementById('param-snap-velocity')?.value) || 3.0,
+        fadeOutDuration: parseInt(document.getElementById('param-fade-out')?.value, 10) || 200,
+        stallTimeout: parseFloat(document.getElementById('param-stall-timeout')?.value) || 5,
+        shimmerSpeed: parseFloat(document.getElementById('param-shimmer-speed')?.value) || 1.5,
+        barStartTrigger: document.getElementById('param-bar-start-trigger')?.value || 'onPageStarted',
+        minDisplayPct: parseFloat(document.getElementById('param-min-display')?.value) || 0,
+        fadeInDuration: parseInt(document.getElementById('param-fade-in')?.value, 10) || 150,
+      };
+    }
+  </script>
   <script>
     (function() {
       const urlInput = document.getElementById('url-input');
@@ -468,6 +588,37 @@
       const androidUrlTextDDG = document.getElementById('android-url-text-ddg');
       const androidUrlTextImproved = document.getElementById('android-url-text-improved');
 
+      const iframeWrapDDG = pageIframeDDG.closest('.iframe-wrap');
+      const iframeWrapImproved = pageIframeImproved.closest('.iframe-wrap');
+
+      let syncGateDDGReady = false;
+      let syncGateImprovedReady = false;
+
+      function armSyncGate() {
+        syncGateDDGReady = false;
+        syncGateImprovedReady = false;
+        iframeWrapDDG.classList.add('sync-hidden');
+        iframeWrapImproved.classList.add('sync-hidden');
+      }
+
+      function signalSyncReady(which) {
+        if (which === 'ddg') syncGateDDGReady = true;
+        if (which === 'improved') syncGateImprovedReady = true;
+        if (syncGateDDGReady && syncGateImprovedReady) {
+          requestAnimationFrame(() => {
+            iframeWrapDDG.classList.remove('sync-hidden');
+            iframeWrapImproved.classList.remove('sync-hidden');
+          });
+        }
+      }
+
+      function clearSyncGate() {
+        syncGateDDGReady = false;
+        syncGateImprovedReady = false;
+        iframeWrapDDG.classList.remove('sync-hidden');
+        iframeWrapImproved.classList.remove('sync-hidden');
+      }
+
       // Initialize components
       const eventBus = new EventBus();
       const eventPanel = new EventPanel('event-list', 'event-density');
@@ -481,39 +632,104 @@
       }
 
       const progressBarDDG = new window.RawModeProgressBar(progressBarElDDG, ddgLifecycleCallback);
-      const webviewPctSelect = document.getElementById('param-webview-pct');
-      const progressBarImproved = new ProgressBar(progressBarElImproved, {
-        getInitialProgress: () => parseInt(webviewPctSelect?.value, 10) || 10
-      });
+      let progressBarImproved = new ProgressBar(progressBarElImproved, gatherV2Params());
+      window.__progressBarImproved = progressBarImproved;
 
-      // Stall timers
+      // DDG v1 stall timer (v2 handles stalls internally)
       let stallTimerDDG = null;
-      let stallTimerImproved = null;
-      const STALL_TIMEOUT = 8000;
+      const DDG_STALL_TIMEOUT = 8000;
 
-      function resetStallTimers() {
+      function resetDDGStallTimer() {
         if (stallTimerDDG) clearTimeout(stallTimerDDG);
-        if (stallTimerImproved) clearTimeout(stallTimerImproved);
         stallTimerDDG = setTimeout(() => {
           if (progressBarDDG.isLoading && !progressBarDDG.isComplete) progressBarDDG.complete();
-        }, STALL_TIMEOUT);
-        stallTimerImproved = setTimeout(() => {
-          if (progressBarImproved.isLoading && !progressBarImproved.isComplete) progressBarImproved.complete();
-        }, STALL_TIMEOUT);
+        }, DDG_STALL_TIMEOUT);
       }
 
-      function clearStallTimers() {
+      function clearDDGStallTimer() {
         if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
-        if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
       }
 
-      // Subscribe event panel and timeline to event bus (driven by Improved iframe)
+      function getCompletionTrigger() {
+        return document.getElementById('param-completion-trigger')?.value || 'onPageFinished';
+      }
+
+      let pageReadyDom = false;
+      let pageReadyText = false;
+      let pageReadyImages = false;
+
+      function resetPageReadyState() {
+        pageReadyDom = false;
+        pageReadyText = false;
+        pageReadyImages = false;
+      }
+
+      function checkPageReady() {
+        if (pageReadyDom && pageReadyText && pageReadyImages) {
+          if (!progressBarImproved.isComplete) progressBarImproved.complete();
+        }
+      }
+
+      let visualStatePageFinished = false;
+      let visualStateProgress100 = false;
+      let visualStateArmed = false;
+      let visualStateTimeoutId = null;
+
+      function resetVisualState() {
+        visualStatePageFinished = false;
+        visualStateProgress100 = false;
+        visualStateArmed = false;
+        if (visualStateTimeoutId) { clearTimeout(visualStateTimeoutId); visualStateTimeoutId = null; }
+      }
+
+      function armVisualStateTimeout() {
+        if (visualStateArmed) return;
+        visualStateArmed = true;
+        visualStateTimeoutId = setTimeout(() => {
+          visualStateTimeoutId = null;
+          if (!progressBarImproved.isComplete) progressBarImproved.complete();
+        }, 300);
+      }
+
+      function completeVisualState() {
+        if (visualStateTimeoutId) { clearTimeout(visualStateTimeoutId); visualStateTimeoutId = null; }
+        if (!progressBarImproved.isComplete) progressBarImproved.complete();
+      }
+
       eventBus.subscribe(event => {
         eventPanel.addEvent(event);
         eventTimeline.addEvent(event);
         progressBarDDG.update(event);
         progressBarImproved.update(event);
-        if (progressBarImproved.isLoading) resetStallTimers();
+        if (progressBarDDG.isLoading) resetDDGStallTimer();
+
+        const trigger = getCompletionTrigger();
+        if (trigger === 'DOMContentLoaded' && event.type === 'dom-ready') {
+          if (!progressBarImproved.isComplete) progressBarImproved.complete();
+        }
+
+        if (trigger === 'pageReady') {
+          if (event.type === 'dom-ready') pageReadyDom = true;
+          if (event.type === 'text-settled') pageReadyText = true;
+          if (event.type === 'above-fold-images-loaded') pageReadyImages = true;
+          if (event.type === 'iframe-load-start') resetPageReadyState();
+          checkPageReady();
+        }
+
+        if (trigger === 'VisualStateCallback') {
+          if (event.type === 'iframe-load-start') resetVisualState();
+          if (event.type === 'window-load') {
+            visualStatePageFinished = true;
+            if (visualStateProgress100) armVisualStateTimeout();
+          }
+          if (event.type === 'progress-update' && event.data?.value === 100) {
+            visualStateProgress100 = true;
+            if (visualStatePageFinished) armVisualStateTimeout();
+          }
+          if (event.type === 'visual-state-ready' && visualStateArmed) {
+            completeVisualState();
+          }
+        }
       });
 
       // Filter buttons
@@ -577,25 +793,74 @@
         eventPanel.clear();
         eventTimeline.clear();
         progressBarDDG.reset();
+        progressBarImproved.updateConfig(gatherV2Params());
         progressBarImproved.reset();
         loadStartTime = performance.now();
-        progressBarDDG.start();
-        progressBarImproved.start();
-        eventBus.emit({ type: 'iframe-load-start', time: 0, data: { url } });
+        armSyncGate();
+      progressBarDDG.start();
+      progressBarImproved.start();
+      eventBus._windowLoadEmitted = false;
+      eventBus.emit({ type: 'iframe-load-start', time: 0, data: { url } });
 
-        if (fakeDataToggle.checked && hostname) {
+          if (fakeDataToggle.checked && hostname) {
           loadCapturedData(hostname);
         } else {
           loadLive(url);
         }
       }
 
-      function loadLive(url) {
+      let currentStreamController = null;
+      let isResettingIframes = false;
+
+      async function loadLive(url) {
+        if (currentStreamController) {
+          currentStreamController.abort();
+        }
+        currentStreamController = new AbortController();
+        const signal = currentStreamController.signal;
+
         const throttle = speedSelect.value;
-        resetStallTimers();
+        resetDDGStallTimer();
         const proxyUrl = `/proxy?url=${encodeURIComponent(url)}&throttle=${throttle}`;
-        pageIframeDDG.src = proxyUrl;
-        pageIframeImproved.src = proxyUrl;
+
+        isResettingIframes = true;
+        pageIframeDDG.src = 'about:blank';
+        pageIframeImproved.src = 'about:blank';
+        await new Promise(resolve => {
+          let loaded = 0;
+          const onLoad = () => { if (++loaded >= 2) resolve(); };
+          pageIframeDDG.addEventListener('load', onLoad, { once: true });
+          pageIframeImproved.addEventListener('load', onLoad, { once: true });
+        });
+        isResettingIframes = false;
+
+        if (signal.aborted) return;
+
+        const ddgDoc = pageIframeDDG.contentDocument;
+        const impDoc = pageIframeImproved.contentDocument;
+        ddgDoc.open();
+        impDoc.open();
+
+        try {
+          const response = await fetch(proxyUrl, { signal });
+          const reader = response.body.getReader();
+          const decoder = new TextDecoder();
+
+          while (true) {
+            const { done, value } = await reader.read();
+            if (done || signal.aborted) break;
+            const text = decoder.decode(value, { stream: true });
+            ddgDoc.write(text);
+            impDoc.write(text);
+          }
+        } catch (err) {
+          if (err.name !== 'AbortError') console.error('Stream error:', err);
+        } finally {
+          if (!signal.aborted) {
+            try { ddgDoc.close(); } catch(e) {}
+            try { impDoc.close(); } catch(e) {}
+          }
+        }
       }
 
       async function loadCapturedData(hostname) {
@@ -608,6 +873,7 @@
           return;
         }
 
+        clearSyncGate();
         pageIframeDDG.src = 'about:blank';
         pageIframeImproved.src = 'about:blank';
 
@@ -620,9 +886,11 @@
             }
 
             if (evt.type === 'window-load') {
-              clearStallTimers();
+              clearDDGStallTimer();
               if (!progressBarDDG.isComplete) progressBarDDG.complete();
-              if (!progressBarImproved.isComplete) progressBarImproved.complete();
+              if (getCompletionTrigger() === 'onPageFinished' && !progressBarImproved.isComplete) {
+                progressBarImproved.complete();
+              }
             }
           },
         });
@@ -693,8 +961,15 @@
       urlInput.addEventListener('keypress', (e) => { if (e.key === 'Enter') loadUrl(); });
 
       clearBtn.addEventListener('click', () => {
+        if (currentStreamController) {
+          currentStreamController.abort();
+          currentStreamController = null;
+        }
         capturePlayer.stop();
-        clearStallTimers();
+        clearDDGStallTimer();
+        resetPageReadyState();
+        resetVisualState();
+        clearSyncGate();
         hideScreenshots();
         eventPanel.clear();
         eventTimeline.clear();
@@ -717,39 +992,57 @@
         const fromDDG = e.source === pageIframeDDG.contentWindow;
         const fromImproved = e.source === pageIframeImproved.contentWindow;
 
+        if (e.data.event.type === 'navigation-start') {
+          if (fromDDG) signalSyncReady('ddg');
+          if (fromImproved) signalSyncReady('improved');
+        }
+
         if (fromDDG) {
           if (e.data.event.type === 'navigation-error') {
-            if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
+            clearDDGStallTimer();
             progressBarDDG.error();
           }
         }
 
         if (fromImproved) {
           eventBus.emit(e.data.event);
-          if (e.data.event.type === 'window-load') {
-            if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
-            if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
-            if (!progressBarDDG.isComplete) progressBarDDG.complete();
-            if (!progressBarImproved.isComplete) progressBarImproved.complete();
-          } else if (e.data.event.type === 'navigation-error') {
-            if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
+          if (e.data.event.type === 'navigation-error') {
             progressBarImproved.error();
+          }
+        }
+
+        if ((fromDDG || fromImproved) && e.data.event.type === 'window-load') {
+          if (fromDDG && !eventBus._windowLoadEmitted) {
+            eventBus._windowLoadEmitted = true;
+            eventBus.emit(e.data.event);
+          }
+          clearDDGStallTimer();
+          if (!progressBarDDG.isComplete) progressBarDDG.complete();
+          if (getCompletionTrigger() === 'onPageFinished' && !progressBarImproved.isComplete) {
+            progressBarImproved.complete();
           }
         }
       });
 
       pageIframeDDG.addEventListener('load', () => {
+        if (isResettingIframes) return;
         if (fakeDataToggle.checked) return;
-        if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
+        clearDDGStallTimer();
+        if (!progressBarDDG.isComplete) progressBarDDG.complete();
+        if (getCompletionTrigger() === 'onPageFinished' && !progressBarImproved.isComplete) {
+          progressBarImproved.complete();
+        }
       });
 
       pageIframeImproved.addEventListener('load', () => {
+        if (isResettingIframes) return;
         if (fakeDataToggle.checked) return;
         eventBus.emit({ type: 'iframe-load-end', time: performance.now() - loadStartTime, data: {} });
-        if (stallTimerDDG) { clearTimeout(stallTimerDDG); stallTimerDDG = null; }
-        if (stallTimerImproved) { clearTimeout(stallTimerImproved); stallTimerImproved = null; }
+        clearDDGStallTimer();
         if (!progressBarDDG.isComplete) progressBarDDG.complete();
-        if (!progressBarImproved.isComplete) progressBarImproved.complete();
+        if (getCompletionTrigger() === 'onPageFinished' && !progressBarImproved.isComplete) {
+          progressBarImproved.complete();
+        }
       });
 
       // Scale each browser-container to fit its viewport
@@ -825,18 +1118,74 @@
   </script>
   <script>
     (function() {
-      const dampenSlider = document.getElementById('param-dampen');
-      const dampenVal = document.getElementById('param-dampen-val');
-      const stiffnessSlider = document.getElementById('param-stiffness');
-      const stiffnessVal = document.getElementById('param-stiffness-val');
+      const SLIDER_CONFIGS = [
+        { id: 'param-fast-start-target', valId: 'param-fast-start-target-val', suffix: '%', decimals: 0 },
+        { id: 'param-spring-stiffness', valId: 'param-spring-stiffness-val', suffix: '', decimals: 1 },
+        { id: 'param-damping-ratio', valId: 'param-damping-ratio-val', suffix: '', decimals: 1 },
+        { id: 'param-creep-velocity', valId: 'param-creep-velocity-val', suffix: '', decimals: 3 },
+        { id: 'param-early-completion', valId: 'param-early-completion-val', suffix: '%', decimals: 0 },
+        { id: 'param-snap-velocity', valId: 'param-snap-velocity-val', suffix: '', decimals: 1 },
+        { id: 'param-stall-timeout', valId: 'param-stall-timeout-val', suffix: 's', decimals: 1 },
+        { id: 'param-shimmer-speed', valId: 'param-shimmer-speed-val', suffix: 's', decimals: 1 },
+        { id: 'param-min-display', valId: 'param-min-display-val', suffix: '%', decimals: 0 },
+      ];
 
-      dampenSlider.addEventListener('input', () => {
-        dampenVal.textContent = parseFloat(dampenSlider.value).toFixed(2);
+      SLIDER_CONFIGS.forEach(({ id, valId, suffix, decimals }) => {
+        const slider = document.getElementById(id);
+        const valEl = document.getElementById(valId);
+        if (!slider || !valEl) return;
+        slider.addEventListener('input', () => {
+          valEl.textContent = parseFloat(slider.value).toFixed(decimals) + suffix;
+        });
       });
 
-      stiffnessSlider.addEventListener('input', () => {
-        stiffnessVal.textContent = stiffnessSlider.value;
+      document.querySelectorAll('.params-section-header input[data-section]').forEach(toggle => {
+        toggle.addEventListener('change', () => {
+          const body = document.getElementById(toggle.dataset.section);
+          if (body) body.classList.toggle('collapsed', !toggle.checked);
+          if (window.__progressBarImproved) {
+            window.__progressBarImproved.updateConfig(gatherV2Params());
+          }
+        });
       });
+
+      const v2ParamIds = [
+        'param-fast-start-target', 'param-fast-start-duration', 'param-fast-start-curve',
+        'param-spring-stiffness', 'param-damping-ratio', 'param-creep-velocity', 'param-overshoot-clamp',
+        'param-early-completion', 'param-completion-trigger', 'param-completion-delay', 'param-snap-velocity', 'param-fade-out',
+        'param-stall-timeout', 'param-shimmer-speed',
+        'param-bar-start-trigger', 'param-min-display', 'param-fade-in',
+        'param-indeterminate',
+      ];
+
+      v2ParamIds.forEach(id => {
+        const el = document.getElementById(id);
+        if (!el) return;
+        const eventName = (el.type === 'range' || el.type === 'number') ? 'input' : 'change';
+        el.addEventListener(eventName, () => {
+          if (window.__progressBarImproved) {
+            window.__progressBarImproved.updateConfig(gatherV2Params());
+            if (id === 'param-indeterminate') {
+              window.__progressBarImproved.setIndeterminate(el.checked);
+            }
+          }
+        });
+      });
+
+      function updateCompletionDelayRowVisibility() {
+        const triggerEl = document.getElementById('param-completion-trigger');
+        const delayRow = document.getElementById('param-completion-delay-row');
+        if (triggerEl && delayRow) {
+          delayRow.hidden = triggerEl.value !== 'onprogressChanged(100)';
+        }
+      }
+      window.updateCompletionDelayRowVisibility = updateCompletionDelayRowVisibility;
+
+      const completionTriggerEl = document.getElementById('param-completion-trigger');
+      if (completionTriggerEl) {
+        completionTriggerEl.addEventListener('change', updateCompletionDelayRowVisibility);
+        updateCompletionDelayRowVisibility();
+      }
     })();
   </script>
   <script>
@@ -988,6 +1337,233 @@
         if (presets[defaultName]) {
           barStyleSelect.value = defaultName;
           applyPreset(presets[defaultName]);
+        }
+      }
+    })();
+  </script>
+  <script>
+    (function() {
+      const V2_PRESETS_KEY = 'v2ParamPresets';
+      const V2_DEFAULT_KEY = 'v2ParamDefaultPreset';
+
+      const presetSelect = document.getElementById('v2-preset-select');
+      const presetSaveBtn = document.getElementById('v2-preset-save-btn');
+      const presetDefaultBtn = document.getElementById('v2-preset-default-btn');
+      const modalBackdrop = document.getElementById('v2-preset-modal-backdrop');
+      const modalExisting = document.getElementById('v2-preset-modal-existing');
+      const nameInput = document.getElementById('v2-preset-name-input');
+      const modalSave = document.getElementById('v2-preset-modal-save');
+      const modalCancel = document.getElementById('v2-preset-modal-cancel');
+
+      function getPresets() {
+        try { return JSON.parse(localStorage.getItem(V2_PRESETS_KEY)) || {}; }
+        catch { return {}; }
+      }
+
+      function savePresets(presets) {
+        localStorage.setItem(V2_PRESETS_KEY, JSON.stringify(presets));
+      }
+
+      function getDefaultName() {
+        return localStorage.getItem(V2_DEFAULT_KEY) || '';
+      }
+
+      function setDefaultName(name) {
+        localStorage.setItem(V2_DEFAULT_KEY, name);
+      }
+
+      function gatherV2Settings() {
+        return {
+          visibilityEnabled: document.getElementById('section-toggle-visibility')?.checked ?? true,
+          fastStartEnabled: document.getElementById('section-toggle-fast-start')?.checked ?? true,
+          smoothEnabled: document.getElementById('section-toggle-smooth')?.checked ?? false,
+          completionEnabled: document.getElementById('section-toggle-completion')?.checked ?? false,
+          indeterminateEnabled: document.getElementById('param-indeterminate')?.checked ?? false,
+
+          barStartTrigger: document.getElementById('param-bar-start-trigger')?.value || 'onPageStarted',
+          minDisplayPct: document.getElementById('param-min-display')?.value || '0',
+          fadeInDuration: document.getElementById('param-fade-in')?.value || '150',
+
+          fastStartTarget: document.getElementById('param-fast-start-target')?.value || '30',
+          fastStartDuration: document.getElementById('param-fast-start-duration')?.value || '300',
+          fastStartCurve: document.getElementById('param-fast-start-curve')?.value || 'easeOut',
+
+          springStiffness: document.getElementById('param-spring-stiffness')?.value || '4',
+          dampingRatio: document.getElementById('param-damping-ratio')?.value || '2.5',
+          creepVelocity: document.getElementById('param-creep-velocity')?.value || '0.002',
+          overshootClamp: document.getElementById('param-overshoot-clamp')?.checked ?? true,
+
+          earlyCompletion: document.getElementById('param-early-completion')?.value || '80',
+          completionTrigger: document.getElementById('param-completion-trigger')?.value || 'onPageFinished',
+          completionDelay: document.getElementById('param-completion-delay')?.value || '0',
+          snapVelocity: document.getElementById('param-snap-velocity')?.value || '3',
+          fadeOutDuration: document.getElementById('param-fade-out')?.value || '200',
+
+          stallTimeout: document.getElementById('param-stall-timeout')?.value || '5',
+          shimmerSpeed: document.getElementById('param-shimmer-speed')?.value || '1.5',
+        };
+      }
+
+      function applyV2Settings(s) {
+        if (!s) return;
+
+        const setVal = (id, val) => { const el = document.getElementById(id); if (el) el.value = val; };
+        const setChecked = (id, val) => { const el = document.getElementById(id); if (el) el.checked = val; };
+
+        setChecked('section-toggle-visibility', s.visibilityEnabled ?? true);
+        setChecked('section-toggle-fast-start', s.fastStartEnabled ?? true);
+        setChecked('section-toggle-smooth', s.smoothEnabled ?? false);
+        setChecked('section-toggle-completion', s.completionEnabled ?? false);
+        setChecked('param-indeterminate', s.indeterminateEnabled ?? false);
+
+        setVal('param-bar-start-trigger', s.barStartTrigger || 'onPageStarted');
+        setVal('param-min-display', s.minDisplayPct || '0');
+        setVal('param-fade-in', s.fadeInDuration || '150');
+
+        setVal('param-fast-start-target', s.fastStartTarget || '30');
+        setVal('param-fast-start-duration', s.fastStartDuration || '300');
+        setVal('param-fast-start-curve', s.fastStartCurve || 'easeOut');
+
+        setVal('param-spring-stiffness', s.springStiffness || '4');
+        setVal('param-damping-ratio', s.dampingRatio || '2.5');
+        setVal('param-creep-velocity', s.creepVelocity || '0.002');
+        setChecked('param-overshoot-clamp', s.overshootClamp ?? true);
+
+        setVal('param-early-completion', s.earlyCompletion || '80');
+        setVal('param-completion-trigger', s.completionTrigger || 'onPageFinished');
+        setVal('param-completion-delay', s.completionDelay ?? '0');
+        setVal('param-snap-velocity', s.snapVelocity || '3');
+        setVal('param-fade-out', s.fadeOutDuration || '200');
+
+        setVal('param-stall-timeout', s.stallTimeout || '5');
+        setVal('param-shimmer-speed', s.shimmerSpeed || '1.5');
+
+        // Update slider value displays
+        const sliderDisplays = [
+          ['param-fast-start-target', 'param-fast-start-target-val', '%', 0],
+          ['param-spring-stiffness', 'param-spring-stiffness-val', '', 1],
+          ['param-damping-ratio', 'param-damping-ratio-val', '', 1],
+          ['param-creep-velocity', 'param-creep-velocity-val', '', 3],
+          ['param-early-completion', 'param-early-completion-val', '%', 0],
+          ['param-snap-velocity', 'param-snap-velocity-val', '', 1],
+          ['param-stall-timeout', 'param-stall-timeout-val', 's', 1],
+          ['param-shimmer-speed', 'param-shimmer-speed-val', 's', 1],
+          ['param-min-display', 'param-min-display-val', '%', 0],
+        ];
+        sliderDisplays.forEach(([sliderId, valId, suffix, decimals]) => {
+          const slider = document.getElementById(sliderId);
+          const valEl = document.getElementById(valId);
+          if (slider && valEl) valEl.textContent = parseFloat(slider.value).toFixed(decimals) + suffix;
+        });
+
+        // Update section collapse state
+        document.querySelectorAll('.params-section-header input[data-section]').forEach(toggle => {
+          const body = document.getElementById(toggle.dataset.section);
+          if (body) body.classList.toggle('collapsed', !toggle.checked);
+        });
+
+        if (window.__progressBarImproved) {
+          window.__progressBarImproved.updateConfig(gatherV2Params());
+        }
+        if (window.updateCompletionDelayRowVisibility) {
+          window.updateCompletionDelayRowVisibility();
+        }
+      }
+
+      function populatePresetDropdown() {
+        const presets = getPresets();
+        const defaultName = getDefaultName();
+        presetSelect.innerHTML = '<option value="">-- Select preset --</option>';
+        Object.keys(presets).sort().forEach(name => {
+          const opt = document.createElement('option');
+          opt.value = name;
+          opt.textContent = name + (name === defaultName ? ' ★' : '');
+          presetSelect.appendChild(opt);
+        });
+      }
+
+      function populateModalExisting() {
+        const presets = getPresets();
+        modalExisting.innerHTML = '<option value="">-- New preset --</option>';
+        Object.keys(presets).sort().forEach(name => {
+          const opt = document.createElement('option');
+          opt.value = name;
+          opt.textContent = name;
+          modalExisting.appendChild(opt);
+        });
+      }
+
+      function openSaveModal() {
+        populateModalExisting();
+        modalExisting.value = '';
+        nameInput.value = '';
+        modalBackdrop.classList.add('open');
+        modalBackdrop.setAttribute('aria-hidden', 'false');
+        nameInput.focus();
+      }
+
+      function closeSaveModal() {
+        modalBackdrop.classList.remove('open');
+        modalBackdrop.setAttribute('aria-hidden', 'true');
+      }
+
+      function saveCurrentPreset(name) {
+        if (!name.trim()) return;
+        const presets = getPresets();
+        presets[name.trim()] = gatherV2Settings();
+        savePresets(presets);
+        populatePresetDropdown();
+        presetSelect.value = name.trim();
+      }
+
+      modalExisting?.addEventListener('change', () => {
+        nameInput.value = modalExisting.value || '';
+        nameInput.focus();
+      });
+
+      presetSaveBtn?.addEventListener('click', openSaveModal);
+      modalCancel?.addEventListener('click', closeSaveModal);
+
+      modalSave?.addEventListener('click', () => {
+        const name = nameInput.value.trim();
+        if (name) { saveCurrentPreset(name); closeSaveModal(); }
+      });
+
+      nameInput?.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+          const name = nameInput.value.trim();
+          if (name) { saveCurrentPreset(name); closeSaveModal(); }
+        } else if (e.key === 'Escape') {
+          closeSaveModal();
+        }
+      });
+
+      presetSelect?.addEventListener('change', () => {
+        const name = presetSelect.value;
+        if (!name) return;
+        const presets = getPresets();
+        if (presets[name]) applyV2Settings(presets[name]);
+      });
+
+      presetDefaultBtn?.addEventListener('click', () => {
+        const name = presetSelect.value;
+        if (!name) {
+          alert('Select a preset first to make it the default.');
+          return;
+        }
+        setDefaultName(name);
+        populatePresetDropdown();
+        presetSelect.value = name;
+      });
+
+      // Initialize and load default
+      populatePresetDropdown();
+      const defaultName = getDefaultName();
+      if (defaultName) {
+        const presets = getPresets();
+        if (presets[defaultName]) {
+          applyV2Settings(presets[defaultName]);
+          presetSelect.value = defaultName;
         }
       }
     })();

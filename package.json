@@ -7,7 +7,8 @@
     "start": "node server.js",
     "dev": "node server.js",
     "capture-events": "node scripts/capture-events.js",
-    "generate-manifest": "node scripts/generate-manifest.js"
+    "generate-manifest": "node scripts/generate-manifest.js",
+    "test:sync": "node test-sync.js"
   },
   "keywords": [
     "progress-bar",
